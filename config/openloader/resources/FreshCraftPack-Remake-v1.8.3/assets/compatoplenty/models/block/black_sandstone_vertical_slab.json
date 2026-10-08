@@ -1,0 +1,8 @@
+{
+  "parent": "blueprint:block/vertical_slab",
+  "textures": {
+    "side": "biomesoplenty:block/black_sandstone",
+    "top": "biomesoplenty:block/black_sandstone",
+    "bottom": "biomesoplenty:block/black_sandstone"
+  }
+}

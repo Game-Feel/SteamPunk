@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "vinery:block/clark_wine",
+	  "textures": {
+		"6": "vinery:block/wine/clark_wine"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/clark_wine"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/clark_wine"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/clark_wine"
+		}
+	  }
+	}
+  }

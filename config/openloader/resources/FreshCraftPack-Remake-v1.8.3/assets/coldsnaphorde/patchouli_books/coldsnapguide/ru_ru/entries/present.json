@@ -1,0 +1,13 @@
+{
+  "name": "Present",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:present",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:present",
+      "text": "Модифицированный $(l:smallpresent)Маленький подарок$(). Дополненный новой упаковкой и ледяной эссенцией, он дает возможность получать более интересные подарки."
+    }
+  ]
+}

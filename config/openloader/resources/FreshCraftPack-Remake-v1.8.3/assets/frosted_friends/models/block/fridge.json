@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "frosted_friends:block/invisible",
+    "particle": "frosted_friends:block/fridge"
+  },
+  "render_type": "cutout_mipped"
+}

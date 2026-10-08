@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "letfishlove:item/cod_roe_eating_0"
+  }
+}

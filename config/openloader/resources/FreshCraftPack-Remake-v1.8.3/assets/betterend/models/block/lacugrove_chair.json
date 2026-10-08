@@ -1,0 +1,8 @@
+{
+  "parent": "another_furniture:block/template/chair",
+  "textures": {
+      "bottom":"betterend:block/chair/bottom/lacugrove",
+      "seat": "betterend:block/chair/seat/lacugrove",
+      "back": "betterend:block/chair/back/lacugrove"
+  }
+}

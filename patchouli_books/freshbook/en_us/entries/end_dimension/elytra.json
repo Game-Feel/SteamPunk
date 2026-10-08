@@ -1,0 +1,11 @@
+{
+    "name": "Changing the Elytra",
+    "icon": "minecraft:elytra",
+    "category": "patchouli:end_dimension_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Gravity in the Overworld and the Nether is no longer suitable for Elytra. They can only be used in the End dimension."
+        }
+    ]
+}

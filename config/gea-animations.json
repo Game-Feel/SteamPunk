@@ -1,0 +1,4541 @@
+{
+
+    "alexsmobs:banana": [
+        "alexsmobs:banana",
+        "alexsmobs:banana",
+        "eatinganimation:am_banana_eating_0",
+        "eatinganimation:am_banana_eating_1",
+        "eatinganimation:am_banana_eating_2"
+        ], 
+    "alexsmobs:blobfish": [
+        "alexsmobs:blobfish",
+        "alexsmobs:blobfish",
+        "eatinganimation:am_blobfish_eating_0",
+        "eatinganimation:am_blobfish_eating_1",
+        "eatinganimation:am_blobfish_eating_2"
+        ],
+     "alexsmobs:boiled_emu_egg": [
+        "alexsmobs:boiled_emu_egg",
+        "alexsmobs:boiled_emu_egg",
+        "eatinganimation:am_boiled_emu_egg_eating_0",
+        "eatinganimation:am_boiled_emu_egg_eating_1",
+        "eatinganimation:am_boiled_emu_egg_eating_2"
+        ],
+    "alexsmobs:cooked_catfish": [
+        "alexsmobs:cooked_catfish",
+        "alexsmobs:cooked_catfish",
+        "eatinganimation:am_cooked_catfish_eating_0",
+        "eatinganimation:am_cooked_catfish_eating_1",
+        "eatinganimation:am_cooked_catfish_eating_2"
+    ],
+    "alexsmobs:cooked_kangaroo_meat": [
+        "alexsmobs:cooked_kangaroo_meat",
+        "alexsmobs:cooked_kangaroo_meat",
+        "eatinganimation:am_cooked_kangaroo_meat_eating_0",
+        "eatinganimation:am_cooked_kangaroo_meat_eating_1",
+        "eatinganimation:am_cooked_kangaroo_meat_eating_2"
+    ],
+    "alexsmobs:cooked_lobster_tail": [
+        "alexsmobs:cooked_lobster_tail",
+        "alexsmobs:cooked_lobster_tail",
+        "eatinganimation:am_cooked_lobster_tail_eating_0",
+        "eatinganimation:am_cooked_lobster_tail_eating_1",
+        "eatinganimation:am_cooked_lobster_tail_eating_2"
+    ],
+    "alexsmobs:cooked_moose_ribs": [
+        "alexsmobs:cooked_moose_ribs",
+        "alexsmobs:cooked_moose_ribs",
+        "eatinganimation:am_cooked_moose_ribs_eating_0",
+        "eatinganimation:am_cooked_moose_ribs_eating_1",
+        "eatinganimation:am_cooked_moose_ribs_eating_2"
+    ],
+    "alexsmobs:cosmic_cod": [
+        "alexsmobs:cosmic_cod",
+        "alexsmobs:cosmic_cod",
+        "eatinganimation:am_cosmic_cod_eating_0",
+        "eatinganimation:am_cosmic_cod_eating_1",
+        "eatinganimation:am_cosmic_cod_eating_2"
+    ],
+    "alexsmobs:fish_oil": [
+        "alexsmobs:fish_oil",
+        "alexsmobs:fish_oil",
+        "eatinganimation:am_fish_oil_eating_0",
+        "eatinganimation:am_fish_oil_eating_1",
+        "eatinganimation:am_fish_oil_eating_2"
+    ],
+    "alexsmobs:flying_fish": [
+        "alexsmobs:flying_fish",
+        "alexsmobs:flying_fish",
+        "eatinganimation:am_flying_fish_eating_0",
+        "eatinganimation:am_flying_fish_eating_1",
+        "eatinganimation:am_flying_fish_eating_2"
+    ],
+    "alexsmobs:gongylidia": [
+        "alexsmobs:gongylidia",
+        "alexsmobs:gongylidia",
+        "eatinganimation:am_gongylidia_eating_0",
+        "eatinganimation:am_gongylidia_eating_1",
+        "eatinganimation:am_gongylidia_eating_2"
+    ],
+    "alexsmobs:kangaroo_burger": [
+        "alexsmobs:kangaroo_burger",
+        "alexsmobs:kangaroo_burger",
+        "eatinganimation:am_kangaroo_burger_eating_0",
+        "eatinganimation:am_kangaroo_burger_eating_1",
+        "eatinganimation:am_kangaroo_burger_eating_2"
+    ],
+    "alexsmobs:kangaroo_meat": [
+        "alexsmobs:kangaroo_meat",
+        "alexsmobs:kangaroo_meat",
+        "eatinganimation:am_kangaroo_meat_eating_0",
+        "eatinganimation:am_kangaroo_meat_eating_1",
+        "eatinganimation:am_kangaroo_meat_eating_2"
+    ],
+    "alexsmobs:mosquito_repellent_stew ": [
+        "alexsmobs:mosquito_repellent_stew ",
+        "alexsmobs:mosquito_repellent_stew ",
+        "eatinganimation:mosquito_repellent_stew_eating_0",
+        "eatinganimation:mosquito_repellent_stew_eating_1",
+        "eatinganimation:mosquito_repellent_stew_eating_2"
+    ],
+    "alexsmobs:lobster_tail": [
+        "alexsmobs:lobster_tail",
+        "alexsmobs:lobster_tail",
+        "eatinganimation:am_lobster_tail_eating_0",
+        "eatinganimation:am_lobster_tail_eating_1",
+        "eatinganimation:am_lobster_tail_eating_2"
+    ],
+    "alexsmobs:maggot": [
+        "alexsmobs:maggot",
+        "alexsmobs:maggot",
+        "eatinganimation:am_maggot_eating_0",
+        "eatinganimation:am_maggot_eating_1",
+        "eatinganimation:am_maggot_eating_2"
+    ],
+    "alexsmobs:moose_ribs": [
+        "alexsmobs:moose_ribs",
+        "alexsmobs:moose_ribs",
+        "eatinganimation:am_moose_ribs_eating_0",
+        "eatinganimation:am_moose_ribs_eating_1",
+        "eatinganimation:am_moose_ribs_eating_2"
+    ],
+    "alexsmobs:rainbow_jelly": [
+        "alexsmobs:rainbow_jelly",
+        "alexsmobs:rainbow_jelly",
+        "eatinganimation:am_rainbow_jelly_eating_0",
+        "eatinganimation:am_rainbow_jelly_eating_1",
+        "eatinganimation:am_rainbow_jelly_eating_2"
+    ],
+    "alexsmobs:raw_catfish": [
+        "alexsmobs:raw_catfish",
+        "alexsmobs:raw_catfish",
+        "eatinganimation:am_raw_catfish_eating_0",
+        "eatinganimation:am_raw_catfish_eating_1",
+        "eatinganimation:am_raw_catfish_eating_2"
+    ],
+    "alexsmobs:shrimp_fried_rice": [
+        "alexsmobs:shrimp_fried_rice",
+        "alexsmobs:shrimp_fried_rice",
+        "eatinganimation:am_shrimp_fried_rice_eating_0",
+        "eatinganimation:am_shrimp_fried_rice_eating_1",
+        "eatinganimation:am_shrimp_fried_rice_eating_2"
+    ],
+    "alexsmobs:sopa_de_macaco": [
+        "alexsmobs:sopa_de_macaco",
+        "alexsmobs:sopa_de_macaco",
+        "eatinganimation:am_sopa_de_macaco_eating_0",
+        "eatinganimation:am_sopa_de_macaco_eating_1",
+        "eatinganimation:am_sopa_de_macaco_eating_2"
+    ],
+    "alexsdelight:acacia_blossom_soup": [
+        "alexsdelight:acacia_blossom_soup",
+        "alexsdelight:acacia_blossom_soup",
+        "eatinganimation:al_acacia_blossom_soup_eating_0",
+        "eatinganimation:al_acacia_blossom_soup_eating_1",
+        "eatinganimation:al_acacia_blossom_soup_eating_2"
+    ],
+    "alexsdelight:bison_burger": [
+        "alexsdelight:bison_burger",
+        "alexsdelight:bison_burger",
+        "eatinganimation:al_bison_burger_eating_0",
+        "eatinganimation:al_bison_burger_eating_1",
+        "eatinganimation:al_bison_burger_eating_2"
+    ],
+    "alexsdelight:bison_mince": [
+        "alexsdelight:bison_mince",
+        "alexsdelight:bison_mince",
+        "eatinganimation:al_bison_mince_eating_0",
+        "eatinganimation:al_bison_mince_eating_1",
+        "eatinganimation:al_bison_mince_eating_2"
+    ],
+    "alexsdelight:bison_patty": [
+        "alexsdelight:bison_patty",
+        "alexsdelight:bison_patty",
+        "eatinganimation:al_bison_patty_eating_0",
+        "eatinganimation:al_bison_patty_eating_1",
+        "eatinganimation:al_bison_patty_eating_2"
+    ],
+    "alexsdelight:bunfungus_sandwich": [
+        "alexsdelight:bunfungus_sandwich",
+        "alexsdelight:bunfungus_sandwich",
+        "eatinganimation:al_bunfungus_sandwich_eating_0",
+        "eatinganimation:al_bunfungus_sandwich_eating_1",
+        "eatinganimation:al_bunfungus_sandwich_eating_2"
+    ],
+    "alexsdelight:cooked_bison": [
+        "alexsdelight:cooked_bison",
+        "alexsdelight:cooked_bison",
+        "eatinganimation:al_cooked_bison_eating_0",
+        "eatinganimation:al_cooked_bison_eating_1",
+        "eatinganimation:al_cooked_bison_eating_2"
+    ],
+    "alexsdelight:cooked_bunfungus_drumstick": [
+        "alexsdelight:cooked_bunfungus_drumstick",
+        "alexsdelight:cooked_bunfungus_drumstick",
+        "eatinganimation:al_cooked_bunfungus_drumstick_eating_0",
+        "eatinganimation:al_cooked_bunfungus_drumstick_eating_1",
+        "eatinganimation:al_cooked_bunfungus_drumstick_eating_2"
+    ],
+    "alexsdelight:cooked_bunfungus": [
+        "alexsdelight:cooked_bunfungus",
+        "alexsdelight:cooked_bunfungus",
+        "eatinganimation:al_cooked_bunfungus_eating_0",
+        "eatinganimation:al_cooked_bunfungus_eating_1",
+        "eatinganimation:al_cooked_bunfungus_eating_2"
+    ],
+    "alexsdelight:cooked_catfish_slice": [
+        "alexsdelight:cooked_catfish_slice",
+        "alexsdelight:cooked_catfish_slice",
+        "eatinganimation:al_cooked_catfish_slice_eating_0",
+        "eatinganimation:al_cooked_catfish_slice_eating_1",
+        "eatinganimation:al_cooked_catfish_slice_eating_2"
+    ],
+    "alexsdelight:cooked_centipede_leg": [
+        "alexsdelight:cooked_centipede_leg",
+        "alexsdelight:cooked_centipede_leg",
+        "eatinganimation:al_cooked_centipede_leg_eating_0",
+        "eatinganimation:al_cooked_centipede_leg_eating_1",
+        "eatinganimation:al_cooked_centipede_leg_eating_2"
+    ],
+    "alexsdelight:cooked_kangaroo_shank": [
+        "alexsdelight:cooked_kangaroo_shank",
+        "alexsdelight:cooked_kangaroo_shank",
+        "eatinganimation:al_cooked_kangaroo_shank_eating_0",
+        "eatinganimation:al_cooked_kangaroo_shank_eating_1",
+        "eatinganimation:al_cooked_kangaroo_shank_eating_2"
+    ],
+    "alexsdelight:cooked_loose_moose_ribs": [
+        "alexsdelight:cooked_loose_moose_ribs",
+        "alexsdelight:cooked_loose_moose_ribs",
+        "eatinganimation:al_cooked_loose_moose_ribs_eating_0",
+        "eatinganimation:al_cooked_loose_moose_ribs_eating_1",
+        "eatinganimation:al_cooked_loose_moose_ribs_eating_2"
+    ],
+    "alexsdelight:gongylidia_bruschetta": [
+        "alexsdelight:gongylidia_bruschetta",
+        "alexsdelight:gongylidia_bruschetta",
+        "eatinganimation:al_gongylidia_bruschetta_eating_0",
+        "eatinganimation:al_gongylidia_bruschetta_eating_1",
+        "eatinganimation:al_gongylidia_bruschetta_eating_2"
+    ],
+    "alexsdelight:kangaroo_pasta": [
+        "alexsdelight:kangaroo_pasta",
+        "alexsdelight:kangaroo_pasta",
+        "eatinganimation:al_kangaroo_pasta_eating_0",
+        "eatinganimation:al_kangaroo_pasta_eating_1",
+        "eatinganimation:al_kangaroo_pasta_eating_2"
+    ],
+    "alexsdelight:kangaroo_shank": [
+        "alexsdelight:kangaroo_shank",
+        "alexsdelight:kangaroo_shank",
+        "eatinganimation:al_kangaroo_shank_eating_0",
+        "eatinganimation:al_kangaroo_shank_eating_1",
+        "eatinganimation:al_kangaroo_shank_eating_2"
+    ],
+    "alexsdelight:kangaroo_stew": [
+        "alexsdelight:kangaroo_stew",
+        "alexsdelight:kangaroo_stew",
+        "eatinganimation:al_kangaroo_stew_eating_0",
+        "eatinganimation:al_kangaroo_stew_eating_1",
+        "eatinganimation:al_kangaroo_stew_eating_2"
+    ],
+    "alexsdelight:lobster_pasta": [
+        "alexsdelight:lobster_pasta",
+        "alexsdelight:lobster_pasta",
+        "eatinganimation:al_lobster_pasta_eating_0",
+        "eatinganimation:al_lobster_pasta_eating_1",
+        "eatinganimation:al_lobster_pasta_eating_2"
+    ],
+    "alexsdelight:loose_moose_rib": [
+        "alexsdelight:loose_moose_rib",
+        "alexsdelight:loose_moose_rib",
+        "eatinganimation:al_loose_moose_rib_eating_0",
+        "eatinganimation:al_loose_moose_rib_eating_1",
+        "eatinganimation:al_loose_moose_rib_eating_2"
+    ],
+    "alexsdelight:cooked_loose_moose_rib": [
+        "alexsdelight:cooked_loose_moose_rib",
+        "alexsdelight:cooked_loose_moose_rib",
+        "eatinganimation:al_cooked_loose_moose_rib_eating_0",
+        "eatinganimation:al_cooked_loose_moose_rib_eating_1",
+        "eatinganimation:al_cooked_loose_moose_rib_eating_2"
+    ],
+    "alexsdelight:maggot_salad": [
+        "alexsdelight:maggot_salad",
+        "alexsdelight:maggot_salad",
+        "eatinganimation:al_maggot_salad_eating_0",
+        "eatinganimation:al_maggot_salad_eating_1",
+        "eatinganimation:al_maggot_salad_eating_2"
+    ],
+    "alexsdelight:raw_bison": [
+        "alexsdelight:raw_bison",
+        "alexsdelight:raw_bison",
+        "eatinganimation:al_raw_bison_eating_0",
+        "eatinganimation:al_raw_bison_eating_1",
+        "eatinganimation:al_raw_bison_eating_2"
+    ],
+    "alexsdelight:raw_bunfungus_drumstick": [
+        "alexsdelight:raw_bunfungus_drumstick",
+        "alexsdelight:raw_bunfungus_drumstick",
+        "eatinganimation:al_raw_bunfungus_drumstick_eating_0",
+        "eatinganimation:al_raw_bunfungus_drumstick_eating_1",
+        "eatinganimation:al_raw_bunfungus_drumstick_eating_2"
+    ],
+    "alexsdelight:raw_bunfungus": [
+        "alexsdelight:raw_bunfungus",
+        "alexsdelight:raw_bunfungus",
+        "eatinganimation:al_raw_bunfungus_eating_0",
+        "eatinganimation:al_raw_bunfungus_eating_1",
+        "eatinganimation:al_raw_bunfungus_eating_2"
+    ],
+    "alexsdelight:raw_catfish_slice": [
+        "alexsdelight:raw_catfish_slice",
+        "alexsdelight:raw_catfish_slice",
+        "eatinganimation:al_raw_catfish_slice_eating_0",
+        "eatinganimation:al_raw_catfish_slice_eating_1",
+        "eatinganimation:al_raw_catfish_slice_eating_2"
+    ],
+    "farmersdelight:milk_bottle": [
+    "farmersdelight:milk_bottle",
+    "farmersdelight:milk_bottle",
+    "farmersdelight:milk_bottle_eating_0",
+    "farmersdelight:milk_bottle_eating_1",
+    "farmersdelight:milk_bottle_eating_2"
+    ],
+    "farmersdelight:apple_cider": [
+        "farmersdelight:apple_cider",
+        "farmersdelight:apple_cider",
+        "eatinganimation:fd_apple_cider_eating_0",
+        "eatinganimation:fd_apple_cider_eating_1",
+        "eatinganimation:fd_apple_cider_eating_2"
+    ],
+    "farmersdelight:apple_pie_slice": [
+        "farmersdelight:apple_pie_slice",
+        "farmersdelight:apple_pie_slice",
+        "eatinganimation:fd_apple_pie_slice_eating_0",
+        "eatinganimation:fd_apple_pie_slice_eating_1",
+        "eatinganimation:fd_apple_pie_slice_eating_2"
+    ],
+    "farmersdelight:bacon_and_eggs": [
+        "farmersdelight:bacon_and_eggs",
+        "farmersdelight:bacon_and_eggs",
+        "eatinganimation:fd_bacon_and_eggs_eating_0",
+        "eatinganimation:fd_bacon_and_eggs_eating_1",
+        "eatinganimation:fd_bacon_and_eggs_eating_2"
+    ],
+    "farmersdelight:bacon": [
+        "farmersdelight:bacon",
+        "farmersdelight:bacon",
+        "eatinganimation:fd_bacon_eating_0",
+        "eatinganimation:fd_bacon_eating_1",
+        "eatinganimation:fd_bacon_eating_2"
+    ],
+    "farmersdelight:bacon_sandwich": [
+        "farmersdelight:bacon_sandwich",
+        "farmersdelight:bacon_sandwich",
+        "eatinganimation:fd_bacon_sandwich_eating_0",
+        "eatinganimation:fd_bacon_sandwich_eating_1",
+        "eatinganimation:fd_bacon_sandwich_eating_2"
+    ],
+    "farmersdelight:baked_cod_stew": [
+        "farmersdelight:baked_cod_stew",
+        "farmersdelight:baked_cod_stew",
+        "eatinganimation:fd_baked_cod_stew_eating_0",
+        "eatinganimation:fd_baked_cod_stew_eating_1",
+        "eatinganimation:fd_baked_cod_stew_eating_2"
+    ],
+    "farmersdelight:barbecue_stick": [
+        "farmersdelight:barbecue_stick",
+        "farmersdelight:barbecue_stick",
+        "eatinganimation:fd_barbecue_stick_eating_0",
+        "eatinganimation:fd_barbecue_stick_eating_1",
+        "eatinganimation:fd_barbecue_stick_eating_2"
+    ],
+    "farmersdelight:beef_patty": [
+        "farmersdelight:beef_patty",
+        "farmersdelight:beef_patty",
+        "eatinganimation:fd_beef_patty_eating_0",
+        "eatinganimation:fd_beef_patty_eating_1",
+        "eatinganimation:fd_beef_patty_eating_2"
+    ],
+    "farmersdelight:beef_stew": [
+        "farmersdelight:beef_stew",
+        "farmersdelight:beef_stew",
+        "eatinganimation:fd_beef_stew_eating_0",
+        "eatinganimation:fd_beef_stew_eating_1",
+        "eatinganimation:fd_beef_stew_eating_2"
+    ],
+    "farmersdelight:bone_broth": [
+        "farmersdelight:bone_broth",
+        "farmersdelight:bone_broth",
+        "eatinganimation:fd_bone_broth_eating_0",
+        "eatinganimation:fd_bone_broth_eating_1",
+        "eatinganimation:fd_bone_broth_eating_2"
+    ],
+    "farmersdelight:cabbage": [
+        "farmersdelight:cabbage",
+        "farmersdelight:cabbage",
+        "eatinganimation:fd_cabbage_eating_0",
+        "eatinganimation:fd_cabbage_eating_1",
+        "eatinganimation:fd_cabbage_eating_2"
+    ],
+    "farmersdelight:cabbage_leaf": [
+        "farmersdelight:cabbage_leaf",
+        "farmersdelight:cabbage_leaf",
+        "eatinganimation:fd_cabbage_leaf_eating_0",
+        "eatinganimation:fd_cabbage_leaf_eating_1",
+        "eatinganimation:fd_cabbage_leaf_eating_2"
+    ],
+    "farmersdelight:cabbage_rolls": [
+        "farmersdelight:cabbage_rolls",
+        "farmersdelight:cabbage_rolls",
+        "eatinganimation:fd_cabbage_rolls_eating_0",
+        "eatinganimation:fd_cabbage_rolls_eating_1",
+        "eatinganimation:fd_cabbage_rolls_eating_2"
+    ],
+    "farmersdelight:cake_slice": [
+        "farmersdelight:cake_slice",
+        "farmersdelight:cake_slice",
+        "eatinganimation:fd_cake_slice_eating_0",
+        "eatinganimation:fd_cake_slice_eating_1",
+        "eatinganimation:fd_cake_slice_eating_2"
+    ],
+    "farmersdelight:chicken_cuts": [
+        "farmersdelight:chicken_cuts",
+        "farmersdelight:chicken_cuts",
+        "eatinganimation:fd_chicken_cuts_eating_0",
+        "eatinganimation:fd_chicken_cuts_eating_1",
+        "eatinganimation:fd_chicken_cuts_eating_2"
+    ],
+    "farmersdelight:chicken_sandwich": [
+        "farmersdelight:chicken_sandwich",
+        "farmersdelight:chicken_sandwich",
+        "eatinganimation:fd_chicken_sandwich_eating_0",
+        "eatinganimation:fd_chicken_sandwich_eating_1",
+        "eatinganimation:fd_chicken_sandwich_eating_2"
+    ],
+    "farmersdelight:chicken_soup": [
+        "farmersdelight:chicken_soup",
+        "farmersdelight:chicken_soup",
+        "eatinganimation:fd_chicken_soup_eating_0",
+        "eatinganimation:fd_chicken_soup_eating_1",
+        "eatinganimation:fd_chicken_soup_eating_2"
+    ],
+        "farmersdelight:chocolate_pie_slice": [
+        "farmersdelight:chocolate_pie_slice",
+        "farmersdelight:chocolate_pie_slice",
+        "eatinganimation:fd_chocolate_pie_slice_eating_0",
+        "eatinganimation:fd_chocolate_pie_slice_eating_1",
+        "eatinganimation:fd_chocolate_pie_slice_eating_2"
+    ],
+    "farmersdelight:cod_roll": [
+        "farmersdelight:cod_roll",
+        "farmersdelight:cod_roll",
+        "eatinganimation:fd_cod_roll_eating_0",
+        "eatinganimation:fd_cod_roll_eating_1",
+        "eatinganimation:fd_cod_roll_eating_2"
+    ],
+    "farmersdelight:cod_slice": [
+        "farmersdelight:cod_slice",
+        "farmersdelight:cod_slice",
+        "eatinganimation:fd_cod_slice_eating_0",
+        "eatinganimation:fd_cod_slice_eating_1",
+        "eatinganimation:fd_cod_slice_eating_2"
+    ],
+    "farmersdelight:cooked_bacon": [
+        "farmersdelight:cooked_bacon",
+        "farmersdelight:cooked_bacon",
+        "eatinganimation:fd_cooked_bacon_eating_0",
+        "eatinganimation:fd_cooked_bacon_eating_1",
+        "eatinganimation:fd_cooked_bacon_eating_2"
+    ],
+    "farmersdelight:cooked_chicken_cuts": [
+        "farmersdelight:cooked_chicken_cuts",
+        "farmersdelight:cooked_chicken_cuts",
+        "eatinganimation:fd_cooked_chicken_cuts_eating_0",
+        "eatinganimation:fd_cooked_chicken_cuts_eating_1",
+        "eatinganimation:fd_cooked_chicken_cuts_eating_2"
+    ],
+    "farmersdelight:cooked_cod_slice": [
+        "farmersdelight:cooked_cod_slice",
+        "farmersdelight:cooked_cod_slice",
+        "eatinganimation:fd_cooked_cod_slice_eating_0",
+        "eatinganimation:fd_cooked_cod_slice_eating_1",
+        "eatinganimation:fd_cooked_cod_slice_eating_2"
+    ],
+    "farmersdelight:cooked_mutton_chops": [
+        "farmersdelight:cooked_mutton_chops",
+        "farmersdelight:cooked_mutton_chops",
+        "eatinganimation:fd_cooked_mutton_chops_eating_0",
+        "eatinganimation:fd_cooked_mutton_chops_eating_1",
+        "eatinganimation:fd_cooked_mutton_chops_eating_2"
+    ],
+    "farmersdelight:cooked_rice": [
+        "farmersdelight:cooked_rice",
+        "farmersdelight:cooked_rice",
+        "eatinganimation:fd_cooked_rice_eating_0",
+        "eatinganimation:fd_cooked_rice_eating_1",
+        "eatinganimation:fd_cooked_rice_eating_2"
+    ],
+    "farmersdelight:cooked_salmon_slice": [
+        "farmersdelight:cooked_salmon_slice",
+        "farmersdelight:cooked_salmon_slice",
+        "eatinganimation:fd_cooked_salmon_slice_eating_0",
+        "eatinganimation:fd_cooked_salmon_slice_eating_1",
+        "eatinganimation:fd_cooked_salmon_slice_eating_2"
+    ],
+    "farmersdelight:dog_food": [
+        "farmersdelight:dog_food",
+        "farmersdelight:dog_food",
+        "eatinganimation:fd_dog_food_eating_0",
+        "eatinganimation:fd_dog_food_eating_1",
+        "eatinganimation:fd_dog_food_eating_2"
+    ],
+    "farmersdelight:dumplings": [
+        "farmersdelight:dumplings",
+        "farmersdelight:dumplings",
+        "eatinganimation:fd_dumplings_eating_0",
+        "eatinganimation:fd_dumplings_eating_1",
+        "eatinganimation:fd_dumplings_eating_2"
+    ],
+    "farmersdelight:egg_sandwich": [
+        "farmersdelight:egg_sandwich",
+        "farmersdelight:egg_sandwich",
+        "eatinganimation:fd_egg_sandwich_eating_0",
+        "eatinganimation:fd_egg_sandwich_eating_1",
+        "eatinganimation:fd_egg_sandwich_eating_2"
+    ],
+    "farmersdelight:fish_stew": [
+        "farmersdelight:fish_stew",
+        "farmersdelight:fish_stew",
+        "eatinganimation:fd_fish_stew_eating_0",
+        "eatinganimation:fd_fish_stew_eating_1",
+        "eatinganimation:fd_fish_stew_eating_2"
+    ],
+    "farmersdelight:fried_egg": [
+        "farmersdelight:fried_egg",
+        "farmersdelight:fried_egg",
+        "eatinganimation:fd_fried_egg_eating_0",
+        "eatinganimation:fd_fried_egg_eating_1",
+        "eatinganimation:fd_fried_egg_eating_2"
+    ],
+      "farmersdelight:minced_beef": [
+    "farmersdelight:minced_beef",
+    "farmersdelight:minced_beef",
+    "eatinganimation:fd_minced_beef_eating_0",
+    "eatinganimation:fd_minced_beef_eating_1",
+    "eatinganimation:fd_minced_beef_eating_2"
+  ],
+  "farmersdelight:mixed_salad": [
+    "farmersdelight:mixed_salad",
+    "farmersdelight:mixed_salad",
+    "eatinganimation:fd_mixed_salad_eating_0",
+    "eatinganimation:fd_mixed_salad_eating_1",
+    "eatinganimation:fd_mixed_salad_eating_2"
+  ],
+  "farmersdelight:mushroom_rice": [
+    "farmersdelight:mushroom_rice",
+    "farmersdelight:mushroom_rice",
+    "eatinganimation:fd_mushroom_rice_eating_0",
+    "eatinganimation:fd_mushroom_rice_eating_1",
+    "eatinganimation:fd_mushroom_rice_eating_2"
+  ],
+  "farmersdelight:mutton_chops": [
+    "farmersdelight:mutton_chops",
+    "farmersdelight:mutton_chops",
+    "eatinganimation:fd_mutton_chops_eating_0",
+    "eatinganimation:fd_mutton_chops_eating_1",
+    "eatinganimation:fd_mutton_chops_eating_2"
+  ],
+  "farmersdelight:mutton_wrap": [
+    "farmersdelight:mutton_wrap",
+    "farmersdelight:mutton_wrap",
+    "eatinganimation:fd_mutton_wrap_eating_0",
+    "eatinganimation:fd_mutton_wrap_eating_1",
+    "eatinganimation:fd_mutton_wrap_eating_2"
+  ],
+  "farmersdelight:nether_salad": [
+    "farmersdelight:nether_salad",
+    "farmersdelight:nether_salad",
+    "eatinganimation:fd_nether_salad_eating_0",
+    "eatinganimation:fd_nether_salad_eating_1",
+    "eatinganimation:fd_nether_salad_eating_2"
+  ],
+  "farmersdelight:noodle_soup": [
+    "farmersdelight:noodle_soup",
+    "farmersdelight:noodle_soup",
+    "eatinganimation:fd_noodle_soup_eating_0",
+    "eatinganimation:fd_noodle_soup_eating_1",
+    "eatinganimation:fd_noodle_soup_eating_2"
+  ],
+  "farmersdelight:onion": [
+    "farmersdelight:onion",
+    "farmersdelight:onion",
+    "eatinganimation:fd_onion_eating_0",
+    "eatinganimation:fd_onion_eating_1",
+    "eatinganimation:fd_onion_eating_2"
+  ],
+  "farmersdelight:pasta_with_meatballs": [
+    "farmersdelight:pasta_with_meatballs",
+    "farmersdelight:pasta_with_meatballs",
+    "eatinganimation:fd_pasta_with_meatballs_eating_0",
+    "eatinganimation:fd_pasta_with_meatballs_eating_1",
+    "eatinganimation:fd_pasta_with_meatballs_eating_2"
+  ],
+  "farmersdelight:pasta_with_mutton_chop": [
+    "farmersdelight:pasta_with_mutton_chop",
+    "farmersdelight:pasta_with_mutton_chop",
+    "eatinganimation:fd_pasta_with_mutton_chop_eating_0",
+    "eatinganimation:fd_pasta_with_mutton_chop_eating_1",
+    "eatinganimation:fd_pasta_with_mutton_chop_eating_2"
+  ],
+  "farmersdelight:pie_crust": [
+    "farmersdelight:pie_crust",
+    "farmersdelight:pie_crust",
+    "eatinganimation:fd_pie_crust_eating_0",
+    "eatinganimation:fd_pie_crust_eating_1",
+    "eatinganimation:fd_pie_crust_eating_2"
+  ],
+  "farmersdelight:pumpkin_pie_slice": [
+    "farmersdelight:pumpkin_pie_slice",
+    "farmersdelight:pumpkin_pie_slice",
+    "eatinganimation:fd_pumpkin_pie_slice_eating_0",
+    "eatinganimation:fd_pumpkin_pie_slice_eating_1",
+    "eatinganimation:fd_pumpkin_pie_slice_eating_2"
+  ],
+  "farmersdelight:pumpkin_slice": [
+    "farmersdelight:pumpkin_slice",
+    "farmersdelight:pumpkin_slice",
+    "eatinganimation:fd_pumpkin_slice_eating_0",
+    "eatinganimation:fd_pumpkin_slice_eating_1",
+    "eatinganimation:fd_pumpkin_slice_eating_2"
+  ],
+  "farmersdelight:pumpkin_soup": [
+    "farmersdelight:pumpkin_soup",
+    "farmersdelight:pumpkin_soup",
+    "eatinganimation:fd_pumpkin_soup_eating_0",
+    "eatinganimation:fd_pumpkin_soup_eating_1",
+    "eatinganimation:fd_pumpkin_soup_eating_2"
+  ],
+    "farmersdelight:ratatouille": [
+    "farmersdelight:ratatouille",
+    "farmersdelight:ratatouille",
+    "eatinganimation:fd_ratatouille_eating_0",
+    "eatinganimation:fd_ratatouille_eating_1",
+    "eatinganimation:fd_ratatouille_eating_2"
+  ],
+  "farmersdelight:raw_pasta": [
+    "farmersdelight:raw_pasta",
+    "farmersdelight:raw_pasta",
+    "eatinganimation:fd_raw_pasta_eating_0",
+    "eatinganimation:fd_raw_pasta_eating_1",
+    "eatinganimation:fd_raw_pasta_eating_2"
+  ],
+  "farmersdelight:roast_chicken": [
+    "farmersdelight:roast_chicken",
+    "farmersdelight:roast_chicken",
+    "eatinganimation:fd_roast_chicken_eating_0",
+    "eatinganimation:fd_roast_chicken_eating_1",
+    "eatinganimation:fd_roast_chicken_eating_2"
+  ],
+  "farmersdelight:roasted_mutton_chops": [
+    "farmersdelight:roasted_mutton_chops",
+    "farmersdelight:roasted_mutton_chops",
+    "eatinganimation:fd_roasted_mutton_chops_eating_0",
+    "eatinganimation:fd_roasted_mutton_chops_eating_1",
+    "eatinganimation:fd_roasted_mutton_chops_eating_2"
+  ],
+  "farmersdelight:salmon_roll": [
+    "farmersdelight:salmon_roll",
+    "farmersdelight:salmon_roll",
+    "eatinganimation:fd_salmon_roll_eating_0",
+    "eatinganimation:fd_salmon_roll_eating_1",
+    "eatinganimation:fd_salmon_roll_eating_2"
+  ],
+  "farmersdelight:salmon_slice": [
+    "farmersdelight:salmon_slice",
+    "farmersdelight:salmon_slice",
+    "eatinganimation:fd_salmon_slice_eating_0",
+    "eatinganimation:fd_salmon_slice_eating_1",
+    "eatinganimation:fd_salmon_slice_eating_2"
+  ],
+  "farmersdelight:shepherds_pie": [
+    "farmersdelight:shepherds_pie",
+    "farmersdelight:shepherds_pie",
+    "eatinganimation:fd_shepherds_pie_eating_0",
+    "eatinganimation:fd_shepherds_pie_eating_1",
+    "eatinganimation:fd_shepherds_pie_eating_2"
+  ],
+  "farmersdelight:smoked_ham": [
+    "farmersdelight:smoked_ham",
+    "farmersdelight:smoked_ham",
+    "eatinganimation:fd_smoked_ham_eating_0",
+    "eatinganimation:fd_smoked_ham_eating_1",
+    "eatinganimation:fd_smoked_ham_eating_2"
+  ],
+  "farmersdelight:squid_ink_pasta": [
+    "farmersdelight:squid_ink_pasta",
+    "farmersdelight:squid_ink_pasta",
+    "eatinganimation:fd_squid_ink_pasta_eating_0",
+    "eatinganimation:fd_squid_ink_pasta_eating_1",
+    "eatinganimation:fd_squid_ink_pasta_eating_2"
+  ],
+  "farmersdelight:steak_and_potatoes": [
+    "farmersdelight:steak_and_potatoes",
+    "farmersdelight:steak_and_potatoes",
+    "eatinganimation:fd_steak_and_potatoes_eating_0",
+    "eatinganimation:fd_steak_and_potatoes_eating_1",
+    "eatinganimation:fd_steak_and_potatoes_eating_2"
+  ],
+  "farmersdelight:stuffed_potato": [
+    "farmersdelight:stuffed_potato",
+    "farmersdelight:stuffed_potato",
+    "eatinganimation:fd_stuffed_potato_eating_0",
+    "eatinganimation:fd_stuffed_potato_eating_1",
+    "eatinganimation:fd_stuffed_potato_eating_2"
+  ],
+  "farmersdelight:stuffed_pumpkin": [
+    "farmersdelight:stuffed_pumpkin",
+    "farmersdelight:stuffed_pumpkin",
+    "eatinganimation:fd_stuffed_pumpkin_eating_0",
+    "eatinganimation:fd_stuffed_pumpkin_eating_1",
+    "eatinganimation:fd_stuffed_pumpkin_eating_2"
+  ],
+  "farmersdelight:sweet_berry_cheesecake_slice": [
+    "farmersdelight:sweet_berry_cheesecake_slice",
+    "farmersdelight:sweet_berry_cheesecake_slice",
+    "eatinganimation:fd_sweet_berry_cheesecake_slice_eating_0",
+    "eatinganimation:fd_sweet_berry_cheesecake_slice_eating_1",
+    "eatinganimation:fd_sweet_berry_cheesecake_slice_eating_2"
+  ],
+  "farmersdelight:sweet_berry_cookie": [
+    "farmersdelight:sweet_berry_cookie",
+    "farmersdelight:sweet_berry_cookie",
+    "eatinganimation:fd_sweet_berry_cookie_eating_0",
+    "eatinganimation:fd_sweet_berry_cookie_eating_1",
+    "eatinganimation:fd_sweet_berry_cookie_eating_2"
+  ],
+    "farmersdelight:tomato": [
+    "farmersdelight:tomato",
+    "farmersdelight:tomato",
+    "eatinganimation:fd_tomato_eating_0",
+    "eatinganimation:fd_tomato_eating_1",
+    "eatinganimation:fd_tomato_eating_2"
+  ],
+  "farmersdelight:tomato_sauce": [
+    "farmersdelight:tomato_sauce",
+    "farmersdelight:tomato_sauce",
+    "eatinganimation:fd_tomato_sauce_eating_0",
+    "eatinganimation:fd_tomato_sauce_eating_1",
+    "eatinganimation:fd_tomato_sauce_eating_2"
+  ],
+  "farmersdelight:vegetable_noodles": [
+    "farmersdelight:vegetable_noodles",
+    "farmersdelight:vegetable_noodles",
+    "eatinganimation:fd_vegetable_noodles_eating_0",
+    "eatinganimation:fd_vegetable_noodles_eating_1",
+    "eatinganimation:fd_vegetable_noodles_eating_2"
+  ],
+  "farmersdelight:vegetable_soup": [
+    "farmersdelight:vegetable_soup",
+    "farmersdelight:vegetable_soup",
+    "eatinganimation:fd_vegetable_soup_eating_0",
+    "eatinganimation:fd_vegetable_soup_eating_1",
+    "eatinganimation:fd_vegetable_soup_eating_2"
+  ],
+  "farmersdelight:wheat_dough": [
+    "farmersdelight:wheat_dough",
+    "farmersdelight:wheat_dough",
+    "eatinganimation:fd_wheat_dough_eating_0",
+    "eatinganimation:fd_wheat_dough_eating_1",
+    "eatinganimation:fd_wheat_dough_eating_2"
+  ],
+  "galosphere:golden_lichen_cordyceps": [
+  "galosphere:golden_lichen_cordyceps",
+  "galosphere:golden_lichen_cordyceps",
+  "eatinganimation:ga_golden_lichen_cordyceps_eating_0",
+  "eatinganimation:ga_golden_lichen_cordyceps_eating_1",
+  "eatinganimation:ga_golden_lichen_cordyceps_eating_2"
+],
+"galosphere:lichen_cordyceps": [
+  "galosphere:lichen_cordyceps",
+  "galosphere:lichen_cordyceps",
+  "eatinganimation:ga_lichen_cordyceps_eating_0",
+  "eatinganimation:ga_lichen_cordyceps_eating_1",
+  "eatinganimation:ga_lichen_cordyceps_eating_2"
+],
+"immersive_weathering:golden_moss_clump": [
+  "immersive_weathering:golden_moss_clump",
+  "immersive_weathering:golden_moss_clump",
+  "eatinganimation:iw_golden_moss_clump_eating_0",
+  "eatinganimation:iw_golden_moss_clump_eating_1",
+  "eatinganimation:iw_golden_moss_clump_eating_2"
+],
+
+"immersive_weathering:ice_sickle": [
+  "immersive_weathering:ice_sickle",
+  "immersive_weathering:ice_sickle",
+  "eatinganimation:iw_ice_sickle_eating_0",
+  "eatinganimation:iw_ice_sickle_eating_1",
+  "eatinganimation:iw_ice_sickle_eating_2"
+],
+
+"immersive_weathering:icicle": [
+  "immersive_weathering:icicle",
+  "immersive_weathering:icicle",
+  "eatinganimation:iw_icicle_eating_0",
+  "eatinganimation:iw_icicle_eating_1",
+  "eatinganimation:iw_icicle_eating_2"
+],
+
+"immersive_weathering:moss_clump": [
+  "immersive_weathering:moss_clump",
+  "immersive_weathering:moss_clump",
+  "eatinganimation:iw_moss_clump_eating_0",
+  "eatinganimation:iw_moss_clump_eating_1",
+  "eatinganimation:iw_moss_clump_eating_2"
+],
+
+"immersive_weathering:pond_water": [
+  "immersive_weathering:pond_water",
+  "immersive_weathering:pond_water",
+  "eatinganimation:iw_pond_water_eating_0",
+  "eatinganimation:iw_pond_water_eating_1",
+  "eatinganimation:iw_pond_water_eating_2"
+],
+"quark:cooked_crab_leg": [
+  "quark:cooked_crab_leg",
+  "quark:cooked_crab_leg",
+  "eatinganimation:qu_cooked_crab_leg_eating_0",
+  "eatinganimation:qu_cooked_crab_leg_eating_1",
+  "eatinganimation:qu_cooked_crab_leg_eating_2"
+],
+
+"quark:cooked_frog_leg": [
+  "quark:cooked_frog_leg",
+  "quark:cooked_frog_leg",
+  "eatinganimation:qu_cooked_frog_leg_eating_0",
+  "eatinganimation:qu_cooked_frog_leg_eating_1",
+  "eatinganimation:qu_cooked_frog_leg_eating_2"
+],
+
+"quark:crab_leg": [
+  "quark:crab_leg",
+  "quark:crab_leg",
+  "eatinganimation:qu_crab_leg_eating_0",
+  "eatinganimation:qu_crab_leg_eating_1",
+  "eatinganimation:qu_crab_leg_eating_2"
+],
+
+"quark:frog_leg": [
+  "quark:frog_leg",
+  "quark:frog_leg",
+  "eatinganimation:qu_frog_leg_eating_0",
+  "eatinganimation:qu_frog_leg_eating_1",
+  "eatinganimation:qu_frog_leg_eating_2"
+],
+
+"quark:golden_frog_leg": [
+  "quark:golden_frog_leg",
+  "quark:golden_frog_leg",
+  "eatinganimation:qu_golden_frog_leg_eating_0",
+  "eatinganimation:qu_golden_frog_leg_eating_1",
+  "eatinganimation:qu_golden_frog_leg_eating_2"
+],
+"upgrade_aquatic:boiled_blue_pickerelweed": [
+  "upgrade_aquatic:boiled_blue_pickerelweed",
+  "upgrade_aquatic:boiled_blue_pickerelweed",
+  "eatinganimation:ua_boiled_blue_pickerelweed_eating_0",
+  "eatinganimation:ua_boiled_blue_pickerelweed_eating_1",
+  "eatinganimation:ua_boiled_blue_pickerelweed_eating_2"
+],
+
+"upgrade_aquatic:cooked_lionfish": [
+  "upgrade_aquatic:cooked_lionfish",
+  "upgrade_aquatic:cooked_lionfish",
+  "eatinganimation:ua_cooked_lionfish_eating_0",
+  "eatinganimation:ua_cooked_lionfish_eating_1",
+  "eatinganimation:ua_cooked_lionfish_eating_2"
+],
+
+"upgrade_aquatic:cooked_perch": [
+  "upgrade_aquatic:cooked_perch",
+  "upgrade_aquatic:cooked_perch",
+  "eatinganimation:ua_cooked_perch_eating_0",
+  "eatinganimation:ua_cooked_perch_eating_1",
+  "eatinganimation:ua_cooked_perch_eating_2"
+],
+
+"upgrade_aquatic:cooked_pike": [
+  "upgrade_aquatic:cooked_pike",
+  "upgrade_aquatic:cooked_pike",
+  "eatinganimation:ua_cooked_pike_eating_0",
+  "eatinganimation:ua_cooked_pike_eating_1",
+  "eatinganimation:ua_cooked_pike_eating_2"
+],
+
+"upgrade_aquatic:lionfish": [
+  "upgrade_aquatic:lionfish",
+  "upgrade_aquatic:lionfish",
+  "eatinganimation:ua_lionfish_eating_0",
+  "eatinganimation:ua_lionfish_eating_1",
+  "eatinganimation:ua_lionfish_eating_2"
+],
+
+"upgrade_aquatic:mulberry_bread": [
+  "upgrade_aquatic:mulberry_bread",
+  "upgrade_aquatic:mulberry_bread",
+  "eatinganimation:ua_mulberry_bread_eating_0",
+  "eatinganimation:ua_mulberry_bread_eating_1",
+  "eatinganimation:ua_mulberry_bread_eating_2"
+],
+
+"upgrade_aquatic:mulberry": [
+  "upgrade_aquatic:mulberry",
+  "upgrade_aquatic:mulberry",
+  "eatinganimation:ua_mulberry_eating_0",
+  "eatinganimation:ua_mulberry_eating_1",
+  "eatinganimation:ua_mulberry_eating_2"
+],
+
+"upgrade_aquatic:mulberry_jam_bottle": [
+  "upgrade_aquatic:mulberry_jam_bottle",
+  "upgrade_aquatic:mulberry_jam_bottle",
+  "eatinganimation:ua_mulberry_jam_bottle_eating_0",
+  "eatinganimation:ua_mulberry_jam_bottle_eating_1",
+  "eatinganimation:ua_mulberry_jam_bottle_eating_2"
+],
+
+"upgrade_aquatic:mulberry_pie": [
+  "upgrade_aquatic:mulberry_pie",
+  "upgrade_aquatic:mulberry_pie",
+  "eatinganimation:ua_mulberry_pie_eating_0",
+  "eatinganimation:ua_mulberry_pie_eating_1",
+  "eatinganimation:ua_mulberry_pie_eating_2"
+],
+
+"upgrade_aquatic:perch": [
+  "upgrade_aquatic:perch",
+  "upgrade_aquatic:perch",
+  "eatinganimation:ua_perch_eating_0",
+  "eatinganimation:ua_perch_eating_1",
+  "eatinganimation:ua_perch_eating_2"
+],
+
+"upgrade_aquatic:pike": [
+  "upgrade_aquatic:pike",
+  "upgrade_aquatic:pike",
+  "eatinganimation:ua_pike_eating_0",
+  "eatinganimation:ua_pike_eating_1",
+  "eatinganimation:ua_pike_eating_2"
+],
+"autumnity:cooked_turkey_piece": [
+  "autumnity:cooked_turkey_piece",
+  "autumnity:cooked_turkey_piece",
+  "eatinganimation:au_cooked_turkey_piece_eating_0",
+  "eatinganimation:au_cooked_turkey_piece_eating_1",
+  "eatinganimation:au_cooked_turkey_piece_eating_2"
+],
+
+"autumnity:foul_berries": [
+  "autumnity:foul_berries",
+  "autumnity:foul_berries",
+  "eatinganimation:au_foul_berries_eating_0",
+  "eatinganimation:au_foul_berries_eating_1",
+  "eatinganimation:au_foul_berries_eating_2"
+],
+
+"autumnity:foul_soup": [
+  "autumnity:foul_soup",
+  "autumnity:foul_soup",
+  "eatinganimation:au_foul_soup_eating_0",
+  "eatinganimation:au_foul_soup_eating_1",
+  "eatinganimation:au_foul_soup_eating_2"
+],
+
+"autumnity:pumpkin_bread": [
+  "autumnity:pumpkin_bread",
+  "autumnity:pumpkin_bread",
+  "eatinganimation:au_pumpkin_bread_eating_0",
+  "eatinganimation:au_pumpkin_bread_eating_1",
+  "eatinganimation:au_pumpkin_bread_eating_2"
+],
+
+"autumnity:syrup_bottle": [
+  "autumnity:syrup_bottle",
+  "autumnity:syrup_bottle",
+  "eatinganimation:au_syrup_bottle_eating_0",
+  "eatinganimation:au_syrup_bottle_eating_1",
+  "eatinganimation:au_syrup_bottle_eating_2"
+],
+
+"autumnity:turkey_piece": [
+  "autumnity:turkey_piece",
+  "autumnity:turkey_piece",
+  "eatinganimation:au_turkey_piece_eating_0",
+  "eatinganimation:au_turkey_piece_eating_1",
+  "eatinganimation:au_turkey_piece_eating_2"
+],
+"minecraft:apple": [
+    "minecraft:apple",
+    "minecraft:apple",
+    "eatinganimation:apple_eating_0",
+    "eatinganimation:apple_eating_1",
+    "eatinganimation:apple_eating_2"
+  ],
+  "minecraft:baked_potato": [
+    "minecraft:baked_potato",
+    "minecraft:baked_potato",
+    "eatinganimation:baked_potato_eating_0",
+    "eatinganimation:baked_potato_eating_1",
+    "eatinganimation:baked_potato_eating_2"
+  ],
+  "minecraft:beef": [
+    "minecraft:beef",
+    "minecraft:beef",
+    "eatinganimation:beef_eating_0",
+    "eatinganimation:beef_eating_1",
+    "eatinganimation:beef_eating_2"
+  ],
+  "minecraft:beetroot": [
+    "minecraft:beetroot",
+    "minecraft:beetroot",
+    "eatinganimation:beetroot_eating_0",
+    "eatinganimation:beetroot_eating_1",
+    "eatinganimation:beetroot_eating_2"
+  ],
+  "minecraft:beetroot_soup": [
+    "minecraft:beetroot_soup",
+    "minecraft:beetroot_soup",
+    "eatinganimation:beetroot_soup_eating_0",
+    "eatinganimation:beetroot_soup_eating_1",
+    "eatinganimation:beetroot_soup_eating_2"
+  ],
+  "minecraft:bread": [
+    "minecraft:bread",
+    "minecraft:bread",
+    "eatinganimation:bread_eating_0",
+    "eatinganimation:bread_eating_1",
+    "eatinganimation:bread_eating_2"
+  ],
+  "minecraft:carrot": [
+    "minecraft:carrot",
+    "minecraft:carrot",
+    "eatinganimation:carrot_eating_0",
+    "eatinganimation:carrot_eating_1",
+    "eatinganimation:carrot_eating_2"
+  ],
+  "minecraft:chicken": [
+    "minecraft:chicken",
+    "minecraft:chicken",
+    "eatinganimation:chicken_eating_0",
+    "eatinganimation:chicken_eating_1",
+    "eatinganimation:chicken_eating_2"
+  ],
+  "minecraft:chorus_fruit": [
+    "minecraft:chorus_fruit",
+    "minecraft:chorus_fruit",
+    "eatinganimation:chorus_fruit_eating_0",
+    "eatinganimation:chorus_fruit_eating_1",
+    "eatinganimation:chorus_fruit_eating_2"
+  ],
+  "minecraft:cod": [
+    "minecraft:cod",
+    "minecraft:cod",
+    "eatinganimation:cod_eating_0",
+    "eatinganimation:cod_eating_1",
+    "eatinganimation:cod_eating_2"
+  ],
+  "minecraft:cooked_beef": [
+    "minecraft:cooked_beef",
+    "minecraft:cooked_beef",
+    "eatinganimation:cooked_beef_eating_0",
+    "eatinganimation:cooked_beef_eating_1",
+    "eatinganimation:cooked_beef_eating_2"
+  ],
+  "minecraft:cooked_chicken": [
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_chicken",
+    "eatinganimation:cooked_chicken_eating_0",
+    "eatinganimation:cooked_chicken_eating_1",
+    "eatinganimation:cooked_chicken_eating_2"
+  ],
+  "minecraft:cooked_cod": [
+    "minecraft:cooked_cod",
+    "minecraft:cooked_cod",
+    "eatinganimation:cooked_cod_eating_0",
+    "eatinganimation:cooked_cod_eating_1",
+    "eatinganimation:cooked_cod_eating_2"
+  ],
+  "minecraft:cooked_mutton": [
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_mutton",
+    "eatinganimation:cooked_mutton_eating_0",
+    "eatinganimation:cooked_mutton_eating_1",
+    "eatinganimation:cooked_mutton_eating_2"
+  ],
+  "minecraft:cooked_porkchop": [
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_porkchop",
+    "eatinganimation:cooked_porkchop_eating_0",
+    "eatinganimation:cooked_porkchop_eating_1",
+    "eatinganimation:cooked_porkchop_eating_2"
+  ],
+  "minecraft:cooked_rabbit": [
+    "minecraft:cooked_rabbit",
+    "minecraft:cooked_rabbit",
+    "eatinganimation:cooked_rabbit_eating_0",
+    "eatinganimation:cooked_rabbit_eating_1",
+    "eatinganimation:cooked_rabbit_eating_2"
+  ],
+  "minecraft:cookie": [
+    "minecraft:cookie",
+    "minecraft:cookie",
+    "eatinganimation:cookie_eating_0",
+    "eatinganimation:cookie_eating_1",
+    "eatinganimation:cookie_eating_2"
+  ],
+  "minecraft:dried_kelp": [
+    "minecraft:dried_kelp",
+    "minecraft:dried_kelp",
+    "eatinganimation:dried_kelp_eating_0",
+    "eatinganimation:dried_kelp_eating_1",
+    "eatinganimation:dried_kelp_eating_2"
+  ],
+  "minecraft:glow_berries": [
+    "minecraft:glow_berries",
+    "minecraft:glow_berries",
+    "eatinganimation:glow_berries_eating_0",
+    "eatinganimation:glow_berries_eating_1",
+    "eatinganimation:glow_berries_eating_2"
+  ],
+  "minecraft:golden_apple": [
+    "minecraft:golden_apple",
+    "minecraft:golden_apple",
+    "eatinganimation:golden_apple_eating_0",
+    "eatinganimation:golden_apple_eating_1",
+    "eatinganimation:golden_apple_eating_2"
+  ],
+  "minecraft:golden_carrot": [
+    "minecraft:golden_carrot",
+    "minecraft:golden_carrot",
+    "eatinganimation:golden_carrot_eating_0",
+    "eatinganimation:golden_carrot_eating_1",
+    "eatinganimation:golden_carrot_eating_2"
+  ],
+  "minecraft:honey_bottle": [
+    "minecraft:honey_bottle",
+    "minecraft:honey_bottle",
+    "eatinganimation:honey_bottle_drinking_0",
+    "eatinganimation:honey_bottle_drinking_1",
+    "eatinganimation:honey_bottle_drinking_2"
+  ],
+  "minecraft:melon_slice": [
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "eatinganimation:melon_slice_eating_0",
+    "eatinganimation:melon_slice_eating_1",
+    "eatinganimation:melon_slice_eating_2"
+  ],
+  "minecraft:milk_bucket": [
+    "minecraft:milk_bucket",
+    "minecraft:milk_bucket",
+    "eatinganimation:milk_bucket_drinking_0",
+    "eatinganimation:milk_bucket_drinking_1",
+    "eatinganimation:milk_bucket_drinking_2"
+  ],
+  "minecraft:mushroom_stew": [
+    "minecraft:mushroom_stew",
+    "minecraft:mushroom_stew",
+    "eatinganimation:mushroom_stew_eating_0",
+    "eatinganimation:mushroom_stew_eating_1",
+    "eatinganimation:mushroom_stew_eating_2"
+  ],
+  "minecraft:mutton": [
+    "minecraft:mutton",
+    "minecraft:mutton",
+    "eatinganimation:mutton_eating_0",
+    "eatinganimation:mutton_eating_1",
+    "eatinganimation:mutton_eating_2"
+  ],
+  "minecraft:poisonous_potato": [
+    "minecraft:poisonous_potato",
+    "minecraft:poisonous_potato",
+    "eatinganimation:poisonous_potato_eating_0",
+    "eatinganimation:poisonous_potato_eating_1",
+    "eatinganimation:poisonous_potato_eating_2"
+  ],
+  "minecraft:porkchop": [
+    "minecraft:porkchop",
+    "minecraft:porkchop",
+    "eatinganimation:porkchop_eating_0",
+    "eatinganimation:porkchop_eating_1",
+    "eatinganimation:porkchop_eating_2"
+  ],
+  "minecraft:potato": [
+    "minecraft:potato",
+    "minecraft:potato",
+    "eatinganimation:potato_eating_0",
+    "eatinganimation:potato_eating_1",
+    "eatinganimation:potato_eating_2"
+  ],
+  "minecraft:pufferfish": [
+    "minecraft:pufferfish",
+    "minecraft:pufferfish",
+    "eatinganimation:pufferfish_eating_0",
+    "eatinganimation:pufferfish_eating_1",
+    "eatinganimation:pufferfish_eating_2"
+  ],
+  "minecraft:pumpkin_pie": [
+    "minecraft:pumpkin_pie",
+    "minecraft:pumpkin_pie",
+    "eatinganimation:pumpkin_pie_eating_0",
+    "eatinganimation:pumpkin_pie_eating_1",
+    "eatinganimation:pumpkin_pie_eating_2"
+  ],
+  "minecraft:rabbit": [
+    "minecraft:rabbit",
+    "minecraft:rabbit",
+    "eatinganimation:rabbit_eating_0",
+    "eatinganimation:rabbit_eating_1",
+    "eatinganimation:rabbit_eating_2"
+  ],
+  "minecraft:rabbit_stew": [
+    "minecraft:rabbit_stew",
+    "minecraft:rabbit_stew",
+    "eatinganimation:rabbit_stew_eating_0",
+    "eatinganimation:rabbit_stew_eating_1",
+    "eatinganimation:rabbit_stew_eating_2"
+  ],
+  "minecraft:rotten_flesh": [
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    "eatinganimation:rotten_flesh_eating_0",
+    "eatinganimation:rotten_flesh_eating_1",
+    "eatinganimation:rotten_flesh_eating_2"
+  ],
+  "minecraft:salmon": [
+    "minecraft:salmon",
+    "minecraft:salmon",
+    "eatinganimation:salmon_eating_0",
+    "eatinganimation:salmon_eating_1",
+    "eatinganimation:salmon_eating_2"
+  ],
+  "minecraft:spider_eye": [
+    "minecraft:spider_eye",
+    "minecraft:spider_eye",
+    "eatinganimation:spider_eye_eating_0",
+    "eatinganimation:spider_eye_eating_1",
+    "eatinganimation:spider_eye_eating_2"
+  ],
+  "minecraft:suspicious_stew": [
+    "minecraft:suspicious_stew",
+    "minecraft:suspicious_stew",
+    "eatinganimation:suspicious_stew_eating_0",
+    "eatinganimation:suspicious_stew_eating_1",
+    "eatinganimation:suspicious_stew_eating_2"
+  ],
+  "minecraft:sweet_berries": [
+    "minecraft:sweet_berries",
+    "minecraft:sweet_berries",
+    "eatinganimation:sweet_berries_eating_0",
+    "eatinganimation:sweet_berries_eating_1",
+    "eatinganimation:sweet_berries_eating_2"
+  ],
+  "minecraft:tropical_fish": [
+    "minecraft:tropical_fish",
+    "minecraft:tropical_fish",
+    "eatinganimation:tropical_fish_eating_0",
+    "eatinganimation:tropical_fish_eating_1",
+    "eatinganimation:tropical_fish_eating_2"
+  ],
+  "crittersandcompanions:koi_fish": [
+    "crittersandcompanions:koi_fish",
+    "crittersandcompanions:koi_fish",
+    "crittersandcompanions:koi_fish_eating_0",
+    "crittersandcompanions:koi_fish_eating_1",
+    "crittersandcompanions:koi_fish_eating_2"
+    ],
+    "yungscavebiomes:prickly_peach": [
+    "yungscavebiomes:prickly_peach",
+    "yungscavebiomes:prickly_peach",
+    "yungscavebiomes:prickly_peach_eating_0",
+    "yungscavebiomes:prickly_peach_eating_1",
+    "yungscavebiomes:prickly_peach_eating_2"
+    ],
+  "fruitsdelight:apple_jello": [
+        "fruitsdelight:apple_jello",
+        "fruitsdelight:apple_jello",
+        "fruitsdelight:apple_jello_eating_0",
+        "fruitsdelight:apple_jello_eating_1",
+        "fruitsdelight:apple_jello_eating_2"
+    ],
+    "fruitsdelight:baked_durian": [
+        "fruitsdelight:baked_durian",
+        "fruitsdelight:baked_durian",
+        "fruitsdelight:baked_durian_eating_0",
+        "fruitsdelight:baked_durian_eating_1",
+        "fruitsdelight:baked_durian_eating_2"
+    ],
+    "fruitsdelight:baked_pear": [
+        "fruitsdelight:baked_pear",
+        "fruitsdelight:baked_pear",
+        "fruitsdelight:baked_pear_eating_0",
+        "fruitsdelight:baked_pear_eating_1",
+        "fruitsdelight:baked_pear_eating_2"
+    ],
+    "fruitsdelight:bayberry": [
+        "fruitsdelight:bayberry",
+        "fruitsdelight:bayberry",
+        "fruitsdelight:bayberry_eating_0",
+        "fruitsdelight:bayberry_eating_1",
+        "fruitsdelight:bayberry_eating_2"
+    ],
+    "fruitsdelight:bayberry_cookie": [
+        "fruitsdelight:bayberry_cookie",
+        "fruitsdelight:bayberry_cookie",
+        "fruitsdelight:bayberry_cookie_eating_0",
+        "fruitsdelight:bayberry_cookie_eating_1",
+        "fruitsdelight:bayberry_cookie_eating_2"
+    ],
+    "fruitsdelight:bayberry_jello": [
+        "fruitsdelight:bayberry_jello",
+        "fruitsdelight:bayberry_jello",
+        "fruitsdelight:bayberry_jello_eating_0",
+        "fruitsdelight:bayberry_jello_eating_1",
+        "fruitsdelight:bayberry_jello_eating_2"
+    ],
+    "fruitsdelight:bayberry_soup": [
+        "fruitsdelight:bayberry_soup",
+        "fruitsdelight:bayberry_soup",
+        "fruitsdelight:bayberry_soup_eating_0",
+        "fruitsdelight:bayberry_soup_eating_1",
+        "fruitsdelight:bayberry_soup_eating_2"
+    ],
+    "fruitsdelight:bellini_cocktail": [
+        "fruitsdelight:bellini_cocktail",
+        "fruitsdelight:bellini_cocktail",
+        "fruitsdelight:bellini_cocktail_eating_0",
+        "fruitsdelight:bellini_cocktail_eating_1",
+        "fruitsdelight:bellini_cocktail_eating_2"
+    ],
+    "fruitsdelight:blueberry": [
+        "fruitsdelight:blueberry",
+        "fruitsdelight:blueberry",
+        "fruitsdelight:blueberry_eating_0",
+        "fruitsdelight:blueberry_eating_1",
+        "fruitsdelight:blueberry_eating_2"
+    ],
+    "fruitsdelight:blueberry_custard": [
+        "fruitsdelight:blueberry_custard",
+        "fruitsdelight:blueberry_custard",
+        "fruitsdelight:blueberry_custard_eating_0",
+        "fruitsdelight:blueberry_custard_eating_1",
+        "fruitsdelight:blueberry_custard_eating_2"
+    ],
+    "fruitsdelight:blueberry_jello": [
+        "fruitsdelight:blueberry_jello",
+        "fruitsdelight:blueberry_jello",
+        "fruitsdelight:blueberry_jello_eating_0",
+        "fruitsdelight:blueberry_jello_eating_1",
+        "fruitsdelight:blueberry_jello_eating_2"
+    ],
+    "fruitsdelight:blueberry_muffin": [
+        "fruitsdelight:blueberry_muffin",
+        "fruitsdelight:blueberry_muffin",
+        "fruitsdelight:blueberry_muffin_eating_0",
+        "fruitsdelight:blueberry_muffin_eating_1",
+        "fruitsdelight:blueberry_muffin_eating_2"
+    ],
+    "fruitsdelight:bowl_of_pineapple_fried_rice": [
+        "fruitsdelight:bowl_of_pineapple_fried_rice",
+        "fruitsdelight:bowl_of_pineapple_fried_rice",
+        "fruitsdelight:bowl_of_pineapple_fried_rice_eating_0",
+        "fruitsdelight:bowl_of_pineapple_fried_rice_eating_1",
+        "fruitsdelight:bowl_of_pineapple_fried_rice_eating_2"
+    ],
+    "fruitsdelight:chorus_jello": [
+        "fruitsdelight:chorus_jello",
+        "fruitsdelight:chorus_jello",
+        "fruitsdelight:chorus_jello_eating_0",
+        "fruitsdelight:chorus_jello_eating_1",
+        "fruitsdelight:chorus_jello_eating_2"
+    ],
+    "fruitsdelight:cranberry": [
+        "fruitsdelight:cranberry",
+        "fruitsdelight:cranberry",
+        "fruitsdelight:cranberry_eating_0",
+        "fruitsdelight:cranberry_eating_1",
+        "fruitsdelight:cranberry_eating_2"
+    ],
+    "fruitsdelight:cranberry_cookie": [
+        "fruitsdelight:cranberry_cookie",
+        "fruitsdelight:cranberry_cookie",
+        "fruitsdelight:cranberry_cookie_eating_0",
+        "fruitsdelight:cranberry_cookie_eating_1",
+        "fruitsdelight:cranberry_cookie_eating_2"
+    ],
+    "fruitsdelight:cranberry_jello": [
+        "fruitsdelight:cranberry_jello",
+        "fruitsdelight:cranberry_jello",
+        "fruitsdelight:cranberry_jello_eating_0",
+        "fruitsdelight:cranberry_jello_eating_1",
+        "fruitsdelight:cranberry_jello_eating_2"
+    ],
+    "fruitsdelight:cranberry_muffin": [
+        "fruitsdelight:cranberry_muffin",
+        "fruitsdelight:cranberry_muffin",
+        "fruitsdelight:cranberry_muffin_eating_0",
+        "fruitsdelight:cranberry_muffin_eating_1",
+        "fruitsdelight:cranberry_muffin_eating_2"
+    ],
+    "fruitsdelight:dried_persimmon": [
+        "fruitsdelight:dried_persimmon",
+        "fruitsdelight:dried_persimmon",
+        "fruitsdelight:dried_persimmon_eating_0",
+        "fruitsdelight:dried_persimmon_eating_1",
+        "fruitsdelight:dried_persimmon_eating_2"
+    ],
+    "fruitsdelight:durian_flesh": [
+        "fruitsdelight:durian_flesh",
+        "fruitsdelight:durian_flesh",
+        "fruitsdelight:durian_flesh_eating_0",
+        "fruitsdelight:durian_flesh_eating_1",
+        "fruitsdelight:durian_flesh_eating_2"
+    ],
+    "fruitsdelight:durian_jello": [
+        "fruitsdelight:durian_jello",
+        "fruitsdelight:durian_jello",
+        "fruitsdelight:durian_jello_eating_0",
+        "fruitsdelight:durian_jello_eating_1",
+        "fruitsdelight:durian_jello_eating_2"
+    ],
+    "fruitsdelight:durian_pie": [
+        "fruitsdelight:durian_pie",
+        "fruitsdelight:durian_pie",
+        "fruitsdelight:durian_pie_eating_0",
+        "fruitsdelight:durian_pie_eating_1",
+        "fruitsdelight:durian_pie_eating_2"
+    ],
+    "fruitsdelight:fig": [
+        "fruitsdelight:fig",
+        "fruitsdelight:fig",
+        "fruitsdelight:fig_eating_0",
+        "fruitsdelight:fig_eating_1",
+        "fruitsdelight:fig_eating_2"
+    ],
+    "fruitsdelight:fig_chicken_stew": [
+        "fruitsdelight:fig_chicken_stew",
+        "fruitsdelight:fig_chicken_stew",
+        "fruitsdelight:fig_chicken_stew_eating_0",
+        "fruitsdelight:fig_chicken_stew_eating_1",
+        "fruitsdelight:fig_chicken_stew_eating_2"
+    ],
+    "fruitsdelight:fig_jello": [
+        "fruitsdelight:fig_jello",
+        "fruitsdelight:fig_jello",
+        "fruitsdelight:fig_jello_eating_0",
+        "fruitsdelight:fig_jello_eating_1",
+        "fruitsdelight:fig_jello_eating_2"
+    ],
+    "fruitsdelight:fig_pudding_slice": [
+        "fruitsdelight:fig_pudding_slice",
+        "fruitsdelight:fig_pudding_slice",
+        "fruitsdelight:fig_pudding_slice_eating_0",
+        "fruitsdelight:fig_pudding_slice_eating_1",
+        "fruitsdelight:fig_pudding_slice_eating_2"
+    ],
+    "fruitsdelight:fig_tart": [
+        "fruitsdelight:fig_tart",
+        "fruitsdelight:fig_tart",
+        "fruitsdelight:fig_tart_eating_0",
+        "fruitsdelight:fig_tart_eating_1",
+        "fruitsdelight:fig_tart_eating_2"
+    ],
+    "fruitsdelight:glowberry_jello": [
+        "fruitsdelight:glowberry_jello",
+        "fruitsdelight:glowberry_jello",
+        "fruitsdelight:glowberry_jello_eating_0",
+        "fruitsdelight:glowberry_jello_eating_1",
+        "fruitsdelight:glowberry_jello_eating_2"
+    ],
+    "fruitsdelight:hamimelon_jello": [
+        "fruitsdelight:hamimelon_jello",
+        "fruitsdelight:hamimelon_jello",
+        "fruitsdelight:hamimelon_jello_eating_0",
+        "fruitsdelight:hamimelon_jello_eating_1",
+        "fruitsdelight:hamimelon_jello_eating_2"
+    ],
+    "fruitsdelight:hamimelon_juice": [
+        "fruitsdelight:hamimelon_juice",
+        "fruitsdelight:hamimelon_juice",
+        "fruitsdelight:hamimelon_juice_eating_0",
+        "fruitsdelight:hamimelon_juice_eating_1",
+        "fruitsdelight:hamimelon_juice_eating_2"
+    ],
+    "fruitsdelight:hamimelon_popsicle": [
+        "fruitsdelight:hamimelon_popsicle",
+        "fruitsdelight:hamimelon_popsicle",
+        "fruitsdelight:hamimelon_popsicle_eating_0",
+        "fruitsdelight:hamimelon_popsicle_eating_1",
+        "fruitsdelight:hamimelon_popsicle_eating_2"
+    ],
+    "fruitsdelight:hamimelon_shaved_ice": [
+        "fruitsdelight:hamimelon_shaved_ice",
+        "fruitsdelight:hamimelon_shaved_ice",
+        "fruitsdelight:hamimelon_shaved_ice_eating_0",
+        "fruitsdelight:hamimelon_shaved_ice_eating_1",
+        "fruitsdelight:hamimelon_shaved_ice_eating_2"
+    ],
+    "fruitsdelight:hamimelon_slice": [
+        "fruitsdelight:hamimelon_slice",
+        "fruitsdelight:hamimelon_slice",
+        "fruitsdelight:hamimelon_slice_eating_0",
+        "fruitsdelight:hamimelon_slice_eating_1",
+        "fruitsdelight:hamimelon_slice_eating_2"
+    ],
+    "fruitsdelight:hawberry": [
+        "fruitsdelight:hawberry",
+        "fruitsdelight:hawberry",
+        "fruitsdelight:hawberry_eating_0",
+        "fruitsdelight:hawberry_eating_1",
+        "fruitsdelight:hawberry_eating_2"
+    ],
+    "fruitsdelight:hawberry_jello": [
+        "fruitsdelight:hawberry_jello",
+        "fruitsdelight:hawberry_jello",
+        "fruitsdelight:hawberry_jello_eating_0",
+        "fruitsdelight:hawberry_jello_eating_1",
+        "fruitsdelight:hawberry_jello_eating_2"
+    ],
+    "fruitsdelight:hawberry_roll": [
+        "fruitsdelight:hawberry_roll",
+        "fruitsdelight:hawberry_roll",
+        "fruitsdelight:hawberry_roll_eating_0",
+        "fruitsdelight:hawberry_roll_eating_1",
+        "fruitsdelight:hawberry_roll_eating_2"
+    ],
+    "fruitsdelight:hawberry_sheet": [
+        "fruitsdelight:hawberry_sheet",
+        "fruitsdelight:hawberry_sheet",
+        "fruitsdelight:hawberry_sheet_eating_0",
+        "fruitsdelight:hawberry_sheet_eating_1",
+        "fruitsdelight:hawberry_sheet_eating_2"
+    ],
+    "fruitsdelight:hawberry_stick": [
+        "fruitsdelight:hawberry_stick",
+        "fruitsdelight:hawberry_stick",
+        "fruitsdelight:hawberry_stick_eating_0",
+        "fruitsdelight:hawberry_stick_eating_1",
+        "fruitsdelight:hawberry_stick_eating_2"
+    ],
+    "fruitsdelight:hawberry_tea": [
+        "fruitsdelight:hawberry_tea",
+        "fruitsdelight:hawberry_tea",
+        "fruitsdelight:hawberry_tea_eating_0",
+        "fruitsdelight:hawberry_tea_eating_1",
+        "fruitsdelight:hawberry_tea_eating_2"
+    ],
+    "fruitsdelight:jelly_bread": [
+        "fruitsdelight:jelly_bread",
+        "fruitsdelight:jelly_bread",
+        "fruitsdelight:jelly_bread_eating_0",
+        "fruitsdelight:jelly_bread_eating_1",
+        "fruitsdelight:jelly_bread_eating_2"
+    ],
+    "fruitsdelight:kiwi": [
+        "fruitsdelight:kiwi",
+        "fruitsdelight:kiwi",
+        "fruitsdelight:kiwi_eating_0",
+        "fruitsdelight:kiwi_eating_1",
+        "fruitsdelight:kiwi_eating_2"
+    ],
+    "fruitsdelight:kiwi_jello": [
+        "fruitsdelight:kiwi_jello",
+        "fruitsdelight:kiwi_jello",
+        "fruitsdelight:kiwi_jello_eating_0",
+        "fruitsdelight:kiwi_jello_eating_1",
+        "fruitsdelight:kiwi_jello_eating_2"
+    ],
+    "fruitsdelight:kiwi_juice": [
+        "fruitsdelight:kiwi_juice",
+        "fruitsdelight:kiwi_juice",
+        "fruitsdelight:kiwi_juice_eating_0",
+        "fruitsdelight:kiwi_juice_eating_1",
+        "fruitsdelight:kiwi_juice_eating_2"
+    ],
+    "fruitsdelight:kiwi_popsicle": [
+        "fruitsdelight:kiwi_popsicle",
+        "fruitsdelight:kiwi_popsicle",
+        "fruitsdelight:kiwi_popsicle_eating_0",
+        "fruitsdelight:kiwi_popsicle_eating_1",
+        "fruitsdelight:kiwi_popsicle_eating_2"
+    ],
+    "fruitsdelight:lemon": [
+        "fruitsdelight:lemon",
+        "fruitsdelight:lemon",
+        "fruitsdelight:lemon_eating_0",
+        "fruitsdelight:lemon_eating_1",
+        "fruitsdelight:lemon_eating_2"
+    ],
+    "fruitsdelight:lemon_cookie": [
+        "fruitsdelight:lemon_cookie",
+        "fruitsdelight:lemon_cookie",
+        "fruitsdelight:lemon_cookie_eating_0",
+        "fruitsdelight:lemon_cookie_eating_1",
+        "fruitsdelight:lemon_cookie_eating_2"
+    ],
+    "fruitsdelight:lemon_jello": [
+        "fruitsdelight:lemon_jello",
+        "fruitsdelight:lemon_jello",
+        "fruitsdelight:lemon_jello_eating_0",
+        "fruitsdelight:lemon_jello_eating_1",
+        "fruitsdelight:lemon_jello_eating_2"
+    ],
+    "fruitsdelight:lemon_juice": [
+        "fruitsdelight:lemon_juice",
+        "fruitsdelight:lemon_juice",
+        "fruitsdelight:lemon_juice_eating_0",
+        "fruitsdelight:lemon_juice_eating_1",
+        "fruitsdelight:lemon_juice_eating_2"
+    ],
+    "fruitsdelight:lemon_slice": [
+        "fruitsdelight:lemon_slice",
+        "fruitsdelight:lemon_slice",
+        "fruitsdelight:lemon_slice_eating_0",
+        "fruitsdelight:lemon_slice_eating_1",
+        "fruitsdelight:lemon_slice_eating_2"
+    ],
+    "fruitsdelight:lemon_tart": [
+        "fruitsdelight:lemon_tart",
+        "fruitsdelight:lemon_tart",
+        "fruitsdelight:lemon_tart_eating_0",
+        "fruitsdelight:lemon_tart_eating_1",
+        "fruitsdelight:lemon_tart_eating_2"
+    ],
+    "fruitsdelight:lychee": [
+        "fruitsdelight:lychee",
+        "fruitsdelight:lychee",
+        "fruitsdelight:lychee_eating_0",
+        "fruitsdelight:lychee_eating_1",
+        "fruitsdelight:lychee_eating_2"
+    ],
+    "fruitsdelight:lychee_cherry_tea": [
+        "fruitsdelight:lychee_cherry_tea",
+        "fruitsdelight:lychee_cherry_tea",
+        "fruitsdelight:lychee_cherry_tea_eating_0",
+        "fruitsdelight:lychee_cherry_tea_eating_1",
+        "fruitsdelight:lychee_cherry_tea_eating_2"
+    ],
+    "fruitsdelight:lychee_chicken": [
+        "fruitsdelight:lychee_chicken",
+        "fruitsdelight:lychee_chicken",
+        "fruitsdelight:lychee_chicken_eating_0",
+        "fruitsdelight:lychee_chicken_eating_1",
+        "fruitsdelight:lychee_chicken_eating_2"
+    ],
+    "fruitsdelight:lychee_jello": [
+        "fruitsdelight:lychee_jello",
+        "fruitsdelight:lychee_jello",
+        "fruitsdelight:lychee_jello_eating_0",
+        "fruitsdelight:lychee_jello_eating_1",
+        "fruitsdelight:lychee_jello_eating_2"
+    ],
+    "fruitsdelight:mango": [
+        "fruitsdelight:mango",
+        "fruitsdelight:mango",
+        "fruitsdelight:mango_eating_0",
+        "fruitsdelight:mango_eating_1",
+        "fruitsdelight:mango_eating_2"
+    ],
+    "fruitsdelight:mango_jello": [
+        "fruitsdelight:mango_jello",
+        "fruitsdelight:mango_jello",
+        "fruitsdelight:mango_jello_eating_0",
+        "fruitsdelight:mango_jello_eating_1",
+        "fruitsdelight:mango_jello_eating_2"
+    ],
+    "fruitsdelight:mango_milkshake": [
+        "fruitsdelight:mango_milkshake",
+        "fruitsdelight:mango_milkshake",
+        "fruitsdelight:mango_milkshake_eating_0",
+        "fruitsdelight:mango_milkshake_eating_1",
+        "fruitsdelight:mango_milkshake_eating_2"
+    ],
+    "fruitsdelight:mango_salad": [
+        "fruitsdelight:mango_salad",
+        "fruitsdelight:mango_salad",
+        "fruitsdelight:mango_salad_eating_0",
+        "fruitsdelight:mango_salad_eating_1",
+        "fruitsdelight:mango_salad_eating_2"
+    ],
+    "fruitsdelight:mango_tea": [
+        "fruitsdelight:mango_tea",
+        "fruitsdelight:mango_tea",
+        "fruitsdelight:mango_tea_eating_0",
+        "fruitsdelight:mango_tea_eating_1",
+        "fruitsdelight:mango_tea_eating_2"
+    ],
+    "fruitsdelight:mangosteen": [
+        "fruitsdelight:mangosteen",
+        "fruitsdelight:mangosteen",
+        "fruitsdelight:mangosteen_eating_0",
+        "fruitsdelight:mangosteen_eating_1",
+        "fruitsdelight:mangosteen_eating_2"
+    ],
+    "fruitsdelight:mangosteen_cake": [
+        "fruitsdelight:mangosteen_cake",
+        "fruitsdelight:mangosteen_cake",
+        "fruitsdelight:mangosteen_cake_eating_0",
+        "fruitsdelight:mangosteen_cake_eating_1",
+        "fruitsdelight:mangosteen_cake_eating_2"
+    ],
+    "fruitsdelight:mangosteen_jello": [
+        "fruitsdelight:mangosteen_jello",
+        "fruitsdelight:mangosteen_jello",
+        "fruitsdelight:mangosteen_jello_eating_0",
+        "fruitsdelight:mangosteen_jello_eating_1",
+        "fruitsdelight:mangosteen_jello_eating_2"
+    ],
+    "fruitsdelight:mangosteen_tea": [
+        "fruitsdelight:mangosteen_tea",
+        "fruitsdelight:mangosteen_tea",
+        "fruitsdelight:mangosteen_tea_eating_0",
+        "fruitsdelight:mangosteen_tea_eating_1",
+        "fruitsdelight:mangosteen_tea_eating_2"
+    ],
+    "fruitsdelight:melon_jello": [
+        "fruitsdelight:melon_jello",
+        "fruitsdelight:melon_jello",
+        "fruitsdelight:melon_jello_eating_0",
+        "fruitsdelight:melon_jello_eating_1",
+        "fruitsdelight:melon_jello_eating_2"
+    ],
+    "fruitsdelight:orange": [
+        "fruitsdelight:orange",
+        "fruitsdelight:orange",
+        "fruitsdelight:orange_eating_0",
+        "fruitsdelight:orange_eating_1",
+        "fruitsdelight:orange_eating_2"
+    ],
+    "fruitsdelight:orange_chicken": [
+        "fruitsdelight:orange_chicken",
+        "fruitsdelight:orange_chicken",
+        "fruitsdelight:orange_chicken_eating_0",
+        "fruitsdelight:orange_chicken_eating_1",
+        "fruitsdelight:orange_chicken_eating_2"
+    ],
+    "fruitsdelight:orange_jello": [
+        "fruitsdelight:orange_jello",
+        "fruitsdelight:orange_jello",
+        "fruitsdelight:orange_jello_eating_0",
+        "fruitsdelight:orange_jello_eating_1",
+        "fruitsdelight:orange_jello_eating_2"
+    ],
+    "fruitsdelight:orange_juice": [
+        "fruitsdelight:orange_juice",
+        "fruitsdelight:orange_juice",
+        "fruitsdelight:orange_juice_eating_0",
+        "fruitsdelight:orange_juice_eating_1",
+        "fruitsdelight:orange_juice_eating_2"
+    ],
+    "fruitsdelight:orange_marinated_pork": [
+        "fruitsdelight:orange_marinated_pork",
+        "fruitsdelight:orange_marinated_pork",
+        "fruitsdelight:orange_marinated_pork_eating_0",
+        "fruitsdelight:orange_marinated_pork_eating_1",
+        "fruitsdelight:orange_marinated_pork_eating_2"
+    ],
+    "fruitsdelight:orange_slice": [
+        "fruitsdelight:orange_slice",
+        "fruitsdelight:orange_slice",
+        "fruitsdelight:orange_slice_eating_0",
+        "fruitsdelight:orange_slice_eating_1",
+        "fruitsdelight:orange_slice_eating_2"
+    ],
+    "fruitsdelight:peach": [
+        "fruitsdelight:peach",
+        "fruitsdelight:peach",
+        "fruitsdelight:peach_eating_0",
+        "fruitsdelight:peach_eating_1",
+        "fruitsdelight:peach_eating_2"
+    ],
+    "fruitsdelight:peach_jello": [
+        "fruitsdelight:peach_jello",
+        "fruitsdelight:peach_jello",
+        "fruitsdelight:peach_jello_eating_0",
+        "fruitsdelight:peach_jello_eating_1",
+        "fruitsdelight:peach_jello_eating_2"
+    ],
+    "fruitsdelight:peach_tea": [
+        "fruitsdelight:peach_tea",
+        "fruitsdelight:peach_tea",
+        "fruitsdelight:peach_tea_eating_0",
+        "fruitsdelight:peach_tea_eating_1",
+        "fruitsdelight:peach_tea_eating_2"
+    ],
+    "fruitsdelight:pear": [
+        "fruitsdelight:pear",
+        "fruitsdelight:pear",
+        "fruitsdelight:pear_eating_0",
+        "fruitsdelight:pear_eating_1",
+        "fruitsdelight:pear_eating_2"
+    ],
+    "fruitsdelight:pear_jello": [
+        "fruitsdelight:pear_jello",
+        "fruitsdelight:pear_jello",
+        "fruitsdelight:pear_jello_eating_0",
+        "fruitsdelight:pear_jello_eating_1",
+        "fruitsdelight:pear_jello_eating_2"
+    ],
+    "fruitsdelight:pear_juice": [
+        "fruitsdelight:pear_juice",
+        "fruitsdelight:pear_juice",
+        "fruitsdelight:pear_juice_eating_0",
+        "fruitsdelight:pear_juice_eating_1",
+        "fruitsdelight:pear_juice_eating_2"
+    ],
+    "fruitsdelight:pear_with_rock_sugar": [
+        "fruitsdelight:pear_with_rock_sugar",
+        "fruitsdelight:pear_with_rock_sugar",
+        "fruitsdelight:pear_with_rock_sugar_eating_0",
+        "fruitsdelight:pear_with_rock_sugar_eating_1",
+        "fruitsdelight:pear_with_rock_sugar_eating_2"
+    ],
+    "fruitsdelight:persimmon": [
+        "fruitsdelight:persimmon",
+        "fruitsdelight:persimmon",
+        "fruitsdelight:persimmon_eating_0",
+        "fruitsdelight:persimmon_eating_1",
+        "fruitsdelight:persimmon_eating_2"
+    ],
+    "fruitsdelight:persimmon_cookie": [
+        "fruitsdelight:persimmon_cookie",
+        "fruitsdelight:persimmon_cookie",
+        "fruitsdelight:persimmon_cookie_eating_0",
+        "fruitsdelight:persimmon_cookie_eating_1",
+        "fruitsdelight:persimmon_cookie_eating_2"
+    ],
+    "fruitsdelight:persimmon_jello": [
+        "fruitsdelight:persimmon_jello",
+        "fruitsdelight:persimmon_jello",
+        "fruitsdelight:persimmon_jello_eating_0",
+        "fruitsdelight:persimmon_jello_eating_1",
+        "fruitsdelight:persimmon_jello_eating_2"
+    ],
+    "fruitsdelight:pineapple_jello": [
+        "fruitsdelight:pineapple_jello",
+        "fruitsdelight:pineapple_jello",
+        "fruitsdelight:pineapple_jello_eating_0",
+        "fruitsdelight:pineapple_jello_eating_1",
+        "fruitsdelight:pineapple_jello_eating_2"
+    ],
+    "fruitsdelight:pineapple_marinated_pork": [
+        "fruitsdelight:pineapple_marinated_pork",
+        "fruitsdelight:pineapple_marinated_pork",
+        "fruitsdelight:pineapple_marinated_pork_eating_0",
+        "fruitsdelight:pineapple_marinated_pork_eating_1",
+        "fruitsdelight:pineapple_marinated_pork_eating_2"
+    ],
+    "fruitsdelight:pineapple_pie": [
+        "fruitsdelight:pineapple_pie",
+        "fruitsdelight:pineapple_pie",
+        "fruitsdelight:pineapple_pie_eating_0",
+        "fruitsdelight:pineapple_pie_eating_1",
+        "fruitsdelight:pineapple_pie_eating_2"
+    ],
+    "fruitsdelight:pineapple_slice": [
+        "fruitsdelight:pineapple_slice",
+        "fruitsdelight:pineapple_slice",
+        "fruitsdelight:pineapple_slice_eating_0",
+        "fruitsdelight:pineapple_slice_eating_1",
+        "fruitsdelight:pineapple_slice_eating_2"
+    ],
+    "fruitsdelight:sweetberry_jello": [
+        "fruitsdelight:sweetberry_jello",
+        "fruitsdelight:sweetberry_jello",
+        "fruitsdelight:sweetberry_jello_eating_0",
+        "fruitsdelight:sweetberry_jello_eating_1",
+        "fruitsdelight:sweetberry_jello_eating_2"
+    ],
+    "mynethersdelight:bleeding_tartar": [
+        "mynethersdelight:bleeding_tartar",
+        "mynethersdelight:bleeding_tartar",
+        "mynethersdelight:bleeding_tartar_eating_0",
+        "mynethersdelight:bleeding_tartar_eating_1",
+        "mynethersdelight:bleeding_tartar_eating_2"
+    ],
+    "mynethersdelight:striderloaf ": [
+        "mynethersdelight:striderloaf ",
+        "mynethersdelight:striderloaf ",
+        "mynethersdelight:striderloaf _eating_0",
+        "mynethersdelight:striderloaf _eating_1",
+        "mynethersdelight:striderloaf _eating_2"
+    ],
+    "mynethersdelight:blue_tenderloin_steak": [
+        "mynethersdelight:blue_tenderloin_steak",
+        "mynethersdelight:blue_tenderloin_steak",
+        "mynethersdelight:blue_tenderloin_steak_eating_0",
+        "mynethersdelight:blue_tenderloin_steak_eating_1",
+        "mynethersdelight:blue_tenderloin_steak_eating_2"
+    ],
+    "mynethersdelight:boiled_egg": [
+        "mynethersdelight:boiled_egg",
+        "mynethersdelight:boiled_egg",
+        "mynethersdelight:boiled_egg_eating_0",
+        "mynethersdelight:boiled_egg_eating_1",
+        "mynethersdelight:boiled_egg_eating_2"
+    ],
+    "mynethersdelight:breakfast_sampler": [
+        "mynethersdelight:breakfast_sampler",
+        "mynethersdelight:breakfast_sampler",
+        "mynethersdelight:breakfast_sampler_eating_0",
+        "mynethersdelight:breakfast_sampler_eating_1",
+        "mynethersdelight:breakfast_sampler_eating_2"
+    ],
+    "mynethersdelight:bullet_pepper": [
+        "mynethersdelight:bullet_pepper",
+        "mynethersdelight:bullet_pepper",
+        "mynethersdelight:bullet_pepper_eating_0",
+        "mynethersdelight:bullet_pepper_eating_1",
+        "mynethersdelight:bullet_pepper_eating_2"
+    ],
+    "mynethersdelight:burnt_roll": [
+        "mynethersdelight:burnt_roll",
+        "mynethersdelight:burnt_roll",
+        "mynethersdelight:burnt_roll_eating_0",
+        "mynethersdelight:burnt_roll_eating_1",
+        "mynethersdelight:burnt_roll_eating_2"
+    ],
+    "mynethersdelight:chilidog": [
+        "mynethersdelight:chilidog",
+        "mynethersdelight:chilidog",
+        "mynethersdelight:chilidog_eating_0",
+        "mynethersdelight:chilidog_eating_1",
+        "mynethersdelight:chilidog_eating_2"
+    ],
+    "mynethersdelight:cooked_loin": [
+        "mynethersdelight:cooked_loin",
+        "mynethersdelight:cooked_loin",
+        "mynethersdelight:cooked_loin_eating_0",
+        "mynethersdelight:cooked_loin_eating_1",
+        "mynethersdelight:cooked_loin_eating_2"
+    ],
+    "mynethersdelight:crimson_stroganoff": [
+        "mynethersdelight:crimson_stroganoff",
+        "mynethersdelight:crimson_stroganoff",
+        "mynethersdelight:crimson_stroganoff_eating_0",
+        "mynethersdelight:crimson_stroganoff_eating_1",
+        "mynethersdelight:crimson_stroganoff_eating_2"
+    ],
+    "mynethersdelight:deviled_egg": [
+        "mynethersdelight:deviled_egg",
+        "mynethersdelight:deviled_egg",
+        "mynethersdelight:deviled_egg_eating_0",
+        "mynethersdelight:deviled_egg_eating_1",
+        "mynethersdelight:deviled_egg_eating_2"
+    ],
+    "mynethersdelight:fried_hoglin_chop": [
+        "mynethersdelight:fried_hoglin_chop",
+        "mynethersdelight:fried_hoglin_chop",
+        "mynethersdelight:fried_hoglin_chop_eating_0",
+        "mynethersdelight:fried_hoglin_chop_eating_1",
+        "mynethersdelight:fried_hoglin_chop_eating_2"
+    ],
+    "mynethersdelight:ghast_dough": [
+        "mynethersdelight:ghast_dough",
+        "mynethersdelight:ghast_dough",
+        "mynethersdelight:ghast_dough_eating_0",
+        "mynethersdelight:ghast_dough_eating_1",
+        "mynethersdelight:ghast_dough_eating_2"
+    ],
+    "mynethersdelight:ghast_salad": [
+        "mynethersdelight:ghast_salad",
+        "mynethersdelight:ghast_salad",
+        "mynethersdelight:ghast_salad_eating_0",
+        "mynethersdelight:ghast_salad_eating_1",
+        "mynethersdelight:ghast_salad_eating_2"
+    ],
+    "mynethersdelight:ghasta": [
+        "mynethersdelight:ghasta",
+        "mynethersdelight:ghasta",
+        "mynethersdelight:ghasta_eating_0",
+        "mynethersdelight:ghasta_eating_1",
+        "mynethersdelight:ghasta_eating_2"
+    ],
+    "mynethersdelight:hot_cream": [
+        "mynethersdelight:hot_cream",
+        "mynethersdelight:hot_cream",
+        "mynethersdelight:hot_cream_eating_0",
+        "mynethersdelight:hot_cream_eating_1",
+        "mynethersdelight:hot_cream_eating_2"
+    ],
+    "mynethersdelight:hot_cream_cone": [
+        "mynethersdelight:hot_cream_cone",
+        "mynethersdelight:hot_cream_cone",
+        "mynethersdelight:hot_cream_cone_eating_0",
+        "mynethersdelight:hot_cream_cone_eating_1",
+        "mynethersdelight:hot_cream_cone_eating_2"
+    ],
+    "mynethersdelight:hot_wings": [
+        "mynethersdelight:hot_wings",
+        "mynethersdelight:hot_wings",
+        "mynethersdelight:hot_wings_eating_0",
+        "mynethersdelight:hot_wings_eating_1",
+        "mynethersdelight:hot_wings_eating_2"
+    ],
+    "mynethersdelight:hot_wings_bucket": [
+        "mynethersdelight:hot_wings_bucket",
+        "mynethersdelight:hot_wings_bucket",
+        "mynethersdelight:hot_wings_bucket_eating_0",
+        "mynethersdelight:hot_wings_bucket_eating_1",
+        "mynethersdelight:hot_wings_bucket_eating_2"
+    ],
+    "mynethersdelight:hotdog": [
+        "mynethersdelight:hotdog",
+        "mynethersdelight:hotdog",
+        "mynethersdelight:hotdog_eating_0",
+        "mynethersdelight:hotdog_eating_1",
+        "mynethersdelight:hotdog_eating_2"
+    ],
+    "mynethersdelight:magma_cake_slice": [
+        "mynethersdelight:magma_cake_slice",
+        "mynethersdelight:magma_cake_slice",
+        "mynethersdelight:magma_cake_slice_eating_0",
+        "mynethersdelight:magma_cake_slice_eating_1",
+        "mynethersdelight:magma_cake_slice_eating_2"
+    ],
+    "mynethersdelight:minced_strider": [
+        "mynethersdelight:minced_strider",
+        "mynethersdelight:minced_strider",
+        "mynethersdelight:minced_strider_eating_0",
+        "mynethersdelight:minced_strider_eating_1",
+        "mynethersdelight:minced_strider_eating_2"
+    ],
+    "mynethersdelight:plate_of_stuffed_hoglin": [
+        "mynethersdelight:plate_of_stuffed_hoglin",
+        "mynethersdelight:plate_of_stuffed_hoglin",
+        "mynethersdelight:plate_of_stuffed_hoglin_eating_0",
+        "mynethersdelight:plate_of_stuffed_hoglin_eating_1",
+        "mynethersdelight:plate_of_stuffed_hoglin_eating_2"
+    ],
+    "mynethersdelight:roast_ear": [
+        "mynethersdelight:roast_ear",
+        "mynethersdelight:roast_ear",
+        "mynethersdelight:roast_ear_eating_0",
+        "mynethersdelight:roast_ear_eating_1",
+        "mynethersdelight:roast_ear_eating_2"
+    ],
+    "mynethersdelight:sausage": [
+    "mynethersdelight:sausage",
+    "mynethersdelight:sausage",
+    "mynethersdelight:sausage_eating_0",
+    "mynethersdelight:sausage_eating_1",
+    "mynethersdelight:sausage_eating_2"
+  ],
+  "mynethersdelight:strider": [
+    "mynethersdelight:strider",
+    "mynethersdelight:strider",
+    "mynethersdelight:strider_eating_0",
+    "mynethersdelight:strider_eating_1",
+    "mynethersdelight:strider_eating_2"
+  ],
+  "mynethersdelight:strider_and_grilled_fungus": [
+    "mynethersdelight:strider_and_grilled_fungus",
+    "mynethersdelight:strider_and_grilled_fungus",
+    "mynethersdelight:strider_and_grilled_fungus_eating_0",
+    "mynethersdelight:strider_and_grilled_fungus_eating_1",
+    "mynethersdelight:strider_and_grilled_fungus_eating_2"
+  ],
+  "mynethersdelight:broken_strider_egg": [
+    "mynethersdelight:broken_strider_egg",
+    "mynethersdelight:broken_strider_egg",
+    "mynethersdelight:broken_strider_egg_eating_0",
+    "mynethersdelight:broken_strider_egg_eating_1",
+    "mynethersdelight:broken_strider_egg_eating_2"
+  ],
+  "mynethersdelight:cold_striderloaf": [
+    "mynethersdelight:cold_striderloaf",
+    "mynethersdelight:cold_striderloaf",
+    "mynethersdelight:cold_striderloaf_eating_0",
+    "mynethersdelight:cold_striderloaf_eating_1",
+    "mynethersdelight:cold_striderloaf_eating_2"
+  ],
+  "mynethersdelight:ghasta_with_cream": [
+    "mynethersdelight:ghasta_with_cream",
+    "mynethersdelight:ghasta_with_cream",
+    "mynethersdelight:ghasta_with_cream_eating_0",
+    "mynethersdelight:ghasta_with_cream_eating_1",
+    "mynethersdelight:ghasta_with_cream_eating_2"
+  ],
+  "mynethersdelight:loin": [
+    "mynethersdelight:loin",
+    "mynethersdelight:loin",
+    "mynethersdelight:loin_eating_0",
+    "mynethersdelight:loin_eating_1",
+    "mynethersdelight:loin_eating_2"
+  ],
+  "mynethersdelight:plate_of_hoglin_ham": [
+    "mynethersdelight:plate_of_hoglin_ham",
+    "mynethersdelight:plate_of_hoglin_ham",
+    "mynethersdelight:plate_of_hoglin_ham_eating_0",
+    "mynethersdelight:plate_of_hoglin_ham_eating_1",
+    "mynethersdelight:plate_of_hoglin_ham_eating_2"
+  ],
+  "mynethersdelight:plate_of_stuffed_snout": [
+    "mynethersdelight:plate_of_stuffed_snout",
+    "mynethersdelight:plate_of_stuffed_snout",
+    "mynethersdelight:plate_of_stuffed_snout_eating_0",
+    "mynethersdelight:plate_of_stuffed_snout_eating_1",
+    "mynethersdelight:plate_of_stuffed_snout_eating_2"
+  ],
+    "mynethersdelight:roast_stuffed_hoglin": [
+        "mynethersdelight:roast_stuffed_hoglin",
+        "mynethersdelight:roast_stuffed_hoglin",
+        "mynethersdelight:roast_stuffed_hoglin_eating_0",
+        "mynethersdelight:roast_stuffed_hoglin_eating_1",
+        "mynethersdelight:roast_stuffed_hoglin_eating_2"
+    ],
+    "mynethersdelight:roasted_sausage": [
+        "mynethersdelight:roasted_sausage",
+        "mynethersdelight:roasted_sausage",
+        "mynethersdelight:roasted_sausage_eating_0",
+        "mynethersdelight:roasted_sausage_eating_1",
+        "mynethersdelight:roasted_sausage_eating_2"
+    ],
+    "mynethersdelight:rock_soup": [
+        "mynethersdelight:rock_soup",
+        "mynethersdelight:rock_soup",
+        "mynethersdelight:rock_soup_eating_0",
+        "mynethersdelight:rock_soup_eating_1",
+        "mynethersdelight:rock_soup_eating_2"
+    ],
+    "mynethersdelight:sausage_and_potatoes": [
+        "mynethersdelight:sausage_and_potatoes",
+        "mynethersdelight:sausage_and_potatoes",
+        "mynethersdelight:sausage_and_potatoes_eating_0",
+        "mynethersdelight:sausage_and_potatoes_eating_1",
+        "mynethersdelight:sausage_and_potatoes_eating_2"
+    ],
+    "mynethersdelight:spicy_cotton": [
+        "mynethersdelight:spicy_cotton",
+        "mynethersdelight:spicy_cotton",
+        "mynethersdelight:spicy_cotton_eating_0",
+        "mynethersdelight:spicy_cotton_eating_1",
+        "mynethersdelight:spicy_cotton_eating_2"
+    ],
+    "mynethersdelight:spicy_curry": [
+        "mynethersdelight:spicy_curry",
+        "mynethersdelight:spicy_curry",
+        "mynethersdelight:spicy_curry_eating_0",
+        "mynethersdelight:spicy_curry_eating_1",
+        "mynethersdelight:spicy_curry_eating_2"
+    ],
+    "mynethersdelight:spicy_hoglin_stew": [
+        "mynethersdelight:spicy_hoglin_stew",
+        "mynethersdelight:spicy_hoglin_stew",
+        "mynethersdelight:spicy_hoglin_stew_eating_0",
+        "mynethersdelight:spicy_hoglin_stew_eating_1",
+        "mynethersdelight:spicy_hoglin_stew_eating_2"
+    ],
+    "mynethersdelight:spicy_noodle_soup": [
+        "mynethersdelight:spicy_noodle_soup",
+        "mynethersdelight:spicy_noodle_soup",
+        "mynethersdelight:spicy_noodle_soup_eating_0",
+        "mynethersdelight:spicy_noodle_soup_eating_1",
+        "mynethersdelight:spicy_noodle_soup_eating_2"
+    ],
+    "mynethersdelight:spicy_skewer": [
+        "mynethersdelight:spicy_skewer",
+        "mynethersdelight:spicy_skewer",
+        "mynethersdelight:spicy_skewer_eating_0",
+        "mynethersdelight:spicy_skewer_eating_1",
+        "mynethersdelight:spicy_skewer_eating_2"
+    ],
+    "mynethersdelight:strider_stew": [
+        "mynethersdelight:strider_stew",
+        "mynethersdelight:strider_stew",
+        "mynethersdelight:strider_stew_eating_0",
+        "mynethersdelight:strider_stew_eating_1",
+        "mynethersdelight:strider_stew_eating_2"
+    ],
+    "mynethersdelight:stuffed_hoglin": [
+        "mynethersdelight:stuffed_hoglin",
+        "mynethersdelight:stuffed_hoglin",
+        "mynethersdelight:stuffed_hoglin_eating_0",
+        "mynethersdelight:stuffed_hoglin_eating_1",
+        "mynethersdelight:stuffed_hoglin_eating_2"
+    ],
+        "create:bar_of_chocolate": [
+        "create:bar_of_chocolate",
+        "create:bar_of_chocolate",
+        "create:bar_of_chocolate_eating_0",
+        "create:bar_of_chocolate_eating_1",
+        "create:bar_of_chocolate_eating_2"
+    ],
+    "create:chocolate_glazed_berries": [
+        "create:chocolate_glazed_berries",
+        "create:chocolate_glazed_berries",
+        "create:chocolate_glazed_berries_eating_0",
+        "create:chocolate_glazed_berries_eating_1",
+        "create:chocolate_glazed_berries_eating_2"
+    ],
+    "create:honeyed_apple": [
+        "create:honeyed_apple",
+        "create:honeyed_apple",
+        "create:honeyed_apple_eating_0",
+        "create:honeyed_apple_eating_1",
+        "create:honeyed_apple_eating_2"
+    ],
+    "create:sweet_roll": [
+        "create:sweet_roll",
+        "create:sweet_roll",
+        "create:sweet_roll_eating_0",
+        "create:sweet_roll_eating_1",
+        "create:sweet_roll_eating_2"
+    ],
+    "create:builders_tea": [
+        "create:builders_tea",
+        "create:builders_tea",
+        "builders_tea_eating_0",
+        "builders_tea_eating_1",
+        "builders_tea_eating_2"
+    ],
+    "call_of_yucutan:chili_pepper": [
+        "call_of_yucutan:chili_pepper",
+        "call_of_yucutan:chili_pepper",
+        "call_of_yucutan:chili_pepper_eating_0",
+        "call_of_yucutan:chili_pepper_eating_1",
+        "call_of_yucutan:chili_pepper_eating_2"
+    ],
+    "call_of_yucutan:xocolatl": [
+        "call_of_yucutan:xocolatl",
+        "call_of_yucutan:xocolatl",
+        "call_of_yucutan:xocolatl_eating_0",
+        "call_of_yucutan:xocolatl_eating_1",
+        "call_of_yucutan:xocolatl_eating_2"
+    ],
+    "sn0wfrogs_capybaras:mandarin": [
+        "sn0wfrogs_capybaras:mandarin",
+        "sn0wfrogs_capybaras:mandarin",
+        "sn0wfrogs_capybaras:mandarin_eating_0",
+        "sn0wfrogs_capybaras:mandarin_eating_1",
+        "sn0wfrogs_capybaras:mandarin_eating_2"
+    ],
+    "cold_sweat:soul_sprout": [
+        "cold_sweat:soul_sprout",
+        "cold_sweat:soul_sprout",
+        "cold_sweat:soul_sprout_eating_0",
+        "cold_sweat:soul_sprout_eating_1",
+        "cold_sweat:soul_sprout_eating_2"
+    ],
+    "endersdelight:chorus_pie_slice": [
+        "endersdelight:chorus_pie_slice",
+        "endersdelight:chorus_pie_slice",
+        "endersdelight:chorus_pie_slice_eating_0",
+        "endersdelight:chorus_pie_slice_eating_1",
+        "endersdelight:chorus_pie_slice_eating_2"
+    ],
+    "endersdelight:chorus_stew": [
+        "endersdelight:chorus_stew",
+        "endersdelight:chorus_stew",
+        "endersdelight:chorus_stew_eating_0",
+        "endersdelight:chorus_stew_eating_1",
+        "endersdelight:chorus_stew_eating_2"
+    ],
+    "endersdelight:chorus_stew_wood": [
+        "endersdelight:chorus_stew_wood",
+        "endersdelight:chorus_stew_wood",
+        "endersdelight:chorus_stew_wood_eating_0",
+        "endersdelight:chorus_stew_wood_eating_1",
+        "endersdelight:chorus_stew_wood_eating_2"
+    ],
+    "endersdelight:crawling_sandwich": [
+        "endersdelight:crawling_sandwich",
+        "endersdelight:crawling_sandwich",
+        "endersdelight:crawling_sandwich_eating_0",
+        "endersdelight:crawling_sandwich_eating_1",
+        "endersdelight:crawling_sandwich_eating_2"
+    ],
+    "endersdelight:crispy_skewer": [
+        "endersdelight:crispy_skewer",
+        "endersdelight:crispy_skewer",
+        "endersdelight:crispy_skewer_eating_0",
+        "endersdelight:crispy_skewer_eating_1",
+        "endersdelight:crispy_skewer_eating_2"
+    ],
+    "endersdelight:ender_paella": [
+        "endersdelight:ender_paella",
+        "endersdelight:ender_paella",
+        "endersdelight:ender_paella_eating_0",
+        "endersdelight:ender_paella_eating_1",
+        "endersdelight:ender_paella_eating_2"
+    ],
+    "endersdelight:ender_paella_wood": [
+        "endersdelight:ender_paella_wood",
+        "endersdelight:ender_paella_wood",
+        "endersdelight:ender_paella_wood_eating_0",
+        "endersdelight:ender_paella_wood_eating_1",
+        "endersdelight:ender_paella_wood_eating_2"
+    ],
+    "endersdelight:endermite_stew": [
+        "endersdelight:endermite_stew",
+        "endersdelight:endermite_stew",
+        "endersdelight:endermite_stew_eating_0",
+        "endersdelight:endermite_stew_eating_1",
+        "endersdelight:endermite_stew_eating_2"
+    ],
+    "endersdelight:endermite_stew_wood": [
+        "endersdelight:endermite_stew_wood",
+        "endersdelight:endermite_stew_wood",
+        "endersdelight:endermite_stew_wood_eating_0",
+        "endersdelight:endermite_stew_wood_eating_1",
+        "endersdelight:endermite_stew_wood_eating_2"
+    ],
+    "endersdelight:mite_crust": [
+        "endersdelight:mite_crust",
+        "endersdelight:mite_crust",
+        "endersdelight:mite_crust_eating_0",
+        "endersdelight:mite_crust_eating_1",
+        "endersdelight:mite_crust_eating_2"
+    ],
+    "endersdelight:pearl_pasta": [
+        "endersdelight:pearl_pasta",
+        "endersdelight:pearl_pasta",
+        "endersdelight:pearl_pasta_eating_0",
+        "endersdelight:pearl_pasta_eating_1",
+        "endersdelight:pearl_pasta_eating_2"
+    ],
+    "endersdelight:pearl_pasta_wood": [
+        "endersdelight:pearl_pasta_wood",
+        "endersdelight:pearl_pasta_wood",
+        "endersdelight:pearl_pasta_wood_eating_0",
+        "endersdelight:pearl_pasta_wood_eating_1",
+        "endersdelight:pearl_pasta_wood_eating_2"
+    ],
+    "endersdelight:shulker_filet": [
+        "endersdelight:shulker_filet",
+        "endersdelight:shulker_filet",
+        "endersdelight:shulker_filet_eating_0",
+        "endersdelight:shulker_filet_eating_1",
+        "endersdelight:shulker_filet_eating_2"
+    ],
+    "endersdelight:shulker_mollusk": [
+        "endersdelight:shulker_mollusk",
+        "endersdelight:shulker_mollusk",
+        "endersdelight:shulker_mollusk_eating_0",
+        "endersdelight:shulker_mollusk_eating_1",
+        "endersdelight:shulker_mollusk_eating_2"
+    ],
+    "endersdelight:strange_eclair": [
+        "endersdelight:strange_eclair",
+        "endersdelight:strange_eclair",
+        "endersdelight:strange_eclair_eating_0",
+        "endersdelight:strange_eclair_eating_1",
+        "endersdelight:strange_eclair_eating_2"
+    ],
+    "endersdelight:stuffed_shulker_bowl": [
+        "endersdelight:stuffed_shulker_bowl",
+        "endersdelight:stuffed_shulker_bowl",
+        "endersdelight:stuffed_shulker_bowl_eating_0",
+        "endersdelight:stuffed_shulker_bowl_eating_1",
+        "endersdelight:stuffed_shulker_bowl_eating_2"
+    ],
+    "endersdelight:twisted_cereal": [
+        "endersdelight:twisted_cereal",
+        "endersdelight:twisted_cereal",
+        "endersdelight:twisted_cereal_eating_0",
+        "endersdelight:twisted_cereal_eating_1",
+        "endersdelight:twisted_cereal_eating_2"
+    ],
+    "endersdelight:twisted_cereal_wood": [
+        "endersdelight:twisted_cereal_wood",
+        "endersdelight:twisted_cereal_wood",
+        "endersdelight:twisted_cereal_wood_eating_0",
+        "endersdelight:twisted_cereal_wood_eating_1",
+        "endersdelight:twisted_cereal_wood_eating_2"
+    ],
+    "endersdelight:uncanny_cookies": [
+        "endersdelight:uncanny_cookies",
+        "endersdelight:uncanny_cookies",
+        "endersdelight:uncanny_cookies_eating_0",
+        "endersdelight:uncanny_cookies_eating_1",
+        "endersdelight:uncanny_cookies_eating_2"
+    ],
+    "naturalist:bass": [
+        "naturalist:bass",
+        "naturalist:bass",
+        "naturalist:bass_eating_0",
+        "naturalist:bass_eating_1",
+        "naturalist:bass_eating_2"
+    ],
+    "naturalist:catfish": [
+        "naturalist:catfish",
+        "naturalist:catfish",
+        "naturalist:catfish_eating_0",
+        "naturalist:catfish_eating_1",
+        "naturalist:catfish_eating_2"
+    ],
+    "naturalist:cooked_bass": [
+        "naturalist:cooked_bass",
+        "naturalist:cooked_bass",
+        "naturalist:cooked_bass_eating_0",
+        "naturalist:cooked_bass_eating_1",
+        "naturalist:cooked_bass_eating_2"
+    ],
+    "naturalist:cooked_catfish": [
+        "naturalist:cooked_catfish",
+        "naturalist:cooked_catfish",
+        "naturalist:cooked_catfish_eating_0",
+        "naturalist:cooked_catfish_eating_1",
+        "naturalist:cooked_catfish_eating_2"
+    ],
+    "naturalist:cooked_drumstick": [
+        "naturalist:cooked_drumstick",
+        "naturalist:cooked_drumstick",
+        "naturalist:cooked_drumstick_eating_0",
+        "naturalist:cooked_drumstick_eating_1",
+        "naturalist:cooked_drumstick_eating_2"
+    ],
+    "naturalist:cooked_duck": [
+        "naturalist:cooked_duck",
+        "naturalist:cooked_duck",
+        "naturalist:cooked_duck_eating_0",
+        "naturalist:cooked_duck_eating_1",
+        "naturalist:cooked_duck_eating_2"
+    ],
+    "naturalist:cooked_egg": [
+        "naturalist:cooked_egg",
+        "naturalist:cooked_egg",
+        "naturalist:cooked_egg_eating_0",
+        "naturalist:cooked_egg_eating_1",
+        "naturalist:cooked_egg_eating_2"
+    ],
+    "naturalist:cooked_lizard_tail": [
+        "naturalist:cooked_lizard_tail",
+        "naturalist:cooked_lizard_tail",
+        "naturalist:cooked_lizard_tail_eating_0",
+        "naturalist:cooked_lizard_tail_eating_1",
+        "naturalist:cooked_lizard_tail_eating_2"
+    ],
+    "naturalist:cooked_venison": [
+        "naturalist:cooked_venison",
+        "naturalist:cooked_venison",
+        "naturalist:cooked_venison_eating_0",
+        "naturalist:cooked_venison_eating_1",
+        "naturalist:cooked_venison_eating_2"
+    ],
+    "naturalist:duck": [
+        "naturalist:duck",
+        "naturalist:duck",
+        "naturalist:duck_eating_0",
+        "naturalist:duck_eating_1",
+        "naturalist:duck_eating_2"
+    ],
+    "naturalist:lizard_tail": [
+        "naturalist:lizard_tail",
+        "naturalist:lizard_tail",
+        "naturalist:lizard_tail_eating_0",
+        "naturalist:lizard_tail_eating_1",
+        "naturalist:lizard_tail_eating_2"
+    ],
+    "naturalist:raw_drumstick": [
+        "naturalist:raw_drumstick",
+        "naturalist:raw_drumstick",
+        "naturalist:raw_drumstick_eating_0",
+        "naturalist:raw_drumstick_eating_1",
+        "naturalist:raw_drumstick_eating_2"
+    ],
+    "naturalist:venison": [
+        "naturalist:venison",
+        "naturalist:venison",
+        "naturalist:venison_eating_0",
+        "naturalist:venison_eating_1",
+        "naturalist:venison_eating_2"
+    ],
+    "miners_delight:arthropod": [
+        "miners_delight:arthropod",
+        "miners_delight:arthropod",
+        "miners_delight:arthropod_eating_0",
+        "miners_delight:arthropod_eating_1",
+        "miners_delight:arthropod_eating_2"
+    ],
+    "miners_delight:baked_cave_carrot": [
+        "miners_delight:baked_cave_carrot",
+        "miners_delight:baked_cave_carrot",
+        "miners_delight:baked_cave_carrot_eating_0",
+        "miners_delight:baked_cave_carrot_eating_1",
+        "miners_delight:baked_cave_carrot_eating_2"
+    ],
+    "miners_delight:baked_cod_stew_cup": [
+        "miners_delight:baked_cod_stew_cup",
+        "miners_delight:baked_cod_stew_cup",
+        "miners_delight:baked_cod_stew_cup_eating_0",
+        "miners_delight:baked_cod_stew_cup_eating_1",
+        "miners_delight:baked_cod_stew_cup_eating_2"
+    ],
+    "miners_delight:baked_squid": [
+        "miners_delight:baked_squid",
+        "miners_delight:baked_squid",
+        "miners_delight:baked_squid_eating_0",
+        "miners_delight:baked_squid_eating_1",
+        "miners_delight:baked_squid_eating_2"
+    ],
+    "miners_delight:baked_tentacles": [
+        "miners_delight:baked_tentacles",
+        "miners_delight:baked_tentacles",
+        "miners_delight:baked_tentacles_eating_0",
+        "miners_delight:baked_tentacles_eating_1",
+        "miners_delight:baked_tentacles_eating_2"
+    ],
+    "miners_delight:bat_cookie": [
+        "miners_delight:bat_cookie",
+        "miners_delight:bat_cookie",
+        "miners_delight:bat_cookie_eating_0",
+        "miners_delight:bat_cookie_eating_1",
+        "miners_delight:bat_cookie_eating_2"
+    ],
+    "miners_delight:bat_rolls": [
+        "miners_delight:bat_rolls",
+        "miners_delight:bat_rolls",
+        "miners_delight:bat_rolls_eating_0",
+        "miners_delight:bat_rolls_eating_1",
+        "miners_delight:bat_rolls_eating_2"
+    ],
+    "miners_delight:bat_soup": [
+        "miners_delight:bat_soup",
+        "miners_delight:bat_soup",
+        "miners_delight:bat_soup_eating_0",
+        "miners_delight:bat_soup_eating_1",
+        "miners_delight:bat_soup_eating_2"
+    ],
+    "miners_delight:bat_soup_cup": [
+        "miners_delight:bat_soup_cup",
+        "miners_delight:bat_soup_cup",
+        "miners_delight:bat_soup_cup_eating_0",
+        "miners_delight:bat_soup_cup_eating_1",
+        "miners_delight:bat_soup_cup_eating_2"
+    ],
+    "miners_delight:bat_wing": [
+        "miners_delight:bat_wing",
+        "miners_delight:bat_wing",
+        "miners_delight:bat_wing_eating_0",
+        "miners_delight:bat_wing_eating_1",
+        "miners_delight:bat_wing_eating_2"
+    ],
+    "miners_delight:beef_stew_cup": [
+        "miners_delight:beef_stew_cup",
+        "miners_delight:beef_stew_cup",
+        "miners_delight:beef_stew_cup_eating_0",
+        "miners_delight:beef_stew_cup_eating_1",
+        "miners_delight:beef_stew_cup_eating_2"
+    ],
+    "miners_delight:beetroot_soup_cup": [
+        "miners_delight:beetroot_soup_cup",
+        "miners_delight:beetroot_soup_cup",
+        "miners_delight:beetroot_soup_cup_eating_0",
+        "miners_delight:beetroot_soup_cup_eating_1",
+        "miners_delight:beetroot_soup_cup_eating_2"
+    ],
+    "miners_delight:bone_broth_cup": [
+        "miners_delight:bone_broth_cup",
+        "miners_delight:bone_broth_cup",
+        "miners_delight:bone_broth_cup_eating_0",
+        "miners_delight:bone_broth_cup_eating_1",
+        "miners_delight:bone_broth_cup_eating_2"
+    ],
+    "miners_delight:bowl_of_stuffed_squid": [
+        "miners_delight:bowl_of_stuffed_squid",
+        "miners_delight:bowl_of_stuffed_squid",
+        "miners_delight:bowl_of_stuffed_squid_eating_0",
+        "miners_delight:bowl_of_stuffed_squid_eating_1",
+        "miners_delight:bowl_of_stuffed_squid_eating_2"
+    ],
+    "miners_delight:cave_carrot": [
+        "miners_delight:cave_carrot",
+        "miners_delight:cave_carrot",
+        "miners_delight:cave_carrot_eating_0",
+        "miners_delight:cave_carrot_eating_1",
+        "miners_delight:cave_carrot_eating_2"
+    ],
+    "miners_delight:cave_hamburger": [
+        "miners_delight:cave_hamburger",
+        "miners_delight:cave_hamburger",
+        "miners_delight:cave_hamburger_eating_0",
+        "miners_delight:cave_hamburger_eating_1",
+        "miners_delight:cave_hamburger_eating_2"
+    ],
+    "miners_delight:cave_soup": [
+        "miners_delight:cave_soup",
+        "miners_delight:cave_soup",
+        "miners_delight:cave_soup_eating_0",
+        "miners_delight:cave_soup_eating_1",
+        "miners_delight:cave_soup_eating_2"
+    ],
+    "miners_delight:chicken_soup_cup": [
+        "miners_delight:chicken_soup_cup",
+        "miners_delight:chicken_soup_cup",
+        "miners_delight:chicken_soup_cup_eating_0",
+        "miners_delight:chicken_soup_cup_eating_1",
+        "miners_delight:chicken_soup_cup_eating_2"
+    ],
+    "miners_delight:cooked_arthropod": [
+        "miners_delight:cooked_arthropod",
+        "miners_delight:cooked_arthropod",
+        "miners_delight:cooked_arthropod_eating_0",
+        "miners_delight:cooked_arthropod_eating_1",
+        "miners_delight:cooked_arthropod_eating_2"
+    ],
+    "miners_delight:copper_carrot": [
+        "miners_delight:copper_carrot",
+        "miners_delight:copper_carrot",
+        "miners_delight:copper_carrot_eating_0",
+        "miners_delight:copper_carrot_eating_1",
+        "miners_delight:copper_carrot_eating_2"
+    ],
+    "miners_delight:fish_stew_cup": [
+        "miners_delight:fish_stew_cup",
+        "miners_delight:fish_stew_cup",
+        "miners_delight:fish_stew_cup_eating_0",
+        "miners_delight:fish_stew_cup_eating_1",
+        "miners_delight:fish_stew_cup_eating_2"
+    ],
+    "miners_delight:glow_ink_pasta": [
+        "miners_delight:glow_ink_pasta",
+        "miners_delight:glow_ink_pasta",
+        "miners_delight:glow_ink_pasta_eating_0",
+        "miners_delight:glow_ink_pasta_eating_1",
+        "miners_delight:glow_ink_pasta_eating_2"
+    ],
+    "miners_delight:glow_squid": [
+        "miners_delight:glow_squid",
+        "miners_delight:glow_squid",
+        "miners_delight:glow_squid_eating_0",
+        "miners_delight:glow_squid_eating_1",
+        "miners_delight:glow_squid_eating_2"
+    ],
+    "miners_delight:hot_cocoa_cup": [
+        "miners_delight:hot_cocoa_cup",
+        "miners_delight:hot_cocoa_cup",
+        "miners_delight:hot_cocoa_cup_eating_0",
+        "miners_delight:hot_cocoa_cup_eating_1",
+        "miners_delight:hot_cocoa_cup_eating_2"
+    ],
+    "miners_delight:improvised_barbecue_stick": [
+        "miners_delight:improvised_barbecue_stick",
+        "miners_delight:improvised_barbecue_stick",
+        "miners_delight:improvised_barbecue_stick_eating_0",
+        "miners_delight:improvised_barbecue_stick_eating_1",
+        "miners_delight:improvised_barbecue_stick_eating_2"
+    ],
+    "miners_delight:insect_sandwich": [
+        "miners_delight:insect_sandwich",
+        "miners_delight:insect_sandwich",
+        "miners_delight:insect_sandwich_eating_0",
+        "miners_delight:insect_sandwich_eating_1",
+        "miners_delight:insect_sandwich_eating_2"
+    ],
+    "miners_delight:insect_stew": [
+        "miners_delight:insect_stew",
+        "miners_delight:insect_stew",
+        "miners_delight:insect_stew_eating_0",
+        "miners_delight:insect_stew_eating_1",
+        "miners_delight:insect_stew_eating_2"
+    ],
+    "miners_delight:insect_stew_cup": [
+        "miners_delight:insect_stew_cup",
+        "miners_delight:insect_stew_cup",
+        "miners_delight:insect_stew_cup_eating_0",
+        "miners_delight:insect_stew_cup_eating_1",
+        "miners_delight:insect_stew_cup_eating_2"
+    ],
+    "miners_delight:insect_wrap": [
+        "miners_delight:insect_wrap",
+        "miners_delight:insect_wrap",
+        "miners_delight:insect_wrap_eating_0",
+        "miners_delight:insect_wrap_eating_1",
+        "miners_delight:insect_wrap_eating_2"
+    ],
+    "miners_delight:milk_cup": [
+        "miners_delight:milk_cup",
+        "miners_delight:milk_cup",
+        "miners_delight:milk_cup_eating_0",
+        "miners_delight:milk_cup_eating_1",
+        "miners_delight:milk_cup_eating_2"
+    ],
+    "miners_delight:moss": [
+        "miners_delight:moss",
+        "miners_delight:moss",
+        "miners_delight:moss_eating_0",
+        "miners_delight:moss_eating_1",
+        "miners_delight:moss_eating_2"
+    ],
+    "miners_delight:mushroom_stew_cup": [
+        "miners_delight:mushroom_stew_cup",
+        "miners_delight:mushroom_stew_cup",
+        "miners_delight:mushroom_stew_cup_eating_0",
+        "miners_delight:mushroom_stew_cup_eating_1",
+        "miners_delight:mushroom_stew_cup_eating_2"
+    ],
+    "miners_delight:noodle_soup_cup": [
+        "miners_delight:noodle_soup_cup",
+        "miners_delight:noodle_soup_cup",
+        "miners_delight:noodle_soup_cup_eating_0",
+        "miners_delight:noodle_soup_cup_eating_1",
+        "miners_delight:noodle_soup_cup_eating_2"
+    ],
+    "miners_delight:pasta_with_veggieballs": [
+        "miners_delight:pasta_with_veggieballs",
+        "miners_delight:pasta_with_veggieballs",
+        "miners_delight:pasta_with_veggieballs_eating_0",
+        "miners_delight:pasta_with_veggieballs_eating_1",
+        "miners_delight:pasta_with_veggieballs_eating_2"
+    ],
+    "miners_delight:pumpkin_soup_cup": [
+        "miners_delight:pumpkin_soup_cup",
+        "miners_delight:pumpkin_soup_cup",
+        "miners_delight:pumpkin_soup_cup_eating_0",
+        "miners_delight:pumpkin_soup_cup_eating_1",
+        "miners_delight:pumpkin_soup_cup_eating_2"
+    ],
+    "miners_delight:rabbit_stew_cup": [
+        "miners_delight:rabbit_stew_cup",
+        "miners_delight:rabbit_stew_cup",
+        "miners_delight:rabbit_stew_cup_eating_0",
+        "miners_delight:rabbit_stew_cup_eating_1",
+        "miners_delight:rabbit_stew_cup_eating_2"
+    ],
+    "miners_delight:rock_soup_cup": [
+        "miners_delight:rock_soup_cup",
+        "miners_delight:rock_soup_cup",
+        "miners_delight:rock_soup_cup_eating_0",
+        "miners_delight:rock_soup_cup_eating_1",
+        "miners_delight:rock_soup_cup_eating_2"
+    ],
+    "miners_delight:seasoned_arthropods": [
+        "miners_delight:seasoned_arthropods",
+        "miners_delight:seasoned_arthropods",
+        "miners_delight:seasoned_arthropods_eating_0",
+        "miners_delight:seasoned_arthropods_eating_1",
+        "miners_delight:seasoned_arthropods_eating_2"
+    ],
+    "miners_delight:silverfish_eggs": [
+        "miners_delight:silverfish_eggs",
+        "miners_delight:silverfish_eggs",
+        "miners_delight:silverfish_eggs_eating_0",
+        "miners_delight:silverfish_eggs_eating_1",
+        "miners_delight:silverfish_eggs_eating_2"
+    ],
+    "miners_delight:smoked_bat_wing": [
+        "miners_delight:smoked_bat_wing",
+        "miners_delight:smoked_bat_wing",
+        "miners_delight:smoked_bat_wing_eating_0",
+        "miners_delight:smoked_bat_wing_eating_1",
+        "miners_delight:smoked_bat_wing_eating_2"
+    ],
+    "miners_delight:spicy_hoglin_stew_cup": [
+        "miners_delight:spicy_hoglin_stew_cup",
+        "miners_delight:spicy_hoglin_stew_cup",
+        "miners_delight:spicy_hoglin_stew_cup_eating_0",
+        "miners_delight:spicy_hoglin_stew_cup_eating_1",
+        "miners_delight:spicy_hoglin_stew_cup_eating_2"
+    ],
+    "miners_delight:spicy_noodle_soup_cup": [
+        "miners_delight:spicy_noodle_soup_cup",
+        "miners_delight:spicy_noodle_soup_cup",
+        "miners_delight:spicy_noodle_soup_cup_eating_0",
+        "miners_delight:spicy_noodle_soup_cup_eating_1",
+        "miners_delight:spicy_noodle_soup_cup_eating_2"
+    ],
+    "miners_delight:squid": [
+        "miners_delight:squid",
+        "miners_delight:squid",
+        "miners_delight:squid_eating_0",
+        "miners_delight:squid_eating_1",
+        "miners_delight:squid_eating_2"
+    ],
+    "miners_delight:squid_sandwich": [
+        "miners_delight:squid_sandwich",
+        "miners_delight:squid_sandwich",
+        "miners_delight:squid_sandwich_eating_0",
+        "miners_delight:squid_sandwich_eating_1",
+        "miners_delight:squid_sandwich_eating_2"
+    ],
+    "miners_delight:strider_stew_cup": [
+        "miners_delight:strider_stew_cup",
+        "miners_delight:strider_stew_cup",
+        "miners_delight:strider_stew_cup_eating_0",
+        "miners_delight:strider_stew_cup_eating_1",
+        "miners_delight:strider_stew_cup_eating_2"
+    ],
+    "miners_delight:takoyaki": [
+        "miners_delight:takoyaki",
+        "miners_delight:takoyaki",
+        "miners_delight:takoyaki_eating_0",
+        "miners_delight:takoyaki_eating_1",
+        "miners_delight:takoyaki_eating_2"
+    ],
+    "miners_delight:tentacles": [
+        "miners_delight:tentacles",
+        "miners_delight:tentacles",
+        "miners_delight:tentacles_eating_0",
+        "miners_delight:tentacles_eating_1",
+        "miners_delight:tentacles_eating_2"
+    ],
+    "miners_delight:vegan_hamburger": [
+        "miners_delight:vegan_hamburger",
+        "miners_delight:vegan_hamburger",
+        "miners_delight:vegan_hamburger_eating_0",
+        "miners_delight:vegan_hamburger_eating_1",
+        "miners_delight:vegan_hamburger_eating_2"
+    ],
+    "miners_delight:vegan_patty": [
+        "miners_delight:vegan_patty",
+        "miners_delight:vegan_patty",
+        "miners_delight:vegan_patty_eating_0",
+        "miners_delight:vegan_patty_eating_1",
+        "miners_delight:vegan_patty_eating_2"
+    ],
+    "miners_delight:vegan_steak_and_potatoes": [
+        "miners_delight:vegan_steak_and_potatoes",
+        "miners_delight:vegan_steak_and_potatoes",
+        "miners_delight:vegan_steak_and_potatoes_eating_0",
+        "miners_delight:vegan_steak_and_potatoes_eating_1",
+        "miners_delight:vegan_steak_and_potatoes_eating_2"
+    ],
+    "miners_delight:vegan_wrap": [
+        "miners_delight:vegan_wrap",
+        "miners_delight:vegan_wrap",
+        "miners_delight:vegan_wrap_eating_0",
+        "miners_delight:vegan_wrap_eating_1",
+        "miners_delight:vegan_wrap_eating_2"
+    ],
+    "miners_delight:vegetable_soup_cup": [
+        "miners_delight:vegetable_soup_cup",
+        "miners_delight:vegetable_soup_cup",
+        "miners_delight:vegetable_soup_cup_eating_0",
+        "miners_delight:vegetable_soup_cup_eating_1",
+        "miners_delight:vegetable_soup_cup_eating_2"
+    ],
+    "miners_delight:weird_caviar": [
+        "miners_delight:weird_caviar",
+        "miners_delight:weird_caviar",
+        "miners_delight:weird_caviar_eating_0",
+        "miners_delight:weird_caviar_eating_1",
+        "miners_delight:weird_caviar_eating_2"
+    ],
+    "warriorsofpastepoch:anti_plague_serum":[ 
+        "warriorsofpastepoch:anti_plague_serum",
+        "warriorsofpastepoch:anti_plague_serum",
+        "warriorsofpastepoch:anti_plague_serum_eating_0",
+        "warriorsofpastepoch:anti_plague_serum_eating_1",
+        "warriorsofpastepoch:anti_plague_serum_eating_2"
+    ],
+    "warriorsofpastepoch:bat_soup": [
+        "warriorsofpastepoch:bat_soup",
+        "warriorsofpastepoch:bat_soup",
+        "warriorsofpastepoch:bat_soup_eating_0",
+        "warriorsofpastepoch:bat_soup_eating_1",
+        "warriorsofpastepoch:bat_soup_eating_2"
+    ],
+    "warriorsofpastepoch:batwing": [
+        "warriorsofpastepoch:batwing",
+        "warriorsofpastepoch:batwing",
+        "warriorsofpastepoch:batwing_eating_0",
+        "warriorsofpastepoch:batwing_eating_1",
+        "warriorsofpastepoch:batwing_eating_2"
+    ],
+    "warriorsofpastepoch:moldy_cheese": [
+        "warriorsofpastepoch:moldy_cheese",
+        "warriorsofpastepoch:moldy_cheese",
+        "warriorsofpastepoch:moldy_cheese_eating_0",
+        "warriorsofpastepoch:moldy_cheese_eating_1",
+        "warriorsofpastepoch:moldy_cheese_eating_2"
+    ],
+    "warriorsofpastepoch:rat_carcass": [
+        "warriorsofpastepoch:rat_carcass",
+        "warriorsofpastepoch:rat_carcass",
+        "warriorsofpastepoch:rat_carcass_eating_0",
+        "warriorsofpastepoch:rat_carcass_eating_1",
+        "warriorsofpastepoch:rat_carcass_eating_2"
+    ],
+    "warriorsofpastepoch:stale_cheese_sandwich": [
+        "warriorsofpastepoch:stale_cheese_sandwich",
+        "warriorsofpastepoch:stale_cheese_sandwich",
+        "warriorsofpastepoch:stale_cheese_sandwich_eating_0",
+        "warriorsofpastepoch:stale_cheese_sandwich_eating_1",
+        "warriorsofpastepoch:stale_cheese_sandwich_eating_2"
+    ],
+    "delightful:acorn": [
+        "delightful:acorn",
+        "delightful:acorn",
+        "delightful:acorn_eating_0",
+        "delightful:acorn_eating_1",
+        "delightful:acorn_eating_2"
+    ],
+    "delightful:animal_fat": [
+        "delightful:animal_fat",
+        "delightful:animal_fat",
+        "delightful:animal_fat_eating_0",
+        "delightful:animal_fat_eating_1",
+        "delightful:animal_fat_eating_2"
+    ],
+    "delightful:azalea_tea": [
+        "delightful:azalea_tea",
+        "delightful:azalea_tea",
+        "delightful:azalea_tea_eating_0",
+        "delightful:azalea_tea_eating_1",
+        "delightful:azalea_tea_eating_2"
+    ],
+    "delightful:berry_matcha_latte": [
+        "delightful:berry_matcha_latte",
+        "delightful:berry_matcha_latte",
+        "delightful:berry_matcha_latte_eating_0",
+        "delightful:berry_matcha_latte_eating_1",
+        "delightful:berry_matcha_latte_eating_2"
+    ],
+    "delightful:cactus_flesh": [
+        "delightful:cactus_flesh",
+        "delightful:cactus_flesh",
+        "delightful:cactus_flesh_eating_0",
+        "delightful:cactus_flesh_eating_1",
+        "delightful:cactus_flesh_eating_2"
+    ],
+    "delightful:cactus_steak": [
+        "delightful:cactus_steak",
+        "delightful:cactus_steak",
+        "delightful:cactus_steak_eating_0",
+        "delightful:cactus_steak_eating_1",
+        "delightful:cactus_steak_eating_2"
+    ],
+    "delightful:cantaloupe_bread": [
+        "delightful:cantaloupe_bread",
+        "delightful:cantaloupe_bread",
+        "delightful:cantaloupe_bread_eating_0",
+        "delightful:cantaloupe_bread_eating_1",
+        "delightful:cantaloupe_bread_eating_2"
+    ],
+    "delightful:cantaloupe_gummy": [
+        "delightful:cantaloupe_gummy",
+        "delightful:cantaloupe_gummy",
+        "delightful:cantaloupe_gummy_eating_0",
+        "delightful:cantaloupe_gummy_eating_1",
+        "delightful:cantaloupe_gummy_eating_2"
+    ],
+    "delightful:cantaloupe_popsicle": [
+        "delightful:cantaloupe_popsicle",
+        "delightful:cantaloupe_popsicle",
+        "delightful:cantaloupe_popsicle_eating_0",
+        "delightful:cantaloupe_popsicle_eating_1",
+        "delightful:cantaloupe_popsicle_eating_2"
+    ],
+    "delightful:cantaloupe_slice": [
+        "delightful:cantaloupe_slice",
+        "delightful:cantaloupe_slice",
+        "delightful:cantaloupe_slice_eating_0",
+        "delightful:cantaloupe_slice_eating_1",
+        "delightful:cantaloupe_slice_eating_2"
+    ],
+    "delightful:cheeseburger": [
+        "delightful:cheeseburger",
+        "delightful:cheeseburger",
+        "delightful:cheeseburger_eating_0",
+        "delightful:cheeseburger_eating_1",
+        "delightful:cheeseburger_eating_2"
+    ],
+    "delightful:chopped_clover": [
+        "delightful:chopped_clover",
+        "delightful:chopped_clover",
+        "delightful:chopped_clover_eating_0",
+        "delightful:chopped_clover_eating_1",
+        "delightful:chopped_clover_eating_2"
+    ],
+    "delightful:coconut_curry": [
+        "delightful:coconut_curry",
+        "delightful:coconut_curry",
+        "delightful:coconut_curry_eating_0",
+        "delightful:coconut_curry_eating_1",
+        "delightful:coconut_curry_eating_2"
+    ],
+    "delightful:cooked_goat": [
+        "delightful:cooked_goat",
+        "delightful:cooked_goat",
+        "delightful:cooked_goat_eating_0",
+        "delightful:cooked_goat_eating_1",
+        "delightful:cooked_goat_eating_2"
+    ],
+    "delightful:cooked_marshmallow_stick": [
+        "delightful:cooked_marshmallow_stick",
+        "delightful:cooked_marshmallow_stick",
+        "delightful:cooked_marshmallow_stick_eating_0",
+        "delightful:cooked_marshmallow_stick_eating_1",
+        "delightful:cooked_marshmallow_stick_eating_2"
+    ],
+    "delightful:cooked_venison_chops": [
+        "delightful:cooked_venison_chops",
+        "delightful:cooked_venison_chops",
+        "delightful:cooked_venison_chops_eating_0",
+        "delightful:cooked_venison_chops_eating_1",
+        "delightful:cooked_venison_chops_eating_2"
+    ],
+    "delightful:crab_rangoon": [
+        "delightful:crab_rangoon",
+        "delightful:crab_rangoon",
+        "delightful:crab_rangoon_eating_0",
+        "delightful:crab_rangoon_eating_1",
+        "delightful:crab_rangoon_eating_2"
+    ],
+    "delightful:deluxe_cheeseburger": [
+        "delightful:deluxe_cheeseburger",
+        "delightful:deluxe_cheeseburger",
+        "delightful:deluxe_cheeseburger_eating_0",
+        "delightful:deluxe_cheeseburger_eating_1",
+        "delightful:deluxe_cheeseburger_eating_2"
+    ],
+    "delightful:ender_nectar": [
+        "delightful:ender_nectar",
+        "delightful:ender_nectar",
+        "delightful:ender_nectar_eating_0",
+        "delightful:ender_nectar_eating_1",
+        "delightful:ender_nectar_eating_2"
+    ],
+    "delightful:field_salad": [
+        "delightful:field_salad",
+        "delightful:field_salad",
+        "delightful:field_salad_eating_0",
+        "delightful:field_salad_eating_1",
+        "delightful:field_salad_eating_2"
+    ],
+    "delightful:green_tea_leaf": [
+        "delightful:green_tea_leaf",
+        "delightful:green_tea_leaf",
+        "delightful:green_tea_leaf_eating_0",
+        "delightful:green_tea_leaf_eating_1",
+        "delightful:green_tea_leaf_eating_2"
+    ],
+    "delightful:honey_glazed_walnut": [
+        "delightful:honey_glazed_walnut",
+        "delightful:honey_glazed_walnut",
+        "delightful:honey_glazed_walnut_eating_0",
+        "delightful:honey_glazed_walnut_eating_1",
+        "delightful:honey_glazed_walnut_eating_2"
+    ],
+    "delightful:lavender_tea": [
+        "delightful:lavender_tea",
+        "delightful:lavender_tea",
+        "delightful:lavender_tea_eating_0",
+        "delightful:lavender_tea_eating_1",
+        "delightful:lavender_tea_eating_2"
+    ],
+    "delightful:marshmallow_stick": [
+        "delightful:marshmallow_stick",
+        "delightful:marshmallow_stick",
+        "delightful:marshmallow_stick_eating_0",
+        "delightful:marshmallow_stick_eating_1",
+        "delightful:marshmallow_stick_eating_2"
+    ],
+    "delightful:matcha": [
+        "delightful:matcha",
+        "delightful:matcha",
+        "delightful:matcha_eating_0",
+        "delightful:matcha_eating_1",
+        "delightful:matcha_eating_2"
+    ],
+    "delightful:matcha_gummy": [
+        "delightful:matcha_gummy",
+        "delightful:matcha_gummy",
+        "delightful:matcha_gummy_eating_0",
+        "delightful:matcha_gummy_eating_1",
+        "delightful:matcha_gummy_eating_2"
+    ],
+    "delightful:matcha_ice_cream": [
+        "delightful:matcha_ice_cream",
+        "delightful:matcha_ice_cream",
+        "delightful:matcha_ice_cream_eating_0",
+        "delightful:matcha_ice_cream_eating_1",
+        "delightful:matcha_ice_cream_eating_2"
+    ],
+    "delightful:matcha_latte": [
+        "delightful:matcha_latte",
+        "delightful:matcha_latte",
+        "delightful:matcha_latte_eating_0",
+        "delightful:matcha_latte_eating_1",
+        "delightful:matcha_latte_eating_2"
+    ],
+    "delightful:matcha_milkshake": [
+        "delightful:matcha_milkshake",
+        "delightful:matcha_milkshake",
+        "delightful:matcha_milkshake_eating_0",
+        "delightful:matcha_milkshake_eating_1",
+        "delightful:matcha_milkshake_eating_2"
+    ],
+    "delightful:nut_butter_and_jelly_sandwich": [
+        "delightful:nut_butter_and_jelly_sandwich",
+        "delightful:nut_butter_and_jelly_sandwich",
+        "delightful:nut_butter_and_jelly_sandwich_eating_0",
+        "delightful:nut_butter_and_jelly_sandwich_eating_1",
+        "delightful:nut_butter_and_jelly_sandwich_eating_2"
+    ],
+    "delightful:nut_butter_bottle": [
+        "delightful:nut_butter_bottle",
+        "delightful:nut_butter_bottle",
+        "delightful:nut_butter_bottle_eating_0",
+        "delightful:nut_butter_bottle_eating_1",
+        "delightful:nut_butter_bottle_eating_2"
+    ],
+    "delightful:nut_dough": [
+        "delightful:nut_dough",
+        "delightful:nut_dough",
+        "delightful:nut_dough_eating_0",
+        "delightful:nut_dough_eating_1",
+        "delightful:nut_dough_eating_2"
+    ],
+    "delightful:prickly_pear_juice": [
+        "delightful:prickly_pear_juice",
+        "delightful:prickly_pear_juice",
+        "delightful:prickly_pear_juice_eating_0",
+        "delightful:prickly_pear_juice_eating_1",
+        "delightful:prickly_pear_juice_eating_2"
+    ],
+    "delightful:pumpkin_pie_slice": [
+        "delightful:pumpkin_pie_slice",
+        "delightful:pumpkin_pie_slice",
+        "delightful:pumpkin_pie_slice_eating_0",
+        "delightful:pumpkin_pie_slice_eating_1",
+        "delightful:pumpkin_pie_slice_eating_2"
+    ],
+    "delightful:raw_goat": [
+        "delightful:raw_goat",
+        "delightful:raw_goat",
+        "delightful:raw_goat_eating_0",
+        "delightful:raw_goat_eating_1",
+        "delightful:raw_goat_eating_2"
+    ],
+    "delightful:roasted_acorn": [
+        "delightful:roasted_acorn",
+        "delightful:roasted_acorn",
+        "delightful:roasted_acorn_eating_0",
+        "delightful:roasted_acorn_eating_1",
+        "delightful:roasted_acorn_eating_2"
+    ],
+    "delightful:rock_candy": [
+        "delightful:rock_candy",
+        "delightful:rock_candy",
+        "delightful:rock_candy_eating_0",
+        "delightful:rock_candy_eating_1",
+        "delightful:rock_candy_eating_2"
+    ],
+    "delightful:salmonberries": [
+        "delightful:salmonberries",
+        "delightful:salmonberries",
+        "delightful:salmonberries_eating_0",
+        "delightful:salmonberries_eating_1",
+        "delightful:salmonberries_eating_2"
+    ],
+    "delightful:salmonberry_gummy": [
+        "delightful:salmonberry_gummy",
+        "delightful:salmonberry_gummy",
+        "delightful:salmonberry_gummy_eating_0",
+        "delightful:salmonberry_gummy_eating_1",
+        "delightful:salmonberry_gummy_eating_2"
+    ],
+    "delightful:salmonberry_ice_cream": [
+        "delightful:salmonberry_ice_cream",
+        "delightful:salmonberry_ice_cream",
+        "delightful:salmonberry_ice_cream_eating_0",
+        "delightful:salmonberry_ice_cream_eating_1",
+        "delightful:salmonberry_ice_cream_eating_2"
+    ],
+    "delightful:salmonberry_milkshake": [
+        "delightful:salmonberry_milkshake",
+        "delightful:salmonberry_milkshake",
+        "delightful:salmonberry_milkshake_eating_0",
+        "delightful:salmonberry_milkshake_eating_1",
+        "delightful:salmonberry_milkshake_eating_2"
+    ],
+    "delightful:salmonberry_pie_slice": [
+        "delightful:salmonberry_pie_slice",
+        "delightful:salmonberry_pie_slice",
+        "delightful:salmonberry_pie_slice_eating_0",
+        "delightful:salmonberry_pie_slice_eating_1",
+        "delightful:salmonberry_pie_slice_eating_2"
+    ],
+    "delightful:sinigang": [
+        "delightful:sinigang",
+        "delightful:sinigang",
+        "delightful:sinigang_eating_0",
+        "delightful:sinigang_eating_1",
+        "delightful:sinigang_eating_2"
+    ],
+    "delightful:smore": [
+        "delightful:smore",
+        "delightful:smore",
+        "delightful:smore_eating_0",
+        "delightful:smore_eating_1",
+        "delightful:smore_eating_2"
+    ],
+    "delightful:stuffed_cantaloupe": [
+        "delightful:stuffed_cantaloupe",
+        "delightful:stuffed_cantaloupe",
+        "delightful:stuffed_cantaloupe_eating_0",
+        "delightful:stuffed_cantaloupe_eating_1",
+        "delightful:stuffed_cantaloupe_eating_2"
+    ],
+    "delightful:venison_chops": [
+        "delightful:venison_chops",
+        "delightful:venison_chops",
+        "delightful:venison_chops_eating_0",
+        "delightful:venison_chops_eating_1",
+        "delightful:venison_chops_eating_2"
+    ],
+    "delightful:wrapped_cantaloupe": [
+        "delightful:wrapped_cantaloupe",
+        "delightful:wrapped_cantaloupe",
+        "delightful:wrapped_cantaloupe_eating_0",
+        "delightful:wrapped_cantaloupe_eating_1",
+        "delightful:wrapped_cantaloupe_eating_2"
+    ],
+      "brewinandchewin:beer": [
+    "brewinandchewin:beer",
+    "brewinandchewin:beer",
+    "brewinandchewin:beer_eating_0",
+    "brewinandchewin:beer_eating_1",
+    "brewinandchewin:beer_eating_2"
+  ],
+  "brewinandchewin:beer_handled": [
+    "brewinandchewin:beer_handled",
+    "brewinandchewin:beer_handled",
+    "brewinandchewin:beer_handled_eating_0",
+    "brewinandchewin:beer_handled_eating_1",
+    "brewinandchewin:beer_handled_eating_2"
+  ],
+  "brewinandchewin:bloody_mary": [
+    "brewinandchewin:bloody_mary",
+    "brewinandchewin:bloody_mary",
+    "brewinandchewin:bloody_mary_eating_0",
+    "brewinandchewin:bloody_mary_eating_1",
+    "brewinandchewin:bloody_mary_eating_2"
+  ],
+  "brewinandchewin:dread_nog": [
+    "brewinandchewin:dread_nog",
+    "brewinandchewin:dread_nog",
+    "brewinandchewin:dread_nog_eating_0",
+    "brewinandchewin:dread_nog_eating_1",
+    "brewinandchewin:dread_nog_eating_2"
+  ],
+  "brewinandchewin:egg_grog": [
+    "brewinandchewin:egg_grog",
+    "brewinandchewin:egg_grog",
+    "brewinandchewin:egg_grog_eating_0",
+    "brewinandchewin:egg_grog_eating_1",
+    "brewinandchewin:egg_grog_eating_2"
+  ],
+  "brewinandchewin:glittering_grenadine": [
+    "brewinandchewin:glittering_grenadine",
+    "brewinandchewin:glittering_grenadine",
+    "brewinandchewin:glittering_grenadine_eating_0",
+    "brewinandchewin:glittering_grenadine_eating_1",
+    "brewinandchewin:glittering_grenadine_eating_2"
+  ],
+  "brewinandchewin:kombucha": [
+    "brewinandchewin:kombucha",
+    "brewinandchewin:kombucha",
+    "brewinandchewin:kombucha_eating_0",
+    "brewinandchewin:kombucha_eating_1",
+    "brewinandchewin:kombucha_eating_2"
+  ],
+  "brewinandchewin:mead": [
+    "brewinandchewin:mead",
+    "brewinandchewin:mead",
+    "brewinandchewin:mead_eating_0",
+    "brewinandchewin:mead_eating_1",
+    "brewinandchewin:mead_eating_2"
+  ],
+  "brewinandchewin:pale_jane": [
+    "brewinandchewin:pale_jane",
+    "brewinandchewin:pale_jane",
+    "brewinandchewin:pale_jane_eating_0",
+    "brewinandchewin:pale_jane_eating_1",
+    "brewinandchewin:pale_jane_eating_2"
+  ],
+  "brewinandchewin:red_rum": [
+    "brewinandchewin:red_rum",
+    "brewinandchewin:red_rum",
+    "brewinandchewin:red_rum_eating_0",
+    "brewinandchewin:red_rum_eating_1",
+    "brewinandchewin:red_rum_eating_2"
+  ],
+  "brewinandchewin:rice_wine": [
+    "brewinandchewin:rice_wine",
+    "brewinandchewin:rice_wine",
+    "brewinandchewin:rice_wine_eating_0",
+    "brewinandchewin:rice_wine_eating_1",
+    "brewinandchewin:rice_wine_eating_2"
+  ],
+  "brewinandchewin:saccharine_rum": [
+    "brewinandchewin:saccharine_rum",
+    "brewinandchewin:saccharine_rum",
+    "brewinandchewin:saccharine_rum_eating_0",
+    "brewinandchewin:saccharine_rum_eating_1",
+    "brewinandchewin:saccharine_rum_eating_2"
+  ],
+  "brewinandchewin:salty_folly": [
+    "brewinandchewin:salty_folly",
+    "brewinandchewin:salty_folly",
+    "brewinandchewin:salty_folly_eating_0",
+    "brewinandchewin:salty_folly_eating_1",
+    "brewinandchewin:salty_folly_eating_2"
+  ],
+  "brewinandchewin:steel_toe_stout": [
+    "brewinandchewin:steel_toe_stout",
+    "brewinandchewin:steel_toe_stout",
+    "brewinandchewin:steel_toe_stout_eating_0",
+    "brewinandchewin:steel_toe_stout_eating_1",
+    "brewinandchewin:steel_toe_stout_eating_2"
+  ],
+  "brewinandchewin:strongroot_ale": [
+    "brewinandchewin:strongroot_ale",
+    "brewinandchewin:strongroot_ale",
+    "brewinandchewin:strongroot_ale_eating_0",
+    "brewinandchewin:strongroot_ale_eating_1",
+    "brewinandchewin:strongroot_ale_eating_2"
+  ],
+  "brewinandchewin:vodka": [
+    "brewinandchewin:vodka",
+    "brewinandchewin:vodka",
+    "brewinandchewin:vodka_eating_0",
+    "brewinandchewin:vodka_eating_1",
+    "brewinandchewin:vodka_eating_2"
+  ],
+  "brewinandchewin:withering_dross": [
+    "brewinandchewin:withering_dross",
+    "brewinandchewin:withering_dross",
+    "brewinandchewin:withering_dross_eating_0",
+    "brewinandchewin:withering_dross_eating_1",
+    "brewinandchewin:withering_dross_eating_2"
+  ],
+  "brewery:barley": [
+    "brewery:barley",
+    "brewery:barley",
+    "brewery:barley_eating_0",
+    "brewery:barley_eating_1",
+    "brewery:barley_eating_2"
+  ],
+  "brewery:beer_barley_handled": [
+    "brewery:beer_barley_handled",
+    "brewery:beer_barley_handled",
+    "brewery:beer_barley_handled_eating_0",
+    "brewery:beer_barley_handled_eating_1",
+    "brewery:beer_barley_handled_eating_2"
+  ],
+  "brewery:beer_haley_handled": [
+    "brewery:beer_haley_handled",
+    "brewery:beer_haley_handled",
+    "brewery:beer_haley_handled_eating_0",
+    "brewery:beer_haley_handled_eating_1",
+    "brewery:beer_haley_handled_eating_2"
+  ],
+  "brewery:beer_handled": [
+    "brewery:beer_handled",
+    "brewery:beer_handled",
+    "brewery:beer_handled_eating_0",
+    "brewery:beer_handled_eating_1",
+    "brewery:beer_handled_eating_2"
+  ],
+  "brewery:beer_hops_handled": [
+    "brewery:beer_hops_handled",
+    "brewery:beer_hops_handled",
+    "brewery:beer_hops_handled_eating_0",
+    "brewery:beer_hops_handled_eating_1",
+    "brewery:beer_hops_handled_eating_2"
+  ],
+  "brewery:beer_wheat_handled": [
+    "brewery:beer_wheat_handled",
+    "brewery:beer_wheat_handled",
+    "brewery:beer_wheat_handled_eating_0",
+    "brewery:beer_wheat_handled_eating_1",
+    "brewery:beer_wheat_handled_eating_2"
+  ],
+  "brewery:corn": [
+    "brewery:corn",
+    "brewery:corn",
+    "brewery:corn_eating_0",
+    "brewery:corn_eating_1",
+    "brewery:corn_eating_2"
+  ],
+  "brewery:dumplings": [
+    "brewery:dumplings",
+    "brewery:dumplings",
+    "brewery:dumplings_eating_0",
+    "brewery:dumplings_eating_1",
+    "brewery:dumplings_eating_2"
+  ],
+  "brewery:fried_chicken": [
+    "brewery:fried_chicken",
+    "brewery:fried_chicken",
+    "brewery:fried_chicken_eating_0",
+    "brewery:fried_chicken_eating_1",
+    "brewery:fried_chicken_eating_2"
+  ],
+  "brewery:half_chicken": [
+    "brewery:half_chicken",
+    "brewery:half_chicken",
+    "brewery:half_chicken_eating_0",
+    "brewery:half_chicken_eating_1",
+    "brewery:half_chicken_eating_2"
+  ],
+  "brewery:hops": [
+    "brewery:hops",
+    "brewery:hops",
+    "brewery:hops_eating_0",
+    "brewery:hops_eating_1",
+    "brewery:hops_eating_2"
+  ],
+  "brewery:mashed_potatoes": [
+    "brewery:mashed_potatoes",
+    "brewery:mashed_potatoes",
+    "brewery:mashed_potatoes_eating_0",
+    "brewery:mashed_potatoes_eating_1",
+    "brewery:mashed_potatoes_eating_2"
+  ],
+  "brewery:pork_knuckle": [
+    "brewery:pork_knuckle",
+    "brewery:pork_knuckle",
+    "brewery:pork_knuckle_eating_0",
+    "brewery:pork_knuckle_eating_1",
+    "brewery:pork_knuckle_eating_2"
+  ],
+  "brewery:potato_salad": [
+    "brewery:potato_salad",
+    "brewery:potato_salad",
+    "brewery:potato_salad_eating_0",
+    "brewery:potato_salad_eating_1",
+    "brewery:potato_salad_eating_2"
+  ],
+  "brewery:pretzel": [
+    "brewery:pretzel",
+    "brewery:pretzel",
+    "brewery:pretzel_eating_0",
+    "brewery:pretzel_eating_1",
+    "brewery:pretzel_eating_2"
+  ],
+  "brewery:sausage": [
+    "brewery:sausage",
+    "brewery:sausage",
+    "brewery:sausage_eating_0",
+    "brewery:sausage_eating_1",
+    "brewery:sausage_eating_2"
+  ],
+  "hauntedharvest:candy_corn": [
+    "hauntedharvest:candy_corn",
+    "hauntedharvest:candy_corn",
+    "hauntedharvest:candy_corn_eating_0",
+    "hauntedharvest:candy_corn_eating_1",
+    "hauntedharvest:candy_corn_eating_2"
+  ],
+  "hauntedharvest:corn_on_the_cob": [
+    "hauntedharvest:corn_on_the_cob",
+    "hauntedharvest:corn_on_the_cob",
+    "hauntedharvest:corn_on_the_cob_eating_0",
+    "hauntedharvest:corn_on_the_cob_eating_1",
+    "hauntedharvest:corn_on_the_cob_eating_2"
+  ],
+  "hauntedharvest:cornbread": [
+    "hauntedharvest:cornbread",
+    "hauntedharvest:cornbread",
+    "hauntedharvest:cornbread_eating_0",
+    "hauntedharvest:cornbread_eating_1",
+    "hauntedharvest:cornbread_eating_2"
+  ],
+  "hauntedharvest:grim_apple": [
+    "hauntedharvest:grim_apple",
+    "hauntedharvest:grim_apple",
+    "hauntedharvest:grim_apple_eating_0",
+    "hauntedharvest:grim_apple_eating_1",
+    "hauntedharvest:grim_apple_eating_2"
+  ],
+  "hauntedharvest:popcorn": [
+    "hauntedharvest:popcorn",
+    "hauntedharvest:popcorn",
+    "hauntedharvest:popcorn_eating_0",
+    "hauntedharvest:popcorn_eating_1",
+    "hauntedharvest:popcorn_eating_2"
+  ],
+  "hauntedharvest:rotten_apple": [
+    "hauntedharvest:rotten_apple",
+    "hauntedharvest:rotten_apple",
+    "hauntedharvest:rotten_apple_eating_0",
+    "hauntedharvest:rotten_apple_eating_1",
+    "hauntedharvest:rotten_apple_eating_2"
+  ],
+  "hauntedharvest:succotash": [
+    "hauntedharvest:succotash",
+    "hauntedharvest:succotash",
+    "hauntedharvest:succotash_eating_0",
+    "hauntedharvest:succotash_eating_1",
+    "hauntedharvest:succotash_eating_2"
+  ],
+  "betterend:amber_root_raw": [
+    "betterend:amber_root_raw",
+    "betterend:amber_root_raw",
+    "betterend:amber_root_raw_eating_0",
+    "betterend:amber_root_raw_eating_1",
+    "betterend:amber_root_raw_eating_2"
+  ],
+  "betterend:blossom_berry": [
+    "betterend:blossom_berry",
+    "betterend:blossom_berry",
+    "betterend:blossom_berry_eating_0",
+    "betterend:blossom_berry_eating_1",
+    "betterend:blossom_berry_eating_2"
+  ],
+  "betterend:blossom_berry_jelly": [
+    "betterend:blossom_berry_jelly",
+    "betterend:blossom_berry_jelly",
+    "betterend:blossom_berry_jelly_eating_0",
+    "betterend:blossom_berry_jelly_eating_1",
+    "betterend:blossom_berry_jelly_eating_2"
+  ],
+  "betterend:chorus_mushroom_cooked": [
+    "betterend:chorus_mushroom_cooked",
+    "betterend:chorus_mushroom_cooked",
+    "betterend:chorus_mushroom_cooked_eating_0",
+    "betterend:chorus_mushroom_cooked_eating_1",
+    "betterend:chorus_mushroom_cooked_eating_2"
+  ],
+  "betterend:chorus_mushroom_raw": [
+    "betterend:chorus_mushroom_raw",
+    "betterend:chorus_mushroom_raw",
+    "betterend:chorus_mushroom_raw_eating_0",
+    "betterend:chorus_mushroom_raw_eating_1",
+    "betterend:chorus_mushroom_raw_eating_2"
+  ],
+  "betterend:end_fish_cooked": [
+    "betterend:end_fish_cooked",
+    "betterend:end_fish_cooked",
+    "betterend:end_fish_cooked_eating_0",
+    "betterend:end_fish_cooked_eating_1",
+    "betterend:end_fish_cooked_eating_2"
+  ],
+  "betterend:end_fish_raw": [
+    "betterend:end_fish_raw",
+    "betterend:end_fish_raw",
+    "betterend:end_fish_raw_eating_0",
+    "betterend:end_fish_raw_eating_1",
+    "betterend:end_fish_raw_eating_2"
+  ],
+  "betterend:shadow_berry_cooked": [
+    "betterend:shadow_berry_cooked",
+    "betterend:shadow_berry_cooked",
+    "betterend:shadow_berry_cooked_eating_0",
+    "betterend:shadow_berry_cooked_eating_1",
+    "betterend:shadow_berry_cooked_eating_2"
+  ],
+  "betterend:shadow_berry_jelly": [
+    "betterend:shadow_berry_jelly",
+    "betterend:shadow_berry_jelly",
+    "betterend:shadow_berry_jelly_eating_0",
+    "betterend:shadow_berry_jelly_eating_1",
+    "betterend:shadow_berry_jelly_eating_2"
+  ],
+  "betterend:shadow_berry_raw": [
+    "betterend:shadow_berry_raw",
+    "betterend:shadow_berry_raw",
+    "betterend:shadow_berry_raw_eating_0",
+    "betterend:shadow_berry_raw_eating_1",
+    "betterend:shadow_berry_raw_eating_2"
+  ],
+  "betterend:sweet_berry_jelly": [
+    "betterend:sweet_berry_jelly",
+    "betterend:sweet_berry_jelly",
+    "betterend:sweet_berry_jelly_eating_0",
+    "betterend:sweet_berry_jelly_eating_1",
+    "betterend:sweet_berry_jelly_eating_2"
+  ],
+  "buzzier_bees:bb_glazed_porkchop": [
+    "buzzier_bees:bb_glazed_porkchop",
+    "buzzier_bees:bb_glazed_porkchop",
+    "buzzier_bees:bb_glazed_porkchop_eating_0",
+    "buzzier_bees:bb_glazed_porkchop_eating_1",
+    "buzzier_bees:bb_glazed_porkchop_eating_2"
+  ],
+  "buzzier_bees:bb_honey_apple": [
+    "buzzier_bees:bb_honey_apple",
+    "buzzier_bees:bb_honey_apple",
+    "buzzier_bees:bb_honey_apple_eating_0",
+    "buzzier_bees:bb_honey_apple_eating_1",
+    "buzzier_bees:bb_honey_apple_eating_2"
+  ],
+  "buzzier_bees:bb_honey_bread": [
+    "buzzier_bees:bb_honey_bread",
+    "buzzier_bees:bb_honey_bread",
+    "buzzier_bees:bb_honey_bread_eating_0",
+    "buzzier_bees:bb_honey_bread_eating_1",
+    "buzzier_bees:bb_honey_bread_eating_2"
+  ],
+  "domesticationinnovation:rotten_apple": [
+    "domesticationinnovation:rotten_apple",
+    "domesticationinnovation:rotten_apple",
+    "domesticationinnovation:rotten_apple_eating_0",
+    "domesticationinnovation:rotten_apple_eating_1",
+    "domesticationinnovation:rotten_apple_eating_2"
+  ],
+  "domesticationinnovation:sinister_carrot": [
+    "domesticationinnovation:sinister_carrot",
+    "domesticationinnovation:sinister_carrot",
+    "domesticationinnovation:sinister_carrot_eating_0",
+    "domesticationinnovation:sinister_carrot_eating_1",
+    "domesticationinnovation:sinister_carrot_eating_2"
+  ],
+  "ecologics:coconut_slice": [
+    "ecologics:coconut_slice",
+    "ecologics:coconut_slice",
+    "ecologics:coconut_slice_eating_0",
+    "ecologics:coconut_slice_eating_1",
+    "ecologics:coconut_slice_eating_2"
+  ],
+  "ecologics:cooked_prickly_pear": [
+    "ecologics:cooked_prickly_pear",
+    "ecologics:cooked_prickly_pear",
+    "ecologics:cooked_prickly_pear_eating_0",
+    "ecologics:cooked_prickly_pear_eating_1",
+    "ecologics:cooked_prickly_pear_eating_2"
+  ],
+  "ecologics:crab_meat": [
+    "ecologics:crab_meat",
+    "ecologics:crab_meat",
+    "ecologics:crab_meat_eating_0",
+    "ecologics:crab_meat_eating_1",
+    "ecologics:crab_meat_eating_2"
+  ],
+  "ecologics:prickly_pear": [
+    "ecologics:prickly_pear",
+    "ecologics:prickly_pear",
+    "ecologics:prickly_pear_eating_0",
+    "ecologics:prickly_pear_eating_1",
+    "ecologics:prickly_pear_eating_2"
+  ],
+  "ecologics:tropical_stew": [
+    "ecologics:tropical_stew",
+    "ecologics:tropical_stew",
+    "ecologics:tropical_stew_eating_0",
+    "ecologics:tropical_stew_eating_1",
+    "ecologics:tropical_stew_eating_2"
+  ],
+  "ecologics:walnut": [
+    "ecologics:walnut",
+    "ecologics:walnut",
+    "ecologics:walnut_eating_0",
+    "ecologics:walnut_eating_1",
+    "ecologics:walnut_eating_2"
+  ],
+  "festive_delight:christmas_tea": [
+    "festive_delight:christmas_tea",
+    "festive_delight:christmas_tea",
+    "festive_delight:christmas_tea_eating_0",
+    "festive_delight:christmas_tea_eating_1",
+    "festive_delight:christmas_tea_eating_2"
+  ],
+  "festive_delight:festive_chicken": [
+    "festive_delight:festive_chicken",
+    "festive_delight:festive_chicken",
+    "festive_delight:festive_chicken_eating_0",
+    "festive_delight:festive_chicken_eating_1",
+    "festive_delight:festive_chicken_eating_2"
+  ],
+  "festive_delight:gingerbread_cookie_creeper": [
+    "festive_delight:gingerbread_cookie_creeper",
+    "festive_delight:gingerbread_cookie_creeper",
+    "festive_delight:gingerbread_cookie_creeper_eating_0",
+    "festive_delight:gingerbread_cookie_creeper_eating_1",
+    "festive_delight:gingerbread_cookie_creeper_eating_2"
+  ],
+  "festive_delight:gingerbread_cookie_creeper_sugar": [
+    "festive_delight:gingerbread_cookie_creeper_sugar",
+    "festive_delight:gingerbread_cookie_creeper_sugar",
+    "festive_delight:gingerbread_cookie_creeper_sugar_eating_0",
+    "festive_delight:gingerbread_cookie_creeper_sugar_eating_1",
+    "festive_delight:gingerbread_cookie_creeper_sugar_eating_2"
+  ],
+  "festive_delight:gingerbread_man": [
+    "festive_delight:gingerbread_man",
+    "festive_delight:gingerbread_man",
+    "festive_delight:gingerbread_man_eating_0",
+    "festive_delight:gingerbread_man_eating_1",
+    "festive_delight:gingerbread_man_eating_2"
+  ],
+  "festive_delight:gingerbread_man_base": [
+    "festive_delight:gingerbread_man_base",
+    "festive_delight:gingerbread_man_base",
+    "festive_delight:gingerbread_man_base_eating_0",
+    "festive_delight:gingerbread_man_base_eating_1",
+    "festive_delight:gingerbread_man_base_eating_2"
+  ],
+  "festive_delight:icing_snow_cookie": [
+    "festive_delight:icing_snow_cookie",
+    "festive_delight:icing_snow_cookie",
+    "festive_delight:icing_snow_cookie_eating_0",
+    "festive_delight:icing_snow_cookie_eating_1",
+    "festive_delight:icing_snow_cookie_eating_2"
+  ],
+  "festive_delight:icing_sword_cookie": [
+    "festive_delight:icing_sword_cookie",
+    "festive_delight:icing_sword_cookie",
+    "festive_delight:icing_sword_cookie_eating_0",
+    "festive_delight:icing_sword_cookie_eating_1",
+    "festive_delight:icing_sword_cookie_eating_2"
+  ],
+  "festive_delight:longevity_noodle": [
+    "festive_delight:longevity_noodle",
+    "festive_delight:longevity_noodle",
+    "festive_delight:longevity_noodle_eating_0",
+    "festive_delight:longevity_noodle_eating_1",
+    "festive_delight:longevity_noodle_eating_2"
+  ],
+  "festive_delight:salmon_verrines": [
+    "festive_delight:salmon_verrines",
+    "festive_delight:salmon_verrines",
+    "festive_delight:salmon_verrines_eating_0",
+    "festive_delight:salmon_verrines_eating_1",
+    "festive_delight:salmon_verrines_eating_2"
+  ],
+  "festive_delight:snow_cookie": [
+    "festive_delight:snow_cookie",
+    "festive_delight:snow_cookie",
+    "festive_delight:snow_cookie_eating_0",
+    "festive_delight:snow_cookie_eating_1",
+    "festive_delight:snow_cookie_eating_2"
+  ],
+  "festive_delight:spring_rolls": [
+    "festive_delight:spring_rolls",
+    "festive_delight:spring_rolls",
+    "festive_delight:spring_rolls_eating_0",
+    "festive_delight:spring_rolls_eating_1",
+    "festive_delight:spring_rolls_eating_2"
+  ],
+  "festive_delight:sugar_cane": [
+    "festive_delight:sugar_cane",
+    "festive_delight:sugar_cane",
+    "festive_delight:sugar_cane_eating_0",
+    "festive_delight:sugar_cane_eating_1",
+    "festive_delight:sugar_cane_eating_2"
+  ],
+  "festive_delight:sword_cookie": [
+    "festive_delight:sword_cookie",
+    "festive_delight:sword_cookie",
+    "festive_delight:sword_cookie_eating_0",
+    "festive_delight:sword_cookie_eating_1",
+    "festive_delight:sword_cookie_eating_2"
+  ],
+  "gift_drop:frostys_nose": [
+    "gift_drop:frostys_nose",
+    "gift_drop:frostys_nose",
+    "gift_drop:frostys_nose_eating_0",
+    "gift_drop:frostys_nose_eating_1",
+    "gift_drop:frostys_nose_eating_2"
+  ],
+  "gift_drop:gingerbreadslime": [
+    "gift_drop:gingerbreadslime",
+    "gift_drop:gingerbreadslime",
+    "gift_drop:gingerbreadslime_eating_0",
+    "gift_drop:gingerbreadslime_eating_1",
+    "gift_drop:gingerbreadslime_eating_2"
+  ],
+  "gift_drop:glowberry_tart": [
+    "gift_drop:glowberry_tart",
+    "gift_drop:glowberry_tart",
+    "gift_drop:glowberry_tart_eating_0",
+    "gift_drop:glowberry_tart_eating_1",
+    "gift_drop:glowberry_tart_eating_2"
+  ],
+  "gift_drop:reindeer_droppings": [
+    "gift_drop:reindeer_droppings",
+    "gift_drop:reindeer_droppings",
+    "gift_drop:reindeer_droppings_eating_0",
+    "gift_drop:reindeer_droppings_eating_1",
+    "gift_drop:reindeer_droppings_eating_2"
+  ],
+  "gift_drop:swift_candy_cane": [
+    "gift_drop:swift_candy_cane",
+    "gift_drop:swift_candy_cane",
+    "gift_drop:swift_candy_cane_eating_0",
+    "gift_drop:swift_candy_cane_eating_1",
+    "gift_drop:swift_candy_cane_eating_2"
+  ],
+  "herbalbrews:armor_flask": [
+    "herbalbrews:armor_flask",
+    "herbalbrews:armor_flask",
+    "herbalbrews:armor_flask_eating_0",
+    "herbalbrews:armor_flask_eating_1",
+    "herbalbrews:armor_flask_eating_2"
+  ],
+  "herbalbrews:armor_flask_big": [
+    "herbalbrews:armor_flask_big",
+    "herbalbrews:armor_flask_big",
+    "herbalbrews:armor_flask_big_eating_0",
+    "herbalbrews:armor_flask_big_eating_1",
+    "herbalbrews:armor_flask_big_eating_2"
+  ],
+  "herbalbrews:black_tea": [
+    "herbalbrews:black_tea",
+    "herbalbrews:black_tea",
+    "herbalbrews:black_tea_eating_0",
+    "herbalbrews:black_tea_eating_1",
+    "herbalbrews:black_tea_eating_2"
+  ],
+  "herbalbrews:coffee": [
+    "herbalbrews:coffee",
+    "herbalbrews:coffee",
+    "herbalbrews:coffee_eating_0",
+    "herbalbrews:coffee_eating_1",
+    "herbalbrews:coffee_eating_2"
+  ],
+  "herbalbrews:coffee_beans": [
+    "herbalbrews:coffee_beans",
+    "herbalbrews:coffee_beans",
+    "herbalbrews:coffee_beans_eating_0",
+    "herbalbrews:coffee_beans_eating_1",
+    "herbalbrews:coffee_beans_eating_2"
+  ],
+  "herbalbrews:damage_flask": [
+    "herbalbrews:damage_flask",
+    "herbalbrews:damage_flask",
+    "herbalbrews:damage_flask_eating_0",
+    "herbalbrews:damage_flask_eating_1",
+    "herbalbrews:damage_flask_eating_2"
+  ],
+  "herbalbrews:damage_flask_big": [
+    "herbalbrews:damage_flask_big",
+    "herbalbrews:damage_flask_big",
+    "herbalbrews:damage_flask_big_eating_0",
+    "herbalbrews:damage_flask_big_eating_1",
+    "herbalbrews:damage_flask_big_eating_2"
+  ],
+  "herbalbrews:dried_black_tea": [
+    "herbalbrews:dried_black_tea",
+    "herbalbrews:dried_black_tea",
+    "herbalbrews:dried_black_tea_eating_0",
+    "herbalbrews:dried_black_tea_eating_1",
+    "herbalbrews:dried_black_tea_eating_2"
+  ],
+  "herbalbrews:dried_green_tea": [
+    "herbalbrews:dried_green_tea",
+    "herbalbrews:dried_green_tea",
+    "herbalbrews:dried_green_tea_eating_0",
+    "herbalbrews:dried_green_tea_eating_1",
+    "herbalbrews:dried_green_tea_eating_2"
+  ],
+  "herbalbrews:dried_oolong_tea": [
+    "herbalbrews:dried_oolong_tea",
+    "herbalbrews:dried_oolong_tea",
+    "herbalbrews:dried_oolong_tea_eating_0",
+    "herbalbrews:dried_oolong_tea_eating_1",
+    "herbalbrews:dried_oolong_tea_eating_2"
+  ],
+  "herbalbrews:feral_flask": [
+    "herbalbrews:feral_flask",
+    "herbalbrews:feral_flask",
+    "herbalbrews:feral_flask_eating_0",
+    "herbalbrews:feral_flask_eating_1",
+    "herbalbrews:feral_flask_eating_2"
+  ],
+  "herbalbrews:feral_flask_big": [
+    "herbalbrews:feral_flask_big",
+    "herbalbrews:feral_flask_big",
+    "herbalbrews:feral_flask_big_eating_0",
+    "herbalbrews:feral_flask_big_eating_1",
+    "herbalbrews:feral_flask_big_eating_2"
+  ],
+  "herbalbrews:green_tea": [
+    "herbalbrews:green_tea",
+    "herbalbrews:green_tea",
+    "herbalbrews:green_tea_eating_0",
+    "herbalbrews:green_tea_eating_1",
+    "herbalbrews:green_tea_eating_2"
+  ],
+  "herbalbrews:hibiscus_tea": [
+    "herbalbrews:hibiscus_tea",
+    "herbalbrews:hibiscus_tea",
+    "herbalbrews:hibiscus_tea_eating_0",
+    "herbalbrews:hibiscus_tea_eating_1",
+    "herbalbrews:hibiscus_tea_eating_2"
+  ],
+  "herbalbrews:lavender_tea": [
+    "herbalbrews:lavender_tea",
+    "herbalbrews:lavender_tea",
+    "herbalbrews:lavender_tea_eating_0",
+    "herbalbrews:lavender_tea_eating_1",
+    "herbalbrews:lavender_tea_eating_2"
+  ],
+  "herbalbrews:milk_coffee": [
+    "herbalbrews:milk_coffee",
+    "herbalbrews:milk_coffee",
+    "herbalbrews:milk_coffee_eating_0",
+    "herbalbrews:milk_coffee_eating_1",
+    "herbalbrews:milk_coffee_eating_2"
+  ],
+  "herbalbrews:oolong_tea": [
+    "herbalbrews:oolong_tea",
+    "herbalbrews:oolong_tea",
+    "herbalbrews:oolong_tea_eating_0",
+    "herbalbrews:oolong_tea_eating_1",
+    "herbalbrews:oolong_tea_eating_2"
+  ],
+  "herbalbrews:rooibos_leaf": [
+    "herbalbrews:rooibos_leaf",
+    "herbalbrews:rooibos_leaf",
+    "herbalbrews:rooibos_leaf_eating_0",
+    "herbalbrews:rooibos_leaf_eating_1",
+    "herbalbrews:rooibos_leaf_eating_2"
+  ],
+  "herbalbrews:rooibos_tea": [
+    "herbalbrews:rooibos_tea",
+    "herbalbrews:rooibos_tea",
+    "herbalbrews:rooibos_tea_eating_0",
+    "herbalbrews:rooibos_tea_eating_1",
+    "herbalbrews:rooibos_tea_eating_2"
+  ],
+  "herbalbrews:tea_blossom": [
+    "herbalbrews:tea_blossom",
+    "herbalbrews:tea_blossom",
+    "herbalbrews:tea_blossom_eating_0",
+    "herbalbrews:tea_blossom_eating_1",
+    "herbalbrews:tea_blossom_eating_2"
+  ],
+  "herbalbrews:yerba_mate_leaf": [
+    "herbalbrews:yerba_mate_leaf",
+    "herbalbrews:yerba_mate_leaf",
+    "herbalbrews:yerba_mate_leaf_eating_0",
+    "herbalbrews:yerba_mate_leaf_eating_1",
+    "herbalbrews:yerba_mate_leaf_eating_2"
+  ],
+  "herbalbrews:yerba_mate_tea": [
+    "herbalbrews:yerba_mate_tea",
+    "herbalbrews:yerba_mate_tea",
+    "herbalbrews:yerba_mate_tea_eating_0",
+    "herbalbrews:yerba_mate_tea_eating_1",
+    "herbalbrews:yerba_mate_tea_eating_2"
+  ],
+  "incubation:fried_egg": [
+    "incubation:fried_egg",
+    "incubation:fried_egg",
+    "incubation:fried_egg_eating_0",
+    "incubation:fried_egg_eating_1",
+    "incubation:fried_egg_eating_2"
+  ],
+  "incubation:scrambled_eggs": [
+    "incubation:scrambled_eggs",
+    "incubation:scrambled_eggs",
+    "incubation:scrambled_eggs_eating_0",
+    "incubation:scrambled_eggs_eating_1",
+    "incubation:scrambled_eggs_eating_2"
+  ],
+  "letfishlove:cod_roe": [
+    "letfishlove:cod_roe",
+    "letfishlove:cod_roe",
+    "letfishlove:cod_roe_eating_0",
+    "letfishlove:cod_roe_eating_1",
+    "letfishlove:cod_roe_eating_2"
+  ],
+  "letfishlove:pufferfish_roe": [
+    "letfishlove:pufferfish_roe",
+    "letfishlove:pufferfish_roe",
+    "letfishlove:pufferfish_roe_eating_0",
+    "letfishlove:pufferfish_roe_eating_1",
+    "letfishlove:pufferfish_roe_eating_2"
+  ],
+  "letfishlove:salmon_roe": [
+    "letfishlove:salmon_roe",
+    "letfishlove:salmon_roe",
+    "letfishlove:salmon_roe_eating_0",
+    "letfishlove:salmon_roe_eating_1",
+    "letfishlove:salmon_roe_eating_2"
+  ],
+  "letfishlove:tropical_fish_roe": [
+    "letfishlove:tropical_fish_roe",
+    "letfishlove:tropical_fish_roe",
+    "letfishlove:tropical_fish_roe_eating_0",
+    "letfishlove:tropical_fish_roe_eating_1",
+    "letfishlove:tropical_fish_roe_eating_2"
+  ],
+  "letmorefishlove:bass_roe": [
+    "letmorefishlove:bass_roe",
+    "letmorefishlove:bass_roe",
+    "letmorefishlove:bass_roe_eating_0",
+    "letmorefishlove:bass_roe_eating_1",
+    "letmorefishlove:bass_roe_eating_2"
+  ],
+  "letmorefishlove:blizzard_fin_roe": [
+    "letmorefishlove:blizzard_fin_roe",
+    "letmorefishlove:blizzard_fin_roe",
+    "letmorefishlove:blizzard_fin_roe_eating_0",
+    "letmorefishlove:blizzard_fin_roe_eating_1",
+    "letmorefishlove:blizzard_fin_roe_eating_2"
+  ],
+  "letmorefishlove:catfish_roe": [
+    "letmorefishlove:catfish_roe",
+    "letmorefishlove:catfish_roe",
+    "letmorefishlove:catfish_roe_eating_0",
+    "letmorefishlove:catfish_roe_eating_1",
+    "letmorefishlove:catfish_roe_eating_2"
+  ],
+  "letmorefishlove:koi_roe": [
+    "letmorefishlove:koi_roe",
+    "letmorefishlove:koi_roe",
+    "letmorefishlove:koi_roe_eating_0",
+    "letmorefishlove:koi_roe_eating_1",
+    "letmorefishlove:koi_roe_eating_2"
+  ],
+  "letmorefishlove:lanternfish_roe": [
+    "letmorefishlove:lanternfish_roe",
+    "letmorefishlove:lanternfish_roe",
+    "letmorefishlove:lanternfish_roe_eating_0",
+    "letmorefishlove:lanternfish_roe_eating_1",
+    "letmorefishlove:lanternfish_roe_eating_2"
+  ],
+  "letmorefishlove:lionfish_roe": [
+    "letmorefishlove:lionfish_roe",
+    "letmorefishlove:lionfish_roe",
+    "letmorefishlove:lionfish_roe_eating_0",
+    "letmorefishlove:lionfish_roe_eating_1",
+    "letmorefishlove:lionfish_roe_eating_2"
+  ],
+  "letmorefishlove:perch_roe": [
+    "letmorefishlove:perch_roe",
+    "letmorefishlove:perch_roe",
+    "letmorefishlove:perch_roe_eating_0",
+    "letmorefishlove:perch_roe_eating_1",
+    "letmorefishlove:perch_roe_eating_2"
+  ],
+  "letmorefishlove:pike_roe": [
+    "letmorefishlove:pike_roe",
+    "letmorefishlove:pike_roe",
+    "letmorefishlove:pike_roe_eating_0",
+    "letmorefishlove:pike_roe_eating_1",
+    "letmorefishlove:pike_roe_eating_2"
+  ],
+  "nethers_exoticism:bouddha_s_hand": [
+    "nethers_exoticism:bouddha_s_hand",
+    "nethers_exoticism:bouddha_s_hand",
+    "nethers_exoticism:bouddha_s_hand_eating_0",
+    "nethers_exoticism:bouddha_s_hand_eating_1",
+    "nethers_exoticism:bouddha_s_hand_eating_2"
+  ],
+  "nethers_exoticism:bouddha_s_hand_juice": [
+    "nethers_exoticism:bouddha_s_hand_juice",
+    "nethers_exoticism:bouddha_s_hand_juice",
+    "nethers_exoticism:bouddha_s_hand_juice_eating_0",
+    "nethers_exoticism:bouddha_s_hand_juice_eating_1",
+    "nethers_exoticism:bouddha_s_hand_juice_eating_2"
+  ],
+  "nethers_exoticism:chopped_bouddha_s_hand": [
+    "nethers_exoticism:chopped_bouddha_s_hand",
+    "nethers_exoticism:chopped_bouddha_s_hand",
+    "nethers_exoticism:chopped_bouddha_s_hand_eating_0",
+    "nethers_exoticism:chopped_bouddha_s_hand_eating_1",
+    "nethers_exoticism:chopped_bouddha_s_hand_eating_2"
+  ],
+  "nethers_exoticism:curious_fruits_salad": [
+    "nethers_exoticism:curious_fruits_salad",
+    "nethers_exoticism:curious_fruits_salad",
+    "nethers_exoticism:curious_fruits_salad_eating_0",
+    "nethers_exoticism:curious_fruits_salad_eating_1",
+    "nethers_exoticism:curious_fruits_salad_eating_2"
+  ],
+  "nethers_exoticism:cut_pitaya": [
+    "nethers_exoticism:cut_pitaya",
+    "nethers_exoticism:cut_pitaya",
+    "nethers_exoticism:cut_pitaya_eating_0",
+    "nethers_exoticism:cut_pitaya_eating_1",
+    "nethers_exoticism:cut_pitaya_eating_2"
+  ],
+  "nethers_exoticism:jaboticaba": [
+    "nethers_exoticism:jaboticaba",
+    "nethers_exoticism:jaboticaba",
+    "nethers_exoticism:jaboticaba_eating_0",
+    "nethers_exoticism:jaboticaba_eating_1",
+    "nethers_exoticism:jaboticaba_eating_2"
+  ],
+  "nethers_exoticism:jaboticaba_juice_bottle": [
+    "nethers_exoticism:jaboticaba_juice_bottle",
+    "nethers_exoticism:jaboticaba_juice_bottle",
+    "nethers_exoticism:jaboticaba_juice_bottle_eating_0",
+    "nethers_exoticism:jaboticaba_juice_bottle_eating_1",
+    "nethers_exoticism:jaboticaba_juice_bottle_eating_2"
+  ],
+  "nethers_exoticism:jaboticaba_juice_fire_resistance": [
+    "nethers_exoticism:jaboticaba_juice_fire_resistance",
+    "nethers_exoticism:jaboticaba_juice_fire_resistance",
+    "nethers_exoticism:jaboticaba_juice_fire_resistance_eating_0",
+    "nethers_exoticism:jaboticaba_juice_fire_resistance_eating_1",
+    "nethers_exoticism:jaboticaba_juice_fire_resistance_eating_2"
+  ],
+  "nethers_exoticism:jaboticaba_juice_night_vision": [
+    "nethers_exoticism:jaboticaba_juice_night_vision",
+    "nethers_exoticism:jaboticaba_juice_night_vision",
+    "nethers_exoticism:jaboticaba_juice_night_vision_eating_0",
+    "nethers_exoticism:jaboticaba_juice_night_vision_eating_1",
+    "nethers_exoticism:jaboticaba_juice_night_vision_eating_2"
+  ],
+  "nethers_exoticism:jaboticaba_juice_saturation": [
+    "nethers_exoticism:jaboticaba_juice_saturation",
+    "nethers_exoticism:jaboticaba_juice_saturation",
+    "nethers_exoticism:jaboticaba_juice_saturation_eating_0",
+    "nethers_exoticism:jaboticaba_juice_saturation_eating_1",
+    "nethers_exoticism:jaboticaba_juice_saturation_eating_2"
+  ],
+  "nethers_exoticism:jaboticaba_juice_wither_cure": [
+    "nethers_exoticism:jaboticaba_juice_wither_cure",
+    "nethers_exoticism:jaboticaba_juice_wither_cure",
+    "nethers_exoticism:jaboticaba_juice_wither_cure_eating_0",
+    "nethers_exoticism:jaboticaba_juice_wither_cure_eating_1",
+    "nethers_exoticism:jaboticaba_juice_wither_cure_eating_2"
+  ],
+  "nethers_exoticism:kiwano": [
+    "nethers_exoticism:kiwano",
+    "nethers_exoticism:kiwano",
+    "nethers_exoticism:kiwano_eating_0",
+    "nethers_exoticism:kiwano_eating_1",
+    "nethers_exoticism:kiwano_eating_2"
+  ],
+  "nethers_exoticism:kiwano_juice": [
+    "nethers_exoticism:kiwano_juice",
+    "nethers_exoticism:kiwano_juice",
+    "nethers_exoticism:kiwano_juice_eating_0",
+    "nethers_exoticism:kiwano_juice_eating_1",
+    "nethers_exoticism:kiwano_juice_eating_2"
+  ],
+  "nethers_exoticism:pitaya": [
+    "nethers_exoticism:pitaya",
+    "nethers_exoticism:pitaya",
+    "nethers_exoticism:pitaya_eating_0",
+    "nethers_exoticism:pitaya_eating_1",
+    "nethers_exoticism:pitaya_eating_2"
+  ],
+  "nethers_exoticism:pitaya_juice": [
+    "nethers_exoticism:pitaya_juice",
+    "nethers_exoticism:pitaya_juice",
+    "nethers_exoticism:pitaya_juice_eating_0",
+    "nethers_exoticism:pitaya_juice_eating_1",
+    "nethers_exoticism:pitaya_juice_eating_2"
+  ],
+  "nethers_exoticism:ramboutan": [
+    "nethers_exoticism:ramboutan",
+    "nethers_exoticism:ramboutan",
+    "nethers_exoticism:ramboutan_eating_0",
+    "nethers_exoticism:ramboutan_eating_1",
+    "nethers_exoticism:ramboutan_eating_2"
+  ],
+  "nethers_exoticism:ramboutan_juice": [
+    "nethers_exoticism:ramboutan_juice",
+    "nethers_exoticism:ramboutan_juice",
+    "nethers_exoticism:ramboutan_juice_eating_0",
+    "nethers_exoticism:ramboutan_juice_eating_1",
+    "nethers_exoticism:ramboutan_juice_eating_2"
+  ],
+  "nethers_exoticism:sliced_kiwano": [
+    "nethers_exoticism:sliced_kiwano",
+    "nethers_exoticism:sliced_kiwano",
+    "nethers_exoticism:sliced_kiwano_eating_0",
+    "nethers_exoticism:sliced_kiwano_eating_1",
+    "nethers_exoticism:sliced_kiwano_eating_2"
+  ],
+  "nethers_exoticism:unsettling_fruits_salad": [
+    "nethers_exoticism:unsettling_fruits_salad",
+    "nethers_exoticism:unsettling_fruits_salad",
+    "nethers_exoticism:unsettling_fruits_salad_eating_0",
+    "nethers_exoticism:unsettling_fruits_salad_eating_1",
+    "nethers_exoticism:unsettling_fruits_salad_eating_2"
+  ],
+  "quarkdelight:bowl_of_exotic_fruits": [
+    "quarkdelight:bowl_of_exotic_fruits",
+    "quarkdelight:bowl_of_exotic_fruits",
+    "quarkdelight:bowl_of_exotic_fruits_eating_0",
+    "quarkdelight:bowl_of_exotic_fruits_eating_1",
+    "quarkdelight:bowl_of_exotic_fruits_eating_2"
+  ],
+  "quarkdelight:bucket_of_sweet_gelatine": [
+    "quarkdelight:bucket_of_sweet_gelatine",
+    "quarkdelight:bucket_of_sweet_gelatine",
+    "quarkdelight:bucket_of_sweet_gelatine_eating_0",
+    "quarkdelight:bucket_of_sweet_gelatine_eating_1",
+    "quarkdelight:bucket_of_sweet_gelatine_eating_2"
+  ],
+  "quarkdelight:cavern_explorer_stew": [
+    "quarkdelight:cavern_explorer_stew",
+    "quarkdelight:cavern_explorer_stew",
+    "quarkdelight:cavern_explorer_stew_eating_0",
+    "quarkdelight:cavern_explorer_stew_eating_1",
+    "quarkdelight:cavern_explorer_stew_eating_2"
+  ],
+  "quarkdelight:cloud_latte": [
+    "quarkdelight:cloud_latte",
+    "quarkdelight:cloud_latte",
+    "quarkdelight:cloud_latte_eating_0",
+    "quarkdelight:cloud_latte_eating_1",
+    "quarkdelight:cloud_latte_eating_2"
+  ],
+  "quarkdelight:cooked_whole_crab": [
+    "quarkdelight:cooked_whole_crab",
+    "quarkdelight:cooked_whole_crab",
+    "quarkdelight:cooked_whole_crab_eating_0",
+    "quarkdelight:cooked_whole_crab_eating_1",
+    "quarkdelight:cooked_whole_crab_eating_2"
+  ],
+  "quarkdelight:crab_bars": [
+    "quarkdelight:crab_bars",
+    "quarkdelight:crab_bars",
+    "quarkdelight:crab_bars_eating_0",
+    "quarkdelight:crab_bars_eating_1",
+    "quarkdelight:crab_bars_eating_2"
+  ],
+  "quarkdelight:crab_pasta": [
+    "quarkdelight:crab_pasta",
+    "quarkdelight:crab_pasta",
+    "quarkdelight:crab_pasta_eating_0",
+    "quarkdelight:crab_pasta_eating_1",
+    "quarkdelight:crab_pasta_eating_2"
+  ],
+  "quarkdelight:lush_moss_salad": [
+    "quarkdelight:lush_moss_salad",
+    "quarkdelight:lush_moss_salad",
+    "quarkdelight:lush_moss_salad_eating_0",
+    "quarkdelight:lush_moss_salad_eating_1",
+    "quarkdelight:lush_moss_salad_eating_2"
+  ],
+  "quarkdelight:miso_with_bamboo_sprouts": [
+    "quarkdelight:miso_with_bamboo_sprouts",
+    "quarkdelight:miso_with_bamboo_sprouts",
+    "quarkdelight:miso_with_bamboo_sprouts_eating_0",
+    "quarkdelight:miso_with_bamboo_sprouts_eating_1",
+    "quarkdelight:miso_with_bamboo_sprouts_eating_2"
+  ],
+  "rainbowchristmas:candy_cane": [
+    "rainbowchristmas:candy_cane",
+    "rainbowchristmas:candy_cane",
+    "rainbowchristmas:candy_cane_eating_0",
+    "rainbowchristmas:candy_cane_eating_1",
+    "rainbowchristmas:candy_cane_eating_2"
+  ],
+  "rainbowchristmas:gingerbread_cookie": [
+    "rainbowchristmas:gingerbread_cookie",
+    "rainbowchristmas:gingerbread_cookie",
+    "rainbowchristmas:gingerbread_cookie_eating_0",
+    "rainbowchristmas:gingerbread_cookie_eating_1",
+    "rainbowchristmas:gingerbread_cookie_eating_2"
+  ],
+  "rainbowchristmas:hard_candy": [
+    "rainbowchristmas:hard_candy",
+    "rainbowchristmas:hard_candy",
+    "rainbowchristmas:hard_candy_eating_0",
+    "rainbowchristmas:hard_candy_eating_1",
+    "rainbowchristmas:hard_candy_eating_2"
+  ],
+  "regions_unexplored:duskmelon_slice": [
+    "regions_unexplored:duskmelon_slice",
+    "regions_unexplored:duskmelon_slice",
+    "regions_unexplored:duskmelon_slice_eating_0",
+    "regions_unexplored:duskmelon_slice_eating_1",
+    "regions_unexplored:duskmelon_slice_eating_2"
+  ],
+  "snowpig:frozen_ham": [
+    "snowpig:frozen_ham",
+    "snowpig:frozen_ham",
+    "snowpig:frozen_ham_eating_0",
+    "snowpig:frozen_ham_eating_1",
+    "snowpig:frozen_ham_eating_2"
+  ],
+  "snowpig:frozen_porkchop": [
+    "snowpig:frozen_porkchop",
+    "snowpig:frozen_porkchop",
+    "snowpig:frozen_porkchop_eating_0",
+    "snowpig:frozen_porkchop_eating_1",
+    "snowpig:frozen_porkchop_eating_2"
+  ],
+  "snowyspirit:candy_cane": [
+    "snowyspirit:candy_cane",
+    "snowyspirit:candy_cane",
+    "snowyspirit:candy_cane_eating_0",
+    "snowyspirit:candy_cane_eating_1",
+    "snowyspirit:candy_cane_eating_2"
+  ],
+  "snowyspirit:eggnog": [
+    "snowyspirit:eggnog",
+    "snowyspirit:eggnog",
+    "snowyspirit:eggnog_eating_0",
+    "snowyspirit:eggnog_eating_1",
+    "snowyspirit:eggnog_eating_2"
+  ],
+  "snowyspirit:gingerbread_cookie": [
+    "snowyspirit:gingerbread_cookie",
+    "snowyspirit:gingerbread_cookie",
+    "snowyspirit:gingerbread_cookie_eating_0",
+    "snowyspirit:gingerbread_cookie_eating_1",
+    "snowyspirit:gingerbread_cookie_eating_2"
+  ],
+  "snowyspirit:gingerbread_cookie_1": [
+    "snowyspirit:gingerbread_cookie_1",
+    "snowyspirit:gingerbread_cookie_1",
+    "snowyspirit:gingerbread_cookie_1_eating_0",
+    "snowyspirit:gingerbread_cookie_1_eating_1",
+    "snowyspirit:gingerbread_cookie_1_eating_2"
+  ],
+  "snowyspirit:gingerbread_cookie_2": [
+    "snowyspirit:gingerbread_cookie_2",
+    "snowyspirit:gingerbread_cookie_2",
+    "snowyspirit:gingerbread_cookie_2_eating_0",
+    "snowyspirit:gingerbread_cookie_2_eating_1",
+    "snowyspirit:gingerbread_cookie_2_eating_2"
+  ],
+  "snowyspirit:gingerbread_cookie_3": [
+    "snowyspirit:gingerbread_cookie_3",
+    "snowyspirit:gingerbread_cookie_3",
+    "snowyspirit:gingerbread_cookie_3_eating_0",
+    "snowyspirit:gingerbread_cookie_3_eating_1",
+    "snowyspirit:gingerbread_cookie_3_eating_2"
+  ],
+  "sons_of_sins:blazing_heart": [
+    "sons_of_sins:blazing_heart",
+    "sons_of_sins:blazing_heart",
+    "sons_of_sins:blazing_heart_eating_0",
+    "sons_of_sins:blazing_heart_eating_1",
+    "sons_of_sins:blazing_heart_eating_2"
+  ],
+  "sons_of_sins:charged_creeper_ribs": [
+    "sons_of_sins:charged_creeper_ribs",
+    "sons_of_sins:charged_creeper_ribs",
+    "sons_of_sins:charged_creeper_ribs_eating_0",
+    "sons_of_sins:charged_creeper_ribs_eating_1",
+    "sons_of_sins:charged_creeper_ribs_eating_2"
+  ],
+  "sons_of_sins:creeper_ribs": [
+    "sons_of_sins:creeper_ribs",
+    "sons_of_sins:creeper_ribs",
+    "sons_of_sins:creeper_ribs_eating_0",
+    "sons_of_sins:creeper_ribs_eating_1",
+    "sons_of_sins:creeper_ribs_eating_2"
+  ],
+  "sons_of_sins:enderman_muscle": [
+    "sons_of_sins:enderman_muscle",
+    "sons_of_sins:enderman_muscle",
+    "sons_of_sins:enderman_muscle_eating_0",
+    "sons_of_sins:enderman_muscle_eating_1",
+    "sons_of_sins:enderman_muscle_eating_2"
+  ],
+  "sons_of_sins:flesh_of_demise": [
+    "sons_of_sins:flesh_of_demise",
+    "sons_of_sins:flesh_of_demise",
+    "sons_of_sins:flesh_of_demise_eating_0",
+    "sons_of_sins:flesh_of_demise_eating_1",
+    "sons_of_sins:flesh_of_demise_eating_2"
+  ],
+  "sons_of_sins:heart": [
+    "sons_of_sins:heart",
+    "sons_of_sins:heart",
+    "sons_of_sins:heart_eating_0",
+    "sons_of_sins:heart_eating_1",
+    "sons_of_sins:heart_eating_2"
+  ],
+  "sons_of_sins:muscles": [
+    "sons_of_sins:muscles",
+    "sons_of_sins:muscles",
+    "sons_of_sins:muscles_eating_0",
+    "sons_of_sins:muscles_eating_1",
+    "sons_of_sins:muscles_eating_2"
+  ],
+  "sons_of_sins:ravager_muscle": [
+    "sons_of_sins:ravager_muscle",
+    "sons_of_sins:ravager_muscle",
+    "sons_of_sins:ravager_muscle_eating_0",
+    "sons_of_sins:ravager_muscle_eating_1",
+    "sons_of_sins:ravager_muscle_eating_2"
+  ],
+  "sons_of_sins:ribs": [
+    "sons_of_sins:ribs",
+    "sons_of_sins:ribs",
+    "sons_of_sins:ribs_eating_0",
+    "sons_of_sins:ribs_eating_1",
+    "sons_of_sins:ribs_eating_2"
+  ],
+  "sons_of_sins:slime_rear": [
+    "sons_of_sins:slime_rear",
+    "sons_of_sins:slime_rear",
+    "sons_of_sins:slime_rear_eating_0",
+    "sons_of_sins:slime_rear_eating_1",
+    "sons_of_sins:slime_rear_eating_2"
+  ],
+  "sons_of_sins:snow_golem_heart": [
+    "sons_of_sins:snow_golem_heart",
+    "sons_of_sins:snow_golem_heart",
+    "sons_of_sins:snow_golem_heart_eating_0",
+    "sons_of_sins:snow_golem_heart_eating_1",
+    "sons_of_sins:snow_golem_heart_eating_2"
+  ],
+  "sons_of_sins:spider_heart": [
+    "sons_of_sins:spider_heart",
+    "sons_of_sins:spider_heart",
+    "sons_of_sins:spider_heart_eating_0",
+    "sons_of_sins:spider_heart_eating_1",
+    "sons_of_sins:spider_heart_eating_2"
+  ],
+  "sons_of_sins:strider_muscle": [
+    "sons_of_sins:strider_muscle",
+    "sons_of_sins:strider_muscle",
+    "sons_of_sins:strider_muscle_eating_0",
+    "sons_of_sins:strider_muscle_eating_1",
+    "sons_of_sins:strider_muscle_eating_2"
+  ],
+  "spelunkery:grilled_portabella": [
+    "spelunkery:grilled_portabella",
+    "spelunkery:grilled_portabella",
+    "spelunkery:grilled_portabella_eating_0",
+    "spelunkery:grilled_portabella_eating_1",
+    "spelunkery:grilled_portabella_eating_2"
+  ],
+  "supplementaries:candy": [
+    "supplementaries:candy",
+    "supplementaries:candy",
+    "supplementaries:candy_eating_0",
+    "supplementaries:candy_eating_1",
+    "supplementaries:candy_eating_2"
+  ],
+  "under_the_moon:echobug_burger": [
+    "under_the_moon:echobug_burger",
+    "under_the_moon:echobug_burger",
+    "under_the_moon:echobug_burger_eating_0",
+    "under_the_moon:echobug_burger_eating_1",
+    "under_the_moon:echobug_burger_eating_2"
+  ],
+  "under_the_moon:echobug_tail": [
+    "under_the_moon:echobug_tail",
+    "under_the_moon:echobug_tail",
+    "under_the_moon:echobug_tail_eating_0",
+    "under_the_moon:echobug_tail_eating_1",
+    "under_the_moon:echobug_tail_eating_2"
+  ],
+  "under_the_moon:golden_nest_root": [
+    "under_the_moon:golden_nest_root",
+    "under_the_moon:golden_nest_root",
+    "under_the_moon:golden_nest_root_eating_0",
+    "under_the_moon:golden_nest_root_eating_1",
+    "under_the_moon:golden_nest_root_eating_2"
+  ],
+  "under_the_moon:nest_root": [
+    "under_the_moon:nest_root",
+    "under_the_moon:nest_root",
+    "under_the_moon:nest_root_eating_0",
+    "under_the_moon:nest_root_eating_1",
+    "under_the_moon:nest_root_eating_2"
+  ],
+  "under_the_moon:puffball_soup": [
+    "under_the_moon:puffball_soup",
+    "under_the_moon:puffball_soup",
+    "under_the_moon:puffball_soup_eating_0",
+    "under_the_moon:puffball_soup_eating_1",
+    "under_the_moon:puffball_soup_eating_2"
+  ],
+  "vinery:cherry": [
+    "vinery:cherry",
+    "vinery:cherry",
+    "vinery:cherry_eating_0",
+    "vinery:cherry_eating_1",
+    "vinery:cherry_eating_2"
+  ],
+  "vinery:jungle_grapes_red": [
+    "vinery:jungle_grapes_red",
+    "vinery:jungle_grapes_red",
+    "vinery:jungle_grapes_red_eating_0",
+    "vinery:jungle_grapes_red_eating_1",
+    "vinery:jungle_grapes_red_eating_2"
+  ],
+  "vinery:jungle_grapes_white": [
+    "vinery:jungle_grapes_white",
+    "vinery:jungle_grapes_white",
+    "vinery:jungle_grapes_white_eating_0",
+    "vinery:jungle_grapes_white_eating_1",
+    "vinery:jungle_grapes_white_eating_2"
+  ],
+  "vinery:red_grape": [
+    "vinery:red_grape",
+    "vinery:red_grape",
+    "vinery:red_grape_eating_0",
+    "vinery:red_grape_eating_1",
+    "vinery:red_grape_eating_2"
+  ],
+  "vinery:rotten_cherry": [
+    "vinery:rotten_cherry",
+    "vinery:rotten_cherry",
+    "vinery:rotten_cherry_eating_0",
+    "vinery:rotten_cherry_eating_1",
+    "vinery:rotten_cherry_eating_2"
+  ],
+  "vinery:savanna_grapes_red": [
+    "vinery:savanna_grapes_red",
+    "vinery:savanna_grapes_red",
+    "vinery:savanna_grapes_red_eating_0",
+    "vinery:savanna_grapes_red_eating_1",
+    "vinery:savanna_grapes_red_eating_2"
+  ],
+  "vinery:savanna_grapes_white": [
+    "vinery:savanna_grapes_white",
+    "vinery:savanna_grapes_white",
+    "vinery:savanna_grapes_white_eating_0",
+    "vinery:savanna_grapes_white_eating_1",
+    "vinery:savanna_grapes_white_eating_2"
+  ],
+  "vinery:taiga_grapes_red": [
+    "vinery:taiga_grapes_red",
+    "vinery:taiga_grapes_red",
+    "vinery:taiga_grapes_red_eating_0",
+    "vinery:taiga_grapes_red_eating_1",
+    "vinery:taiga_grapes_red_eating_2"
+  ],
+  "vinery:taiga_grapes_white": [
+    "vinery:taiga_grapes_white",
+    "vinery:taiga_grapes_white",
+    "vinery:taiga_grapes_white_eating_0",
+    "vinery:taiga_grapes_white_eating_1",
+    "vinery:taiga_grapes_white_eating_2"
+  ],
+  "vinery:white_grape": [
+    "vinery:white_grape",
+    "vinery:white_grape",
+    "vinery:white_grape_eating_0",
+    "vinery:white_grape_eating_1",
+    "vinery:white_grape_eating_2"
+  ],
+  "yucutan_delight:stuffed_pepper": [
+    "yucutan_delight:stuffed_pepper",
+    "yucutan_delight:stuffed_pepper",
+    "yucutan_delight:stuffed_pepper_eating_0",
+    "yucutan_delight:stuffed_pepper_eating_1",
+    "yucutan_delight:stuffed_pepper_eating_2"
+  ],
+  "yucutan_delight:topless_chili_pepper": [
+    "yucutan_delight:topless_chili_pepper",
+    "yucutan_delight:topless_chili_pepper",
+    "yucutan_delight:topless_chili_pepper_eating_0",
+    "yucutan_delight:topless_chili_pepper_eating_1",
+    "yucutan_delight:topless_chili_pepper_eating_2"
+  ]
+}

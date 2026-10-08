@@ -1,0 +1,64 @@
+{
+    "name": "Ритуал наполнения",
+    "icon": "betterend:infusion_pedestal",
+    "read_by_default": true,
+    "category": "betterend:rituals",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Наполняйте предметы силой стихий."
+        },
+        {
+            "type": "crafting",
+            "title": "Сама структура",
+            "text": "Сначала вам нужно изготовить $(bold)пьедестал для инфузии$() и 8 подставок $(bold)любого$() другого типа.",
+            "recipe": "betterend:infusion_pedestal"
+        },
+        {
+            "type": "image",
+            "text": "Затем вам нужно установить пьедестал для инфузий в центре и другие подставки вокруг.",
+            "border": true,
+            "images": [
+                "betterend:textures/images/infusion_ritual/infusion_ritual_start.png",
+                "betterend:textures/images/infusion_ritual/infusion_ritual_full.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Инфузия",
+            "text": "Когда ритуальная структура будет готова, можно приступать к наполнению.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/infusion_ritual/ritual_structure.png"
+            ]
+        },
+        {
+            "type": "image",
+            "text": "Выложите основной ингредиент на $(bold)пьедестал для инфузии$() и катализаторы для других.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/infusion_ritual/ritual_ready.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Вы можете посмотреть рецепты в разделе $(l:https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)REI$(/l).$(br2)Чтобы начать наполнение, просто поместите основной ингредиент последним или щелкните ПКМ на $(bold)пьедестал инфузии$()."
+        },
+        {
+            "type": "image",
+            "text": "Затем вам нужно дождаться завершения ритуала.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/infusion_ritual/ritual_started.png"
+            ]
+        },
+        {
+            "type": "image",
+            "text": "И получить результат.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/infusion_ritual/ritual_finished.png"
+            ]
+        }
+    ]
+}

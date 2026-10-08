@@ -1,0 +1,8 @@
+{
+	"event_fired": true,
+	"recipes_seen_by_forEachRecipe": 19896,
+	"recipes_dumped": 0,
+	"hard_errors": 19896,
+	"full_text_parts": 0,
+	"mode": "v4_getFromToString_plus_rawText_fallback"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Как открыть портал?",
+    "icon": "spelunkery:portal_fluid_bottle",
+    "priority": true,
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Чтобы открыть портал в Незер, нужно использовать вместо Огнива - Бутылочку пространственных слёз. Её можно найти в сундуке у Разрушенного портала. Невозможно создать.",
+            "item": "spelunkery:portal_fluid_bottle"
+        }
+    ]
+}

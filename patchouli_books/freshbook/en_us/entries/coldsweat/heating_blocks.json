@@ -1,0 +1,12 @@
+{
+    "name": "Warming up",
+    "icon": "minecraft:magma_block",
+    "category": "patchouli:coldsweat_category",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These are blocks, liquids, and more that keep you warm at low temperatures. For example: $(br)$(li)Fire/Open fire$()$(li)Lava$()$(li)Magma$()"
+        }
+    ]
+}

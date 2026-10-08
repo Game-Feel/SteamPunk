@@ -1,0 +1,184 @@
+{
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -69,
+        -171,
+        14
+      ],
+      "translation": [
+        0.75,
+        2.5,
+        -2
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -69,
+        -171,
+        14
+      ],
+      "translation": [
+        0.75,
+        2.5,
+        -2
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        90,
+        0,
+        -180
+      ],
+      "translation": [
+        0,
+        0,
+        -6
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "translation": [
+        2.5,
+        0,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -61,
+        -180,
+        152
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "translation": [
+        2,
+        -1.75,
+        0
+      ]
+    },
+    "head": {
+      "rotation": [
+        90,
+        0,
+        -180
+      ],
+      "translation": [
+        0,
+        -3.75,
+        -8.75
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -90,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        -2,
+        -1.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -90,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        -2,
+        -1.75
+      ]
+    }
+  },
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#tex",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            5.0
+          ]
+        },
+        "east": {
+          "texture": "#tex",
+          "uv": [
+            10.0,
+            5.0,
+            5.0,
+            14.0
+          ]
+        },
+        "north": {
+          "texture": "#tex",
+          "uv": [
+            0.0,
+            5.0,
+            5.0,
+            14.0
+          ]
+        },
+        "south": {
+          "texture": "#tex",
+          "uv": [
+            10.0,
+            5.0,
+            15.0,
+            14.0
+          ]
+        },
+        "up": {
+          "texture": "#tex",
+          "uv": [
+            10.0,
+            0.0,
+            15.0,
+            5.0
+          ]
+        },
+        "west": {
+          "texture": "#tex",
+          "uv": [
+            5.0,
+            5.0,
+            10.0,
+            14.0
+          ]
+        }
+      },
+      "from": [
+        5.5,
+        0,
+        5.5
+      ],
+      "to": [
+        10.5,
+        9,
+        10.5
+      ]
+    }
+  ],
+  "textures": {
+    "particle": "dungeons_plus:item/soul_cannon_inventory",
+    "tex": "dungeons_plus:item/soul_cannon"
+  }
+}

@@ -1,0 +1,113 @@
+#Chance in % of XP orb spawning after harvest done
+#Range: 1 ~ 100
+Chance = 100
+#Amount of XP given
+#Range: > 1
+"XP Amount" = 5
+#Enable simple harvesting and replanting with right click
+"Simple Harvest" = false
+#List of crops to process with their ages
+"Crops List" = [
+  # Vanilla – max ages
+  "Block{minecraft:potatoes}[age=7]",
+  "Block{minecraft:carrots}[age=7]",
+  "Block{minecraft:wheat}[age=7]",
+  "Block{minecraft:beetroots}[age=3]",
+  "Block{minecraft:nether_wart}[age=3]",
+
+  # Farmer's Delight – max ages
+  "Block{farmersdelight:cabbages}[age=7]",
+  "Block{farmersdelight:onions}[age=7]",
+  "Block{farmersdelight:tomatoes}[age=7]",
+  "Block{farmersdelight:rice_upper}[age=5]",
+
+  # Neapolitan – max ages
+  "Block{neapolitan:strawberries}[age=3]",
+  "Block{neapolitan:vanilla_crop}[age=7]",
+  "Block{neapolitan:banana_stem}[age=5]",
+  "Block{neapolitan:adzuki_sprouts}[age=7]",
+  "Block{neapolitan:mint_plant}[age=7]",
+
+  # Cooking for Blockheads – (uses other mods' crops, no unique growth stages)
+
+  # Cuisine Delight – typical max ages (mirroring Farmer’s Delight)
+  "Block{cuisinedelight:rice_crop}[age=7]",
+  "Block{cuisinedelight:tomato_crop}[age=7]",
+  "Block{cuisinedelight:onion_crop}[age=7]",
+  "Block{cuisinedelight:pepper_crop}[age=7]",
+
+  # Supplementaries – max age
+  "Block{supplementaries:onion_crop}[age=7]",
+
+  # Atmospheric, Autumnity, Cultural Delights (keeping mature)
+  "Block{atmospheric:passionfruit_vine}[age=3]",
+  "Block{atmospheric:yucca_flower}[age=3]",
+  "Block{autumnity:foul_berries}[age=3]",
+  "Block{culturaldelights:corn_crop}[age=7]",
+  "Block{culturaldelights:garlic_crop}[age=5]",
+
+  # Croptopia – mature crops only
+  "Block{croptopia:asparagus}[age=7]",
+  "Block{croptopia:barley}[age=7]",
+  "Block{croptopia:basil}[age=7]",
+  "Block{croptopia:black_beans}[age=7]",
+  "Block{croptopia:blackberry}[age=7]",
+  "Block{croptopia:blueberry}[age=7]",
+  "Block{croptopia:broccoli}[age=7]",
+  "Block{croptopia:cabbage}[age=7]",
+  "Block{croptopia:cantaloupe}[age=7]",
+  "Block{croptopia:cauliflower}[age=7]",
+  "Block{croptopia:celery}[age=7]",
+  "Block{croptopia:chili_pepper}[age=7]",
+  "Block{croptopia:coffee}[age=7]",
+  "Block{croptopia:corn}[age=7]",
+  "Block{croptopia:cranberry}[age=7]",
+  "Block{croptopia:cucumber}[age=7]",
+  "Block{croptopia:currant}[age=7]",
+  "Block{croptopia:eggplant}[age=7]",
+  "Block{croptopia:elderberry}[age=7]",
+  "Block{croptopia:garlic}[age=7]",
+  "Block{croptopia:ginger}[age=7]",
+  "Block{croptopia:grape}[age=7]",
+  "Block{croptopia:green_bean}[age=7]",
+  "Block{croptopia:green_onion}[age=7]",
+  "Block{croptopia:guava}[age=7]",
+  "Block{croptopia:honeydew}[age=7]",
+  "Block{croptopia:horseradish}[age=7]",
+   "Block{atmospheric:passionfruit_vine}[age=3]",
+  "Block{atmospheric:yucca_flower}[age=3]",
+  "Block{autumnity:foul_berries}[age=3]",
+  "Block{culturaldelights:corn_crop}[age=7]",
+  "Block{culturaldelights:garlic_crop}[age=5]",
+
+  # Croptopia – продолжение зрелых культур
+  "Block{croptopia:kale}[age=7]",
+  "Block{croptopia:leek}[age=7]",
+  "Block{croptopia:lettuce}[age=7]",
+  "Block{croptopia:mango}[age=7]",
+  "Block{croptopia:okra}[age=7]",
+  "Block{croptopia:olive}[age=7]",
+  "Block{croptopia:onion}[age=7]",
+  "Block{croptopia:pea}[age=7]",
+  "Block{croptopia:pepper}[age=7]",
+  "Block{croptopia:pineapple}[age=7]",
+  "Block{croptopia:plum}[age=7]",
+  "Block{croptopia:potato}[age=7]",
+  "Block{croptopia:pumpkin}[age=7]",
+  "Block{croptopia:radish}[age=7]",
+  "Block{croptopia:raspberry}[age=7]",
+  "Block{croptopia:rhubarb}[age=7]",
+  "Block{croptopia:rice}[age=7]",
+  "Block{croptopia:soybean}[age=7]",
+  "Block{croptopia:spinach}[age=7]",
+  "Block{croptopia:strawberry}[age=7]",
+  "Block{croptopia:sweet_potato}[age=7]",
+  "Block{croptopia:tomato}[age=7]",
+  "Block{croptopia:turnip}[age=7]",
+  "Block{croptopia:wheat}[age=7]",
+  "Block{croptopia:watermelon}[age=7]",
+  "Block{croptopia:yam}[age=7]"
+]
+
+#Curiosity Mode: sneak + right click with on block to get info in chat
+Curiosity = false

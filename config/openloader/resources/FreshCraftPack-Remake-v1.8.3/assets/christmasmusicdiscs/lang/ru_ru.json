@@ -1,0 +1,32 @@
+{
+  "itemGroup.tabchristmas_songs": "Рождество",
+  "item_group.christmasmusicdiscs.christmas_songs": "Рождественские песни",  
+
+  "item.christmasmusicdiscs.empty_music_disk": "Пустая пластинка",
+  "item.christmasmusicdiscs.carol_of_the_bells": "Колокольный звон",  
+  "item.christmasmusicdiscs.feliz_navidad": "С Рождеством!", 
+  "item.christmasmusicdiscs.have_a_holly_jolly_christmas": "Весёлого и счастливого Рождества",  
+  "item.christmasmusicdiscs.have_yourself_a_merry_christmas": "Поздравь себя с Рождеством",
+  "item.christmasmusicdiscs.ill_be_home_for_christmas": "Я буду дома на Рождество",  
+  "item.christmasmusicdiscs.oh_come_all_ye_faithful": "О, придите все верующие",
+  "item.christmasmusicdiscs.we_wish_you_a_merry_christmas": "Желаем вам счастливого Рождества",  
+  "item.christmasmusicdiscs.white_christmas": "Белое Рождество", 
+
+  "item.christmasmusicdiscs.carol_of_the_bells.desc": "«Колокольный звон» (Carol Of The Bells)",  
+  "item.christmasmusicdiscs.feliz_navidad.desc": "«С Рождеством!» (Feliz Navidad)", 
+  "item.christmasmusicdiscs.have_a_holly_jolly_christmas.desc": "«Весёлого и счастливого Рождества» (Have A Holly Jolly Christmas)",  
+  "item.christmasmusicdiscs.have_yourself_a_merry_christmas.desc": "«Поздравь себя с Рождеством» (Have Yourself A Merry Christmas)", 
+  "item.christmasmusicdiscs.ill_be_home_for_christmas.desc": "«Я буду дома на Рождество» (Ill be home for christmas)",
+  "item.christmasmusicdiscs.oh_come_all_ye_faithful.desc": "«О, придите все верующие» (Oh Come All Ye Faithful)", 
+  "item.christmasmusicdiscs.we_wish_you_a_merry_christmas.desc": "«Желаем вам счастливого Рождества» (We Wish You A Merry Christmas)",  
+  "item.christmasmusicdiscs.white_christmas.desc": "«Белое Рождество» (White Christmas)",  
+
+  "subtitles.carolofthebells": "Играет «Колокольный звон»",   
+  "subtitles.feliznavidad": "Играет «С Рождеством!»",
+  "subtitles.haveahollyjollychristmas": "Играет «Весёлого и счастливого Рождества»",
+  "subtitles.haveyourselfamerrychristmas": "Играет «Поздравь себя с Рождеством»",  
+  "subtitles.illbehomeforchristmas": "Играет «Я буду дома на Рождество»",
+  "subtitles.ocomeallyefaithful": "Играет «О, придите все верующие»",
+  "subtitles.wewishyouamerrychristmas": "Играет «Желаем вам счастливого Рождества»",  
+  "subtitles.whitechristmas": "Играет «Белое Рождество»"
+}

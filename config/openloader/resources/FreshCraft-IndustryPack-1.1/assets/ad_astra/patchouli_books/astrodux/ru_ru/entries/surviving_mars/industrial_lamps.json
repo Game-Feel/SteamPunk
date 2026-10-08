@@ -1,0 +1,19 @@
+{
+  "name": "Промышленные лампы",
+  "icon": "ad_astra:lime_industrial_lamp",
+  "sortnum": 2,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Промышленные лампы",
+      "item": "ad_astra:small_blue_industrial_lamp",
+      "text": "Промышленные лампы доступны во всех 16 цветах, а также в маленьких и больших размерах. По умолчанию все они будут излучать обычный белый свет; однако, если у вас есть $(l:https://modrinth.com/mod/shimmer)Shimmer$(/l), каждый источник света будет излучать свой соответствующий цвет."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:magenta_industrial_lamp",
+      "recipe2": "ad_astra:small_red_industrial_lamp"
+    }
+  ]
+}

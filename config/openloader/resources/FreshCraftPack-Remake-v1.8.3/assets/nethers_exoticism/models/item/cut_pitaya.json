@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nethers_exoticism:item/cut_dragon_fruit"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.25
+      },
+      "model": "nethers_exoticism:item/cut_pitaya_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.6
+      },
+      "model": "nethers_exoticism:item/cut_pitaya_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.8
+      },
+      "model": "nethers_exoticism:item/cut_pitaya_eating_2"
+    }
+  ]
+}

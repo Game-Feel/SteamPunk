@@ -1,0 +1,3381 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "technomancy_path"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:redstone"
+	id: "48267B4EBDF1F6FD"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "7E923DC8A40D5DA3"
+			invisible: true
+			rewards: [
+				{
+					command: "/spellranks set @p technomancy 4"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "128D09CF2CFF041D"
+					silent: true
+					title: "Rank 4 of Technomancy Path"
+					type: "command"
+				}
+				{
+					id: "03CD4DF4191BE3FD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA4D5457A57131F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BE67640C2A3C7AD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09E8BA3A487016FA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16B35696162A7258"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58C0040B29F697E5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F7093BA80FEACC2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C3A4592B66D9F75"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "078FEF6367046C97"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Welcome to the Technomancy Path"
+			tasks: [{
+				icon: "minecraft:redstone"
+				id: "2E253251B57912D0"
+				title: "Technomancy"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E923DC8A40D5DA3"]
+			id: "00005445434D5234"
+			rewards: [
+				{
+					command: "/spellranks set @p technomancy 3"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "10E4865E1B2FDC19"
+					silent: true
+					title: "Rank 3 of Technomancy Path"
+					type: "command"
+				}
+				{
+					id: "3A72342DB7AC636F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A7F5F7F478EA26F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19CAA5D2AD550AF7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07A2B591314DA2F4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "652CFC85CCF77B62"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4519967FBB5FFC75"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:hardware_update"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7463C4334135AA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AD4971CDAA3507B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33BC8FD9DE5923EF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52340010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52340011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52340012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:software_update"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52340013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Rank 4 of the Technomancy Path"
+			tasks: [
+				{
+					id: "5445434D52340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52340009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 4"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5234"]
+			id: "00005445434D5233"
+			rewards: [
+				{
+					command: "/spellranks set @p technomancy 2"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "630453744FEF2B3E"
+					silent: true
+					title: "Rank 2 of Technomancy Path"
+					type: "command"
+				}
+				{
+					id: "6C9DA197BA4E95E5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22602C8799804313"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0835AEC4528491E0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:ddos"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36FB49151554C730"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D2C46E5BF32DA8F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dos_swarm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C239CD8C8A6ECE2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:emp_blast"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "610D48BFE1C945B3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59D0AC883C7B5325"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66715422F14D4CB4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:hardware_update"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2816768D8FA979D2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E103FFEF063939B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:lock_on"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0618386EEC962985"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "758C1A71F9191E9F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52330014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52330015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52330016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:software_update"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52330017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Rank 3 of the Technomancy Path"
+			tasks: [
+				{
+					id: "5445434D52330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:hardware_update"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:software_update"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52330013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 3"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5233"]
+			id: "00005445434D5232"
+			rewards: [
+				{
+					command: "/spellranks set @p technomancy 1"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "4E034CED4FE8FCD2"
+					silent: true
+					title: "Rank 1 of Technomancy Path"
+					type: "command"
+				}
+				{
+					id: "2011116A4057CF80"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "732E32AC7713E579"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73B76DA9323E9BE9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:ddos"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F37AE903A978FAC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32DC36A818B4A73A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dos_swarm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D6289F37F7C5BE8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:emp_blast"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38E74477DD3AA9D0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "735FED5F7BACE55A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A7C8EA7E37138A7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45AA3612B6D679F6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:lock_on"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47B0FE7DF538B9F2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66CB03A209EF8E3C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "766934AFC222F860"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "584905F9EBB513CA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DB379B20F3807D1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Rank 2 of the Technomancy Path"
+			tasks: [
+				{
+					id: "5445434D52320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:ddos"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dos_swarm"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:emp_blast"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:hardware_update"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:lock_on"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:software_update"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52320017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 2"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5232"]
+			id: "00005445434D5231"
+			rewards: [
+				{
+					command: "/spellranks set @p technomancy 0"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "5D2CF72B80801B3B"
+					silent: true
+					title: "Rank 0 of Technomancy Path"
+					type: "command"
+				}
+				{
+					id: "2FE34EC24CA7477A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FEEE7DA22FC6241"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:atomic_laser"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A91A77700578B9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_prowler"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501AE679D0F46403"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "444E4C50F26406B4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:ddos"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E4D9F263B807533"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06965AF444FB617B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dos_swarm"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FFCD93CFAF56C4A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:emp_blast"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FE6F1407B923277"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13E0BF2D49C45F6E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D5CF86E9D7E0F41"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:hardware_update"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AF3BEA93DCCB705"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:intrusion_prevention_system"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15955043750D3999"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A0E96B41AF2E1F8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:lock_on"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B53D987A73EFA5E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52310016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:overcharged"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52310017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52310018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52310019"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52310020"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:software_update"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5445434D52310021"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Rank 1 of the Technomancy Path"
+			tasks: [
+				{
+					id: "5445434D52310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:ddos"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dos_swarm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:emp_blast"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:lock_on"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52310015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 1"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5231"]
+			id: "00005445434D5230"
+			subtitle: "Master Rank 0 of the Technomancy Path"
+			tasks: [
+				{
+					id: "5445434D52300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:aerial_assault"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:atomic_laser"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_prowler"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:construct_watchers"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:ddos"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:disabling_swipe"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dos_swarm"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:emp_blast"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:flash_bang"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:gear_shift"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:hardware_update"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:intrusion_prevention_system"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:laserbolt"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:lock_on"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:missile_launch"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:overcharged"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:parting_shot"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:reboot"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300019"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:rewire"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300020"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:shutdown"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300021"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:software_update"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5445434D52300022"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:surveillance_drone"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 0"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Technomancy Path"
+}

@@ -1,0 +1,62 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:village_plains",
+    "minecraft:village_desert",
+    "minecraft:village_savanna",
+    "minecraft:village_snowy",
+    "minecraft:village_taiga",
+    {
+      "id": "integrated_villages:airship_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:cabin_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:kutcha_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:marketstead_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mediterranean_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:oasis_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:pirate_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:tavern_village",
+      "required": false
+    },
+    {
+      "id": "nova_structures:village_jungle",
+      "required": false
+    },
+    {
+      "id": "nova_structures:village_swamp",
+      "required": false
+    }
+  ]
+}

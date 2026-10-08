@@ -1,0 +1,30 @@
+{
+    "name": "Villagers",
+    "icon": "wardrobe:farmers_hat_helmet",
+    "category": "patchouli:other_category",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "1. Villagers can now be interested in the emerald block by moving them from one place to another.$(br)2. It will not be possible to make an iron farm - metal no longer drops from golems."
+        },
+        {
+            "type": "text",
+            "text": "3. Maximum Enchantments and diamond armor are no longer for sale.$(br)4. By healing a villager, you won't get a huge discount.$(br2)The villager have become more generous, they can sell animals in crates. There is not a 100% chance that a certain villager will have"
+        },
+        {
+            "type": "text",
+            "text": "an animal is sold in a box.$(br)Not everyone can be bought. All animals purchased from villagers are used to create other animals in crates, see crafts."
+        },
+        {
+            "type": "spotlight",
+            "title": "Animals in the box",
+            "text": "$(li)Fletcher - Chick Crate$(li)Butcher - Piglet Crate$(li)Farmer - Calf Crate$(li)Shepherd - Lamb Crate$(li)Weaponsmith - Wolf Pup Crate$(li)Fisherman - Fox Pup Crate$(li)Leatherworker - Foal Crate$(li)Cleric - Kitten Crate",
+            "item": "villagersellanimals:crate_piglet,villagersellanimals:crate_calf,villagersellanimals:crate_chick,villagersellanimals:crate_lamb,villagersellanimals:crate_wolf_pup,villagersellanimals:crate_fox_pup,villagersellanimals:crate_foal,villagersellanimals:crate_kitten,villagersellanimals:crate_goatlet,villagersellanimals:crate_rabbit_cub,villagersellanimals:crate_red_mooshroom,villagersellanimals:crate_brown_mooshroom,villagersellanimals:crate_hoglet,villagersellanimals:crate_llama_baby,villagersellanimals:crate_parrot_baby,villagersellanimals:crate_zombie_foal,villagersellanimals:crate_skeleton_foal,villagersellanimals:crate_zoglet"
+        },
+        {
+            "type": "text",
+            "text": "$(li)Mason - Goatlet Crate$(li)Librarian - Rabbit Cub Crate$(li)Toolsmith - Baby Llama Crate$(li)Armorer - Parrot Crate"
+        }
+    ]
+}

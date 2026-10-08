@@ -1,0 +1,43 @@
+{
+    "name": "Body temperature",
+    "icon": "cold_sweat:filled_waterskin",
+    "category": "patchouli:coldsweat_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Yes, now you just can't walk on the cold tundra or in a Cave with a bare fifth point. Therefore, you need ways to protect yourself from extreme temperatures."
+        },
+        {
+            "type": "image",
+            "title": "Temperature interface",
+            "text": "The shard in the middle is the player's current temperature.",
+            "border": true,
+            "images": [ 
+                "patchouli:Screenshot_4.png",
+                "patchouli:Screenshot_5.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "The element on the right is the ambient temperature. Without a thermometer, you can only roughly know the temperature."
+        },
+        {
+            "type": "image",
+            "text": "The thermometer shows the exact temperature.",
+            "title": "Thermometer",
+            "border": true,
+            "images": [
+                "patchouli:Screenshot_9.png",
+                "patchouli:Screenshot_10.png"
+            ]
+
+        },
+        {
+            "type": "crafting",
+            "title": "Thermometer",
+            "text": "An extremely useful tool when working in difficult conditions.",
+            "recipe": "cold_sweat:thermometer"
+        }
+    ]
+}

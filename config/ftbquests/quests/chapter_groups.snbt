@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ icon: "farmersdelight:cooking_pot", id: "189989671235D85C", title: "Farmer's Delight" }
+		{ icon: { Count: 1, id: "minecraft:iron_pickaxe", tag: { Damage: 0 } }, id: "41BD389B96B19D27", title: "Шахтёрское ремесло" }
+		{ icon: { Count: 1, id: "endrem:old_eye", tag: { Damage: 0 } }, id: "69538664A8608941", title: "Путь в Энд" }
+	]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create:item/bar_of_chocolate"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "create:item/bar_of_chocolate_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "create:item/bar_of_chocolate_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "create:item/bar_of_chocolate_eating_2"
+    }
+  ]
+}

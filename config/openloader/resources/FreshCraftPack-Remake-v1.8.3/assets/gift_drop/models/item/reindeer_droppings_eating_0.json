@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gift_drop:item/reindeer_droppings_eating_0"
+  }
+}

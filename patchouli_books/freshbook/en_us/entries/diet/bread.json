@@ -1,0 +1,12 @@
+{
+    "name": "Plain bread",
+    "icon": "minecraft:bread",
+    "sortnum": 4,
+    "category": "patchouli:diet_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Bread creation has been changed. Now you need to put the wheat through a milling or grinder, make a dough out of flour, and then bake it in the oven. Take a look at such a simple subject in a new way..."
+        }
+    ]
+}

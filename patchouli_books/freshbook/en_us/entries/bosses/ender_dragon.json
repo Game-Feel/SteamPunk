@@ -1,0 +1,24 @@
+{
+    "name": "Ender Dragon",
+    "icon": "minecraft:dragon_egg",
+    "category": "patchouli:bosses_category",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ender Dragon has been changed. The pillars with crystals have been changed and are less protected, but the crystals themselves will recover over time after destruction.$(br2)When destroyed, End crystals will scatter dragon's breath."
+        },
+        {
+            "type": "text",
+            "text": "The dragon can no longer be damaged by beds or explosions in general.$(br2)The difficulty of the Ender Dragon will change depending on the number of players participating in the battle."
+        },
+        {
+            "type": "text",
+            "text": "At different points in time, and especially when the boss's health is low, he will launch lightning bolts at everything alive and not alive.$(br2)The boss has become much stronger, and you can't do it with just a diamond enchanted set of armor. I recommend making and mining"
+        },
+        {
+            "type": "text",
+            "text": "arrows with effects, golden apples and totems of undying."
+        }
+    ]
+}

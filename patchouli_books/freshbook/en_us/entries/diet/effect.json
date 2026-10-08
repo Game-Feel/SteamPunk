@@ -1,0 +1,15 @@
+{
+    "name": "Effects",
+    "icon": "minecraft:potion{Potion:'leaping'}",
+    "category": "patchouli:diet_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Each group, except sugar, gives you positive effects: increased health, resistance to repulsion, and armor hardness. When all the groups except sugar are pumped, the level of these effects increases."
+        },
+        {
+            "type": "text",
+            "text": "and the damage and attack speed are additionally increased.$(br2)You may have a question - what's wrong with sugar? It's simple, when pumping it, you move faster, but you also get the effect of Hunger. If you keep pumping sugar, sooner or later you will die."
+        }
+    ]
+}

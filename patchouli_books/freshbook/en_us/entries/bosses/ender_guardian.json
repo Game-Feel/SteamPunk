@@ -1,0 +1,39 @@
+{
+    "name": "Ender Guardian",
+    "icon": "cataclysm:void_core",
+    "category": "patchouli:bosses_category",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This Guardian guards the End itself. Even Ender Dragon is no match for him.$(br)It is located in the End."
+        },
+        {
+            "border": "true",
+            "title": "The Ruins of the Citadel",
+            "type": "image",
+            "text": "Small ruins in the wastelands of Enda.",
+            "images": [
+                "patchouli:ruines_citadel.png"
+            ]
+        },
+        {
+            "type": "crafting",
+            "title": "Eye of Void",
+            "text": "It is necessary to search for the Ruins of the Citadel.",
+            "recipe": "cataclysm:void_eye"
+        },
+        {
+            "type": "text",
+            "text": "After going through a bunch of traps, shulkers and parasites called the Endermaptera, you will be greeted by mini-bosses, Ender golems, whose killing sounds like a small challenge. After exploring the dungeon, you will find a well that leads to the lower floor of the Ruins. As soon as you jump off, the Ender Guardian will appear."
+        },
+        {
+            "type": "text",
+            "text": "He is twice as strong as the Ender Golem, and uses the energy of the End itself, which is able to move the target in space. If you lose a lot of health, its protection decreases. It has 2 phases."
+        },
+        {
+            "type": "text",
+            "text": "Combined with his strong punches and End's energy, he is one of their strongest bosses."
+        }
+    ]
+}

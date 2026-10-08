@@ -1,0 +1,53 @@
+{
+  "name": "Снеговик-дебошир",
+  "category": "coldsnaphorde:coldsnapmobs",
+  "icon": "coldsnaphorde:brawler_spawn_egg",
+  "advancement": "coldsnaphorde:coldsnapbrawler",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Дебошир был создан для защиты большой деревни. Однажды маленький деревенский житель отдал Дебоширу свои боксёрские перчатки. Несколько часов спустя в деревню ворвался игрок, преследуемый по пятам отрядом разбойников. Ни один житель деревни не выжил в этот день, но дебошир был поражён и теперь отказывается отдыхать, пока не отомстит за свою деревню."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:coldsnapbrawler",
+      "name": "Снеговик-дебошир"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-дебошир из Незера",
+      "text": "Дебошир, растаявший от жары в Незере. Никто не знает, как и почему Орда снеговиков решила, что отправиться в Незер было бы хорошей идеей, но те, кто это сделал, оставляют за собой шлейф слякоти, когда двигаются.",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ncoldsnapbrawler",
+      "name": "Снеговик-дебошир из Незера",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-дебошир из Энда",
+      "text": "Дебошир, мутировавший из-за безлюдных окрестностей Энда. Имеет шанс телепортировать вас или самого себя при атаке или при получении урона",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ecoldsnapbrawler",
+      "name": "Снеговик-дебошир из Энда",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-дебошир из Чумы",
+      "text": "Дебошир, наполненный мутными водами болота. Может передавать паразитов и болезни или вообще вызывать у вас плохое самочувствие",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:pcoldsnapbrawler",
+      "name": "Снеговик-дебошир из Чумы",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    }
+  ]
+}

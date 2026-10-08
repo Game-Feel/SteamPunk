@@ -1,0 +1,33 @@
+{
+    "name": "Разная еда",
+    "icon": "farmersdelight:netherite_knife",
+    "category": "patchouli:diet_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Если вы кулинар - вам очень повезло. Теперь вы можете приготовить очень много разной еды и напитков: начиная от съедобных компонентов и соков, заканчивая сложными, многоуровневыми блюдами, дающими разные эффекты."
+        },
+        {
+            "type": "crafting",
+            "title": "Кухонная плита и котёл",
+            "recipe": "farmersdelight:stove",
+            "recipe2": "farmersdelight:cooking_pot"
+        },
+        {
+            "type": "crafting",
+            "title": "Сковорода и доска",
+            "recipe": "farmersdelight:skillet",
+            "recipe2": "farmersdelight:cutting_board"
+        },
+        {
+            "type": "crafting",
+            "title": "Чайник",
+            "text": "Для большинства рецептов, необходим не только верстак, но и Кухонная плита, Котёл, Сковорода, Разделочная доска и Нож.",
+            "recipe": "herbalbrews:tea_kettle"
+        },
+        {
+            "type": "text",
+            "text": "А если вы любитель чаепития, то ещё и Чайник.$(br)Приятного аппетита!"
+        }
+    ]
+}

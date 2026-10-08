@@ -1,0 +1,53 @@
+{
+  "name": "Снеговик-даритель",
+  "category": "coldsnaphorde:coldsnapmobs",
+  "icon": "coldsnaphorde:gifter_spawn_egg",
+  "advancement": "coldsnaphorde:coldsnapgifter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Даритель никогда не был поклонником праздников. Вдохновлённый криперами и тем горем, которое они причиняют игрокам, Даритель пытается обмануть игроков, заставив их думать, что он доставляет подарки. Их жертв ждёт леденящий душу сюрприз."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:coldsnapgifter",
+      "name": "Снеговик-даритель"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-даритель из Незера",
+      "text": "Подарок, растаявший от жара Незера. Никто не знает, как и почему Орда снеговиков решила, что отправиться в Незер было бы хорошей идеей, но те, кто это сделал, оставляют за собой шлейф слякоти, когда двигаются.",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ncoldsnapgifter",
+      "name": "Снеговик-даритель из Незера",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-даритель из Энда",
+      "text": "Даритель, мутировавший из-за безлюдных окрестностей Энда. Имеет шанс телепортировать вас или самого себя при атаке или при получении урона",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ecoldsnapgifter",
+      "name": "Снеговик-даритель из Энда",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-даритель из Чумы",
+      "text": "Даритель, наполненный мутными водами болота. Может передавать паразитов и болезни или вообще вызывать у вас плохое самочувствие",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:pcoldsnapgifter",
+      "name": "Снеговик-даритель из Чумы",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    }
+  ]
+}

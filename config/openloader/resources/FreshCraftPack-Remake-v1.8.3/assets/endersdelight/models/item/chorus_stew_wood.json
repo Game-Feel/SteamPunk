@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "endersdelight:item/chorus_stew_wood"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "endersdelight:item/chorus_stew_wood_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "endersdelight:item/chorus_stew_wood_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "endersdelight:item/chorus_stew_wood_eating_2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "geo_path"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "mowziesmobs:bluff_rod"
+	id: "1F4DF8DF6CE1D07A"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "40B12629871A701B"
+			invisible: true
+			rewards: [{
+				command: "/spellranks set @p geo 4"
+				elevate_perms: true
+				icon: "mowziesmobs:bluff_rod"
+				id: "03A562817D7EF0E4"
+				silent: true
+				title: "Rank 4 of Geo Path"
+				type: "command"
+			}]
+			subtitle: "Welcome to the Geo Path"
+			tasks: [{
+				icon: "mowziesmobs:bluff_rod"
+				id: "2306BA5EC10AB4A6"
+				title: "Geo"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40B12629871A701B"]
+			id: "000047454F4D5234"
+			rewards: [{
+				command: "/spellranks set @p geo 3"
+				elevate_perms: true
+				icon: "mowziesmobs:bluff_rod"
+				id: "05A69925B543D604"
+				silent: true
+				title: "Rank 3 of Geo Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 4 of the Geo Path"
+			title: "Master Rank 4"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000047454F4D5234"]
+			id: "000047454F4D5233"
+			rewards: [{
+				command: "/spellranks set @p geo 2"
+				elevate_perms: true
+				icon: "mowziesmobs:bluff_rod"
+				id: "26EDD078259C7128"
+				silent: true
+				title: "Rank 2 of Geo Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 3 of the Geo Path"
+			title: "Master Rank 3"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000047454F4D5233"]
+			id: "000047454F4D5232"
+			rewards: [{
+				command: "/spellranks set @p geo 1"
+				elevate_perms: true
+				icon: "mowziesmobs:bluff_rod"
+				id: "773656D52BCA33FD"
+				silent: true
+				title: "Rank 1 of Geo Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 2 of the Geo Path"
+			title: "Master Rank 2"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000047454F4D5232"]
+			id: "000047454F4D5231"
+			rewards: [{
+				command: "/spellranks set @p geo 0"
+				elevate_perms: true
+				icon: "mowziesmobs:bluff_rod"
+				id: "6A320339861FEBE0"
+				silent: true
+				title: "Rank 0 of Geo Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 1 of the Geo Path"
+			title: "Master Rank 1"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000047454F4D5231"]
+			id: "000047454F4D5230"
+			subtitle: "Master Rank 0 of the Geo Path"
+			title: "Master Rank 0"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Geo Path"
+}

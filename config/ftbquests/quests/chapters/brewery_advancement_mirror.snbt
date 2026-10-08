@@ -1,0 +1,816 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "brewery_advancement_mirror"
+	group: "189989671235D85C"
+	icon: "brewery:beer_mug"
+	id: "6D5E1F3E96466BB8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Благодарим за установку Brewery!"]
+			hide_dependency_lines: false
+			icon: "brewery:beer_mug"
+			id: "4E77F1A34E5C05A8"
+			shape: "circle"
+			size: 1.18d
+			subtitle: "Welcome to Brewery"
+			tasks: [{
+				advancement: "brewery:main/root"
+				criterion: ""
+				id: "68655EE25AB4D181"
+				type: "advancement"
+			}]
+			title: "Приветствуем в Brewery!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E77F1A34E5C05A8"]
+			description: ["Найдите семена или растение из Brewery"]
+			hide_dependency_lines: false
+			icon: "brewery:hops"
+			id: "0A7FE81C3477475E"
+			rewards: [
+				{
+					id: "6E9E051A1796A105"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1860810250638A02"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Wild Crops"
+			tasks: [{
+				advancement: "brewery:main/wild_crops"
+				criterion: ""
+				id: "25E73D3DD4311888"
+				type: "advancement"
+			}]
+			title: "Дикие культуры"
+			x: 2.4d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0A7FE81C3477475E"]
+			description: ["Найдите все культуры Brewery"]
+			hide_dependency_lines: false
+			icon: "brewery:barley"
+			id: "6D69AF6D44905EEF"
+			rewards: [
+				{
+					id: "5C20CB3E267FA30A"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6EC370A4BA0A58CC"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0709AD608A43AC80"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "11A8772A2BFC6CC0"
+					team_reward: true
+					type: "xp"
+					xp: 230
+				}
+			]
+			shape: "diamond"
+			size: 1.14d
+			subtitle: "Crop Collector"
+			tasks: [{
+				advancement: "brewery:main/crop_collector"
+				criterion: ""
+				id: "42373773E262B287"
+				type: "advancement"
+			}]
+			title: "Превосходный агроном"
+			x: 5.0d
+			y: -4.2d
+		}
+		{
+			dependencies: ["4E77F1A34E5C05A8"]
+			description: ["Возведите деревянную силосную башню"]
+			hide_dependency_lines: false
+			icon: "brewery:silo_wood"
+			id: "4A37CA71789A6F25"
+			rewards: [
+				{
+					count: 4
+					id: "50994125B8143D61"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "518512B512E5C7FB"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Drying Expertise"
+			tasks: [{
+				advancement: "brewery:main/drying_expertise"
+				criterion: ""
+				id: "2CE48304DA942610"
+				type: "advancement"
+			}]
+			title: "Сухость и покой"
+			x: 2.4d
+			y: -2.1d
+		}
+		{
+			dependencies: ["4A37CA71789A6F25"]
+			description: ["Высушите ячмень в силосе"]
+			hide_dependency_lines: false
+			icon: "brewery:dried_barley"
+			id: "732866ED3D094855"
+			rewards: [
+				{
+					count: 4
+					id: "1B365BE645D5A657"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "777B91597AA11CF7"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			size: 1.0d
+			subtitle: "Drying Barley"
+			tasks: [{
+				advancement: "brewery:main/get_dried_barley"
+				criterion: ""
+				id: "3FD5AEAC941F9A6E"
+				type: "advancement"
+			}]
+			title: "Сушим ячмень"
+			x: 5.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["4A37CA71789A6F25"]
+			description: ["Высушите кукурузу в силосе"]
+			hide_dependency_lines: false
+			icon: "brewery:dried_corn"
+			id: "03F11F31EC3DBE56"
+			rewards: [
+				{
+					count: 4
+					id: "68549EF04711BD9E"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3BEEF977A19487C5"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			size: 1.0d
+			subtitle: "Drying Corn"
+			tasks: [{
+				advancement: "brewery:main/get_dried_corn"
+				criterion: ""
+				id: "45A4E85D1D93B9BF"
+				type: "advancement"
+			}]
+			title: "Сушим кукурузу"
+			x: 5.0d
+			y: -2.1d
+		}
+		{
+			dependencies: ["4A37CA71789A6F25"]
+			description: ["Высушите пшеницу в силосе"]
+			hide_dependency_lines: false
+			icon: "brewery:dried_wheat"
+			id: "50A606D996138109"
+			rewards: [
+				{
+					count: 4
+					id: "2D44C3C2BA79DCC6"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "718F4A822B6E822A"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			size: 1.0d
+			subtitle: "Drying Wheat"
+			tasks: [{
+				advancement: "brewery:main/get_dried_wheat"
+				criterion: ""
+				id: "4AA5FE8405142BC7"
+				type: "advancement"
+			}]
+			title: "Сушим пшеницу"
+			x: 5.0d
+			y: -0.95d
+		}
+		{
+			dependencies: ["4A37CA71789A6F25"]
+			description: ["Возведите медную силосную башню"]
+			hide_dependency_lines: false
+			icon: "brewery:silo_copper"
+			id: "3B54B0EB21749FFD"
+			rewards: [
+				{
+					count: 4
+					id: "1E9C25ADBB51CFB8"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "43C289DB4BFF551D"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.12d
+			subtitle: "Drying Excellence"
+			tasks: [{
+				advancement: "brewery:main/drying_excellence"
+				criterion: ""
+				id: "5C3D9A88D85F16AA"
+				type: "advancement"
+			}]
+			title: "Специалист по сушке"
+			x: 7.6d
+			y: -2.1d
+		}
+		{
+			dependencies: ["4E77F1A34E5C05A8"]
+			description: ["Создайте и установите деревянную пивоварню"]
+			hide_dependency_lines: false
+			icon: "brewery:wooden_brewingstation"
+			id: "1A3CAB4B0F743926"
+			rewards: [
+				{
+					count: 4
+					id: "7FFD69B08796DD41"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5FE6F0B9E45846CF"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Brew Pioneer"
+			tasks: [{
+				advancement: "brewery:main/brewing_pioneer"
+				criterion: ""
+				id: "693DF5F0FE2A5E3F"
+				type: "advancement"
+			}]
+			title: "Первопроходец в пивоварении"
+			x: 2.4d
+			y: 1.3d
+		}
+		{
+			dependencies: ["1A3CAB4B0F743926"]
+			description: ["Сварите ячменное пиво"]
+			hide_dependency_lines: false
+			icon: "brewery:beer_barley"
+			id: "653EFE51590DA617"
+			rewards: [
+				{
+					count: 4
+					id: "4751B5EA55692900"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6A354CE97C2FF3B3"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			size: 1.0d
+			subtitle: "Barley Brewing Champion"
+			tasks: [{
+				advancement: "brewery:main/get_beer_barley"
+				criterion: ""
+				id: "18C97C5DC60727F3"
+				type: "advancement"
+			}]
+			title: "Чемпион ячменных напитков"
+			x: 5.0d
+			y: -0.05d
+		}
+		{
+			dependencies: ["1A3CAB4B0F743926"]
+			description: ["Сварите хмельное пиво"]
+			hide_dependency_lines: false
+			icon: "brewery:beer_hops"
+			id: "304D8994F7A9F4A6"
+			rewards: [
+				{
+					count: 4
+					id: "58B681FE701FA519"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5353AED10ED2B1AF"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			size: 1.0d
+			subtitle: "Hoppy Harvest Expert"
+			tasks: [{
+				advancement: "brewery:main/get_beer_hops"
+				criterion: ""
+				id: "7739F825BEE7AE82"
+				type: "advancement"
+			}]
+			title: "Хмельной эксперт"
+			x: 5.0d
+			y: 0.85d
+		}
+		{
+			dependencies: ["1A3CAB4B0F743926"]
+			description: ["Сварите пшеничное пиво"]
+			hide_dependency_lines: false
+			icon: "brewery:beer_wheat"
+			id: "0D490BBE9AFC30F1"
+			rewards: [
+				{
+					count: 4
+					id: "752186CD3021A25C"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "620D9576BAD0B3A3"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			size: 1.0d
+			subtitle: "Wheat Brewing Master"
+			tasks: [{
+				advancement: "brewery:main/get_beer_wheat"
+				criterion: ""
+				id: "16FD53430B3CE2DA"
+				type: "advancement"
+			}]
+			title: "Мастер пшеноварения"
+			x: 5.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1A3CAB4B0F743926"]
+			description: ["Сварите пиво Haley"]
+			hide_dependency_lines: false
+			icon: "brewery:beer_haley"
+			id: "02AB06C14571322D"
+			rewards: [
+				{
+					count: 4
+					id: "5E2CB1A119F54FED"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3D26FC245C083648"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			size: 1.0d
+			subtitle: "Haley Connoisseur"
+			tasks: [{
+				advancement: "brewery:main/get_beer_haley"
+				criterion: ""
+				id: "5E32A6C42E209DE2"
+				type: "advancement"
+			}]
+			title: "Знаток Haley"
+			x: 5.0d
+			y: 2.65d
+		}
+		{
+			dependencies: ["1A3CAB4B0F743926"]
+			description: ["Создайте и установите медную пивоварню"]
+			hide_dependency_lines: false
+			icon: "brewery:copper_brewingstation"
+			id: "5AB2FE20E2324B29"
+			rewards: [
+				{
+					count: 4
+					id: "4801672753AD9036"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3FE885CCFAFDE8D2"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.12d
+			subtitle: "Copper Brewmaster"
+			tasks: [{
+				advancement: "brewery:main/copper_brewmaster"
+				criterion: ""
+				id: "123D921EAC1F746A"
+				type: "advancement"
+			}]
+			title: "Намедни пивовар"
+			x: 7.6d
+			y: 1.3d
+		}
+		{
+			dependencies: ["5AB2FE20E2324B29"]
+			description: ["Создайте и установите незеритовую пивоварню"]
+			hide_dependency_lines: false
+			icon: "brewery:netherite_brewingstation"
+			id: "1A00A812AD41425E"
+			rewards: [
+				{
+					id: "60803D436DF7F013"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "500324F60E6B78D5"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C2F560890206E11"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "35F83625B4CD02B3"
+					team_reward: true
+					type: "xp"
+					xp: 145
+				}
+			]
+			shape: "diamond"
+			size: 1.14d
+			subtitle: "Netherite Brewer"
+			tasks: [{
+				advancement: "brewery:main/netherite_brewmaster"
+				criterion: ""
+				id: "23B50FD3246F6E80"
+				type: "advancement"
+			}]
+			title: "Незеритовое совершенство"
+			x: 10.2d
+			y: 1.3d
+		}
+		{
+			dependencies: ["1A00A812AD41425E"]
+			description: ["Сварите виски Cristelwalker"]
+			hide_dependency_lines: false
+			icon: "brewery:whiskey_cristelwalker"
+			id: "5E27C34431D010C5"
+			rewards: [
+				{
+					count: 4
+					id: "4395321139E2AC2D"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "00DD205886C4D24C"
+					team_reward: true
+					type: "xp"
+					xp: 170
+				}
+			]
+			size: 1.0d
+			subtitle: "Dedicated to: Cristelknight"
+			tasks: [{
+				advancement: "brewery:main/get_whiskey_cristelwalker"
+				criterion: ""
+				id: "783EF00D88ADB16E"
+				type: "advancement"
+			}]
+			title: "Посвящается: Cristelknight"
+			x: 12.8d
+			y: -1.8d
+		}
+		{
+			dependencies: ["1A00A812AD41425E"]
+			description: ["Сварите виски Carrasconlabel"]
+			hide_dependency_lines: false
+			icon: "brewery:whiskey_carrasconlabel"
+			id: "082942C9C0CA4800"
+			rewards: [
+				{
+					count: 4
+					id: "15D9C08CA1C3B3F7"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3CF1F7C4669E29DA"
+					team_reward: true
+					type: "xp"
+					xp: 170
+				}
+			]
+			size: 1.0d
+			subtitle: "Dedicated to: EC"
+			tasks: [{
+				advancement: "brewery:main/get_whiskey_hadarilabel"
+				criterion: ""
+				id: "62B9A094D4BAD2EA"
+				type: "advancement"
+			}]
+			title: "Посвящается: EC"
+			x: 12.8d
+			y: -0.55d
+		}
+		{
+			dependencies: ["1A00A812AD41425E"]
+			description: ["Сварите виски JoJannik"]
+			hide_dependency_lines: false
+			icon: "brewery:whiskey_jojannik"
+			id: "2D75AC603EF9BB0B"
+			rewards: [
+				{
+					count: 4
+					id: "769AAEAB20AC61FE"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3991264742412DCF"
+					team_reward: true
+					type: "xp"
+					xp: 170
+				}
+			]
+			size: 1.0d
+			subtitle: "Dedicated to: BaumeisterJo"
+			tasks: [{
+				advancement: "brewery:main/get_whiskey_jojannik"
+				criterion: ""
+				id: "172CF4997124325A"
+				type: "advancement"
+			}]
+			title: "Посвящается: BaumeisterJo"
+			x: 12.8d
+			y: 0.7d
+		}
+		{
+			dependencies: ["1A00A812AD41425E"]
+			description: ["Сварите односолодовое виски Lilitu"]
+			hide_dependency_lines: false
+			icon: "brewery:whiskey_lilitusinglemalt"
+			id: "1D360CBEE48E3880"
+			rewards: [
+				{
+					count: 4
+					id: "18CFFE37AC06B125"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6E4F6080E4A3E1A9"
+					team_reward: true
+					type: "xp"
+					xp: 170
+				}
+			]
+			size: 1.0d
+			subtitle: "Dedicated to: MissLilitu"
+			tasks: [{
+				advancement: "brewery:main/get_whiskey_lilitusinglemalt"
+				criterion: ""
+				id: "6795569CCDE3F44B"
+				type: "advancement"
+			}]
+			title: "Посвящается: MissLilitu"
+			x: 12.8d
+			y: 1.95d
+		}
+		{
+			dependencies: ["1A00A812AD41425E"]
+			description: ["Сварите виски Maggoallan"]
+			hide_dependency_lines: false
+			icon: "brewery:whiskey_maggoallan"
+			id: "330853F5F811A0C3"
+			rewards: [
+				{
+					count: 4
+					id: "31C20715BDDA86CE"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "10370CD7BDD6756D"
+					team_reward: true
+					type: "xp"
+					xp: 170
+				}
+			]
+			size: 1.0d
+			subtitle: "Dedicated to: Satisfy"
+			tasks: [{
+				advancement: "brewery:main/get_whiskey_maggoallan"
+				criterion: ""
+				id: "08910C475A306348"
+				type: "advancement"
+			}]
+			title: "Посвящается: Satisfy"
+			x: 12.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4E77F1A34E5C05A8"]
+			description: ["Призовите и одолейте пивного элементаля"]
+			hide_dependency_lines: false
+			icon: "brewery:beer_elemental_spawn_egg"
+			id: "5C2279D6861F46C1"
+			rewards: [
+				{
+					id: "44D1EE2F180A0015"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "60B94705DDB34F62"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7E20A18157909CD0"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "431B3BD42E8A8D8D"
+					team_reward: true
+					type: "xp"
+					xp: 185
+				}
+			]
+			shape: "diamond"
+			size: 1.14d
+			subtitle: "Foamy Foe Defeater"
+			tasks: [{
+				advancement: "brewery:main/kill_beer_elemental"
+				criterion: ""
+				id: "555BCD5AA421937F"
+				type: "advancement"
+			}]
+			title: "Пенный победитель"
+			x: 2.4d
+			y: 5.2d
+		}
+		{
+			dependencies: ["5C2279D6861F46C1"]
+			description: ["Не спрашивайте откуда, лучше принимайтесь за угощение!"]
+			hide_dependency_lines: false
+			icon: "brewery:gingerbread"
+			id: "45FA2953101ECD60"
+			rewards: [
+				{
+					count: 2
+					id: "535B6995A5F40CC5"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6812F951041788B5"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Mhmmm, delicious"
+			tasks: [{
+				advancement: "brewery:main/get_saturated"
+				criterion: ""
+				id: "404CF4D8445BBF70"
+				type: "advancement"
+			}]
+			title: "Мммм, вкуснятина"
+			x: 5.0d
+			y: 5.2d
+		}
+		{
+			dependencies: ["45FA2953101ECD60"]
+			description: ["Насладитесь парадом традиционных блюд"]
+			hide_dependency_lines: false
+			icon: "brewery:half_chicken"
+			id: "534423EE00590F71"
+			rewards: [
+				{
+					id: "7CC6F950F165B893"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "07E82543F72EC444"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1A5C4EBA6D7C5245"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "758D0D74ACD9A94C"
+					team_reward: true
+					type: "xp"
+					xp: 275
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Oktoberfest-Buffet"
+			tasks: [{
+				advancement: "brewery:main/eat_everything"
+				criterion: ""
+				id: "09D83140D7835474"
+				type: "advancement"
+			}]
+			title: "Пир в честь Октоберфеста"
+			x: 7.6d
+			y: 5.2d
+		}
+	]
+	title: "Farmer's Delight - Brewery"
+}

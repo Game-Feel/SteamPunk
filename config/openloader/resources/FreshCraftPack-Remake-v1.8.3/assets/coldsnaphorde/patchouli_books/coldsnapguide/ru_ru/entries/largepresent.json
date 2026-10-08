@@ -1,0 +1,13 @@
+{
+  "name": "Большой подарок",
+  "category": "coldsnaphorde:coldsnaptier3",
+  "icon": "coldsnaphorde:large_present",
+  "advancement": "coldsnaphorde:horde_breaker",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:present",
+      "text": "Модифицированный $(l:present)Подарок$(). Дополненный новой упаковкой и эссенцией для заморозки, он значительно расширяет возможности для ранее представленных интересных подарков."
+    }
+  ]
+}

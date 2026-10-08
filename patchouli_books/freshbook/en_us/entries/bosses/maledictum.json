@@ -1,0 +1,35 @@
+{
+    "name": "Maledictus",
+    "icon": "cataclysm:cursed_eye",
+    "category": "patchouli:bosses_category",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This difficult boss, capable of breaking blocks and attracting the player to himself, is imprisoned in a special Prison.$(br)It is located in the Overworld."
+        },
+        {
+            "border": "true",
+            "title": "The Cursed Prison",
+            "type": "image",
+            "text": "A large structure in cold forests.",
+            "images": [
+                "patchouli:maledictus.png"
+            ]
+        },
+        {
+            "type": "crafting",
+            "title": "Eye of Curse",
+            "text": "It's necessary to find the Cursed Prison",
+            "recipe": "cataclysm:cursed_eye"
+        },
+        {
+            "type": "text",
+            "text": "To enter the hall with the boss, you need to press the RMB on the gate. There will be a tombstone at the end of the hall, here we also press the RMB and start the battle!$(br)He is capable of dealing quite a lot of damage in a short period of time, and it is also difficult to dodge his attacks (especially in heavy armor)."
+        },
+        {
+            "type": "text",
+            "text": "Accumulating 5 charges, under the health bar, can cause huge damage. If he catches it by throwing it on the floor, there is very little chance of survival."
+        }
+    ]
+}

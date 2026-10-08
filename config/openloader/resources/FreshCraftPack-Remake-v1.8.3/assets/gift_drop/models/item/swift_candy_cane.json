@@ -1,0 +1,33 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gift_drop:item/swift_candy_cane"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "gift_drop:item/swift_candy_cane_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "gift_drop:item/swift_candy_cane_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "gift_drop:item/swift_candy_cane_eating_2"
+    }
+  ]
+}

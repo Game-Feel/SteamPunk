@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nethers_exoticism:item/chopped_bouddha_s_hand_eating_0"
+  }
+}

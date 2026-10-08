@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miners_delight:item/insect_sandwich"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "miners_delight:item/insect_sandwich_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "miners_delight:item/insect_sandwich_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "miners_delight:item/insect_sandwich_eating_2"
+    }
+  ]
+}

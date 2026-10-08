@@ -1,0 +1,13 @@
+{
+  "name": "Сосулька",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:icicle",
+  "advancement": "coldsnaphorde:sliced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:icicle",
+      "text": "Каменный меч, преобразованный за счёт свойств ледяных осколков. Имеет возможность замедлять врагов при попадании. Нельзя зачаровать на Заговор огня."
+    }
+  ]
+}

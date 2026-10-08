@@ -1,0 +1,13 @@
+{
+  "name": "Посох ледяного странника",
+  "category": "coldsnaphorde:coldsnaptier3",
+  "icon": "coldsnaphorde:staff_of_frost_walker",
+  "advancement": "coldsnaphorde:horde_breaker",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:staff_of_ice_walker",
+      "text": "Модифицированный $(l:icewalker)Жезел ледохода$() с большей площадью воздействия для превращения воды в лёд."
+    }
+  ]
+}

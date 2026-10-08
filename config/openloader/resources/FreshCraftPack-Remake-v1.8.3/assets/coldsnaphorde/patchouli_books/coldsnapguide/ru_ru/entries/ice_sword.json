@@ -1,0 +1,13 @@
+{
+  "name": "Ледяной меч",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:ice_sword",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:ice_sword",
+      "text": "Железный меч, модифицированный свойствами ледяного ядра и ледяной эссенции. Замедляет врагов при ударе. Нельзя зачаровать на Заговор огня."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "Temperature control",
+    "icon": "cold_sweat:hearth",
+    "category": "patchouli:coldsweat_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are many things for temperature control: $(br)$(li)Hearth$()$(li)Water skin$()$(li)$(l:patchouli:coldsweat/armor_insulation)Clothing$()$(li)Potions$()"
+        },
+        {
+            "type": "crafting",
+            "text": "Our first one is the Hearth. Like all the items on the list, it can both warm and cool.",
+            "title": "The Hearth",
+            "recipe": "cold_sweat:hearth"
+        },
+        {
+            "type": "text",
+            "text": "Different materials are used for heating by type: coal, wood, magma, lava, etc..$(br)For cooling, it is ice, clay, snow. A bucket of water is not cooling.$(br2)Depending on the temperature, the hearth will use the right fuel. 2 columns - type of fuel."
+        },
+        {
+            "type": "image",
+            "border": true,
+            "text": "We put this fuel in the free slot.",
+            "title": "The Hearth Interface",
+            "images": [
+                "patchouli:hearth1.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "To warm up, you need to signal the redstone under him or behind him. For cooling, the signal is applied on the remaining 2 sides or in front. It won't work without a redstone signal! Leverage is enough."
+        },
+        {
+            "type": "text",
+            "text": "This is an important unit that will allow you to stay in the most extreme temperatures (even at Home, even in a Cave).$(br2)Next comes a wineskin of water. It can be filled and emptied. The wineskin can also be either heated or cooled."
+        },
+        {
+            "type": "crafting",
+            "text": "To cool the water in it, you need a refrigerator, and for heating you need a boiler.",
+            "title": "The Waterskin",
+            "recipe": "cold_sweat:waterskin"
+        },
+        {
+            "type": "crafting",
+            "title": "Refrigerator and boiler",
+            "recipe": "cold_sweat:icebox",
+            "recipe2": "cold_sweat:boiler"
+        },
+        {
+            "type": "image",
+            "border": true,
+            "title": "Interface",
+            "text": "Although they have a similar interface, each has a different fuel.",
+            "images": [
+                "patchouli:Screenshot_1.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "We put Waterskins in the upper slots, and fuel in the slot below. We are waiting for some time for the temperature of the Waterskin to change, it can be tracked by hovering over it. To change your temperature, take it in your hand and press RMB. Each time you have to fill them with water and so on a new one."
+        },
+        {
+            "type": "spotlight",
+            "text": "The potions of Fire Resistance and Cold Resistance remained. They provide protection from damage and the negative effects of temperature.",
+            "title": "Potions",
+            "item": "minecraft:potion{Potion:'fire_resistance'},minecraft:potion{Potion:'cold_sweat:ice_resistance'}"
+        }
+    ]
+}

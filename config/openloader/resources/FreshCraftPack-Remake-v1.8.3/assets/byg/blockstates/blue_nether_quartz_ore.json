@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+	{
+      "model": "byg:block/blue_nether_quartz_ore"
+    },
+	{
+      "model": "byg:block/blue_nether_quartz_ore1"
+    },
+	{
+      "model": "byg:block/blue_nether_quartz_ore2"
+    },
+	{
+      "model": "byg:block/blue_nether_quartz_ore3"
+    }
+	]
+  }
+}

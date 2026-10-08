@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "boon_initiate"
+	group: ""
+	icon: "irons_spellbooks:cinder_essence"
+	id: "344EA3BFE018A1C4"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "irons_spellbooks:cinder_essence"
+			id: "1FFB22E4AD177152"
+			max_completable_dependents: 1
+			subtitle: "Boon Paths are rare forms of magic brought into the world by forces beyond the Four Domains. Unlike the Ten True Paths, they cannot be reached through Mage Cores or Mage Potions. A Boon Path is gained by offering certain items—an exchange made for unknown power. You may only ever follow one of these Paths at a time, but you are free to shift your allegiance by changing the offering you make."
+			tasks: [{
+				id: "3627339BF7306BDB"
+				title: "Boon Initiate"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "irons_spellbooks:conjurers_talisman"
+			id: "36892208C0DA8621"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 269A1B940E8F970C"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "2FDFA1B2A05A7BB2"
+					silent: true
+					title: "Introduce Summoner"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 269A1B940E8F970C"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "1DF8B690223EE079"
+					silent: true
+					title: "Bring to Summoner"
+					type: "command"
+				}
+			]
+			subtitle: "With this offering, you are of the Summoner Path"
+			tasks: [{
+				consume_items: true
+				id: "7DC986B478E62252"
+				item: "irons_spellbooks:conjurers_talisman"
+				type: "item"
+			}]
+			title: "Summoner Path"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "cataclysm:crystallized_coral"
+			id: "79BFCA02C75D358E"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 53A9BC40066846D3"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "4D3ED6C290220A0F"
+					silent: true
+					title: "Introduce Abyssal"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 2A835E2FBB9495F9"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "0479FE7BBBEA942B"
+					silent: true
+					title: "Bring to Abyssal"
+					type: "command"
+				}
+			]
+			subtitle: "With this offering, you are of the Abyssal Path. NOTE: Only available with Cataclysm: Spellbooks."
+			tasks: [{
+				consume_items: true
+				id: "2AB5E8D3C52B7D4E"
+				item: "cataclysm_spellbooks:coral_staff"
+				type: "item"
+			}]
+			title: "Abyssal Path"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "minecraft:note_block"
+			id: "10E813563BDA01B6"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 1E5B30F7BD366EDD"
+					elevate_perms: true
+					icon: "minecraft:note_block"
+					id: "46FE6388D209AAB1"
+					silent: true
+					title: "Introduce Sound"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 4AF724CEDC9D787F"
+					elevate_perms: true
+					icon: "minecraft:note_block"
+					id: "0BB1DD02CFA2A912"
+					silent: true
+					title: "Bring to Sound"
+					type: "command"
+				}
+			]
+			subtitle: "With this offering, you are of the Sound Path. NOTE: Only available with Alshanex's Familiars."
+			tasks: [{
+				consume_items: true
+				id: "228B131233478D15"
+				item: "alshanex_familiars:sound_spell_book"
+				type: "item"
+			}]
+			title: "Sound Path"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "mowziesmobs:bluff_rod"
+			id: "4D735FA827CC9FAD"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 2306BA5EC10AB4A6"
+					elevate_perms: true
+					icon: "mowziesmobs:bluff_rod"
+					id: "287444F245F30981"
+					silent: true
+					title: "Introduce Geo"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 40B12629871A701B"
+					elevate_perms: true
+					icon: "mowziesmobs:bluff_rod"
+					id: "2A492EE60C4F6D2A"
+					silent: true
+					title: "Bring to Geo"
+					type: "command"
+				}
+			]
+			subtitle: "With this offering, you are of the Geo Path. NOTE: Only available with GTBC's Geomancy Plus."
+			tasks: [{
+				consume_items: true
+				id: "0608B0A04D936D78"
+				item: "gtbcs_geomancy_plus:bluff_instruction_manual"
+				type: "item"
+			}]
+			title: "Geo Path"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "minecraft:redstone"
+			id: "185FB8F5B7EF97E8"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 2E253251B57912D0"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "7128918278B5C924"
+					silent: true
+					title: "Introduce Technomancy"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 7E923DC8A40D5DA3"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "7E06AA8801746820"
+					silent: true
+					title: "Bring to Technomancy"
+					type: "command"
+				}
+			]
+			subtitle: "With this offering, you are of the Technomancy Path. NOTE: Only available with Cataclysm: Spellbooks."
+			tasks: [{
+				consume_items: true
+				id: "36CCE3E43D1B4457"
+				item: "cataclysm_spellbooks:gauntlet_of_power"
+				type: "item"
+			}]
+			title: "Technomancy Path"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2C648A5860C6B46C"
+			optional: true
+			rewards: [
+				{
+					command: "/spellranks reset @p abyssal"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "109C342BE1881A29"
+					silent: true
+					title: "Reset Abyssal Path"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p technomancy"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "505E262B21153270"
+					silent: true
+					title: "Reset Technomancy Path"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p geo"
+					elevate_perms: true
+					icon: "mowziesmobs:bluff_rod"
+					id: "2B57032684335F92"
+					silent: true
+					title: "Reset Geo Path"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p sound"
+					elevate_perms: true
+					icon: "minecraft:note_block"
+					id: "6173267222A15AFF"
+					silent: true
+					title: "Reset Sound Path"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 1FFB22E4AD177152"
+					elevate_perms: true
+					icon: "irons_spellbooks:cinder_essence"
+					id: "76AA99853323230F"
+					silent: true
+					title: "Bring to Boon Initiate"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424f4f504154"
+					elevate_perms: true
+					icon: "irons_spellbooks:cinder_essence"
+					id: "7D25C1857B2C467C"
+					silent: true
+					title: "Reset Boon Paths"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 344EA3BFE018A1C4"
+					elevate_perms: true
+					icon: "irons_spellbooks:cinder_essence"
+					id: "5917E8BE8F86FC8C"
+					silent: true
+					title: "Reset Boon Initiate"
+					type: "command"
+				}
+			]
+			subtitle: "Sever your connection to your Boon Path. Prepare the offerings for a new Path of your choosing."
+			tasks: [{
+				id: "23AB517329558D11"
+				title: "Reset Boon"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Boon Initiate"
+}

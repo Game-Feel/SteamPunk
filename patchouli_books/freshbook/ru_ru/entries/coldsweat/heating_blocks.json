@@ -1,0 +1,12 @@
+{
+    "name": "Согревание",
+    "icon": "minecraft:magma_block",
+    "category": "patchouli:coldsweat_category",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Это блоки, жидкости и не только, которые согревают вас при низких температурах. Например: $(br)$(li)Костёр/Открытый огонь$()$(li)Лава$()$(li)Магма$()"
+        }
+    ]
+}

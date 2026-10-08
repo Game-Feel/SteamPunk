@@ -1,0 +1,16 @@
+{
+    "name": "Jabuticaba",
+    "icon": "nethers_exoticism:jaboticaba",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "The jabuticaba grows on a tree in a biome of Basalt deltas. Three Jabuticaba fruits can be used to make a jaboticaba Bucket and used like a regular bucket of water. His main",
+            "item": "nethers_exoticism:jaboticaba"
+        },
+        {
+            "type": "text",
+            "text": "The difference from a regular bucket of water is that it does not disappear if it is poured in the Nether dimension."
+        }
+    ]
+}

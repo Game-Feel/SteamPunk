@@ -1,0 +1,16 @@
+﻿{
+"__comment":"Made with Blockbench",
+    "variants": {
+        "": [
+            { "model": "block/lily_pad", "weight": 50 },
+            { "model": "block/lily_pad", "y": 90, "weight": 50 },
+            { "model": "block/lily_pad", "y": 180, "weight": 50 },
+            { "model": "block/lily_pad", "y": 270, "weight": 50 },
+            { "model": "block/lily_pad_white", "weight": 4 },
+                { "model": "block/lily_pad_white", "y": 90, "weight": 4 },
+                { "model": "block/lily_pad_white", "y": 180, "weight": 4 },
+                { "model": "block/lily_pad_white", "y": 270, "weight": 4 },
+                { "model": "block/lily_pad_purple", "y": 270, "weight": 1 }
+        ]
+    }
+}

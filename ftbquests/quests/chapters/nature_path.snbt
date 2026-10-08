@@ -1,0 +1,3732 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "nature_path"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:poisonous_potato"
+	id: "00004E4154504154"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "00004E41544F5249"
+			invisible: true
+			subtitle: "Welcome to the Nature Path"
+			tasks: [{
+				icon: "minecraft:poisonous_potato"
+				id: "35D5F7B8DF04AF6F"
+				title: "Nature"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E41544F5249"]
+			id: "00004E4154435234"
+			rewards: [
+				{
+					id: "4E41544352340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352340005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352340006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Drink this Mage Potion to gain the power of a Sporeling"
+			tasks: [{
+				icon: "spellranks:rank_4_mage_potion_sporeling"
+				id: "4E41544352343031"
+				title: "Rank 4 Mage Potion - Sporeling"
+				type: "custom"
+			}]
+			title: "Rank 4 - Sporeling"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E4154435234"]
+			id: "00004E41544D5234"
+			subtitle: "Prove yourself a true Sporeling"
+			tasks: [
+				{
+					id: "4E41544D52340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52340005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52340006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 4"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E41544D5234"]
+			id: "00004E4154435233"
+			rewards: [
+				{
+					id: "4E41544352330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352330014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Drink this Mage Potion to gain the power of a Grove Sage"
+			tasks: [{
+				icon: "spellranks:rank_3_mage_potion_grove_sage"
+				id: "4E41544352333031"
+				title: "Rank 3 Mage Potion - Grove Sage"
+				type: "custom"
+			}]
+			title: "Rank 3 - Grove Sage"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E4154435233"]
+			id: "00004E41544D5233"
+			subtitle: "Prove yourself a true Grove Sage"
+			tasks: [
+				{
+					id: "4E41544D52330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52330014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 3"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E41544D5233"]
+			id: "00004E4154435232"
+			rewards: [
+				{
+					id: "4E41544352320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spider_aspect"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352320018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Drink this Mage Potion to gain the power of a Venomer"
+			tasks: [{
+				icon: "spellranks:rank_2_mage_potion_venomer"
+				id: "4E41544352323031"
+				title: "Rank 2 Mage Potion - Venomer"
+				type: "custom"
+			}]
+			title: "Rank 2 - Venomer"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E4154435232"]
+			id: "00004E41544D5232"
+			subtitle: "Prove yourself a true Venomer"
+			tasks: [
+				{
+					id: "4E41544D52320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spider_aspect"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52320018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 2"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E41544D5232"]
+			id: "00004E4154435231"
+			rewards: [
+				{
+					id: "4E41544352310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spider_aspect"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352310018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Drink deeply and awaken the Hunger Caller"
+			tasks: [{
+				icon: "spellranks:rank_1_mage_potion_hunger_caller"
+				id: "4E41544352313031"
+				title: "Rank 1 Mage Potion - Hunger Caller"
+				type: "custom"
+			}]
+			title: "Rank 1 - Hunger Caller"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E4154435231"]
+			id: "00004E41544D5231"
+			subtitle: "Embody the power of the Hunger Caller"
+			tasks: [
+				{
+					id: "4E41544D52310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spider_aspect"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:primal_pack"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52310019"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 1"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E41544D5231"]
+			id: "00004E4154435230"
+			rewards: [
+				{
+					id: "4E41544352300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_amethyst_crab"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spider_aspect"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300019"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:primal_pack"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E41544352300020"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Consume and transcend as the Devour"
+			tasks: [{
+				icon: "spellranks:rank_0_mage_potion_devour"
+				id: "4E41544352303031"
+				title: "Rank 0 Mage Potion - Devour"
+				type: "custom"
+			}]
+			title: "Rank 0 - Devour"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E4154435230"]
+			id: "00004E41544D5230"
+			max_completable_dependents: 3
+			subtitle: "You are the Devour, the embodiment of the Nature Path"
+			tasks: [
+				{
+					id: "4E41544D52300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:amethyst_puncture"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_amethyst_crab"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:pharaohs_wrath"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spider_aspect"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300019"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:aerial_collapse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300020"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:primal_pack"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300021"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:primordial_steed"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4E41544D52300022"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 0"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004E41544D5230"]
+			hide_dependency_lines: true
+			icon: "minecraft:blaze_rod"
+			id: "00004E4154464952"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004649524F5249"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "56802A0C48F46D77"
+					silent: true
+					title: "Introduce Fire"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004649524F5249"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "4F059767F7482A03"
+					silent: true
+					title: "Bring to Fire"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000424C4F464952"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "5EB6D04C03135AC5"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 7404CC5270F86BB9"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "0CAC8572AEF6F44F"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this, you are also of the Fire Path, your power now great enough to wield additional Paths of the Vitalis Domain"
+			tasks: [{
+				id: "4E41544649523031"
+				title: "Fire Path"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00004E41544D5230"]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:blood_vial"
+			id: "00004E4154424C4F"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000424C4F4F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "43F4EB0B2EF244AF"
+					silent: true
+					title: "Introduce Blood"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000424C4F4F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "1D33460FC26D360C"
+					silent: true
+					title: "Bring to Blood"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000464952424C4F"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "28104439DCD82C51"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 520697E3806FEE91"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "5A22A6B40FE49901"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this, you are also of the Blood Path, your power now great enough to wield additional Paths of the Vitalis Domain"
+			tasks: [{
+				id: "4E4154424C4F3031"
+				title: "Blood Path"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00004E41544D5230"]
+			hide_dependency_lines: true
+			icon: "minecraft:echo_shard"
+			id: "00004E4154434F52"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "2036157182AE8C06"
+					silent: true
+					title: "Introduce Corruption"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p nature"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "7F1221121F1C25E3"
+					silent: true
+					title: "Corrupt Nature"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "75EBBC397D901A6B"
+					silent: true
+					title: "Bring to Corruption"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000464952434F52"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "37D0EFA2A863128B"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000424C4F434F52"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "2FEDCD3EC8AB89F0"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you will Corrupt the Nature Path within you, exchanging it for the power of the Eldritch Path. This choice is irreversible."
+			tasks: [{
+				id: "7787C4D72AE3808B"
+				title: "Corruption"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"00004E41544D5230"
+				"00004649524D5230"
+				"0000424C4F4D5230"
+			]
+			hide_dependency_lines: true
+			id: "0E0D5EA92A446BB6"
+			rewards: [
+				{
+					command: "/spellranks reset @p nature"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "65FEFFA3EB52913F"
+					silent: true
+					title: "Reset Nature Path"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p fire"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "6C97CAAEC76381ED"
+					silent: true
+					title: "Reset Fire Path"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p blood"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "7BCD648BAA2EB535"
+					silent: true
+					title: "Reset Blood Path"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 096D64C94341C27A"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "5A161963203FB0B0"
+					silent: true
+					title: "Reset Initiate"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0875A0E9D59F5332"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "3F3D3F7926CA2A71"
+					silent: true
+					title: "Bring to Initiate"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000564954444F4D"
+					elevate_perms: true
+					icon: "spellranks:vitalis_materials"
+					id: "0E58C38722FF1A8D"
+					silent: true
+					title: "Reset Vitalis Domain"
+					type: "command"
+				}
+			]
+			subtitle: "You have gathered more magical power than most could dream of, enough to master the rare art of Renewal. Should you choose to begin again, you will release all magic within you—pure and corrupted alike—and return to the state of a mortal, free to choose any Path once more."
+			tasks: [{
+				id: "24CD3704DE0679CF"
+				title: "Reset"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "Nature Path"
+}

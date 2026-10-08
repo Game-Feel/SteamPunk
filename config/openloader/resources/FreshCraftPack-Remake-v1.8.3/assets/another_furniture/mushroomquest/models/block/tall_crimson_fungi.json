@@ -1,0 +1,9 @@
+{
+  "parent": "mushroomquest:custom/crimsontoadstool",
+  "textures": {
+    "all": "mushroomquest:block/crimsontoadstool",
+    "particle": "mushroomquest:block/crimsontoadstool",
+    "0": "mushroomquest:block/crimsontoadstool"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "warriorsofpastepoch:item/rat_carcass_eating_2"
+  }
+}

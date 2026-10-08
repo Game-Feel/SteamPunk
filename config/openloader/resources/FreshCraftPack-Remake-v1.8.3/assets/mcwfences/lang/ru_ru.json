@@ -1,0 +1,134 @@
+	{
+
+	    "itemGroup.mcwfences": "Macaw's - Стены и ограды",
+
+	    "block.mcwfences.spruce_picket_fence": "Еловый забор",
+	    "block.mcwfences.spruce_stockade_fence": "Еловый частокол",
+	    "block.mcwfences.spruce_horse_fence": "Еловый забор для коней",
+	    "block.mcwfences.spruce_wired_fence": "Еловый проволочный забор",
+
+	    "block.mcwfences.birch_picket_fence": "Берёзовый забор",
+	    "block.mcwfences.birch_stockade_fence": "Берёзовый частокол",
+	    "block.mcwfences.birch_horse_fence": "Берёзовый забор для коней",
+	    "block.mcwfences.birch_wired_fence": "Берёзовый проволочный забор",
+
+	    "block.mcwfences.jungle_picket_fence": "Забор из тропического дерева",
+	    "block.mcwfences.jungle_stockade_fence": "Частокол из тропического дерева",
+	    "block.mcwfences.jungle_horse_fence": "Забор для коней из тропического дерева",
+	    "block.mcwfences.jungle_wired_fence": "Проволочный забор из тропического дерева",
+
+          "block.mcwfences.oak_hedge": "Дубовая изгородь",
+          "block.mcwfences.spruce_hedge": "Еловая изгородь",
+          "block.mcwfences.birch_hedge": "Березовая изгородь",
+          "block.mcwfences.jungle_hedge": "Изгородь в джунглях",
+          "block.mcwfences.acacia_hedge": "Изгородь из акации",
+          "block.mcwfences.dark_oak_hedge": "Изгородь из тёмного дуба",
+          "block.mcwfences.azalea_hedge": "Азалия Хедж",
+          "block.mcwfences.flowering_azalea_hedge": "Изгородь из цветущих азалий",
+
+"block.mcwfences.modern_mud_brick_wall": "Частокол из саманных кирпичей",
+"block.mcwfences.railing_mud_brick_wall": "Кованная калитка из саманных кирпичей",
+"block.mcwfences.mud_brick_railing_gate": "Кованный забор из саманных кирпичей",
+
+
+"block.mcwfences.prismarine_railing_gate": "Призмариновые перила",
+"block.mcwfences.modern_prismarine_wall": "Современная призмариновая стена",
+"block.mcwfences.railing_prismarine_wall": "Перила призмариновой стены",
+
+	    "block.mcwfences.acacia_picket_fence": "Акациевый забор",
+	    "block.mcwfences.acacia_stockade_fence": "Акациевый частокол",
+	    "block.mcwfences.acacia_horse_fence": "Акациевый забор для коней",
+	    "block.mcwfences.acacia_wired_fence": "Акациевый проволочный забор",
+
+	    "block.mcwfences.dark_oak_picket_fence": "Забор из тёмного дуба",
+	    "block.mcwfences.dark_oak_stockade_fence": "Частокол из тёмного дуба",
+	    "block.mcwfences.dark_oak_horse_fence": "Забор для коней из тёмного дуба",
+	    "block.mcwfences.dark_oak_wired_fence": "Проволочный забор из тёмного дуба",
+
+	    "block.mcwfences.crimson_picket_fence": "Забор из багрового дерева",
+	    "block.mcwfences.crimson_stockade_fence": "Частокол из багрового дерева",
+	    "block.mcwfences.crimson_horse_fence": "Забор для коней из багрового дерева",
+	    "block.mcwfences.crimson_wired_fence": "Проволочный забор из багрового дерева",
+
+	    "block.mcwfences.warped_picket_fence": "Забор из искажённого дерева",
+	    "block.mcwfences.warped_stockade_fence": "Частокол из искажённого дерева",
+	    "block.mcwfences.warped_horse_fence": "Забор для коней из искажённого дерева",
+	    "block.mcwfences.warped_wired_fence": "Проволочный забор из искажённого дерева ",
+
+	    "block.mcwfences.oak_picket_fence": "Дубовый забор",
+	    "block.mcwfences.oak_stockade_fence": "Дубовый частокол",
+	    "block.mcwfences.oak_horse_fence": "Дубовый забор для коней",
+	    "block.mcwfences.oak_wired_fence": "Дубовый проволочный забор",
+		
+		"block.mcwfences.bamboo_fence": "Бамбуковый забор",
+
+	    "block.mcwfences.modern_stone_brick_wall": "Современная ограда из каменного кирпича",
+	    "block.mcwfences.modern_andesite_wall": "Современная андезитовая ограда",
+	    "block.mcwfences.modern_diorite_wall": "Современная диоритовая ограда",
+	    "block.mcwfences.modern_granite_wall": "Современная гранитная ограда",
+	    "block.mcwfences.modern_blackstone_wall": "Современная ограда из полированно-чёрнитного кирпича",
+	    "block.mcwfences.modern_sandstone_wall": "Современная ограда из песчаника",
+	    "block.mcwfences.modern_red_sandstone_wall": "Современная ограда из красного песчаника",
+	    "block.mcwfences.modern_nether_brick_wall": "Современная ограда из незерского кирпича",
+	    "block.mcwfences.modern_end_brick_wall": "Современная ограда из эндернякового кирпича",
+		"block.mcwfences.modern_deepslate_wall": "Современная ограда из полированного глубинного сланца",
+		"block.mcwfences.modern_deepslate_brick_wall": "Современная ограда из глубинносланцевого кирпича",
+		"block.mcwfences.modern_quartz_wall": "Современная ограда из кварцевого кирпича",
+
+	    "block.mcwfences.railing_stone_brick_wall": "Кованый забор из каменных кирпичей",
+	    "block.mcwfences.railing_andesite_wall": "Кованый забор из андезита",
+	    "block.mcwfences.railing_diorite_wall": "Кованый забор из диорита",
+	    "block.mcwfences.railing_granite_wall": "Кованый забор из гранита",
+	    "block.mcwfences.railing_blackstone_wall": "Кованый забор из полированно-чернитного кирпича",
+	    "block.mcwfences.railing_sandstone_wall": "Кованый забор из песчаника",
+	    "block.mcwfences.railing_red_sandstone_wall": "Кованый забор из красного песчаника",
+	    "block.mcwfences.railing_nether_brick_wall": "Кованый забор из незерского кирпича",
+	    "block.mcwfences.railing_end_brick_wall": "Кованый забор из эндернякового кирпича",
+		"block.mcwfences.railing_deepslate_wall": "Кованый забор из глубинного сланца",
+	    "block.mcwfences.railing_deepslate_brick_wall": "Кованый забор из глубинносланцевого кирпича",
+		"block.mcwfences.railing_quartz_wall": "Кованый забор из кварца",
+
+	    "block.mcwfences.oak_highley_gate": "Дубовая хайли-калитка",
+	    "block.mcwfences.spruce_highley_gate": "Еловая хайли-калитка",
+	    "block.mcwfences.birch_highley_gate": "Берёзовая хайли-калитка",
+	    "block.mcwfences.jungle_highley_gate": "Хайли-калитка из тропического дерева",
+	    "block.mcwfences.acacia_highley_gate": "Акациевая хайли-калитка",
+	    "block.mcwfences.dark_oak_highley_gate": "Хайли-калитка из тёмного дуба",
+	    "block.mcwfences.crimson_highley_gate": "Багровая хайли-калитка",
+	    "block.mcwfences.warped_highley_gate": "Искажённая хайли-калитка",
+
+"block.mcwfences.mangrove_picket_fence": "Забор из мангрового дерева",
+"block.mcwfences.mangrove_stockade_fence": "Мангровый частокол",
+"block.mcwfences.mangrove_wired_fence": "Проволочный забор из мангровых зарослей",
+	    "block.mcwfences.mangrove_horse_fence": "Мангровый забор для коней",
+"block.mcwfences.mangrove_highley_gate": "Мангровая хайли-калитка",
+"block.mcwfences.mangrove_pyramid_gate": "Мангровая пирамидная калитка",
+"block.mcwfences.mangrove_hedge": "Мангровая изгородь",
+
+		
+
+		"block.mcwfences.oak_pyramid_gate": "Дубовая пирамидная калитка",
+	    "block.mcwfences.spruce_pyramid_gate": "Еловая пирамидная калитка",
+	    "block.mcwfences.birch_pyramid_gate": "Берёзовая пирамидная калитка",
+	    "block.mcwfences.jungle_pyramid_gate": "Пирамидная калитка из тропического дерева",
+	    "block.mcwfences.acacia_pyramid_gate": "Акациевая пирамидная калитка",
+	    "block.mcwfences.dark_oak_pyramid_gate": "Пирамидная калитка из тёмного дуба",
+	    "block.mcwfences.crimson_pyramid_gate": "Багровая пирамидная калитка",
+	    "block.mcwfences.warped_pyramid_gate": "Искажённая пирамидная калитка",
+			
+		"block.mcwfences.stone_brick_railing_gate": "Кованая калитка из каменного кирпича",
+	    "block.mcwfences.andesite_railing_gate": "Кованая андезитовая калитка",
+	    "block.mcwfences.diorite_railing_gate": "Кованая диоритовая калитка",
+	    "block.mcwfences.granite_railing_gate": "Кованая гранитная калитка",
+	    "block.mcwfences.blackstone_railing_gate": "Кованая калитка из полированного чернита",
+		"block.mcwfences.blackstone_brick_railing_gate": "Кованая калитка из полированно-чернитного кирпича",
+	    "block.mcwfences.sandstone_railing_gate": "Кованая калитка из песчаника",
+	    "block.mcwfences.red_sandstone_railing_gate": "Кованая калитка из красного песчаника",
+	    "block.mcwfences.nether_brick_railing_gate": "Кованая калитка из незерского кирпича",
+	    "block.mcwfences.end_brick_railing_gate": "Кованая калитка из эндернякового кирпича",
+		"block.mcwfences.deepslate_railing_gate": "Кованая калитка из глубинного сланца",
+	    "block.mcwfences.deepslate_brick_railing_gate": "Кованая калитка из глубинносланцевого кирпича",
+		"block.mcwfences.quartz_railing_gate": "Кованая калитка из кварца"
+		
+		
+	}

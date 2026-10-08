@@ -1,0 +1,10 @@
+{
+  "parent": "frosted_friends:custom/snow_chest_1",
+  "textures": {
+    "all": "frosted_friends:block/snow_body",
+    "particle": "frosted_friends:block/snow",
+    "0": "frosted_friends:block/heap_of_snow",
+    "1": "frosted_friends:block/snowman_chest"
+  },
+  "render_type": "cutout_mipped"
+}

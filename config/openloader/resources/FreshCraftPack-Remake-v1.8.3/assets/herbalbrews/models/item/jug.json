@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "herbalbrews:item/jug"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [82.79, -64.95, 16.21],
+			"translation": [-1.5, 2, 0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-101.99, 61.47, 177.88],
+			"translation": [-1.5, 2, 0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-52.99, -79.04, -47.71],
+			"translation": [1, 4, 1],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [115.92, 79.77, -129.36],
+			"translation": [1, 4, 1],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

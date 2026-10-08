@@ -1,0 +1,12 @@
+{
+  "name": "Слякоть",
+  "category": "coldsnaphorde:coldsnaptiero",
+  "icon": "coldsnaphorde:slush",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "coldsnaphorde:slush",
+      "text": "Блок, который со временем рассасывается и снижает скорость передвижения, если на него наступить. Оставлен и сброшен членами Незерской Орды."
+    }
+  ]
+}

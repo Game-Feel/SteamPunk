@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hauntedharvest:item/candy_corn_eating_0"
+  }
+}

@@ -1,0 +1,5 @@
+
+[client]
+	#Установите значение true, чтоб включить генерацию Hash Code.
+	"Debug Client" = false
+

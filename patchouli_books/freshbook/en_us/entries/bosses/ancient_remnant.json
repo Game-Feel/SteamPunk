@@ -1,0 +1,43 @@
+{
+    "name": "Ancient Remnant",
+    "icon": "cataclysm:necklace_of_the_desert",
+    "category": "patchouli:bosses_category",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A pile of bones lying in a huge pyramid in the middle of the desert. But to get to them, you have to go through the riddles of the Cursed Pyramid and reach the very top.$(br)It is located in the Overworld."
+        },
+        {
+            "border": "true",
+            "title": "The Cursed Pyramid",
+            "type": "image",
+            "text": "A large pyramid in the middle of the desert.",
+            "images": [
+                "patchouli:pyramide.png"
+            ]
+        },
+        {
+            "type": "crafting",
+            "title": "Eye of Desert",
+            "text": "It's necessary to find the Cursed Pyramid.",
+            "recipe": "cataclysm:desert_eye"
+        },
+        {
+            "type": "text",
+            "text": "Before you get to the boss, you will have to explore the entire structure, consisting of traps, jewels and creatures that live in it. These are mostly Koboletons, who are the guardians of this place and part-time mini-bosses."
+        },
+        {
+            "type": "text",
+            "text": "Don't forget to bring a brush with you to be a bit of an archaeologist, mainly to search for a Necklace of the desert in this suspicious sand. When you reach the very top of the pyramid, you will meet 3 statues. Two of them, Wadjet and Kobolediator, are mini-bosses. When approaching them, they will attack."
+        },
+        {
+            "type": "text",
+            "text": "The Ancient Remnant themselves stand in the middle. To revive, you need to click on them, holding a Necklace of the desert in your hand. Ancient Remnant can strike with their tails, create sand tornadoes, and bite when attacked. They also apply effects when you reach 50% health.,"
+        },
+        {
+            "type": "text",
+            "text": "they begin to actively regenerate.$(br2)A difficult boss whose attacks need to be learned well. You need strong armor with powerful weapons."
+        }
+    ]
+}

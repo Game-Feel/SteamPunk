@@ -1,0 +1,13 @@
+{
+  "name": "Маленькая ледяная стена",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:snow_wall_charm",
+  "advancement": "coldsnaphorde:sliced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:snow_wall_charm",
+      "text": "Амулет, который при ношении будет использовать силу ледяных осколков, чтобы немного уменьшить отдачу."
+    }
+  ]
+}

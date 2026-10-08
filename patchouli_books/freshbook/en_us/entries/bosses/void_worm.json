@@ -1,0 +1,26 @@
+{
+    "name": "Void Worm",
+    "icon": "alexsmobs:void_worm_eye",
+    "category": "patchouli:bosses_category",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This boss has no structure, his house is an empty End.$(br)To summon him, you need to create a Larva of a crimson mosquito."
+        },
+        {
+            "type": "crafting",
+            "title": "Larva",
+            "text": "This is one of the stages of summoning a worm.$(br2)After that, you will need a Capsid that drops from the Endophages, which appears in the wastelands of the End.",
+            "recipe": "alexsmobs:mosquito_larva"
+        },
+        {
+            "type": "text",
+            "text": "Place the Capsid, RMB on it with the Larva in your hand. There will be a transmutation and at the exit we will get a Mysterious Worm.$(br2)It needs to be dropped into the void to lure the Void Worm."
+        },
+        {
+            "type": "text",
+            "text": "All information about the boss is written in a Book about animals.$(br2)The worm of the void can only be difficult because it can teleport through space and split into parts. With good armor and weapons, he won't cause you any problems."
+        }
+    ]
+}

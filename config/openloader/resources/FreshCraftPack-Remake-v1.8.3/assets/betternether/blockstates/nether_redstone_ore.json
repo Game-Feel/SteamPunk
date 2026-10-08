@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+		{
+			"model": "betternether:block/nether_redstone_ore"
+		},
+		{
+			"model": "betternether:block/nether_redstone_ore1"
+		},
+		{
+			"model": "betternether:block/nether_redstone_ore2"
+		},
+		{
+			"model": "betternether:block/nether_redstone_ore3"
+		}
+	]
+	}
+}

@@ -1,0 +1,29 @@
+#If true, Spellranks will NOT verify, install, or overwrite any files under config/ftbquests.
+#This completely disables Spellranks' automatic FTB Quests pack updates.
+#WARNING:
+#  - When enabled, FTB Quests will NOT auto-update when Iron's Spellbooks' Spell Registry changes.
+#  - Only enable this if you intentionally maintain your own FTB Quests files.
+disableFtbQuestsAutoInstaller = false
+#If true, Ranking Up will reward the Player with the Spell Scrolls of their new Rank.
+#If false, Ranking Up has no reward and the Player will have to forge the Spell Scrolls themself.
+enableQuestRewardAppender = true
+#How many Curios Ring slots each player has.
+#Server-authoritative in multiplayer: the server's slot size is synced to clients.
+#(2 is default Iron's Spellbooks amount)
+#Range: 2 ~ 10
+ringSlotCount = 10
+
+[recipes]
+	#Enable/disable the Cinder Essence Smelting recipe.
+	enableArcaneToCinderSmelting = true
+	#Enable/disable the Common Ink recipe.
+	#Note: This recipe is also disabled automatically if Create: Wizardry is installed.
+	enableCommonInkRecipe = true
+	#Enable/disable the Cradle of Will recipe.
+	enableCradleOfWillRecipe = true
+	#Enable/disable the Crying Obsidian recipe.
+	enableCryingObsidianRecipe = true
+	#If true: use Spellranks' Arcane Anvil recipe.
+	#If false: use Iron's Spellbooks original Arcane Anvil recipe.
+	overrideArcaneAnvilRecipe = true
+

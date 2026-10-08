@@ -1,0 +1,26 @@
+{
+    "entity.sn0wfrogs_capybaras.capybara": "Капибара",
+    "item.sn0wfrogs_capybaras.capybara_spawn_egg": "Яйцо призыва капибары",
+    "block.sn0wfrogs_capybaras.thermal_spring": "Горячий источник",
+    "block.sn0wfrogs_capybaras.mandarin_leaves": "Листья мандарина",
+    "block.sn0wfrogs_capybaras.flowering_mandarin_leaves": "Цветущие листья мандарина",
+    "block.sn0wfrogs_capybaras.mandarin_flowers": "Цветы мандарина",
+    "item.sn0wfrogs_capybaras.mandarin": "Мандарин",
+    "item.sn0wfrogs_capybaras.mandarin_bush_sapling": "Саженец мандаринового куста",
+    "block.sn0wfrogs_capybaras.mandarin_bush_sapling": "Саженец мандаринового куста",
+  
+    "effect.sn0wfrogs_capybaras.sweetened": "Балдёж",
+  
+    "advancement.sn0wfrogs_capybaras.oh_sweetie.title": "Сладкая жизнь...",
+    "advancement.sn0wfrogs_capybaras.oh_sweetie.description": "Съешь мандарин и почувствуй его сладость",
+    "advancement.sn0wfrogs_capybaras.the_new_black.title": "Ok I Pull up",
+    "advancement.sn0wfrogs_capybaras.the_new_black.description": "Положите мандарин на голову капибары",
+  
+    "subtitles.sn0wfrogs_capybaras.geyser": "Горячий источник шумит",
+    "subtitles.sn0wfrogs_capybaras.thermal_spring": "Вода бурлит",
+  
+    "subtitles.sn0wfrogs_capybaras.attacked": "Капибара тявкает",
+    "subtitles.sn0wfrogs_capybaras.ambient":  "Капибара пищит",
+  
+    "itemGroup.sn0wfrogs_capybaras.capy_group": "Sn0wfrog's Capybaras"
+}

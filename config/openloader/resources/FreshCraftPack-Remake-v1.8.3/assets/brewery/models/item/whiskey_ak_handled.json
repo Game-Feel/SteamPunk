@@ -1,0 +1,58 @@
+{
+	"credit": "Made by Satisfy",
+	"textures": {
+		"1": "brewery:block/whiskey_ak",
+		"particle": "brewery:block/whiskey_ak"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [12, 6, 16, 16], "texture": "#1"},
+				"east": {"uv": [8, 6, 12, 16], "texture": "#1"},
+				"south": {"uv": [8, 6, 12, 16], "texture": "#1"},
+				"west": {"uv": [8, 6, 12, 16], "texture": "#1"},
+				"up": {"uv": [16, 6, 12, 2], "texture": "#1"},
+				"down": {"uv": [12, 6, 8, 2], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 10, 7],
+			"to": [9, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 2, 2, 6], "texture": "#1"},
+				"east": {"uv": [1, 2, 3, 6], "texture": "#1"},
+				"south": {"uv": [0, 2, 2, 6], "texture": "#1"},
+				"west": {"uv": [1, 2, 3, 6], "texture": "#1"},
+				"up": {"uv": [3, 2, 1, 0], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3, 2, 1, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [32.5, 0, 13],
+			"translation": [-0.25, -2, 0.25],
+			"scale": [0.76, 0.76, 0.76]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [32.5, 0, 13],
+			"translation": [-0.25, -2, 0.25],
+			"scale": [0.76, 0.76, 0.76]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 27],
+			"translation": [0, 2.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 27],
+			"translation": [0, 2.25, 1]
+		},
+		"ground": {
+			"scale": [0.81, 0.81, 0.81]
+		}
+	}
+}

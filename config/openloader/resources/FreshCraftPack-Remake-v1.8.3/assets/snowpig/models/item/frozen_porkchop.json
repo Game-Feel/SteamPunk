@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "snowpig:item/frozen_porkchop"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "snowpig:item/frozen_porkchop_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "snowpig:item/frozen_porkchop_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "snowpig:item/frozen_porkchop_eating_2"
+    }
+  ]
+}

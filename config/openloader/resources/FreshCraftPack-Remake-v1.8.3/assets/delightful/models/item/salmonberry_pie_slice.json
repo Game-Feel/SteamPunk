@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "delightful:item/salmonberry_pie_slice"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.15
+      },
+      "model": "delightful:item/salmonberry_pie_slice_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.27
+      },
+      "model": "delightful:item/salmonberry_pie_slice_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.4
+      },
+      "model": "delightful:item/salmonberry_pie_slice_eating_2"
+    }
+  ]
+}

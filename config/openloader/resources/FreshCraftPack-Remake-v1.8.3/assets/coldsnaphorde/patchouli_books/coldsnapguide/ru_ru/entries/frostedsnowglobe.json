@@ -1,0 +1,13 @@
+{
+  "name": "Покрытый инеем снежный шар",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:frosted_snowglobe",
+  "advancement": "coldsnaphorde:sliced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:frosted_snowglobe",
+      "text": "Призывает Орду 2-го уровня. Смотрите $(l:hordetier2)2 уровень Орды$() для подробной информации."
+    }
+  ]
+}

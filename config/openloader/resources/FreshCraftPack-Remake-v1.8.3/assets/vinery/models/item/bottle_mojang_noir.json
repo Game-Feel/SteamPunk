@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "vinery:block/bottle_mojang_noir",
+	  "textures": {
+		"6": "vinery:block/wine/mojang_noir"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/bottle_mojang_noir"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/bottle_mojang_noir"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/bottle_mojang_noir"
+		}
+	  }
+	}
+  }

@@ -1,0 +1,13 @@
+{
+  "name": "Ожерелье арктического ветра",
+  "category": "coldsnaphorde:coldsnaptier3",
+  "icon": "coldsnaphorde:arctic_wind_charm",
+  "advancement": "coldsnaphorde:horde_breaker",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:arctic_wind_charm",
+      "text": "Модернизированное $(l:frostcharm)Ожерелье ледяного очарования$() даёт больше шансов замедлить врагов, атакующих владельца с помощью Медлительности II"
+    }
+  ]
+}

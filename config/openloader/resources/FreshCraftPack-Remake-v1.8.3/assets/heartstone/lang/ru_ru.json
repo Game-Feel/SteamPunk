@@ -1,0 +1,26 @@
+{
+  "item.heartstone.heartstone": "Аметистовое сердце",
+  "subtitle.heartstone.sub": "Глухой удар аметистового сердца",
+  "message.heartstone.id": "Id: %s",
+  "message.heartstone.cracked": "Треснувший",
+  "item.minecraft.firework_star.shape.heartstone": "В форме сердца",
+
+  "block.minecraft.banner.heartstone.heart.black": "Чёрное сердце",
+  "block.minecraft.banner.heartstone.heart.blue": "Синее сердце",
+  "block.minecraft.banner.heartstone.heart.brown": "Коричневое сердце",
+  "block.minecraft.banner.heartstone.heart.cyan": "Бирюзовое сердце",
+  "block.minecraft.banner.heartstone.heart.gray": "Серое сердце",
+  "block.minecraft.banner.heartstone.heart.green": "Зелёное сердце",
+  "block.minecraft.banner.heartstone.heart.light_blue": "Голубое сердце",
+  "block.minecraft.banner.heartstone.heart.light_gray": "Светло-серое сердце",
+  "block.minecraft.banner.heartstone.heart.lime": "Лаймовое сердце",
+  "block.minecraft.banner.heartstone.heart.magenta": "Пурпурное сердце",
+  "block.minecraft.banner.heartstone.heart.orange": "Оранжевое сердце",
+  "block.minecraft.banner.heartstone.heart.pink": "Розовое сердце",
+  "block.minecraft.banner.heartstone.heart.purple": "Фиолетовое сердце",
+  "block.minecraft.banner.heartstone.heart.red": "Красное сердце",
+  "block.minecraft.banner.heartstone.heart.white": "Белое сердце",
+  "block.minecraft.banner.heartstone.heart.yellow": "Жёлтое сердце",
+  "item.heartstone.heart_banner_pattern.desc": "Сердце",
+  "item.heartstone.heart_banner_pattern": "Узор флага"
+}

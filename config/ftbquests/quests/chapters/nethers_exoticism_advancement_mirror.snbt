@@ -1,0 +1,341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "nethers_exoticism_advancement_mirror"
+	group: "189989671235D85C"
+	icon: "nethers_exoticism:kiwano_sapling"
+	id: "0371D22161DA3807"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Install Nether's Exoticism"]
+			hide_dependency_lines: false
+			icon: "nethers_exoticism:kiwano_sapling"
+			id: "4CEC95A2F4B6F516"
+			shape: "circle"
+			size: 1.2d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "nethers_exoticism:nethers_exoticism_adv"
+				criterion: ""
+				id: "61EA9D75184BAF14"
+				type: "advancement"
+			}]
+			title: "Nether's Exoticism"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CEC95A2F4B6F516"]
+			description: ["Harvest Bouddha's Hand"]
+			hide_dependency_lines: false
+			icon: "nethers_exoticism:bouddha_s_hand"
+			id: "084D5D92E9350A22"
+			rewards: [
+				{
+					id: "1E1737FD80540E40"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "49CAC22DBB999AFD"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "nethers_exoticism:bouddha_s_hand_adv"
+				criterion: ""
+				id: "2B9789CF594A218C"
+				type: "advancement"
+			}]
+			title: "Eat with One Hand"
+			x: 2.2d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CEC95A2F4B6F516"]
+			description: ["Harvest Jabuticaba"]
+			hide_dependency_lines: false
+			icon: "nethers_exoticism:jaboticaba"
+			id: "70FAEDDA1654FAF0"
+			rewards: [
+				{
+					id: "72BF6B6CDE9B9B3B"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0B375FC3DAD8BA54"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "nethers_exoticism:jabuticaba_adv"
+				criterion: ""
+				id: "71413B571B0B5304"
+				type: "advancement"
+			}]
+			title: "Tree Barks. Jabuticaba Leaves"
+			x: 2.2d
+			y: -1.6d
+		}
+		{
+			dependencies: ["70FAEDDA1654FAF0"]
+			description: ["Brew a Jabuticaba Jam"]
+			hide_dependency_lines: false
+			icon: "nethers_exoticism:jaboticaba_juice_wither_cure"
+			id: "08E6B79B848CCE5D"
+			rewards: [
+				{
+					count: 4
+					id: "19264B40C5E086DF"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2DCDB88E3F28DB7E"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Goal"
+			tasks: [{
+				advancement: "nethers_exoticism:jabuticaba_jam_adv"
+				criterion: ""
+				id: "212EBAF3A4D15DF1"
+				type: "advancement"
+			}]
+			title: "Time to Jam"
+			x: 4.6d
+			y: -1.6d
+		}
+		{
+			dependencies: ["4CEC95A2F4B6F516"]
+			description: ["Harvest Kiwano"]
+			hide_dependency_lines: false
+			icon: "nethers_exoticism:kiwano"
+			id: "0511ABB82F83D990"
+			rewards: [
+				{
+					id: "5EFF2B6A0CC04BCB"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0DBC2E20C7EBE820"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "nethers_exoticism:kiwano_adv"
+				criterion: ""
+				id: "1FCF7FB3AAD7029E"
+				type: "advancement"
+			}]
+			title: "Horned Melon?"
+			x: 2.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0511ABB82F83D990"]
+			description: ["Craft a Kiwano Tool"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "nethers_exoticism:kiwano_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "328D293AEA3E7FF7"
+			rewards: [
+				{
+					count: 4
+					id: "47E611163BFF7CB2"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "60B2265CE999F1AF"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Goal"
+			tasks: [{
+				advancement: "nethers_exoticism:kiwano_tools_adv"
+				criterion: ""
+				id: "6C1AC2D7F3CBD71C"
+				type: "advancement"
+			}]
+			title: "Seems Pointless"
+			x: 4.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CEC95A2F4B6F516"]
+			description: ["Harvest Pitaya"]
+			hide_dependency_lines: false
+			icon: "nethers_exoticism:pitaya"
+			id: "0C0F9973FA24A955"
+			rewards: [
+				{
+					count: 4
+					id: "49FD24BA0FCAFB01"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6145D23C817E5BEF"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Goal"
+			tasks: [{
+				advancement: "nethers_exoticism:pitaya_adv"
+				criterion: ""
+				id: "515555BBE65C5F94"
+				type: "advancement"
+			}]
+			title: "The Dragon Fruit !"
+			x: 2.2d
+			y: 1.6d
+		}
+		{
+			dependencies: ["4CEC95A2F4B6F516"]
+			description: ["Harvest Rambutan"]
+			hide_dependency_lines: false
+			icon: "nethers_exoticism:ramboutan"
+			id: "537A827A3D554AF2"
+			rewards: [
+				{
+					id: "77F4C419AC91BA9B"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "010B019E4FE62DF6"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "nethers_exoticism:rambutan_adv"
+				criterion: ""
+				id: "5720F2B771508B18"
+				type: "advancement"
+			}]
+			title: "Thorn Again"
+			x: 2.2d
+			y: 3.0d
+		}
+		{
+			dependencies: ["537A827A3D554AF2"]
+			description: ["Deal damage with Rambutan Helmet"]
+			hide_dependency_lines: false
+			icon: "minecraft:cactus"
+			id: "10AF8CD67F2D4DB2"
+			rewards: [
+				{
+					count: 4
+					id: "636A4356FDE11897"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6106A6C214B0A9F1"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Goal"
+			tasks: [{
+				advancement: "nethers_exoticism:rambutan_helmet_adv"
+				criterion: ""
+				id: "3BC3ED4F912A7D0B"
+				type: "advancement"
+			}]
+			title: "Be Hedgy"
+			x: 4.6d
+			y: 2.4d
+		}
+		{
+			dependencies: ["537A827A3D554AF2"]
+			description: ["Send thorns with Rambutan Helmet"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "nethers_exoticism:ramboutan_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "642B276B70920F83"
+			rewards: [
+				{
+					count: 4
+					id: "12C7B605270C1136"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6D3338939970D3F3"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Goal"
+			tasks: [{
+				advancement: "nethers_exoticism:rambutan_shake_adv"
+				criterion: ""
+				id: "4E9A069986DB1690"
+				type: "advancement"
+			}]
+			title: "Rock n' Rolls"
+			x: 4.6d
+			y: 3.6d
+		}
+	]
+	title: "Farmer's Delight - Nether's Exoticism"
+}

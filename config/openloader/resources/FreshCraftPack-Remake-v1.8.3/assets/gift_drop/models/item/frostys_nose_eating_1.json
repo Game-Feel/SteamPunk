@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gift_drop:item/frostys_nose_eating_1"
+  }
+}

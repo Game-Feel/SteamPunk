@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+	{
+      "model": "byg:block/emeraldite_ore"
+    },
+	{
+      "model": "byg:block/emeraldite_ore1"
+    },
+	{
+      "model": "byg:block/emeraldite_ore2"
+    }
+	]
+  }
+}

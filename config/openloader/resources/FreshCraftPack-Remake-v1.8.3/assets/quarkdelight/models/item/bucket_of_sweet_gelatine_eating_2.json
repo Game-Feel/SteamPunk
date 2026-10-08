@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quarkdelight:item/bucket_of_sweet_gelatine_eating_2"
+  }
+}

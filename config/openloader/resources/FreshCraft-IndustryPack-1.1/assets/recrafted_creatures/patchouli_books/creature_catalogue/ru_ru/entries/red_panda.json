@@ -1,0 +1,16 @@
+{
+  "name": "Красная панда",
+  "icon": "recrafted_creatures:red_panda_spawn_egg",
+  "category": "recrafted_creatures:tamable_entities",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Красные панды - маленькие пассивные млекопитающие, их можно встретить в джунглях и зарослях бамбука и их можно приручить и разводить с помощью бамбука. Прирученные, они могут помочь вам избежать столкновений с существами, отвлекая врагов. Красные панды также иногда спят и играют друг с другом."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "recrafted_creatures:red_panda",
+      "scale": 0.5
+    }
+  ]
+}

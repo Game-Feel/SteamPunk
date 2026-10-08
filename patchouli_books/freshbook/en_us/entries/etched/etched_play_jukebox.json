@@ -1,0 +1,27 @@
+{
+    "name": "Album Jukebox",
+    "icon": "etched:album_jukebox",
+    "category": "patchouli:etched_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Using the $(9)Album Jukebox$(), you can play 9 Music Disc in turn. It has buttons $(o)Last$() and $(o)Next$() to select a specific Music Disc. The currently playing Music Disc is highlighted in yellow."
+        },
+        {
+            "type": "crafting",
+            "text": "The add-on adds the interaction of $(9)Jukebox$() with $(9)hoppers$(), as on $(o)Bedrock$(). By the way, it also accepts your personal tracks.",
+            "title": "Album Jukebox",
+            "recipe": "etched:album_jukebox"
+        },
+        {
+            "type": "crafting",
+            "title": "Minecart with Jukebox",
+            "text": "Now you won't be bored on a long minecart ride.",
+            "recipe": "etched:jukebox_minecart"
+        },
+        {
+            "type": "text",
+            "text": "Thanks to the $(9)Note Block$(), a villager gets a new profession - a bard. You can sell Music Disc to him, buy blocks from this supplement, Blank Music Disc, Misic Labels and blocks for the music block."
+        }
+    ]
+}

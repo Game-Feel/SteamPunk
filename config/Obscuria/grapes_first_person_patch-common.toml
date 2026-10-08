@@ -1,0 +1,5 @@
+#Curios that shouldn't be displayed in first person
+curiosBlacklist = ["wardrobe:breathing_reed", "grapeslegacystuff:wooden_mask", "grapeslegacystuff:elf_ears", "grapesseasonstuff:blue_winter_hat", "grapesseasonstuff:red_winter_hat", "grapesseasonstuff:white_winter_hat", "create:goggles"]
+#Armor that shouldn't be displayed in first person
+armorBlacklist = ["endermanoverhaul:badlands_hood", "endermanoverhaul:snowy_hood", "endermanoverhaul:savanna_hood", "vc_gliders:paraglider_netherite", "vc_gliders:paraglider_diamond", "vc_gliders:paraglider_diamond", "vc_gliders:paraglider_iron", "vc_gliders:paraglider_gold", "vc_gliders:paraglider_wood"]
+

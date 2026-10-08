@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quarkdelight:item/crab_bars_eating_2"
+  }
+}

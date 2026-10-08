@@ -1,0 +1,1102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "abyssal_path"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "cataclysm:crystallized_coral"
+	id: "0C033501891AEE7A"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "2A835E2FBB9495F9"
+			invisible: true
+			rewards: [
+				{
+					command: "/spellranks set @p abyssal 3"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "48E2FA51F789DC2A"
+					silent: true
+					title: "Rank 3 of Abyssal Path"
+					type: "command"
+				}
+				{
+					id: "23032997E6E6CDA4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31552FE28DAAE8E1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Welcome to the Abyssal Path"
+			tasks: [{
+				icon: "cataclysm:crystallized_coral"
+				id: "53A9BC40066846D3"
+				title: "Abyssal"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A835E2FBB9495F9"]
+			id: "00004142594D5233"
+			rewards: [
+				{
+					command: "/spellranks set @p abyssal 2"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "68BEFA9CF4CB4BF6"
+					silent: true
+					title: "Rank 2 of Abyssal Path"
+					type: "command"
+				}
+				{
+					id: "13E3882B14E96279"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_predator"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A26557542CAD042"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coral_golem"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:depth_charge"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Rank 3 of the Abyssal Path"
+			tasks: [
+				{
+					id: "4142594D52330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 3"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004142594D5233"]
+			id: "00004142594D5232"
+			rewards: [
+				{
+					command: "/spellranks set @p abyssal 1"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "117A23710C3957BE"
+					silent: true
+					title: "Rank 1 of Abyssal Path"
+					type: "command"
+				}
+				{
+					id: "0F35AA42750618F1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_predator"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FCC5FD084F80665"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06F8186562000973"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coral_golem"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "651765E5358E09A0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:depth_charge"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32BF99837CD8E3B8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:void_beam"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Rank 2 of the Abyssal Path"
+			tasks: [
+				{
+					id: "4142594D52320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_predator"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coral_golem"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:depth_charge"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 2"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004142594D5232"]
+			id: "00004142594D5231"
+			rewards: [
+				{
+					command: "/spellranks set @p abyssal 0"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "2D3C991E880B695F"
+					silent: true
+					title: "Rank 0 of Abyssal Path"
+					type: "command"
+				}
+				{
+					id: "60452D5AAE878EC3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_blast"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "423CE5C7961BEE7A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_predator"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2F09FFC879A101"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64CDB2CF2CD56C8E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_clawdian"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D05A68DCB28C910"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coral_golem"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DD29AFFDE516393"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coralssus"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:depth_charge"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dimensional_rift"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4142594D52310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:void_beam"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Master Rank 1 of the Abyssal Path"
+			tasks: [
+				{
+					id: "4142594D52310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_predator"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coral_golem"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:depth_charge"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:void_beam"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 1"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004142594D5231"]
+			id: "00004142594D5230"
+			subtitle: "Master Rank 0 of the Abyssal Path"
+			tasks: [
+				{
+					id: "4142594D52300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_blast"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_predator"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:abyssal_slash"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_clawdian"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coral_golem"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:conjure_coralssus"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:depth_charge"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:dimensional_rift"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:tidal_grab"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4142594D52300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "cataclysm_spellbooks:void_beam"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Master Rank 0"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Abyssal Path"
+}

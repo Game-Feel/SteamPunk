@@ -1,0 +1,12 @@
+{
+    "name": "Питайя",
+    "icon": "nethers_exoticism:pitaya",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Питайя растёт в Багровом лесу на Стволе Питайи, сам ствол очень похож на настоящий кактус. При поедании дает эффект Иммунитета к Иссушению.",
+            "item": "nethers_exoticism:pitaya"
+        }
+    ]
+}

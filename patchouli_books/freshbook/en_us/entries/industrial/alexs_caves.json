@@ -1,0 +1,15 @@
+{
+    "name": "Underground Secrets",
+    "icon": "alexscaves:submarine",
+    "category": "patchouli:industrial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A whole huge addition from Alex, in which you have to explore the underground realms, each with unique creatures and objects. The book Cave Guide will help you in this difficult task:"
+        },
+        {
+            "type": "crafting",
+            "recipe": "alexscaves:cave_book"
+        }
+    ]
+}

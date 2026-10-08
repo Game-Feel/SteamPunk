@@ -1,0 +1,64 @@
+{
+  "shields": {
+    "desc:": "List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: [\"minecraft:shield;65;15\"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  [\"minecraft:shield;65;15\", \"minecraft:shield;65;15\"] ",
+    "shields": [
+      "davespotioneering:magenta_umbrella;63;15",
+      "davespotioneering:black_umbrella;65;14",
+      "shieldexp:wooden_shield;54;9",
+      "unusualprehistory:veloci_shield;74;15",
+      "davespotioneering:blue_umbrella;63;14",
+      "call_of_yucutan:hematite_shield;60;10",
+      "davespotioneering:red_umbrella;66;13",
+      "nethers_exoticism:rambutan_shield;58;9",
+      "shieldexp:griefer_shield;62;15",
+      "alexsmobs:skelewag_sword;72;9",
+      "davespotioneering:aged_umbrella;64;13",
+      "shieldexp:iron_shield;63;9",
+      "royalvariations:royal_knight_shield;66;15",
+      "cataclysm:black_steel_targe;69;15",
+      "davespotioneering:light_blue_umbrella;64;12",
+      "cataclysm:azure_sea_shield;67;14",
+      "davespotioneering:orange_umbrella;68;12",
+      "davespotioneering:gray_umbrella;66;12",
+      "cataclysm:bulwark_of_the_flame;50;9",
+      "shieldexp:netherite_shield;69;15",
+      "unusualprehistory:trike_shield;78;15",
+      "davespotioneering:pink_umbrella;64;15",
+      "davespotioneering:cyan_umbrella;66;13",
+      "davespotioneering:purple_umbrella;64;13",
+      "davespotioneering:brown_umbrella;66;15",
+      "alexsmobs:shield_of_the_deep;68;10",
+      "minecraft:shield;65;10",
+      "davespotioneering:green_umbrella;66;11",
+      "bygonenether:gilded_netherite_shield;69;15",
+      "shieldexp:golden_shield;51;9",
+      "davespotioneering:gilded_umbrella;66;10",
+      "endermanoverhaul:corrupted_shield;68;15",
+      "davespotioneering:light_gray_umbrella;69;10",
+      "shieldexp:diamond_shield;66;10",
+      "shieldexp:paragon_shield;73;9",
+      "unusualend:enderblob_shield;64;15",
+      "davespotioneering:white_umbrella;67;13",
+      "artifacts:umbrella;50;10",
+      "alexscaves:resistor_shield;75;11",
+      "davespotioneering:yellow_umbrella;64;13",
+      "davespotioneering:lime_umbrella;67;11"
+    ]
+  },
+  "playerOnly": {
+    "desc:": "Should the mechanic changes only affect players, default:false",
+    "playerOnly": false
+  },
+  "blockCooldown": {
+    "desc:": "Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, default = 5 ticks(0.25s)",
+    "blockCooldown": 5
+  },
+  "maxblockdamagereduction": {
+    "desc:": "Maximum percent of damage allowed to be blocked. Default:85",
+    "maxblockdamagereduction": 85
+  },
+  "maxpassivedamagereduction": {
+    "desc:": "Maximum percent of passive damage reduction while holding a shield(not blocking). Default:25",
+    "maxpassivedamagereduction": 15
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "enchantment.shieldmechanics.block_damage_enchant": "Блокирование - Щит",
+  "enchantment.shieldmechanics.block_damage_enchant.desc": "Увеличивает количество заблокированного урона",
+  "enchantment.shieldmechanics.block_knock_back_enchant": "Отбрасывание - Щит",
+  "enchantment.shieldmechanics.block_knock_back_enchant.desc": "Шанс отбросить атакующих при блоке",
+  "enchantment.shieldmechanics.block_slowness_enchant": "Замедление - Щит",
+  "enchantment.shieldmechanics.block_slowness_enchant.desc": "Шанс замедлить атакующих при блоке",
+  "enchantment.shieldmechanics.block_blind_enchant": "Слепота - Щит",
+  "enchantment.shieldmechanics.block_blind_enchant.desc": "Шанс ослепить атакующих при блоке",
+  "enchantment.shieldmechanics.block_last_resort_enchant": "Последнее средство — Щит",
+  "enchantment.shieldmechanics.block_last_resort_enchant.desc": "Шанс спасти вас при низком уровне жизни, при блоке",
+  "shieldmechanics.blockdmgreduct": "Снижение урона при блоке: %s",
+  "shieldmechanics.holddmgreduct": "Снижение урона при удержании: %s"
+  }

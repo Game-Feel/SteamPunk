@@ -1,0 +1,33 @@
+{
+    "name": "Different food",
+    "icon": "farmersdelight:netherite_knife",
+    "category": "patchouli:diet_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you are a cook, you are very lucky. Now you can prepare a lot of different food and drinks: from edible ingredients and juices, to complex, multi-level dishes that give different effects."
+        },
+        {
+            "type": "crafting",
+            "title": "Stove and Cooking Pot",
+            "recipe": "farmersdelight:stove",
+            "recipe2": "farmersdelight:cooking_pot"
+        },
+        {
+            "type": "crafting",
+            "title": "Skillet and Cutting Board",
+            "recipe": "farmersdelight:skillet",
+            "recipe2": "farmersdelight:cutting_board"
+        },
+        {
+            "type": "crafting",
+            "title": "Tea Kettle",
+            "text": "For most recipes, you need not only a workbench, but also a stove, a cooking pot, a skillet, a cutting board and a knife.",
+            "recipe": "herbalbrews:tea_kettle"
+        },
+        {
+            "type": "text",
+            "text": "And if you're a tea drinker, then there's also a kettle.$(br)Enjoy your meal!"
+        }
+    ]
+}

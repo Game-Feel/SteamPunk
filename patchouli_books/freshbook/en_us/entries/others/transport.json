@@ -1,0 +1,16 @@
+{
+    "name": "Transport",
+    "icon": "minecraft:minecart",
+    "category": "patchouli:other_category",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are many ways to move around here, replacing the elites in the Upper World.$(br2)At least the horses have become stronger."
+        },
+        {
+            "type": "text",
+            "text": "Previously, you could move quickly across the ice using a boat. Now there is no such possibility.$(br2)The train from Create fits perfectly into the game, combining good mechanics and speed."
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Ignis",
+    "icon": "cataclysm:burning_ashes",
+    "category": "patchouli:bosses_category",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ignis is one of the strongest bosses, if not the strongest. To defeat him, you ideally need to know the controls and have an excellent reaction. Believe me, the rewards will not disappoint you.$(br)It is located in Nether."
+        },
+        {
+            "border": "true",
+            "title": "The Burning Arena",
+            "type": "image",
+            "text": "A huge structure that is hard to miss.",
+            "images": [
+                "patchouli:ignis.png"
+            ]
+        },
+        {
+            "type": "crafting",
+            "title": "Eye of Flame",
+            "text": "It is necessary to search for the Burning Arena.",
+            "recipe": "cataclysm:flame_eye"
+        },
+        {
+            "type": "text",
+            "text": "To summon him, you need to collect 1 flaming ash, which falls from mini-bosses, Ignited Revenants flying at a level below the arena.$(br)With these ashes, you need to hit the altar in the center of the arena. But before that, let's figure out what it is."
+        },
+        {
+            "type": "text",
+            "text": "He has many different attacks, he reduces your defense (whatever it is) and attacks in proportion to your health. He will regenerate quickly if he is not attacked, he is not affected by arrows.$(br2)There are 3 phases. The difference between them all is in speed, strength, and attack variation."
+        },
+        {
+            "type": "text",
+            "text": "There is nothing to do there without netherite and enchanted golden apples or powerful items of this add-on. You will also need to learn his attacks to dodge, each miss can be fatal."
+        }
+    ]
+}

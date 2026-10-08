@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "vinery:block/count_roleester_shiraz",
+	  "textures": {
+		"2": "vinery:block/wine/count_roleester_shiraz"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/count_roleester_shiraz"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/count_roleester_shiraz"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/count_roleester_shiraz"
+		}
+	  }
+	}
+  }

@@ -1,0 +1,31 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "cataclysm:custom/cursed_bow",
+    "textures": {
+      "0": "cataclysm:block/cursed_bow"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "cataclysm:item/cursed_bow_gui_pulling_2"
+      },
+      "gui_light": "front"
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "cataclysm:item/cursed_bow_gui_pulling_2"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "cataclysm:item/cursed_bow_gui_pulling_2"
+      }
+    }
+  }
+}

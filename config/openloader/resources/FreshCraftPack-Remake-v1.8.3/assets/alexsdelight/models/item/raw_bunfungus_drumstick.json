@@ -1,0 +1,29 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alexsdelight:item/raw_bunfungus_drumstick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.15
+      },
+      "model": "eatinganimation:item/al_raw_bunfungus_drumstick_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.27
+      },
+      "model": "eatinganimation:item/al_raw_bunfungus_drumstick_eating_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.4
+      },
+      "model": "eatinganimation:item/al_raw_bunfungus_drumstick_eating_2"
+    }
+  ]
+}

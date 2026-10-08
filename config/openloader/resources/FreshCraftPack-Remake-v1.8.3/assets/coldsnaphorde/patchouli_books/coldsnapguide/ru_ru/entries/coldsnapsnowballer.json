@@ -1,0 +1,53 @@
+{
+  "name": "Снеговик-снежкобросатель",
+  "category": "coldsnaphorde:coldsnapmobs",
+  "icon": "coldsnaphorde:snowballer_spawn_egg",
+  "advancement": "coldsnaphorde:coldsnapsnowballer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Снежкобросатель был обычным снежным големом, который неделями прятался в одном блоке. Всё, что они умели, - это бросать снежки во врагов. Когда удачно подорванный крипер освободил Снежкобросателей, они убежали, намереваясь наказать игроков, которые заманили их в ловушку, собирая по пути разбросанные камни."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:coldsnapsnowballer",
+      "name": "Снеговик-снежкобросатель"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-снежкобросатель из Незера",
+      "text": "Снежкобросатель, растаявший от жары в Незере. Никто не знает, как и почему Орда снеговиков решила, что отправиться в Незер было бы хорошей идеей, но те, кто это сделал, оставляют за собой шлейф слякоти, когда двигаются.",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ncoldsnapsnowballer",
+      "name": "Снеговик-снежкобросатель из Незера",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-снежкобросатель из Энда",
+      "text": "Снежкобросатель, мутировавший из-за безлюдных окрестностей Энда. Имеет шанс телепортировать вас или самого себя при атаке или при получении урона",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ecoldsnapsnowballer",
+      "name": "Снеговик-снежкобросатель из Энда",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-снежкобросатель из Чумы",
+      "text": "Снежкобросатель, наполненный мутными водами болота. Может передавать паразитов и болезни или вообще вызывать у вас плохое самочувствие",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:pcoldsnapsnowballer",
+      "name": "Снеговик-снежкобросатель из Чумы",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    }
+  ]
+}

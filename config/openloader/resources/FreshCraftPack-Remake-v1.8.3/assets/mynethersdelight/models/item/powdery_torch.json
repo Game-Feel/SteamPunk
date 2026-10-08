@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "mynethersdelight:block/powdery_torch",
+		"particle": "mynethersdelight:block/powdery_torch"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 10, 9],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [7, 6, 9, 8], "texture": "#0"},
+				"down": {"uv": [7, 13, 9, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 0],
+			"to": [9, 16, 16],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 7],
+			"to": [16, 16, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [72.5, 83, -71.75],
+			"translation": [0.25, 2.75, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [72.5, 83, -71.75],
+			"translation": [0.25, 2.75, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-7.11, 77.1, -18.65],
+			"translation": [5, 3.75, -1.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7.11, 77.1, -18.65],
+			"translation": [5, 3.75, -1.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [0, 89, 0],
+			"translation": [0.25, 0.5, 0],
+			"scale": [1, 0.98, 1.16]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.25, 8.5, -7.5],
+			"scale": [1, 0.66, 1.02]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.5, 0],
+			"scale": [1.72, 1.72, 1.72]
+		}
+	}
+}

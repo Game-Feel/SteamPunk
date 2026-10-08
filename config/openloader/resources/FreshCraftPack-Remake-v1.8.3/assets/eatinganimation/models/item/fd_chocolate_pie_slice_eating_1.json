@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/fd_chocolate_pie_slice_eating_1"
+  }
+}

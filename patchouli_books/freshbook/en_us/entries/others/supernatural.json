@@ -1,0 +1,86 @@
+{
+    "name": "Supernatural",
+    "icon": "supernatural:angel_statue",
+    "category": "patchouli:other_category",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are a lot of supernatural and strange things here that make the hair stand on end. Let's start in order - there are Vampires and they live in a cemetery. The cemetery is usually located near swampy biomes."
+        },
+        {
+            "title": "Graveyard",
+            "border": "true",
+            "text": "Graveyards can be different.",
+            "type": "image",
+            "images": [
+                "patchouli:graveyard1.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "There you will meet Vampires, Possessed Armor, and Scares. There are some valuable items in this structure, you need to look carefully.$(br2)A vampire, a creature with red eyes, will not give you vampirism for nothing. It deals damage, strengthens itself, and regenerates when attacked."
+        },
+        {
+            "type": "text",
+            "text": "Possessed armor appears much more often than a vampire. You can use it to get a Gothic helmet, iron armor, or even a sword. When killing, a Scarecrow flies out.$(br2)A scarecrow is a soul that is encased in a Possessed armor."
+        },
+        {
+            "type": "text",
+            "text": "After gaining freedom, she flies out and can inhabit any creature. Once possessed, the target will get the Possessed effect. It can be either positive or negative. With it, for example, the player will not be able to break and place blocks for a while."
+        },
+        {
+            "type": "text",
+            "text": "In the graveyard, you can find ectoplasm, which you need to put in a potion maker and get a bubble of experience. The contracts you find will also come in handy, but later."
+        },
+        {
+            "type": "text",
+            "text": "If you're lucky, you may come across a cemetery with a building resembling a church. Entering there, you will be greeted painfully by Necromancers who are several times stronger than Vampires. In addition, they use dark magic, so be careful."
+        },
+        {
+            "title": "Graveyard with a church",
+            "border": "true",
+            "text": "But even this is not the rarest option...",
+            "type": "image",
+            "images": [
+                "patchouli:graveyard2.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "How do I become a vampire? And I will answer you: $(br2)Create a ritual altar or find it in graveyards. Place it on a flat surface of 9 by 9 blocks. Create 12 candles of any kind and, holding them in your hand, press the RMB on the altar. A little magic will happen and they will set themselves up."
+        },
+        {
+            "type": "text",
+            "text": "Fine, now it's a small matter to find any contract that is also in graveyards or drops from a Necromancer. You need a contract for the Curse of Vampirism! At the same time, bring the goat to the ritual altar...$(br2)Good luck in your search!"
+        },
+        {
+            "type": "text",
+            "text": "The ritual itself: in any contract, when the SHIFT is pressed, the conditions are written. $(br)XX are Roman numerals and they mean the number of candles lit near the altar. If the number is too large, add more candles to the ones already standing. Do not place more than 3 candles on one block."
+        },
+        {
+            "type": "text",
+            "text": "IMPORTANT: if XX is said, that is, 20, then exactly 20 should be lit, no more, no less.$(br)The altar should be in total darkness. Exclude its installation in the open air.$(br2)We create a bottle, put it on the altar, take the contract in our right hand and press the RMB in the air,"
+        },
+        {
+            "type": "text",
+            "text": "to sign it with blood, we drag the goat to the altar, light exactly 20 candles. After all these manipulations, we take the signed contract in our hands and press it on the ritual altar... Ready! The Dark Lord is pleased and has therefore given you some of his power."
+        },
+        {
+            "type": "text",
+            "text": "There are a lot of contracts, each with unique conditions.$(br)For some, you may need a soul stone. To get it, put a piece of amethyst on the ritual and kill a creature next to it. Everyone has their own level of soul. Experiment"
+        },
+        {
+            "type": "text",
+            "text": "to obtain different soul levels and use them for rituals.$(br2)Vampires don't sign contracts directly, because now they need a bottle of their blood. For more information - $(l:https://youtu.be/CHTWrNO-O1E)(click)$()"
+        },
+        {
+            "type": "text",
+            "text": "Now you will burn from the sun and ordinary food will seem less tasty to you. We'll have to feed on blood... But you will have beneficial effects, you will become much stronger.$(br2)To remove vampirism, you need to eat an enchanted golden apple.,"
+        },
+        {
+            "type": "text",
+            "text": "holding the totem of immortality in his right hand.$(br2)Most of the items need to be used on the altar, and then RMB on it with some object in your hands."
+        }
+    ]
+}

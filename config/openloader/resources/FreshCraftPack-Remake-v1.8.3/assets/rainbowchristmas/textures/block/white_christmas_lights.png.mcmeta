@@ -1,0 +1,18 @@
+{
+  "animation": {
+    "interpolate": true,
+    "frametime": 17,
+    "frames": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  }
+}

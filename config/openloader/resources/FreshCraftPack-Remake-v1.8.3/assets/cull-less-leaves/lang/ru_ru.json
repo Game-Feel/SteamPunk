@@ -1,0 +1,9 @@
+{
+  "cull-less-leaves.title": "Отбраковка Листвы",
+  "cull-less-leaves.option.enabled": "Включено",
+  "cull-less-leaves.option.depth": "Количество слоёв",
+  "cull-less-leaves.option.depth.tooltip": "Количество слоёв листьев до удаления их внутренней части.\n1 - выглядит хуже всего (быстрее)\n2 - рекомендуется\n4 - выглядит лучше всего (медленнее)",
+  "cull-less-leaves.sodium.option.enabled": "Отбраковка Листвы",
+  "cull-less-leaves.sodium.option.enabled.description": "Активирует Отбраковку Листвы.",
+  "cull-less-leaves.sodium.option.depth": "Видимые слои листьев"
+}

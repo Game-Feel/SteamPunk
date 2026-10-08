@@ -1,0 +1,33 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "brewery:item/beer_handled_eating_1",
+	  "textures": {
+		"0": "brewery:block/beer_mug",
+		"1": "brewery:block/beer_barley",
+		"particle": "brewery:block/beer_mug"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "brewery:item/beer_barley"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "brewery:item/beer_barley"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "brewery:item/beer_barley"
+		}
+	  }
+	}
+}

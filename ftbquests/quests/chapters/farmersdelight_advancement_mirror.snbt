@@ -1,0 +1,832 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "farmersdelight_advancement_mirror"
+	group: "189989671235D85C"
+	icon: "farmersdelight:cooking_pot"
+	id: "1FA81053EAD62AEB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Вас ожидает целый мир разнообразных вкусов!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:cooking_pot"
+			id: "3019021D44250216"
+			shape: "circle"
+			size: 1.2d
+			subtitle: "Farmer's Delight"
+			tasks: [{
+				advancement: "farmersdelight:main/root"
+				criterion: ""
+				id: "59F43423D7CEB32E"
+				type: "advancement"
+			}]
+			title: "Фермерский Восторг"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3019021D44250216"]
+			description: ["Четыре новых культуры можно найти в природе, в разных климатах… или где-нибудь в сундуках."]
+			hide_dependency_lines: false
+			icon: "farmersdelight:wild_onions"
+			id: "6E5495D37B4A9AE5"
+			rewards: [
+				{
+					count: 2
+					id: "27F6F0ABCA9D43F5"
+					item: "minecraft:copper_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "65D9936512C4CE87"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Crops of the Wild"
+			tasks: [{
+				advancement: "farmersdelight:main/get_fd_seed"
+				criterion: ""
+				id: "2195DA05BEEDDFE2"
+				type: "advancement"
+			}]
+			title: "Урожаи дикой природы"
+			x: 2.2d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E5495D37B4A9AE5"]
+			description: ["Посадите рис в неглубокий водоём"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:rice"
+			id: "311EEE14746F254F"
+			rewards: [
+				{
+					count: 2
+					id: "4568200DF8439056"
+					item: "minecraft:flint"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4ADCB3734B41A33C"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Dipping Your Roots"
+			tasks: [{
+				advancement: "farmersdelight:main/plant_rice"
+				criterion: ""
+				id: "71B51D9C7956A2C9"
+				type: "advancement"
+			}]
+			title: "Погружая свои корни"
+			x: 4.6d
+			y: -5.1d
+		}
+		{
+			dependencies: ["311EEE14746F254F"]
+			description: ["Вырастите все фрукты, овощи, грибы и корни, какие только сможете найти!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:cabbage"
+			id: "5B576DA166921435"
+			rewards: [
+				{
+					id: "19DCA75AEC61BCAD"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5BA362E739BBFE10"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0810C87064E05DDB"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "60DB831F3EF5A376"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3DE37EB828651824"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Crop Rotation"
+			tasks: [{
+				advancement: "farmersdelight:main/plant_all_crops"
+				criterion: ""
+				id: "0AD3F2FB30007754"
+				type: "advancement"
+			}]
+			title: "Севооборот"
+			x: 7.0d
+			y: -5.1d
+		}
+		{
+			dependencies: ["6E5495D37B4A9AE5"]
+			description: ["Повесьте верёвку над томатной лозой, чтобы она росла выше"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:tomato"
+			id: "20738E4F6BD94946"
+			rewards: [
+				{
+					count: 6
+					id: "37D3971F931F69FD"
+					item: "minecraft:arrow"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "208507D3A483B991"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Tall-mato"
+			tasks: [{
+				advancement: "farmersdelight:main/harvest_ropelogged_tomato"
+				criterion: ""
+				id: "1240FD52930A11B4"
+				type: "advancement"
+			}]
+			title: "Шпалера"
+			x: 4.6d
+			y: -3.6d
+		}
+		{
+			dependencies: ["20738E4F6BD94946"]
+			description: ["Бросьте гнилой томат в надоедливого разбойника!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:rotten_tomato"
+			id: "465543E5689DAAF0"
+			rewards: [
+				{
+					id: "3BC2DC8303BD2C1A"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "25CE84FACB951991"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Boo! Hiss!"
+			tasks: [{
+				advancement: "farmersdelight:main/hit_raider_with_rotten_tomato"
+				criterion: ""
+				id: "3A2D11F78861F25C"
+				type: "advancement"
+			}]
+			title: "Фуу! Позор!"
+			x: 7.0d
+			y: -3.6d
+		}
+		{
+			dependencies: ["6E5495D37B4A9AE5"]
+			description: ["Посадите грибы в тёмное место, дождитесь образования колонии, а затем срежьте её!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:red_mushroom_colony"
+			id: "3316E2C7798AABEE"
+			rewards: [
+				{
+					count: 2
+					id: "5642B4110659A897"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "307263FBB0F7B7A1"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Fungus Among Us"
+			tasks: [{
+				advancement: "farmersdelight:main/get_mushroom_colony"
+				criterion: ""
+				id: "0F4E9F8B82613C21"
+				type: "advancement"
+			}]
+			title: "Грибы среди нас"
+			x: 4.6d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3019021D44250216"]
+			description: ["Создайте нож, чтобы добывать больше продуктов из растений и животных"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5923D62D27B8A119"
+			rewards: [
+				{
+					count: 2
+					id: "5D4B405DD8A56720"
+					item: "minecraft:flint"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "168CC8E3941AAD92"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Hunt and Gather"
+			tasks: [{
+				advancement: "farmersdelight:main/craft_knife"
+				criterion: ""
+				id: "4F47C8DFBED4D0FE"
+				type: "advancement"
+			}]
+			title: "Охота и собирательство"
+			x: 2.2d
+			y: -0.3d
+		}
+		{
+			dependencies: ["5923D62D27B8A119"]
+			description: ["Держа инструмент в руках, используйте его на разделочной доске, чтобы разделать некоторые предметы"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:cutting_board"
+			id: "52C9EE6BAAF9668A"
+			rewards: [
+				{
+					count: 3
+					id: "0F46EB4D3CB39A65"
+					item: "minecraft:copper_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "47EB3A7DA564DF9C"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Watch Your Fingers"
+			tasks: [{
+				advancement: "farmersdelight:main/use_cutting_board"
+				criterion: ""
+				id: "543F5D43DFC6B731"
+				type: "advancement"
+			}]
+			title: "Следи за пальцами"
+			x: 4.6d
+			y: -0.3d
+		}
+		{
+			dependencies: ["5923D62D27B8A119"]
+			description: ["Используйте нож для извлечения больших кусков мяса из Свиней"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:ham"
+			id: "0DFFCF19B70F0C34"
+			rewards: [
+				{
+					count: 8
+					id: "37FECA8D52FB804A"
+					item: "minecraft:arrow"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "047FA03AFB27672E"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Wild Butcher"
+			tasks: [{
+				advancement: "farmersdelight:main/get_ham"
+				criterion: ""
+				id: "551837DD0003B924"
+				type: "advancement"
+			}]
+			title: "Дикий мясник"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52C9EE6BAAF9668A"]
+			description: ["Потратьте целый незеритовый слиток, чтобы улучшить свой нож! Или свалите с кухни."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "farmersdelight:netherite_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "400734A72500D78B"
+			rewards: [
+				{
+					id: "268EA69DF3DA7934"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0F19B325C440C4FF"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0C9962FC1C753733"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E598ECC39D5EDCE"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "784B9CC2086C5BFE"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2197FC96D40BC198"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "If You Can't Take the Heat..."
+			tasks: [{
+				advancement: "farmersdelight:main/obtain_netherite_knife"
+				criterion: ""
+				id: "20C591AF94E1BF63"
+				type: "advancement"
+			}]
+			title: "Если ты не выдержишь жару…"
+			x: 7.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["5923D62D27B8A119"]
+			description: ["Срежьте траву ножом, чтобы получить солому"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:straw"
+			id: "18F7F25EB350E28F"
+			rewards: [
+				{
+					count: 2
+					id: "69FC7B24EA1F58CA"
+					item: "minecraft:copper_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "023942FFD439C7F8"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Grasping at Straws"
+			tasks: [{
+				advancement: "farmersdelight:main/harvest_straw"
+				criterion: ""
+				id: "5C372C829269D9B5"
+				type: "advancement"
+			}]
+			title: "Хватаясь за соломинку"
+			x: 4.6d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18F7F25EB350E28F"]
+			description: ["Разместите органический компост. Он разлагается лучше с солнцем, водой и грибами!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:organic_compost"
+			id: "5A7ED644AE1D1C7C"
+			rewards: [
+				{
+					count: 3
+					id: "5DB4E3DD12CD6341"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0D1F0D0FD70E3B2A"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Advanced Composting"
+			tasks: [{
+				advancement: "farmersdelight:main/place_organic_compost"
+				criterion: ""
+				id: "627787E76BB5D744"
+				type: "advancement"
+			}]
+			title: "Продвинутое компостирование"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A7ED644AE1D1C7C"]
+			description: ["Оставьте немного органического компоста разлагаться, пока он не превратится в плодородную почву. Грибы могут помочь!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:rich_soil"
+			id: "556E5A852A7568B0"
+			rewards: [
+				{
+					count: 2
+					id: "0D7BB46F10EB80EA"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0B1BAB6A26C274F4"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "546F44D68D14F34D"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Plant Food"
+			tasks: [{
+				advancement: "farmersdelight:main/get_rich_soil"
+				criterion: ""
+				id: "0A3F269BA465777B"
+				type: "advancement"
+			}]
+			title: "Выращивание пищи"
+			x: 9.4d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3019021D44250216"]
+			description: ["Поставьте костёр, чтобы согреться ночью"]
+			hide_dependency_lines: false
+			icon: "minecraft:campfire"
+			id: "2CD6E0E21CDDF7AA"
+			rewards: [
+				{
+					count: 2
+					id: "3CE1D5D68AE60C10"
+					item: "minecraft:copper_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "79E3F21BFF0DCFD7"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Bonfire Lit"
+			tasks: [{
+				advancement: "farmersdelight:main/place_campfire"
+				criterion: ""
+				id: "3056F47E8FD529D5"
+				type: "advancement"
+			}]
+			title: "Костер зажжён"
+			x: 2.2d
+			y: 3.6d
+		}
+		{
+			dependencies: ["2CD6E0E21CDDF7AA"]
+			description: ["Сковороды позволяют готовить на ходу. Встаньте возле огня, и держите еду в другой руке!"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "426862C94C508972"
+			rewards: [
+				{
+					count: 3
+					id: "11456CE3291837E3"
+					item: "minecraft:flint"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "36A196D0868103DB"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Portable Cooking"
+			tasks: [{
+				advancement: "farmersdelight:main/use_skillet"
+				criterion: ""
+				id: "6240B7F87B24DE98"
+				type: "advancement"
+			}]
+			title: "Готовка на ходу"
+			x: 4.6d
+			y: 2.6d
+		}
+		{
+			dependencies: ["426862C94C508972"]
+			description: ["Поставьте свою сковороду на блок во время подкрадывания"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A3E2A8864414831"
+			rewards: [
+				{
+					id: "6ADA50B6C037FBDC"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0372E2257150641D"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Sizzling Hot!"
+			tasks: [{
+				advancement: "farmersdelight:main/place_skillet"
+				criterion: ""
+				id: "44DA03A39DFD35C8"
+				type: "advancement"
+			}]
+			title: "Обжигающе горячая!"
+			x: 7.0d
+			y: 2.6d
+		}
+		{
+			dependencies: ["2CD6E0E21CDDF7AA"]
+			description: ["Поставьте кухонный котёл и приступайте за готовку!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:cooking_pot"
+			id: "3AEEF78794B5E4B8"
+			rewards: [
+				{
+					count: 2
+					id: "78AFCA67AE9237E9"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5C55820A18D44860"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "657DDC8C31CC1500"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Dinner's Served!"
+			tasks: [{
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+				id: "604F6D53671FBF12"
+				type: "advancement"
+			}]
+			title: "Кушать подано!"
+			x: 4.6d
+			y: 4.2d
+		}
+		{
+			dependencies: ["3AEEF78794B5E4B8"]
+			description: ["Супы и тушёные блюда отлично защищают от холода и болезней!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:baked_cod_stew"
+			id: "2E51CFBCD8215F02"
+			rewards: [
+				{
+					count: 4
+					id: "635DAA43952B24C1"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "524FAA6A7D51B715"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Comforting!"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_comfort_food"
+				criterion: ""
+				id: "23086B2C65EF59E3"
+				type: "advancement"
+			}]
+			title: "Тепло и уют"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E51CFBCD8215F02"]
+			description: ["Сытное блюдо подарит вам сытость на длительное время!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:steak_and_potatoes"
+			id: "40DFD08BAFAB50DB"
+			rewards: [
+				{
+					id: "2ABD5D8CA9228CEE"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6707E84C410B93F2"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Nourishing!"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+				id: "41C6DBC086DC1341"
+				type: "advancement"
+			}]
+			title: "Хорошо обслуженный"
+			x: 9.4d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40DFD08BAFAB50DB"]
+			description: ["Некоторые блюда лучше всего подавать на стол, чтобы разделить их с друзьями. Приготовьте свои миски!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:roast_chicken_block"
+			id: "6DE3FF6E02CD5667"
+			rewards: [
+				{
+					count: 2
+					id: "3E8A3DF11F4D8A68"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "09D519FB1BE9B78E"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "A Glorious Feast"
+			tasks: [{
+				advancement: "farmersdelight:main/place_feast"
+				criterion: ""
+				id: "6A55E2B36A1EE71A"
+				type: "advancement"
+			}]
+			title: "Славный праздник"
+			x: 11.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DE3FF6E02CD5667"]
+			description: ["Попробуйте все доступные виды блюд!"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:honey_glazed_ham"
+			id: "1F94DC2E57784293"
+			rewards: [
+				{
+					id: "2015A78366A16BBC"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "07DBA56D4DF33BDB"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4D90B49C8B835756"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6ECA6C506A49803E"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "72F92FD22C6E69D6"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1B81D29A63BDF1D4"
+					team_reward: true
+					type: "xp"
+					xp: 135
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Master Chef"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "4CE9AB0832278405"
+				type: "advancement"
+			}]
+			title: "Шеф-повар"
+			x: 14.2d
+			y: 4.0d
+		}
+	]
+	title: "Farmer's Delight - Основная кухня"
+}

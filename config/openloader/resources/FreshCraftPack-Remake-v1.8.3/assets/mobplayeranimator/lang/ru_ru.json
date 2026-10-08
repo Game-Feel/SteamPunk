@@ -1,0 +1,15 @@
+{
+  "entity_model_features.config.variable_explanation.mobplayeranimator.is_playeranimator_animation_active": "Если у сущности активна анимация Player Animator",
+
+  "text.autoconfig.mobplayeranimator.title" : "Аниматор игроков-мобов",
+  "text.autoconfig.mobplayeranimator.option.client.is_emf_animation_halt_enabled" : "EMF Animation Halt",
+  "text.autoconfig.mobplayeranimator.option.client.is_emf_animation_halt_enabled.@Tooltip" : "Остановить воспроизведение анимаций Entity Model Features, когда активна анимация Player Animator.",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_blacklist" : "EMF Animation Halt Blacklist",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_blacklist.@Tooltip" : "Для этих сущностей добавьте их в черный список, чтобы их анимации EMF не останавливались, когда активна анимация Player Animator.",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_animation_blacklist" : "EMF Animation Halt Animation Blacklist",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_animation_blacklist.@Tooltip" : "Для этих анимаций Player Animator добавьте их в черный список, чтобы они не приводили к остановке анимаций EMF, когда активны только они..",
+  "text.autoconfig.mobplayeranimator.option.client.emf_force_vanilla_models" : "EMF Force Vanilla Models",
+  "text.autoconfig.mobplayeranimator.option.client.emf_force_vanilla_models.@Tooltip" : "Для этих сущностей заставьте EMF использовать их ванильную модель вместо остановки их анимации, когда активна анимация Player Animator..",
+  "text.autoconfig.mobplayeranimator.option.client.guess_emf_part_modifier_animated_groups" : "Guess EMF Part Modifier Animation Groups",
+  "text.autoconfig.mobplayeranimator.option.client.guess_emf_part_modifier_animated_groups.@Tooltip" : "Если для модификатора части EMF не указана группа анимации, позвольте внутренней системе угадать группу для нее."
+}

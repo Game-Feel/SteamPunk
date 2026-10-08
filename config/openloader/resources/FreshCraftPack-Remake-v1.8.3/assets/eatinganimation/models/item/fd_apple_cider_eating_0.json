@@ -1,0 +1,6 @@
+{
+  "parent": "farmersdelight:item/mug",
+  "textures": {
+    "layer0": "eatinganimation:item/fd_apple_cider_eating_0"
+  }
+}

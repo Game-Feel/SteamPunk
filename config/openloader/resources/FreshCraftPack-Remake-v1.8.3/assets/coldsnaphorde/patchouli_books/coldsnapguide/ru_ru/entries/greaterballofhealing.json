@@ -1,0 +1,13 @@
+{
+  "name": "Шар сильного исцеления",
+  "category": "coldsnaphorde:coldsnaptier3",
+  "icon": "coldsnaphorde:greater_healing_ball",
+  "advancement": "coldsnaphorde:horde_breaker",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:greater_healing_ball",
+      "text": "Основное улучшение $(l:ballofhealing)Шара исцеления$(), вызывающего умеренную древнюю целительную магию."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "born_in_chaos_v1:item/caramel_pepper"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.15
+      },
+      "model": "born_in_chaos_v1:item/caramel_pepper_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.38
+      },
+      "model": "born_in_chaos_v1:item/caramel_pepper_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.65
+      },
+      "model": "born_in_chaos_v1:item/caramel_pepper_eating_2"
+    }
+  ]
+}

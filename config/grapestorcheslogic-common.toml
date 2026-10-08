@@ -1,0 +1,9 @@
+
+#Настройка логики факелов
+[general]
+	#Список факелов, которые не ставятся на горизонтальные поверхности
+	allowedItems = ["minecraft:torch", "minecraft:soul_torch", "supplementaries:sconce", "supplementaries:sconce_soul", "valhelsia_structures:doused_torch", "valhelsia_structures:doused_soul_torch", "beachparty:palm_torch_item", "mynethersdelight:powdery_torch", "call_of_yucutan:bone_torch", "call_of_yucutan:golden_torch"]
+	#Время жизни факелов (в минутах)
+	#Range: > 1
+	torch_lifetime = 360
+

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "frosted_friends:item/ice_bucket"
+  },
+  "render_type": "translucent"
+}

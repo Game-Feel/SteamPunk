@@ -1,0 +1,43 @@
+{
+    "name": "Температура тела",
+    "icon": "cold_sweat:filled_waterskin",
+    "category": "patchouli:coldsweat_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Да, теперь просто так не получится гулять по холодной тундре или в Незере с голой пятой точкой. Поэтому вам нужны способы, как защититься от экстремальных температур."
+        },
+        {
+            "type": "image",
+            "title": "Интерфейс температуры",
+            "text": "Черепок посередине — это текущая температура игрока.",
+            "border": true,
+            "images": [ 
+                "patchouli:Screenshot_4.png",
+                "patchouli:Screenshot_5.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Элемент справа — это температура окружения. Без термометра можно только примерно узнать температуру."
+        },
+        {
+            "type": "image",
+            "text": "С термометром показывается точная температура.",
+            "title": "Термометр",
+            "border": true,
+            "images": [
+                "patchouli:Screenshot_9.png",
+                "patchouli:Screenshot_10.png"
+            ]
+
+        },
+        {
+            "type": "crafting",
+            "title": "Термометр",
+            "text": "Крайне полезный инструмент при работе в сложных условиях.",
+            "recipe": "cold_sweat:thermometer"
+        }
+    ]
+}

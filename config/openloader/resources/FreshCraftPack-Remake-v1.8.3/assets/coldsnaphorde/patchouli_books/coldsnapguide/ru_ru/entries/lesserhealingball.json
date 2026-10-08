@@ -1,0 +1,13 @@
+{
+  "name": "Шар сильного исцеления",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:lesser_healing_ball",
+  "advancement": "coldsnaphorde:sliced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:lesser_healing_ball",
+      "text": "Снежный ком, усиленный силой ледяного осколка, который позволяет использовать небольшое количество древней магии исцеления. Наносит вред нежити."
+    }
+  ]
+}

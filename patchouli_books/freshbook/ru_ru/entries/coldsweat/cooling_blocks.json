@@ -1,0 +1,12 @@
+{
+    "name": "Охлаждение",
+    "icon": "minecraft:packed_ice",
+    "category": "patchouli:coldsweat_category",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Как и с $(l:patchouli:coldsweat/heating_blocks)Согревающими материалами$(), охлаждающие материалы нужны, чтобы охлаждать вас при высоких температурах. Например: $(br)$(li)Лёд$()$(li)Плотный лёд$()$(li)Холодная вода$()$(li)Огонь душ$()"
+        }
+    ]
+}

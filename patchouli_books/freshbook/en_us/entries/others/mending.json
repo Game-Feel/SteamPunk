@@ -1,0 +1,16 @@
+{
+    "name": "Mending",
+    "icon": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 1s, id:'minecraft:mending'}]}",
+    "category": "patchouli:other_category",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Here, the Mending works in a completely different way. By applying it to an object, it does not stay on it forever, like any other enchantment, but simply completely repairs it and disappears. The peasant librarian no longer sells it, and it does not fall out on the Enchanting Table."
+        },
+        {
+            "type": "text",
+            "text": "So far, it can only be found in dungeons..."
+        }
+    ]
+}

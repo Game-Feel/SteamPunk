@@ -1,0 +1,16 @@
+{
+    "name": "Автомобили",
+    "icon": "automobility:crowbar",
+    "category": "patchouli:industrial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Вы можете делать какие угодно автомобили и заниматься тюнингом. Создайте Стол автомеханика и Сборщик автомобилей для сборки своей первой ласточки."
+        },
+        {
+            "type": "crafting",
+            "recipe": "automobility:auto_mechanic_table",
+            "recipe2": "automobility:automobile_assembler"
+        }
+    ]
+}

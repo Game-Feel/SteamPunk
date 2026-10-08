@@ -1,0 +1,12 @@
+{
+  "name": "Снежный шар",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:snowglobe",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:snowglobe",
+      "text": "Призывает Орду 1-го уровня. Смотрите $(l:hordetier1)1 уровень Орды$() для подробной информации."
+    }
+  ]
+}

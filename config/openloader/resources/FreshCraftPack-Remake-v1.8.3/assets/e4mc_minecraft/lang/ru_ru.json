@@ -1,0 +1,7 @@
+{
+     "text.e4mc_minecraft.domainAssigned": "Локальная игра размещена на домене [%s]",
+     "text.e4mc_minecraft.closeServer": "Локальная игра больше не размещается публично",
+     "text.e4mc_minecraft.serverAlreadyClosed": "Локальная игра не размещена публично",
+     "text.e4mc_minecraft.clickToStop": " (Нажмите здесь, чтобы остановить)",
+     "text.e4mc_minecraft.error": "В e4mc произошла ошибка"
+}

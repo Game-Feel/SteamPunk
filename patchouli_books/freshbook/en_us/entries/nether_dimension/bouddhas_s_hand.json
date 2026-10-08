@@ -1,0 +1,12 @@
+{
+    "name": "Buddha's Hand",
+    "icon": "nethers_exoticism:bouddha_s_hand",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Buddha's Hand grows in the biomes of the Valley of the Sand of Souls on Bone Blocks. When eaten, it will give the effect of night vision.",
+            "item": "nethers_exoticism:bouddha_s_hand"
+        }
+    ]
+}

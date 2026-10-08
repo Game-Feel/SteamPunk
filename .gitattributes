@@ -1,0 +1,4 @@
+*.cmd text eol=crlf
+*.jar binary
+*.zip binary
+/mods/L_Enders_Cataclysm-3.16[[:space:]](fenix[[:space:]]updated).jar filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,6 @@
+{
+    "name": "Temperature",
+    "description": "Now you will have to monitor the temperature so that you don't accidentally burn to death or freeze to death.",
+    "sortnum": 2,
+    "icon": "cold_sweat:thermometer"
+}

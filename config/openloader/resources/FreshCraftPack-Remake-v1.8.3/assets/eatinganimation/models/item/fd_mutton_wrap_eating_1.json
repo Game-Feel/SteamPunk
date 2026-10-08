@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/fd_mutton_wrap_eating_1"
+  }
+}

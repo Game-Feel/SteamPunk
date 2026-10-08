@@ -1,0 +1,10 @@
+{
+  "parent": "frosted_friends:custom/frosted_salmon",
+  "textures": {
+    "all": "frosted_friends:block/ice",
+    "particle": "frosted_friends:block/ice",
+    "0": "frosted_friends:block/ice",
+    "1": "frosted_friends:block/salmon"
+  },
+  "render_type": "translucent"
+}

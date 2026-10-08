@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "under_the_moon:item/golden_nest_root"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.15
+      },
+      "model": "under_the_moon:item/golden_nest_root_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.32
+      },
+      "model": "under_the_moon:item/golden_nest_root_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.5
+      },
+      "model": "under_the_moon:item/golden_nest_root_eating_2"
+    }
+  ]
+}

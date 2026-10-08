@@ -1,0 +1,572 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "initiate"
+	group: ""
+	icon: "irons_spellbooks:arcane_essence"
+	id: "096D64C94341C27A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "irons_spellbooks:arcane_essence"
+			id: "0875A0E9D59F5332"
+			max_completable_dependents: 1
+			subtitle: "Your journey as a Mage begins here. Once you choose your Path, your connection to it will be permanent. From this moment on, your growth, your magic, and your craft will be bound to that Path. Each Path shares ties with others in its Domain—these bonds may shape your future later on."
+			tasks: [{
+				id: "250751D6DBBB1311"
+				title: "Initiate"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "minecraft:ender_pearl"
+			id: "01981DD0CD828738"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000454E444F5249"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "21FC7294212E271F"
+					silent: true
+					title: "Introduce Ender"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000454E444F5249"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "215D058E0ADA2CA5"
+					silent: true
+					title: "Bring to Ender"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 000045564F454E44"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "0A535012DA119A08"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000484F4C454E44"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "1B7162C4176AA5FE"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Ender Mage Cores"
+			tasks: [
+				{
+					id: "07E2F3E35BDFA51F"
+					title: "Ender Path"
+					type: "checkmark"
+				}
+				{
+					id: "2B08031842BC47B9"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "minecraft:emerald"
+			id: "7AE8A23C94C4B333"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 000045564F4F5249"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "49D9E9D2E7FC3E7B"
+					silent: true
+					title: "Introduce Evocation"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 000045564F4F5249"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "7140A2685FD4D4C4"
+					silent: true
+					title: "Bring to Evocation"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000454E4445564F"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "3DCA193465B40DEC"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000484F4C45564F"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "66B372E7DE4885BC"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Evocation Mage Cores"
+			tasks: [
+				{
+					id: "3A79C874DCD2DCC5"
+					title: "Evocation Path"
+					type: "checkmark"
+				}
+				{
+					id: "0BC4C0092B9ACB4C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "irons_spellbooks:divine_pearl"
+			id: "2CC9154F4166179E"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000484F4C4F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:divine_pearl"
+					id: "0D2218D33919574A"
+					silent: true
+					title: "Introduce Holy"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000484F4C4F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:divine_pearl"
+					id: "681B528707EDDDF5"
+					silent: true
+					title: "Bring to Holy"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 000045564F484F4C"
+					elevate_perms: true
+					icon: "irons_spellbooks:divine_pearl"
+					id: "4A9976F258900480"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000454E44484F4C"
+					elevate_perms: true
+					icon: "irons_spellbooks:divine_pearl"
+					id: "1DB290E06C864DF8"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Holy Mage Cores"
+			tasks: [
+				{
+					id: "49921983A8DF8E4B"
+					title: "Holy Path"
+					type: "checkmark"
+				}
+				{
+					id: "185C4A45B722B1B4"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "irons_spellbooks:lightning_bottle"
+			id: "16DA2C567CA7230B"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004C49474F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:lightning_bottle"
+					id: "353F2381F14E880F"
+					silent: true
+					title: "Introduce Lightning"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004C49474F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:lightning_bottle"
+					id: "63CE15C3E94DA46C"
+					silent: true
+					title: "Bring to Lightning"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004943454C4947"
+					elevate_perms: true
+					icon: "irons_spellbooks:lightning_bottle"
+					id: "388058E953EA0359"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004151554C4947"
+					elevate_perms: true
+					icon: "irons_spellbooks:lightning_bottle"
+					id: "256381479952B02B"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Lightning Mage Cores"
+			tasks: [
+				{
+					id: "1F3FBF9BA7464DDA"
+					title: "Lightning Path"
+					type: "checkmark"
+				}
+				{
+					id: "07E06FB4A1F2AD4B"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "minecraft:blaze_rod"
+			id: "7404CC5270F86BB9"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004649524F5249"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "3C576AEDE92675BF"
+					silent: true
+					title: "Introduce Fire"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004649524F5249"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "2FEE748EA074393D"
+					silent: true
+					title: "Bring to Fire"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004E4154464952"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "20708E8D4E918F2D"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000424C4F464952"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "0C760E018BB3E036"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Fire Mage Cores"
+			tasks: [
+				{
+					id: "5A57A9CCFCCBC94D"
+					title: "Fire Path"
+					type: "checkmark"
+				}
+				{
+					id: "7710447F93FD809D"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "minecraft:poisonous_potato"
+			id: "6C98480E5F111618"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004E41544F5249"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "7BB082AD7D7480DA"
+					silent: true
+					title: "Introduce Nature"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004E41544F5249"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "545F3AF8A5527791"
+					silent: true
+					title: "Bring to Nature"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004649524E4154"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "0DC382138628854B"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000424C4F4E4154"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "18B066F691E96194"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Nature Mage Cores"
+			tasks: [
+				{
+					id: "02DD7401644433BE"
+					title: "Nature Path"
+					type: "checkmark"
+				}
+				{
+					id: "1301E75611A1E640"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "irons_spellbooks:frozen_bone"
+			id: "1AC5EB73CF269F8B"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004943454F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "0BF53F5BDDA0B2EF"
+					silent: true
+					title: "Introduce Ice"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004943454F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "16D076D7D26416EF"
+					silent: true
+					title: "Bring to Ice"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004C4947494345"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "7454E103D94B7D1A"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000415155494345"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "4F7A9E5CD3CD48A6"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Ice Mage Cores"
+			tasks: [
+				{
+					id: "1B7268A83D9FB99A"
+					title: "Ice Path"
+					type: "checkmark"
+				}
+				{
+					id: "47B5EF76CE7F8734"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "irons_spellbooks:blood_vial"
+			id: "520697E3806FEE91"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000424C4F4F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "213F163B6FF64D40"
+					silent: true
+					title: "Introduce Blood"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000424C4F4F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "540B19201A4C49E0"
+					silent: true
+					title: "Bring to Blood"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004E4154424C4F"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "351525ACC22C158E"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000464952424C4F"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "25C95B99DDB81E9D"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Blood Mage Cores"
+			tasks: [
+				{
+					id: "19ACD003A4839404"
+					title: "Blood Path"
+					type: "checkmark"
+				}
+				{
+					id: "74EF83B5516B6F79"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0875A0E9D59F5332"]
+			icon: "alexscaves:pearl"
+			id: "0972F7256E3AE05B"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004151554F5249"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "6145003867FCD233"
+					silent: true
+					title: "Introduce Aqua"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004151554F5249"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "1CFDC7117752709C"
+					silent: true
+					title: "Bring to Aqua"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000494345415155"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "1F5E58FA5DB58F87"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004C4947415155"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "6AEC7B55A3D67D3A"
+					silent: true
+					title: "Remove Redundancies"
+					type: "command"
+				}
+			]
+			subtitle: "With this choice, you can craft all Aqua Mage Cores"
+			tasks: [
+				{
+					id: "134DA80F07FE05C8"
+					title: "Aqua Path"
+					type: "checkmark"
+				}
+				{
+					id: "3F72EDC5C9A4F1E7"
+					item: "alexscaves:pearl"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "1775D8A847A0F59F"
+			optional: true
+			rewards: [{
+				command: "/spellranks get @p"
+				elevate_perms: true
+				icon: "irons_spellbooks:arcane_essence"
+				id: "0C1A6D41C9CFC004"
+				title: "Mage Status"
+				type: "command"
+			}]
+			subtitle: "Use this to check your current Mage status"
+			tasks: [{
+				id: "23C14C98E4A2082E"
+				title: "Check Status"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	title: "Initiate"
+}

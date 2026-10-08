@@ -1,0 +1,24 @@
+{
+  "block.doapi.standard": "Завершённый баннер",
+  "block.doapi.wall_standard": "Завершённый настенный баннер",
+
+  "sound.doapi.cabinet_close": "Шкаф закрылся",
+  "sound.doapi.cabinet_open": "Шкаф открылся",
+  "sound.doapi.drawer_close": "Ящик закрылся",
+  "sound.doapi.drawer_open": "Ящик открылся",
+  "sound.doapi.cake_cut": "Разрезание торта",
+  "sound.doapi.typewriter": "Звуки печатающей машинки",
+  "sound.doapi.dinner_bell": "Звонит колокольчик к обеду",
+  "sound.doapi.brewstation_ambient": "Гул пивоварения",
+  "sound.doapi.brewstation_oven": "Потрескивание духовки",
+  "sound.doapi.brewstation_timer": "Тиканье таймера",
+  "sound.doapi.brewstation_kettle": "Лопанье пузырьков",
+  "sound.doapi.brewstation_whistle": "Свистящий свисток",
+  "sound.doapi.breath": "Дыхание",
+  "sound.doapi.beer_elemental_death": "Алкоголь умирает",
+  "sound.doapi.beer_elemental_ambient": "Звуки алкоголя",
+  "sound.doapi.beer_elemental_hurt": "Алкоголь получает урон",
+  "sound.doapi.beer_elemental_attack": "Алкоголь атакует",
+  "sound.doapi.timer_ticking": "Тиканье таймера",
+  "pack.source.builtinMod": "Встроенный: %s"
+}

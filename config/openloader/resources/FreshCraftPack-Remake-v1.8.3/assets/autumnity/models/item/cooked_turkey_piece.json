@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "autumnity:item/cooked_turkey_piece"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.15
+      },
+      "model": "eatinganimation:item/au_cooked_turkey_piece_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.27
+      },
+      "model": "eatinganimation:item/au_cooked_turkey_piece_eating_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.4
+      },
+      "model": "eatinganimation:item/au_cooked_turkey_piece_eating_2"
+    }
+  ]
+}

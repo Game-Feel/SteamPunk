@@ -1,0 +1,12 @@
+{
+    "name": "Auto-farms",
+    "icon": "minecraft:hopper",
+    "category": "patchouli:xp_category",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Afk-farm experience is unlikely to succeed. The spawners disappear after a while, break with great difficulty and cannot be illuminated.$(br2)Most car farms rely on the natural appearance of creatures."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Create",
+    "icon": "create:goggles",
+    "category": "patchouli:other_category",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Blocks not created",
+            "text": "Create is limited here. The listed blocks and items cannot be created, but some can be found in dungeons.",
+            "item": "create:schematicannon,create:mechanical_drill,create:mechanical_saw,create:mechanical_harvester,create:mechanical_plough,create:mechanical_roller,create:netherite_backtank,create:netherite_diving_helmet,create:netherite_diving_boots"
+        }
+    ]
+}

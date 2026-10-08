@@ -1,0 +1,30 @@
+{
+    "name": "The Logic of Armor",
+    "icon": "minecraft:iron_chestplate",
+    "category": "patchouli:movement_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you feel like you're moving slower after putting on your armor, that's fine. This is a unique feature of FreshCraft, where armor has logic.$(br)You will have to choose your armor wisely based on what you want to do right now:"
+        },
+        {
+            "type": "spotlight",
+            "text": "Explore the world, kill the boss or clear the beds of weeds. But don't worry, there are many solutions to this problem, such as speed potions or a combination of heavy and light armor elements. The example is above.",
+            "title": "Combining armor",
+            "item": "minecraft:diamond_helmet,minecraft:diamond_chestplate,minecraft:leather_leggings,minecraft:iron_boots"
+        },
+        {
+            "type": "text",
+            "text": "The weight of the armor also affects the fall, keep this in mind.$(br2)The weight of the armor depends on the material it is made of and the degree of protection it provides.$(br)You can't sleep in armor either. The exception is the «pajamas» - a comfortable armor in which you can go to bed."
+        },
+        {
+            "type": "text",
+            "text": "Pajamas, for example, are leather armor.$(br2)Another weight reduction solution is the «Lightweight» enchantment. It is extremely rare, less common than the «Minding» itself. «Lightweight» reduces the weight of all armor worn by 50%. It is applied only on the breastplate."
+        },
+        {
+            "type": "text",
+            "text": "Remember that some armor/clothing is lightweight or has no weight at all."
+        }
+    ]
+}

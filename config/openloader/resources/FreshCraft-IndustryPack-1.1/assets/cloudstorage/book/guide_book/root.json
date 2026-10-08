@@ -1,0 +1,59 @@
+{
+  "parent": "",
+  "text": "root.txt",
+  "title": "Облачное хранилище",
+  "entity_buttons": [
+  ],
+  "linked_page_buttons": [
+    {
+      "linked_page": "mobs_and_materials.json",
+      "text": "Из существ и материалов",
+      "x": 290,
+      "y": 94,
+      "page": 0
+    },
+    {
+      "linked_page": "storage_clouds.json",
+      "text": "Хранилище в наших облаках",
+      "x": 290,
+      "y": 116,
+      "page": 0
+    },
+    {
+      "linked_page": "balloon_salesman.json",
+      "text": "Смерть торговца",
+      "x": 290,
+      "y": 138,
+      "page": 0
+    },
+    {
+      "linked_page": "balloon_buddy.json",
+      "text": "Все, что тебе нужно - это друзья",
+      "x": 290,
+      "y": 160,
+      "page": 0
+    }
+  ],
+  "images": [
+
+  ],
+  "item_renders": [
+    {
+      "item" : "cloudstorage:balloon",
+      "item_tag": "{3DRender:2}",
+      "x": 25,
+      "y": 14,
+      "page" : 0,
+      "scale": 2.75
+    }
+  ],
+  "recipes": [
+
+  ],
+  "tabula_renders": [
+
+  ],
+  "entity_renders": [
+  ]
+}
+

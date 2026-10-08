@@ -1,0 +1,8 @@
+{
+  "disableMusic": true,
+  "bleedingMusicVolume": 0.5,
+  "countdownMusicVolume": 0.5,
+  "bleeding": {
+    "giveUpSeconds": 5
+  }
+}

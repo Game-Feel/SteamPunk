@@ -1,0 +1,43 @@
+{
+    "name": "Atlas and labels",
+    "icon": "minecraft:book",
+    "category": "patchouli:coordination_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Atlas is a map of the area. This is where you have to create it, which is one of the features of FreshCraft.$(br)Once you enter it, you will see a map, tabs, and a pointer."
+        },
+        {
+            "type": "spotlight",
+            "text": "There is no longer a key to open it.$(br)It is created using $(7)compass$() and $(6)book$().",
+            "title": "Атлас",
+            "item": "antiqueatlas:antique_atlas"
+        },
+        {
+            "type": "image",
+            "title": "Atlas",
+            "border": true,
+            "text": "You can change the map scale and put labels.",
+            "images": [
+                    "patchouli:Screenshot_17.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "The arrow on the bottom right is needed so as not to lose yourself on the map.$(br2)You can familiarize yourself with the functions of the tabs by reading their names.$(br)You can put labels and names on the atlas map, as well as erase them."
+        },
+        {
+            "type": "image",
+            "title": "The Mark of Death",
+            "border": true,
+            "text": "After one's death, death marks appear on the atlas.",
+            "images": [
+                    "patchouli:Screenshot_21.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "They can also be erased. The atlas shows an approximate landscape of an area with biomes, but it does not show caves, some buildings and dungeons."
+        }
+    ]
+}

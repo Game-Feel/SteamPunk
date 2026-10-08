@@ -1,0 +1,13 @@
+{
+  "name": "Маленький подарок",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:small_present",
+  "advancement": "coldsnaphorde:sliced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:small_present",
+      "text": "Маленькая коробочка с добычей, которая даёт ледяной осколок. Слишком маленькая, чтобы вместить что-то особенно ценное."
+    }
+  ]
+}

@@ -1,0 +1,1235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "put_v_end"
+	group: "69538664A8608941"
+	id: "6ABB4C916DCB4E94"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Найдите пустынную пирамиду или её Better Desert Temples-вариант."
+				"После этого ищите Старинное Око в сундуках."
+			]
+			icon: "minecraft:sandstone"
+			id: "0F06CE1A92939165"
+			rewards: [{
+				id: "6A53303248B98E7B"
+				team_reward: true
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			subtitle: "Источник Старинного Ока"
+			tasks: [{
+				id: "4BF7353626BB9511"
+				structure: "#fenix_end_eyes:desert_pyramids"
+				title: "Найти: Пустынная пирамида"
+				type: "structure"
+			}]
+			title: "Пустынная пирамида"
+			x: -8.0d
+			y: -11.2d
+		}
+		{
+			description: [
+				"Получите Старинное Око."
+				"Этот квест открывается только после найденной пустынной пирамиды."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "488EE31C53C87790"
+			rewards: [
+				{
+					count: 2
+					id: "4B1873F6B7C0EF60"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0F7877DD4AAAFBD2"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			subtitle: "Искатель удачи"
+			tasks: [{
+				advancement: "endrem:main/old_eye"
+				criterion: ""
+				id: "75BFAC2D4E877D7C"
+				title: "Получить: Старинное Око"
+				type: "advancement"
+			}]
+			title: "Старинное Око"
+			x: -5.0d
+			y: -11.2d
+		}
+		{
+			description: [
+				"Найдите храм джунглей или Better Jungle Temples-вариант."
+				"После этого ищите Око Изгоя в сундуках."
+			]
+			icon: "minecraft:mossy_cobblestone"
+			id: "14804F4765BF3996"
+			rewards: [{
+				id: "0700B35AABFA0486"
+				team_reward: true
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			subtitle: "Источник Ока Изгоя"
+			tasks: [{
+				id: "110D492829CF0B68"
+				structure: "#fenix_end_eyes:jungle_temples"
+				title: "Найти: Храм в джунглях"
+				type: "structure"
+			}]
+			title: "Храм в джунглях"
+			x: -8.0d
+			y: -9.8d
+		}
+		{
+			description: [
+				"Получите Око Изгоя."
+				"Этот квест открывается только после найденного храма джунглей."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F5C7B53BAE9A62D"
+			rewards: [
+				{
+					count: 2
+					id: "764849D2B8BBB4AD"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4CA5451D33B32A39"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			subtitle: "Добро пожаловать в джунгли"
+			tasks: [{
+				advancement: "endrem:main/rogue_eye"
+				criterion: ""
+				id: "55021332A86AFE88"
+				title: "Получить: Око Изгоя"
+				type: "advancement"
+			}]
+			title: "Око Изгоя"
+			x: -5.0d
+			y: -9.8d
+		}
+		{
+			description: [
+				"Найдите крепость Ада или Better Fortresses-вариант."
+				"После этого ищите Око Ада в сундуках крепости."
+			]
+			icon: "minecraft:nether_bricks"
+			id: "6025FBE9BACD4F88"
+			rewards: [{
+				id: "2A4C22B426556B5A"
+				team_reward: true
+				type: "xp"
+				xp: 1500
+			}]
+			shape: "square"
+			subtitle: "Источник Ока Ада"
+			tasks: [{
+				id: "762423287AFC1C88"
+				structure: "#fenix_end_eyes:nether_fortresses"
+				title: "Найти: Крепость Ада"
+				type: "structure"
+			}]
+			title: "Крепость Ада"
+			x: -8.0d
+			y: -8.2d
+		}
+		{
+			description: [
+				"Получите Око Ада."
+				"Этот квест открывается только после найденной крепости Ада."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "524EEB93B8566C4F"
+			rewards: [
+				{
+					count: 2
+					id: "25AFBE26C22F626A"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7003ADB93024D57C"
+					team_reward: true
+					type: "xp"
+					xp: 1600
+				}
+			]
+			shape: "circle"
+			subtitle: "Взгляни в отчаяние"
+			tasks: [{
+				advancement: "endrem:main/nether_eye"
+				criterion: ""
+				id: "2E1A9204970C7214"
+				title: "Получить: Око Ада"
+				type: "advancement"
+			}]
+			title: "Око Ада"
+			x: -5.0d
+			y: -8.2d
+		}
+		{
+			description: [
+				"Найдите иглу."
+				"После этого ищите Ледяное Око в сундуках."
+			]
+			icon: "minecraft:snow_block"
+			id: "24383A770427C088"
+			rewards: [{
+				id: "29607D6F21250829"
+				team_reward: true
+				type: "xp"
+				xp: 800
+			}]
+			shape: "square"
+			subtitle: "Источник Ледяного Ока"
+			tasks: [{
+				id: "784FF655125456C3"
+				structure: "#fenix_end_eyes:igloos"
+				title: "Найти: Иглу"
+				type: "structure"
+			}]
+			title: "Иглу"
+			x: -8.0d
+			y: -6.8d
+		}
+		{
+			dependencies: ["24383A770427C088"]
+			description: [
+				"Получите Ледяное Око."
+				"Этот квест открывается только после найденного иглу."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B60F38BCEA92678"
+			rewards: [
+				{
+					count: 2
+					id: "3FEB70E938901DE6"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2310DD2E422F776E"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			subtitle: "Улёдный вид"
+			tasks: [{
+				advancement: "endrem:main/cold_eye"
+				criterion: ""
+				id: "2317947F10FCA0D5"
+				title: "Получить: Ледяное Око"
+				type: "advancement"
+			}]
+			title: "Ледяное Око"
+			x: -5.0d
+			y: -6.8d
+		}
+		{
+			description: [
+				"Найдите зарытый клад."
+				"После этого ищите Чёрное Око в сундуке сокровищ."
+			]
+			icon: "minecraft:chest"
+			id: "2178CD63B0610F0C"
+			rewards: [{
+				id: "369F0F271EC284ED"
+				team_reward: true
+				type: "xp"
+				xp: 800
+			}]
+			shape: "square"
+			subtitle: "Источник Чёрного Ока"
+			tasks: [{
+				id: "6F52A952C6552D73"
+				structure: "#fenix_end_eyes:buried_treasure"
+				title: "Найти: Зарытый клад"
+				type: "structure"
+			}]
+			title: "Зарытый клад"
+			x: -8.0d
+			y: -5.2d
+		}
+		{
+			dependencies: ["2178CD63B0610F0C"]
+			description: [
+				"Получите Чёрное Око."
+				"Этот квест открывается только после найденного зарытого клада."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DC8F888BCFD4F67"
+			rewards: [
+				{
+					count: 2
+					id: "396FFCF3D9ADDEF5"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5AF3B140342F592C"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			subtitle: "Аргхх, ну и где же мой корабль?"
+			tasks: [{
+				advancement: "endrem:main/black_eye"
+				criterion: ""
+				id: "469A39092E5B4758"
+				title: "Получить: Чёрное Око"
+				type: "advancement"
+			}]
+			title: "Чёрное Око"
+			x: -5.0d
+			y: -5.2d
+		}
+		{
+			description: [
+				"Найдите заброшенную шахту или Better Mineshafts-вариант."
+				"После этого ищите Потерянное Око в вагонетках с сундуками."
+			]
+			icon: "minecraft:rail"
+			id: "3813664BF5FFE63B"
+			rewards: [{
+				id: "0C40921C2540BC52"
+				team_reward: true
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			subtitle: "Источник Потерянного Ока"
+			tasks: [{
+				id: "2102FBDB6A82FDBA"
+				structure: "#fenix_end_eyes:mineshafts"
+				title: "Найти: Шахта"
+				type: "structure"
+			}]
+			title: "Шахта"
+			x: -8.0d
+			y: -3.8d
+		}
+		{
+			dependencies: ["3813664BF5FFE63B"]
+			description: [
+				"Получите Потерянное Око."
+				"Этот квест открывается только после найденной шахты."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15FFB159B85B23C1"
+			rewards: [
+				{
+					count: 2
+					id: "2175B2C4E885D8E2"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "51443C00D0171827"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			subtitle: "Нужна карта?"
+			tasks: [{
+				advancement: "endrem:main/lost_eye"
+				criterion: ""
+				id: "4389FCD192AD3E53"
+				title: "Получить: Потерянное Око"
+				type: "advancement"
+			}]
+			title: "Потерянное Око"
+			x: -5.0d
+			y: -3.8d
+		}
+		{
+			description: [
+				"Найдите аванпост разбойников."
+				"После этого ищите Повреждённое Око в сундуках."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5046F1AF0B65985A"
+			rewards: [{
+				id: "725BB9F9E8255803"
+				team_reward: true
+				type: "xp"
+				xp: 1200
+			}]
+			shape: "square"
+			subtitle: "Источник Повреждённого Ока"
+			tasks: [{
+				id: "7B27EE12A435DC4E"
+				structure: "#fenix_end_eyes:pillager_outposts"
+				title: "Найти: Аванпост разбойников"
+				type: "structure"
+			}]
+			title: "Аванпост разбойников"
+			x: -8.0d
+			y: -2.2d
+		}
+		{
+			description: [
+				"Получите Повреждённое Око."
+				"Этот квест открывается только после найденного аванпоста."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "149A9C9641778D26"
+			rewards: [
+				{
+					count: 2
+					id: "55242120FAF3FF40"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "166219AD47C219AF"
+					team_reward: true
+					type: "xp"
+					xp: 1400
+				}
+			]
+			shape: "circle"
+			subtitle: "Покрой меня изумрудами"
+			tasks: [{
+				advancement: "endrem:main/corrupted_eye"
+				criterion: ""
+				id: "1D821D8787BA3254"
+				title: "Получить: Повреждённое Око"
+				type: "advancement"
+			}]
+			title: "Повреждённое Око"
+			x: -5.0d
+			y: -2.2d
+		}
+		{
+			description: [
+				"Найдите лесной особняк."
+				"После этого ищите Магическое Око или выбейте его с эвокера."
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "1CEC26D73FBDFD84"
+			rewards: [{
+				id: "4C09F4A17013ADE4"
+				team_reward: true
+				type: "xp"
+				xp: 1800
+			}]
+			shape: "square"
+			subtitle: "Источник Магического Ока"
+			tasks: [{
+				id: "63987EDFDE675920"
+				structure: "#fenix_end_eyes:woodland_mansions"
+				title: "Найти: Лесной особняк"
+				type: "structure"
+			}]
+			title: "Лесной особняк"
+			x: -8.0d
+			y: -0.8d
+		}
+		{
+			description: [
+				"Получите Магическое Око."
+				"Этот квест открывается только после найденного лесного особняка."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "125DE7CD64C35B0F"
+			rewards: [
+				{
+					count: 2
+					id: "426852CE6D32CD84"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "67EF9E47367EF9A9"
+					team_reward: true
+					type: "xp"
+					xp: 1800
+				}
+			]
+			shape: "circle"
+			subtitle: "Падший колдун"
+			tasks: [{
+				advancement: "endrem:main/magical_eye"
+				criterion: ""
+				id: "18DE21A42B693A96"
+				title: "Получить: Магическое Око"
+				type: "advancement"
+			}]
+			title: "Магическое Око"
+			x: -5.0d
+			y: -0.8d
+		}
+		{
+			description: [
+				"Найдите бастион."
+				"После этого ищите Проклятое Око в сокровищах пиглинов."
+			]
+			icon: "minecraft:gilded_blackstone"
+			id: "71375131E2D98E95"
+			rewards: [{
+				id: "0C7AA336E7D6BDEB"
+				team_reward: true
+				type: "xp"
+				xp: 1800
+			}]
+			shape: "square"
+			subtitle: "Источник Проклятого Ока"
+			tasks: [{
+				id: "7981466B3B22454A"
+				structure: "#fenix_end_eyes:bastions"
+				title: "Найти: Бастион"
+				type: "structure"
+			}]
+			title: "Бастион"
+			x: -8.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["71375131E2D98E95"]
+			description: [
+				"Получите Проклятое Око."
+				"Этот квест открывается только после найденного бастиона."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B73263AD1F15481"
+			rewards: [
+				{
+					count: 2
+					id: "6D9DBBDB466A07E4"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2823972C02EC9FD9"
+					team_reward: true
+					type: "xp"
+					xp: 1800
+				}
+			]
+			shape: "circle"
+			subtitle: "Новый Защитник..."
+			tasks: [{
+				advancement: "endrem:main/cursed_eye"
+				criterion: ""
+				id: "2647FEF3F83E3707"
+				title: "Получить: Проклятое Око"
+				type: "advancement"
+			}]
+			title: "Проклятое Око"
+			x: -5.0d
+			y: 0.8d
+		}
+		{
+			description: [
+				"Найдите океанский монумент или Better Ocean Monuments-вариант."
+				"После этого сразитесь со старшим стражем."
+			]
+			icon: "minecraft:prismarine"
+			id: "5088D8A3ED2045E4"
+			rewards: [{
+				id: "76DD2A65C5487A20"
+				team_reward: true
+				type: "xp"
+				xp: 1800
+			}]
+			shape: "square"
+			subtitle: "Источник Ока Стража"
+			tasks: [{
+				id: "4DCCC47A3FF45D3E"
+				structure: "#fenix_end_eyes:ocean_monuments"
+				title: "Найти: Океанский монумент"
+				type: "structure"
+			}]
+			title: "Океанский монумент"
+			x: -8.0d
+			y: 2.2d
+		}
+		{
+			dependencies: ["5088D8A3ED2045E4"]
+			description: [
+				"Получите Око Стража."
+				"Этот квест открывается только после найденного океанского монумента."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "306DB552C515AAB4"
+			rewards: [
+				{
+					count: 2
+					id: "43A15A73A7683DB8"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3D3D599F4474F29E"
+					team_reward: true
+					type: "xp"
+					xp: 1800
+				}
+			]
+			shape: "circle"
+			subtitle: "Ну и кто теперь страж храма?"
+			tasks: [{
+				advancement: "endrem:main/guardian_eye"
+				criterion: ""
+				id: "32A232BB553A490F"
+				title: "Получить: Око Стража"
+				type: "advancement"
+			}]
+			title: "Око Стража"
+			x: -5.0d
+			y: 2.2d
+		}
+		{
+			description: [
+				"Найдите ведьмину хижину или ведьмин круг."
+				"После этого добудьте ведьмин зрачок и создайте Око Ведьмы."
+			]
+			icon: "minecraft:cauldron"
+			id: "44B67044E4C1D5C4"
+			rewards: [{
+				id: "50E2CBE5A482D78F"
+				team_reward: true
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			subtitle: "Источник Ока Ведьмы"
+			tasks: [{
+				id: "59B6EC36481B9093"
+				structure: "#fenix_end_eyes:witch_huts"
+				title: "Найти: Ведьмин источник"
+				type: "structure"
+			}]
+			title: "Ведьмин источник"
+			x: -8.0d
+			y: 3.8d
+		}
+		{
+			description: [
+				"Получите Око Ведьмы."
+				"Этот квест открывается только после найденного ведьминого источника."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A5BB1AD7835EB00"
+			rewards: [
+				{
+					count: 2
+					id: "7120D36454ACBFEC"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5B0BC2410430C68D"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			subtitle: "Сладость или гадость?"
+			tasks: [{
+				advancement: "endrem:main/witch_eye"
+				criterion: ""
+				id: "3431A93448FD4B6A"
+				title: "Получить: Око Ведьмы"
+				type: "advancement"
+			}]
+			title: "Око Ведьмы"
+			x: -5.0d
+			y: 3.8d
+		}
+		{
+			description: [
+				"Найдите океанский источник: клад, руины, корабль или монумент."
+				"После этого соберите морские материалы для Экзотического Ока."
+			]
+			icon: "minecraft:heart_of_the_sea"
+			id: "7FBF31D0C2C01C74"
+			rewards: [{
+				id: "78C14B634166DC3B"
+				team_reward: true
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			subtitle: "Источник Экзотического Ока"
+			tasks: [{
+				id: "68F79E272C0FBC82"
+				structure: "#fenix_end_eyes:ocean_sources"
+				title: "Найти: Океанские находки"
+				type: "structure"
+			}]
+			title: "Океанские находки"
+			x: -8.0d
+			y: 5.2d
+		}
+		{
+			dependencies: ["7FBF31D0C2C01C74"]
+			description: [
+				"Получите Экзотическое Око."
+				"Этот квест открывается только после найденного океанского источника."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A135164BE2A8084"
+			rewards: [
+				{
+					count: 2
+					id: "415820F005B8E831"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "79487785B46993E9"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			subtitle: "Где Атлантида?"
+			tasks: [{
+				advancement: "endrem:main/exotic_eye"
+				criterion: ""
+				id: "7B5A9CA0D5C9C9D0"
+				title: "Получить: Экзотическое Око"
+				type: "advancement"
+			}]
+			title: "Экзотическое Око"
+			x: -5.0d
+			y: 5.2d
+		}
+		{
+			description: [
+				"Найдите деревню."
+				"После этого развейте клирика до мастерского уровня и купите Зловещее Око."
+			]
+			icon: "minecraft:emerald"
+			id: "07953130268FDD46"
+			rewards: [{
+				id: "0A4197BD05FA5D01"
+				team_reward: true
+				type: "xp"
+				xp: 800
+			}]
+			shape: "square"
+			subtitle: "Источник Зловещего Ока"
+			tasks: [{
+				id: "2EC2C87CF2B158A3"
+				structure: "#fenix_end_eyes:villages"
+				title: "Найти: Деревня и клирик"
+				type: "structure"
+			}]
+			title: "Деревня и клирик"
+			x: -8.0d
+			y: 6.8d
+		}
+		{
+			dependencies: ["07953130268FDD46"]
+			description: [
+				"Получите Зловещее Око."
+				"Этот квест открывается только после найденной деревни."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1BE8AE9FAA8D1E1B"
+			rewards: [
+				{
+					count: 2
+					id: "52D280C122925FB7"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "28CA39CCF2794862"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			subtitle: "Настоящее Благословение"
+			tasks: [{
+				advancement: "endrem:main/evil_eye"
+				criterion: ""
+				id: "0837F518F0F7C8B8"
+				title: "Получить: Зловещее Око"
+				type: "advancement"
+			}]
+			title: "Зловещее Око"
+			x: -5.0d
+			y: 6.8d
+		}
+		{
+			description: [
+				"Призовите и убейте Иссушителя."
+				"Око Иссушителя добывается не из сундука, а с босса."
+			]
+			icon: "minecraft:nether_star"
+			id: "33689B23BC6BBB00"
+			rewards: [{
+				id: "5C00953064613AB0"
+				team_reward: true
+				type: "xp"
+				xp: 3000
+			}]
+			shape: "square"
+			subtitle: "Источник Ока Иссушителя"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "39373ED11BD17744"
+				title: "Победить: Иссушитель"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Иссушитель"
+			x: -8.0d
+			y: 8.2d
+		}
+		{
+			dependencies: ["33689B23BC6BBB00"]
+			description: [
+				"Получите Око Иссушителя."
+				"Этот квест открывается только после победы над Иссушителем."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "264EE298CD17C3C0"
+			rewards: [
+				{
+					count: 2
+					id: "2D1951DD154F8DD6"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "77D7FED4B34CAC05"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "circle"
+			subtitle: "Поддавшись иссушению"
+			tasks: [{
+				advancement: "endrem:main/wither_eye"
+				criterion: ""
+				id: "16F53F322B0FE288"
+				title: "Получить: Око Иссушителя"
+				type: "advancement"
+			}]
+			title: "Око Иссушителя"
+			x: -5.0d
+			y: 8.2d
+		}
+		{
+			description: [
+				"Найдите и победите скелетную лошадь."
+				"Душа Нежити нужна для создания Ока Нежити."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "5F4582C46D508D1C"
+			rewards: [{
+				id: "180CDE07858F9B56"
+				team_reward: true
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			subtitle: "Источник Ока Нежити"
+			tasks: [{
+				entity: "minecraft:skeleton_horse"
+				id: "7D638117DC9BD68E"
+				title: "Победить: Скелетная лошадь"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Скелетная лошадь"
+			x: -8.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["5F4582C46D508D1C"]
+			description: [
+				"Получите Око Нежити."
+				"Этот квест открывается только после добычи источника души нежити."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B5EB6080A91DBB5"
+			rewards: [
+				{
+					count: 2
+					id: "399C3CF540F47BBA"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7C4C478C2D100911"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			subtitle: "Зеркало души"
+			tasks: [{
+				advancement: "endrem:main/undead_eye"
+				criterion: ""
+				id: "51BB0221FA5BBA3B"
+				title: "Получить: Око Нежити"
+				type: "advancement"
+			}]
+			title: "Око Нежити"
+			x: -5.0d
+			y: 9.8d
+		}
+		{
+			description: [
+				"Получите стол зачарований."
+				"Загадочное Око выпадает случайно во время зачарования."
+			]
+			icon: "minecraft:enchanting_table"
+			id: "5309A9563665410F"
+			rewards: [{
+				id: "01C62FAD178DEF0F"
+				team_reward: true
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			subtitle: "Источник Загадочного Ока"
+			tasks: [{
+				id: "6D3F5E2375E99207"
+				item: "minecraft:enchanting_table"
+				title: "Получить: Стол зачарований"
+				type: "item"
+			}]
+			title: "Стол зачарований"
+			x: -8.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["5309A9563665410F"]
+			description: [
+				"Получите Загадочное Око через зачарование."
+				"Этот квест открывается только после подготовки зачарования."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "68824EB61B3A25C5"
+			rewards: [
+				{
+					count: 2
+					id: "3678DA6160B3EDBD"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5B97B22336DAD472"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			subtitle: "Терпение - путь к мудрости"
+			tasks: [{
+				advancement: "endrem:main/cryptic_eye"
+				criterion: ""
+				id: "542C7C99D83E0F55"
+				title: "Получить: Загадочное Око"
+				type: "advancement"
+			}]
+			title: "Загадочное Око"
+			x: -5.0d
+			y: 11.2d
+		}
+		{
+			description: [
+				"Найдите крепость с порталом в Энд."
+				"Эта финальная линия не зависит от квестов глаз."
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "40AE1D894252FAF9"
+			rewards: [{
+				id: "333724728ABBD1C1"
+				team_reward: true
+				type: "xp"
+				xp: 1500
+			}]
+			shape: "square"
+			subtitle: "Найти портал"
+			tasks: [{
+				id: "6B832FA21266CAD4"
+				structure: "#fenix_end_eyes:strongholds"
+				title: "Найти: Крепость"
+				type: "structure"
+			}]
+			title: "Крепость"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Вставьте 12 разных глаз End Remastered в рамки портала."
+				"После открытия портала посмотрите на блок End Portal."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CDA34822469EDC3"
+			rewards: [{
+				id: "29C941B78A6FF4E5"
+				team_reward: true
+				type: "xp"
+				xp: 3000
+			}]
+			shape: "diamond"
+			subtitle: "Открыть портал"
+			tasks: [{
+				icon: "minecraft:ender_eye"
+				id: "3AA0A44419A81842"
+				observe_type: 0
+				timer: 0L
+				title: "Посмотреть на открытый портал"
+				to_observe: "minecraft:end_portal"
+				type: "observation"
+			}]
+			title: "Древний портал"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Перейдите в измерение The End."]
+			hide_dependency_lines: false
+			icon: "minecraft:end_stone"
+			id: "01A97E2F60FA8187"
+			rewards: [
+				{
+					count: 2
+					id: "59BF061937F687A9"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "32BF1F1B8EBB3ACF"
+					team_reward: true
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "circle"
+			subtitle: "Финал пути"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "57F80785CB8E9B2E"
+				title: "Войти в измерение The End"
+				type: "dimension"
+			}]
+			title: "Войти в Энд"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01A97E2F60FA8187"]
+			description: ["Победите дракона Края."]
+			hide_dependency_lines: false
+			icon: "minecraft:dragon_head"
+			id: "2327F445505B2AC6"
+			rewards: [
+				{
+					count: 4
+					id: "26D6B39D8D844A89"
+					item: "minecraft:dragon_breath"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 30
+					id: "59AEA980AC8A4320"
+					item: "minecraft:netherite_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3D25D6880E58A1E0"
+					team_reward: true
+					type: "xp"
+					xp: 4000
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Конец начала"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7134461D5107D584"
+				title: "Убить дракона Края"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Дракон Края"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	title: "Путь в Энд"
+}

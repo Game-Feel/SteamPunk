@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "beachparty:item/beach_umbrella"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [80.56, 73.28, -9.59],
+			"translation": [0.5, 5.5, 5.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [88.98, 81.69, -108.73],
+			"translation": [0.5, 5.5, 5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-52.57, -77.59, -4.3],
+			"translation": [0.25, 5.25, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [49.18, -77.59, -4.3],
+			"translation": [0.25, 5.25, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"ground": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [0, 0, 45.25],
+			"translation": [0, 8.75, 0]
+		}
+	}
+}

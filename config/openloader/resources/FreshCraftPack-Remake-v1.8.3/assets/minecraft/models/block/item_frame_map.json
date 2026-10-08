@@ -1,0 +1,20 @@
+{
+    "textures": {
+        "map_paper": "minecraft:block/map_paper"
+    },
+    "elements": [
+        {
+            "name": "Element",
+            "from": [0,0,15.0001], 
+            "to": [16,16,16], 
+            "faces": {
+                "north": { "texture": "#map_paper", "uv": [0,0,16,16] },
+				"up": { "texture": "#map_paper", "uv": [0,0,16,2] },
+				"down": { "texture": "#map_paper", "uv": [0,0,16,2] },
+				"east": { "texture": "#map_paper", "uv": [0,0,2,16] },
+				"south": { "texture": "#map_paper", "uv": [0,0,16,16] },
+				"west": { "texture": "#map_paper", "uv": [0,0,2,16] }
+            }
+        }
+    ]
+}

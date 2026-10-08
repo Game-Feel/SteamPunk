@@ -1,0 +1,69 @@
+{
+    "name": "Gliders",
+    "icon": "vc_gliders:paraglider_wood",
+    "category": "patchouli:movement_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "For traveling in mountainous areas where you can fall and crash, you will definitely need a Glider. It is a kind of alternative to the elites, allowing you to smoothly descend down, jumping from high places."
+        },
+        {
+            "type": "text",
+            "text": "Interesting fact: there is a thrust above the campfire, thanks to which you can take off."
+        },
+        {
+            "type": "crafting",
+            "title": "Re-inforced paper",
+            "text": "To create a Glider, Re-inforced paper is needed. You will need it when creating and repairing any airframe.",
+            "recipe": "vc_gliders:reinforced_paper"
+        },
+        {
+            "type": "crafting",
+            "title": "Basic Glider",
+            "text": "Put it in the breastplate slot, find a high point and, jumping off it, press the space as if it were an elite.",
+            "recipe": "vc_gliders:paraglider_wood"
+        },
+        {
+            "type": "text",
+            "text": "Other gliders differ only in strength."
+        },
+        {
+            "type": "crafting",
+            "title": "Hard paper",
+            "recipe": "vc_gliders:reinforced_paper_iron",
+            "recipe2": "vc_gliders:reinforced_paper_gold"
+        },
+            {
+            "type": "crafting",
+            "title": "Harder paper",
+            "recipe": "vc_gliders:reinforced_paper_diamond",
+            "recipe2": "vc_gliders:reinforced_paper_netherite"
+        },
+        {
+            "type": "crafting",
+            "title": "Durable gliders",
+            "recipe": "vc_gliders:paraglider_iron",
+            "recipe2": "vc_gliders:paraglider_gold"
+        },
+        {
+            "type": "crafting",
+            "title": "More durable gliders",
+            "recipe": "vc_gliders:paraglider_diamond",
+            "recipe2": "vc_gliders:paraglider_netherite"
+        },
+        {
+            "type": "text",
+            "text": "Any simple glider will burn down in a Nether or from lightning hitting it during a thunderstorm, be careful. To restore it, use the Re-inforced paper that you used for this particular glider on the anvil."
+        },
+        {
+            "type": "text",
+            "text": "To fly safely in such conditions, you need to add an improvement, again, on the anvil."
+        },
+        {
+            "type": "crafting",
+            "title": "For Nether and against thunderstorms",
+            "recipe": "vc_gliders:nether_upgrade",
+            "recipe2": "vc_gliders:copper_upgrade"
+        }
+    ]
+}

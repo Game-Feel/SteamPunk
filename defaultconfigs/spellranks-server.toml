@@ -1,0 +1,29 @@
+#If true, Players cannot equip duplicate Curios Rings.
+#If false, duplicate Curios Rings are allowed.
+restrictDuplicateCurioRings = true
+#If true, Elytra cannot be worn.
+#If false, Elytra can be equipped normally.
+restrictElytraEquip = true
+#If true: When a Player has multiple True Paths, any True Path at Rank 0 cannot be used for SPELLBOOK casting.
+#If all of the Player's True Paths are Rank 0, this restriction is lifted.
+#The Eldritch Path and the Boon Paths are completely unaffected by this feature.
+#If false: No additional Rank-0 multiple True Paths spellbook restriction is applied.
+restrictRankZeroPathsWhenMultiPath = false
+#If true, Spell Scrolls that do not match any of the Player's Paths are immediately dropped from their inventory.
+#If false, Spell Scrolls are not restricted by Paths.
+#Note: This option is not practical for single-player but designed to allow more interesting multi-player interactions.
+restrictSpellScrollsToPlayerPaths = false
+
+[deathPenalty]
+	#Which Ranks are allowed to be affected by the Death Penalty.
+	#Disabled if enableDeathPenaltyAndCoreDrops is OFF
+	#(Eldritch Path will always be at 2 no matter the config value)
+	#  4 => Ranks 0...3
+	#  3 => Ranks 0...2
+	#  2 => Ranks 0...1
+	#Range: 2 ~ 4
+	deathPenaltyAffectedRanks = 2
+	#If true, Players lose Rank and drop a Mage Core when killed by an entity.
+	#If false, the Death Rank Penalty and Mage Core drops are completely disabled.
+	enableDeathPenaltyAndCoreDrops = true
+

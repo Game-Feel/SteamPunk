@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "vinery:block/chenet_wine",
+	  "textures": {
+		"6": "vinery:block/wine/chenet_wine"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/chenet_wine"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/chenet_wine"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/chenet_wine"
+		}
+	  }
+	}
+  }

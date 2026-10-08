@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quarkdelight:item/bowl_of_exotic_fruits_eating_1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "born_in_chaos_v1:item/smokedfish"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "born_in_chaos_v1:item/smokedfish_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.65
+      },
+      "model": "born_in_chaos_v1:item/smokedfish_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.8
+      },
+      "model": "born_in_chaos_v1:item/smokedfish_eating_2"
+    }
+  ]
+}

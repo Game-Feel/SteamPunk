@@ -1,0 +1,379 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "herbalbrews_advancement_mirror"
+	group: "189989671235D85C"
+	icon: "herbalbrews:hibiscus_tea"
+	id: "1B52608EF246CE77"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Благодарим за установку HerbalBrews"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:hibiscus_tea"
+			id: "335C3FDFEF3DF38A"
+			shape: "circle"
+			size: 1.2d
+			subtitle: "Welcome to HerbalBrews!"
+			tasks: [{
+				advancement: "herbalbrews:main/root"
+				criterion: ""
+				id: "6364FB98EC4E3684"
+				type: "advancement"
+			}]
+			title: "Приветствуем в HerbalBrews!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["335C3FDFEF3DF38A"]
+			description: ["Лаванда произрастает в горной местности"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:lavender"
+			id: "2C32AFCCBBBED944"
+			rewards: [
+				{
+					id: "1C5A6E432C1EB51B"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0B542CB1458A65D8"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Find Lavender"
+			tasks: [{
+				advancement: "herbalbrews:main/find_lavender"
+				criterion: ""
+				id: "76252251F3292B95"
+				type: "advancement"
+			}]
+			title: "Бабочки холмов"
+			x: 2.2d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C32AFCCBBBED944"]
+			description: ["Создайте блок листьев зелёного чая (9 листков зелёного чая), поставьте его и дождитесь, пока он высушится"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:green_tea_leaf_block"
+			id: "32B6764EC4471AEC"
+			rewards: [
+				{
+					count: 2
+					id: "1D728E439830360B"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1759113335A93383"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Drying Expertise"
+			tasks: [{
+				advancement: "herbalbrews:main/let_it_dry"
+				criterion: ""
+				id: "14A3C18A3B99163C"
+				type: "advancement"
+			}]
+			title: "Сушка чая"
+			x: 4.6d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32B6764EC4471AEC"]
+			description: ["Создайте блок сушёных листьев зелёного чая (9 горсток сушёных листьев зелёного чая), поставьте его и дождитесь, пока он высушится"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:black_tea_leaf_block"
+			id: "6DF8B0555E158186"
+			rewards: [
+				{
+					count: 2
+					id: "336F596A51C7CAEA"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4E1DF8481D4CCE61"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Let's do it again!"
+			tasks: [{
+				advancement: "herbalbrews:main/let_it_dry_2"
+				criterion: ""
+				id: "3BE9791BF9F2980B"
+				type: "advancement"
+			}]
+			title: "Повторим?"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DF8B0555E158186"]
+			description: ["Создайте блок смешанных чайных листьев (4 горстки сушёных листьев зелёного и 4 чёрного чая), поставьте его и дождитесь, пока он высушится"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:mixed_tea_leaf_block"
+			id: "312259AA6CEEF964"
+			rewards: [
+				{
+					count: 2
+					id: "6F481F27F6231C6F"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2F79BC0136E029F5"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Mix it up!"
+			tasks: [{
+				advancement: "herbalbrews:main/let_it_dry_3"
+				criterion: ""
+				id: "2528E0B6EFBA3DDD"
+				type: "advancement"
+			}]
+			title: "Вперемешку!"
+			x: 9.4d
+			y: -2.0d
+		}
+		{
+			dependencies: ["335C3FDFEF3DF38A"]
+			description: ["Создайте и установите печь"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:stove"
+			id: "7DC480EF84AEE4B9"
+			rewards: [
+				{
+					id: "6F1EF8F3AD4CE823"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6C21A095273E824F"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Heat needed"
+			tasks: [{
+				advancement: "herbalbrews:main/place_stove"
+				criterion: ""
+				id: "0DBDC778E82B1D9F"
+				type: "advancement"
+			}]
+			title: "Обогрев"
+			x: 2.2d
+			y: 0.4d
+		}
+		{
+			dependencies: ["7DC480EF84AEE4B9"]
+			description: ["Создайте и поставьте заварочный чайник"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:copper_tea_kettle"
+			id: "25C16806EF1ED3EE"
+			rewards: [
+				{
+					count: 2
+					id: "7CC57FC225C10890"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2BBBB8A0C433BA1B"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Tea Time"
+			tasks: [{
+				advancement: "herbalbrews:main/place_tea_kettle"
+				criterion: ""
+				id: "4B801312027A9C57"
+				type: "advancement"
+			}]
+			title: "Перерыв на чай"
+			x: 4.6d
+			y: 0.4d
+		}
+		{
+			dependencies: ["25C16806EF1ED3EE"]
+			description: ["Сварите все доступные варианты чая и кофе"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:herbalbrews_standard"
+			id: "1815FDE7A9F6859C"
+			rewards: [
+				{
+					id: "298F53C81316A797"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "404C19CFF7BC4375"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "43B442865DF777AE"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "66784162CFB05D5F"
+					team_reward: true
+					type: "xp"
+					xp: 275
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "A Hug in a Cup"
+			tasks: [{
+				advancement: "herbalbrews:main/craft_everything"
+				criterion: ""
+				id: "5F42D5F24EAAB292"
+				type: "advancement"
+			}]
+			title: "Тёплые объятия"
+			x: 7.0d
+			y: 0.4d
+		}
+		{
+			dependencies: ["335C3FDFEF3DF38A"]
+			description: ["Создайте и поставьте ведьмин котёл"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:cauldron"
+			id: "63400C18A582A4F7"
+			rewards: [
+				{
+					id: "38A087320A9248A4"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1BFE06B9F8EC5DA4"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Tea... and Elixirs!"
+			tasks: [{
+				advancement: "herbalbrews:main/place_cauldron"
+				criterion: ""
+				id: "25458158D4244077"
+				type: "advancement"
+			}]
+			title: "Чай... и эликсиры!"
+			x: 2.2d
+			y: 2.4d
+		}
+		{
+			dependencies: ["63400C18A582A4F7"]
+			description: ["Сварите и попробуйте зелье защиты"]
+			hide_dependency_lines: false
+			icon: "herbalbrews:armor_flask"
+			id: "7536A46480A39C99"
+			rewards: [
+				{
+					count: 4
+					id: "3930AE3FFF5EBF56"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "457DD6EA7E50DD12"
+					team_reward: true
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Armor! Armor! Definitely unused Armor"
+			tasks: [{
+				advancement: "herbalbrews:main/drink_armor_flask"
+				criterion: ""
+				id: "1F65DF37B95B50A0"
+				type: "advancement"
+			}]
+			title: "Защита! Больше! Ещё больше!"
+			x: 4.6d
+			y: 1.8d
+		}
+		{
+			dependencies: ["63400C18A582A4F7"]
+			description: ["Найдите или создайте шляпу ведьмы"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "herbalbrews:witch_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "449C25F4142032EE"
+			rewards: [
+				{
+					count: 2
+					id: "68936089D6948517"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0768FE709E74F91D"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Witching Time"
+			tasks: [{
+				advancement: "herbalbrews:main/witching_time"
+				criterion: ""
+				id: "060DD35C375BB4DB"
+				type: "advancement"
+			}]
+			title: "Ведьмин час"
+			x: 4.6d
+			y: 3.0d
+		}
+	]
+	title: "Farmer's Delight - HerbalBrews"
+}

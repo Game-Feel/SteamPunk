@@ -1,0 +1,50 @@
+{
+    "name": "Storing experience",
+    "icon": "spelunkery:carved_nephrite",
+    "category": "patchouli:xp_category",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "For safe storage of the experience, there is a carved nephrite. It is obtained from polished nephrite, which in turn is made from ordinary nephrite, which is already mined at the level of stone caves."
+        },
+        {
+            "type": "crafting",
+            "title": "Carved Nephrite",
+            "text": "Don't forget to read the block descriptions! Carved nephrite is able to accumulate experience within itself in the form of a charge that it distributes",
+            "recipe": "spelunkery:carved_nephrite"
+        },
+        {
+            "type": "text",
+            "text": "between the neighboring carved nephrite. The charge will always be distributed downwards first before being distributed laterally, so keep this in mind when designing storage. Imagine that there is a liquid inside the block. Each block of carved nephrite can"
+        },
+        {
+            "type": "text",
+            "text": "accumulate 100 units of charge (that's just over 7 levels)."
+        },
+        {
+            "type": "crafting",
+            "title": "Nephrite Siphon",
+            "text": "By placing it on a carved nephrite, it will allow you to suck in the experience and transfer it further into blocks. To do this, stand on it and wait or throw a bubble of experience into it.",
+            "recipe": "spelunkery:nephrite_siphon"
+        },
+        {
+            "type": "text",
+            "text": "Press Shift to make the process happen faster."
+        },
+        {
+            "type": "crafting",
+            "title": "Nephrite Fountain",
+            "text": "The fountain has the opposite mechanics. Put him on the nephrite, give him the redstone signal, after which he will start sucking experience out of the blocks.",
+            "recipe": "spelunkery:nephrite_fountain"
+        },
+        {
+            "type": "text",
+            "text": "RMB the working fountain with a bottle to get a bubble of experience.$(br2)The more carved nephrite there are with each other, the larger the storage volume. There are no limits."
+        },
+        {
+            "type": "text",
+            "text": "When you break a carved nephrite containing experience charges, you will receive the exact number of experience points that were in it.$(br2)There is also a nephrite ring that can only be found in the Ancient City. Allows you to store up to 30 levels. RMB for use."
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/qu_golden_frog_leg_eating_1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Kiwano",
+    "icon": "nethers_exoticism:kiwano",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Kiwano grows on a Kiwano Bush in the biome of a Warped Forest. When you eat it, you will get a Fire Resistance effect, but in return, you will also get a Poisoning effect. Kiwano can be used to make a set of armor that",
+            "item": "nethers_exoticism:kiwano"
+        },
+        {
+            "type": "spotlight",
+            "title": "Kiwano items",
+            "text": "reduces fire damage and a set of tools that instantly melt the block you get.",
+            "item": "nethers_exoticism:kiwano_helmet,nethers_exoticism:kiwano_chestplate,nethers_exoticism:kiwano_leggings,nethers_exoticism:kiwano_boots,nethers_exoticism:kiwano_sword,nethers_exoticism:kiwano_pickaxe,nethers_exoticism:kiwano_axe,nethers_exoticism:kiwano_shovel,nethers_exoticism:kiwano_hoe"
+        }
+    ]
+}

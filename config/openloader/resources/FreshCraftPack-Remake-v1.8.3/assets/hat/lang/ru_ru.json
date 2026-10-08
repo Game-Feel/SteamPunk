@@ -1,0 +1,47 @@
+{
+
+  "item.hat.ushanka": "Ушанка",
+  "item.hat.tophat": "Цилиндр",
+  "item.hat.gup": "Наплечник",
+  "item.hat.labcoat": "Лабораторный халат",
+  "item.hat.lab_goggles": "Лабораторные очки",
+  "item.hat.goggles_of_thaumaturgy": "Очки Тауматургии",
+  "item.hat.goggles_of_thaumaturgy_2": "Очки Тауматургии",
+  "item.hat.bandits_hat": "Шляпа мафиозника",
+  "item.hat.armorerhat": "Очки оружейника",
+  "item.hat.butcherhat": "Повязка мясника",
+  "item.hat.farmerhat": "Фермерская шляпа",
+  "item.hat.fisherhat": "Шляпа рыбака",
+  "item.hat.fletcherhat": "Шляпа лучника",
+  "item.hat.engineers_hat": "Шляпа инженеров",
+  "item.hat.monocle": "Монокль",
+  "item.hat.rat": "Крыса-компаньон",
+  "item.hat.plague_mask": "Маска чумного доктора",
+  "item.hat.plague_hat": "Шляпа чумного доктора",
+
+  "tooltip.hat.ushanka.tooltip": "§8Чтобы согреть тебя холодной зимней ночью",
+  "tooltip.hat.tophat.tooltip": "§8Цилиндр, который носят лучшие люди",
+  "tooltip.hat.gup.tooltip": "§8Что за микрочел?",
+  "tooltip.hat.labcoat.tooltip": "§8Лабораторный халат без... карманов?!",
+  "tooltip.hat.lab_goggles.tooltip": "§8Ну что ж, Начнем Эксперимент?",
+  "tooltip.hat.goggles_of_thaumaturgy.tooltip": "§8Очки нннада?",
+  "tooltip.hat.goggles_of_thaumaturgy_2.tooltip": "§8Очки всё ещё нннада?",
+  "tooltip.hat.bandits_hat.tooltip": "§8Зубенко Михаил Петрович...",
+  "tooltip.hat.armorerhat.tooltip": "§8Чтобы защитить вас от металлообработки",
+  "tooltip.hat.butcherhat.tooltip": "§8Резня?",
+  "tooltip.hat.farmerhat.tooltip": "§8Убирайся с моей территории, ты, чёртов криппер!",
+  "tooltip.hat.fisherhat.tooltip": "§8Рыба бывает трех размеров: маленькая, средняя и та, что ускользнула!",
+  "tooltip.hat.fletcherhat.tooltip": "§8Самая острая шляпа для самых острых стрел",
+  "tooltip.hat.engineers_hat.tooltip": "§8Опять работа?",
+  "tooltip.hat.monocle.tooltip": "§8О вы из англии?",
+  "tooltip.hat.rat.tooltip": "§8Его зовут Джон, но некоторые называют его JZ",
+  "tooltip.hat.plague_mask.tooltip": "§8Просто понюхайте эти травы, разве они не прекрасны?",
+  "tooltip.hat.plague_hat.tooltip": "§8Может быть, я и символ смерти, но я все равно отлично выгляжу",
+
+  "tooltip.hat.ukulele.tooltip": "§8И его музыка была зажигательной!",
+
+
+  "itemGroup.cosmetics_tab": "Шляпы и косметика",
+
+  "curios.identifier.accessory": "Аксессуары"
+}

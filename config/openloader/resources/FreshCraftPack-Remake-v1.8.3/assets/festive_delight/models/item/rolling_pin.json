@@ -1,0 +1,32 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "festive_delight:custom/rolling_pin",
+  		"textures": {
+  		  "1": "festive_delight:block/rolling_pin",
+  		  "particle": "festive_delight:item/festive_chicken_block"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "festive_delight:item/rolling_pin"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "festive_delight:item/rolling_pin"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "festive_delight:item/rolling_pin"
+		}
+	  }
+	}
+  }

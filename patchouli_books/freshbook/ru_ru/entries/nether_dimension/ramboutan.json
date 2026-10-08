@@ -1,0 +1,18 @@
+{
+    "name": "Рамбутан",
+    "icon": "nethers_exoticism:ramboutan",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Рамбутан растёт на Рамбутановом дереве, которое можно встретить в биоме Пустоши Незера. При поедании даёт эффект Регенерации, но при этом нанесёт небольшой урон. Также из Рамбутана можно сделать щит, ковёр и шлем.",
+            "item": "nethers_exoticism:ramboutan"
+        },
+        {
+            "type": "spotlight",
+            "title": "Предметы из Рамбутана",
+            "text": "Шлем будет выпускать колючки, если начать быстро трясти головой. Ковёр, как шипы на земле. Защищаясь щитом, атакующий будет получать урон.",
+            "item": "nethers_exoticism:ramboutan_helmet,nethers_exoticism:rambutan_carpet,nethers_exoticism:rambutan_shield"
+        }
+    ]
+}

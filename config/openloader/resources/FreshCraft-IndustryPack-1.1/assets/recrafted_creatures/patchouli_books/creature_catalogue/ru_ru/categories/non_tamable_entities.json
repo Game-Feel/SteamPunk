@@ -1,0 +1,6 @@
+{
+  "name": "Не приручаемые животные",
+  "description": "Это все те животные, которых вы не можете приручить.",
+  "parent": "recrafted_creatures:entities",
+  "icon": "recrafted_creatures:marmot_spawn_egg"
+}

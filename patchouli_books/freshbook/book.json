@@ -1,0 +1,16 @@
+{
+    "name": "Путеводитель",
+    "landing_text": "Приветствую $(playername)! Добро пожаловать на проект Freshcraft! Эта книга позволит тебе узнать о некоторых важных изменениях и особенностях.",
+    "model": "patchouli:book_purple",
+    "book_texture": "patchouli:textures/gui/book_purple.png",
+    "use_blocky_font": true,
+    "open_sound": "patchouli:sounds/book_open",
+    "flip_sound": "patchouli:sounds/book_flip",
+    "link_color": "9932CC",
+    "text_overflow_mode": "resize",
+    "progress_bar_color": "E6E6FA",
+    "progress_bar_background": "8A2BE2",
+    "version": 2,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": true
+}

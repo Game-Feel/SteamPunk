@@ -1,0 +1,578 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miner_craft_part_4"
+	group: "41BD389B96B19D27"
+	icon: "spelunkery:echo_fork"
+	id: "6A5D3F96BF3C709E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Собери или улучши модульный лук Tetra. Это боковая, но полезная ветка перед дальними вылазками."]
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6947FF40D976EE0F"
+			rewards: [
+				{
+					count: 24
+					id: "28C35F2830C90ECC"
+					item: "minecraft:arrow"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "720D43B5031E51F5"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+				id: "794DAEDA31196A4A"
+				type: "advancement"
+			}]
+			title: "Модульный лук"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Сделай модульный щит Tetra. Хорошая защита для шахт и руин."]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1682A1446E17CE4D"
+			rewards: [
+				{
+					count: 2
+					id: "4739B56760EFBCFF"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "705F7B8B089C080F"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/shield_upgrade"
+				criterion: ""
+				id: "1DE96551EC1CA139"
+				type: "advancement"
+			}]
+			title: "Модульный щит"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37CFFA6CA4D23B53"]
+			description: ["Открой сборку bastard blade. Это ответвление от обычного модульного меча."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "154047CA972616EE"
+			rewards: [
+				{
+					count: 3
+					id: "2596064ECA4278DB"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "06F9602C8AE1650F"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/bastard_upgrade"
+				criterion: ""
+				id: "71BE0F1D2F497D37"
+				type: "advancement"
+			}]
+			title: "Тяжёлый клинок"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Открой executioner blade - тяжёлую форму клинка для серьёзных боёв."]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3737369FDAD06D8F"
+			rewards: [
+				{
+					count: 2
+					id: "13B91F9B442B3EEB"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "19C38125444E161C"
+					team_reward: true
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/executioner_upgrade"
+				criterion: ""
+				id: "6ADF31DE55E74673"
+				type: "advancement"
+			}]
+			title: "Клинок палача"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10D2FB520D92FAFC"]
+			description: ["Получить нестабильный модульный предмет - это уже не простая шахтёрская работа, а рискованная магическая механика."]
+			icon: "minecraft:enchanted_book"
+			id: "64B3351DE1CA2500"
+			rewards: [
+				{
+					count: 4
+					id: "38DA8769E4026D3F"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "73904A402932E36A"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/destabilized_item"
+				criterion: ""
+				id: "662EE9544A9A35C3"
+				type: "advancement"
+			}]
+			title: "Нестабильный модуль"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Очисти нестабильный предмет и верни контроль над модулем."]
+			icon: "minecraft:lapis_lazuli"
+			id: "1F2A1727BCC47C97"
+			rewards: [
+				{
+					count: 16
+					id: "0DCF5D33335EBE8E"
+					item: "minecraft:lapis_lazuli"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2C921A032118D6FA"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/cleanse_item"
+				criterion: ""
+				id: "7C5F750C3C1258BD"
+				type: "advancement"
+			}]
+			title: "Очищение модуля"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Используй нестабильность как источник силы. Это уже опасная ветка улучшений."]
+			icon: "minecraft:nether_star"
+			id: "5428DC5150A545A6"
+			rewards: [
+				{
+					count: 4
+					id: "6233825154C116F6"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2193FBAF69CF9B10"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "19A56F861B5C5476"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				advancement: "tetra:upgrades/unstable_power"
+				criterion: ""
+				id: "2239B487CD59A040"
+				type: "advancement"
+			}]
+			title: "Сила нестабильности"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["Найди Devil's Soul Gem в поздней ветке древних находок. Это редкая цель после nano-insectoid."]
+			icon: "art_of_forging:devils_soul_gem"
+			id: "2A7395278D6F5A7A"
+			rewards: [
+				{
+					count: 2
+					id: "76DD8C6E8E4684C0"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5A6003BFB3AA5C77"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				advancement: "tetra:spelunking/devils_soul_gem"
+				criterion: ""
+				id: "5542D02051FF7481"
+				type: "advancement"
+			}]
+			title: "Самоцвет души дьявола"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Добыть Eerie Shard - редкая и опасная часть поздней подземной прогрессии."]
+			icon: "art_of_forging:eerie_shard"
+			id: "7A77399282AD8E40"
+			rewards: [
+				{
+					count: 2
+					id: "5CDDF58BF114F770"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34ADA18579AEE9E7"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0A5204C81D283C24"
+					team_reward: true
+					type: "xp"
+					xp: 2500
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				advancement: "tetra:spelunking/eerie_shard"
+				criterion: ""
+				id: "77C33F75DC82DE2F"
+				type: "advancement"
+			}]
+			title: "Жуткий осколок"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F3AAA3F7638772A"]
+			description: ["Найди Conk Fungus. Это начало отдельной пещерной ботаники Spelunkery."]
+			icon: "spelunkery:conk_fungus"
+			id: "4B55D42281C32D39"
+			rewards: [
+				{
+					count: 8
+					id: "40F570F962E565BB"
+					item: "minecraft:bone_meal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7F27A4AD33DA2CA8"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/conk_fungus"
+				criterion: ""
+				id: "517A69ECDC5F25EB"
+				type: "advancement"
+			}]
+			title: "Трутовик глубин"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["Собери все виды грибов Spelunkery. Это мирный, но долгий коллекционный квест."]
+			icon: "spelunkery:phosphor_fungus"
+			id: "450E19C3E49D60DF"
+			rewards: [
+				{
+					count: 4
+					id: "22AE86594D8F3D3C"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "03213B626B1F74A0"
+					team_reward: true
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				advancement: "spelunkery:spelunkery/every_fungus"
+				criterion: ""
+				id: "74AA8CF571E8D7B7"
+				type: "advancement"
+			}]
+			title: "Грибной каталог"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F3AAA3F7638772A"]
+			description: ["Разберись с механикой призыва слайма. Боковая ветка шахтёра для редких подземных ситуаций."]
+			icon: "minecraft:slime_block"
+			id: "2295A3BB14D1540C"
+			rewards: [
+				{
+					count: 4
+					id: "25D8F70F245D6C8D"
+					item: "minecraft:slime_ball"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1605240E1CE19E02"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/summon_slime"
+				criterion: ""
+				id: "6DE9CE0FD41883D8"
+				type: "advancement"
+			}]
+			title: "Призыв слайма"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Накорми слайма и заверши маленькую ветку пещерного существа."]
+			icon: "minecraft:beetroot"
+			id: "06DD90EEC3DB9E64"
+			rewards: [
+				{
+					count: 2
+					id: "63731B6507D03153"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0BB8436AB890D5C5"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/feed_slime"
+				criterion: ""
+				id: "158D5629796E999C"
+				type: "advancement"
+			}]
+			title: "Накормить слайма"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["79E71E1AD908EEA9"]
+			description: ["Создай Echo Fork. Это уже ветка глубокой разведки и осторожной работы со sculk-темой."]
+			icon: "spelunkery:echo_fork"
+			id: "0596E992390A8533"
+			rewards: [
+				{
+					count: 8
+					id: "416DB63506B510A1"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "711845AFFEE9EEA4"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				advancement: "spelunkery:spelunkery/echo_fork"
+				criterion: ""
+				id: "022D58A4FC5A7F6B"
+				type: "advancement"
+			}]
+			title: "Эхо-камертон"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			description: ["Получить Soulbound - серьёзный редкий шаг, связанный с Deep Dark и возвращением после смерти."]
+			icon: "minecraft:recovery_compass"
+			id: "495AC37A97F4A071"
+			rewards: [
+				{
+					id: "05929838BC439617"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C924C7910C83C55"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3639EEF7BC6E7160"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				advancement: "spelunkery:spelunkery/soulbound"
+				criterion: ""
+				id: "7FC123EB14BF7926"
+				type: "advancement"
+			}]
+			title: "Связь с душой"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: ["Получить Portal Fluid Bottle - странная, но полезная поздняя алхимия Spelunkery."]
+			icon: "spelunkery:portal_fluid_bottle"
+			id: "0BCD9EAB566F27EF"
+			rewards: [
+				{
+					count: 4
+					id: "6DD100DD005ED8FF"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0C96F0DD7E762F54"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				advancement: "spelunkery:spelunkery/purple_drink"
+				criterion: ""
+				id: "16941E9D567C978A"
+				type: "advancement"
+			}]
+			title: "Фиолетовый напиток"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			description: ["Создай Compression Blast Miner. Это дальний и опасный шахтёрский инструмент для поздней игры."]
+			icon: "spelunkery:compression_blast_miner"
+			id: "5459EC8C2154025D"
+			rewards: [
+				{
+					count: 2
+					id: "2570C308376D89FF"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2C214E3053447EEA"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2F8842FB604E68E2"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "spelunkery:spelunkery/compression_blast_miner"
+				criterion: ""
+				id: "681975C3B741094B"
+				type: "advancement"
+			}]
+			title: "Компрессионный взрывной шахтёр"
+			x: 6.0d
+			y: -6.0d
+		}
+	]
+	title: "Шахтёрское ремесло - редкие ветки"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dungeons_plus:item/frosted_cowl",
+    "layer1": "dungeons_plus:item/frosted_cowl_overlay"
+  }
+}

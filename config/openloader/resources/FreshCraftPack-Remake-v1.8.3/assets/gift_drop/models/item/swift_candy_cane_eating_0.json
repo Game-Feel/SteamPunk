@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gift_drop:item/swift_candy_cane_eating_0"
+  }
+}

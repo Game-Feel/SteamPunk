@@ -1,0 +1,1786 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miner_craft_part_3"
+	group: "41BD389B96B19D27"
+	icon: "art_of_forging:esoteric_codex"
+	id: "3EAB76E83E37DA1E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B118EF0E0DF37DF"]
+			description: ["Купи полный набор трактатов по эффективности инструментов у жителей."]
+			icon: "minecraft:enchanted_book"
+			id: "5073F844496CECC2"
+			rewards: [
+				{
+					count: 4
+					id: "57CDB99E000F8838"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2EF60E28DC16DE22"
+					item: "minecraft:paper"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "78F86F06DBC1DFFB"
+					team_reward: true
+					type: "xp"
+					xp: 600
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_efficiency"
+				criterion: ""
+				id: "1E1A9D8BA933FB32"
+				type: "advancement"
+			}]
+			title: "Свитки эффективности"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5073F844496CECC2"]
+			description: ["Купи полный набор трактатов по экспертности материалов у жителей высокого уровня."]
+			icon: "minecraft:enchanted_book"
+			id: "2E7E3B382C9530AC"
+			rewards: [
+				{
+					count: 8
+					id: "27F0D9EFD83E3E36"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "437F1ABB3FCCB0F8"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "560ED362137769F4"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_expertise"
+				criterion: ""
+				id: "4EA1148172654D77"
+				type: "advancement"
+			}]
+			title: "Трактаты мастерства"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B118EF0E0DF37DF"]
+			description: ["Найди gilding scroll в крепости Нижнего мира."]
+			icon: "minecraft:gold_ingot"
+			id: "2C5E5EC4926F5DE0"
+			rewards: [
+				{
+					count: 4
+					id: "47DDBB9FAE9709C2"
+					item: "minecraft:gold_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3F83BB7FFEC74909"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "35CA6B81B0D80F85"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_gild"
+				criterion: ""
+				id: "7D63E574D3A4EF20"
+				type: "advancement"
+			}]
+			title: "Позолоченная схема"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C5E5EC4926F5DE0"]
+			description: ["Найди howling blade schematic в подземелье."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "046DC79DADD82261"
+			rewards: [
+				{
+					count: 4
+					id: "0EBCE89259FDE16F"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "548CEAB9E602D444"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "17D10644734707CF"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_howling"
+				criterion: ""
+				id: "6384E9300D516F62"
+				type: "advancement"
+			}]
+			title: "Воющий клинок"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			description: ["Найди sturdy guard schematic в подземелье."]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A6C93343081ABDA"
+			rewards: [
+				{
+					count: 4
+					id: "2483F3011715A05A"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F3B95DD910EEBD7"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "008D3B43A9851587"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_sturdy"
+				criterion: ""
+				id: "0B377EBFE4586CD4"
+				type: "advancement"
+			}]
+			title: "Крепкая гарда"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			description: ["Найди throwing knife schematic в подземелье."]
+			icon: "minecraft:feather"
+			id: "4FCC0D1EE387BEA4"
+			rewards: [
+				{
+					count: 8
+					id: "763D51B4A7EAE756"
+					item: "minecraft:flint"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "75A72DBE5361AD48"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "003FBADF525DA3A6"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_throwing"
+				criterion: ""
+				id: "369EE7DDEAF7B907"
+				type: "advancement"
+			}]
+			title: "Идеальный баланс"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FCC0D1EE387BEA4"]
+			description: ["Найди Tools of War в бастионе или получи через бартер с пиглинами."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "462AA1CBD5A405E0"
+			rewards: [
+				{
+					count: 8
+					id: "040C3D7E781EE291"
+					item: "minecraft:gold_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "196C9C6B2C3F290E"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "14FCDAA350D49D07"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_warforge"
+				criterion: ""
+				id: "2504EB4BE6D8986A"
+				type: "advancement"
+			}]
+			title: "Инструменты войны"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			description: ["Открой ветку свитков Art of Forging. Здесь начинается охота за редкими схемами."]
+			icon: "art_of_forging:esoteric_codex"
+			id: "5B118EF0E0DF37DF"
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "tetra:scrolls/root"
+				criterion: ""
+				id: "6946380B21661F71"
+				type: "advancement"
+			}]
+			title: "Скрытые секреты AoF"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B118EF0E0DF37DF"]
+			description: ["Найди scroll для compound bow string."]
+			icon: "minecraft:string"
+			id: "6699420429D93DAB"
+			rewards: [
+				{
+					count: 16
+					id: "23F0E0893BC9217D"
+					item: "minecraft:string"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19DC93B3C72590DA"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "36B35339882EE314"
+					team_reward: true
+					type: "xp"
+					xp: 600
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/find_scroll_compound_string"
+				criterion: ""
+				id: "5A171B31015EC264"
+				type: "advancement"
+			}]
+			title: "Составная тетива"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Найди scroll для dreadnought stave."]
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "761BF476BDCBA598"
+			rewards: [
+				{
+					count: 4
+					id: "6B690DD18095CD86"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "491221F5A3A2CFA2"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1A92E2C1A219DED3"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/find_scroll_dreadnought_stave"
+				criterion: ""
+				id: "43212360CE0E2B25"
+				type: "advancement"
+			}]
+			title: "Основа дредноута"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["761BF476BDCBA598"]
+			description: ["Найди scroll для halberd."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51E29060FDB69E4C"
+			rewards: [
+				{
+					count: 4
+					id: "026A9FAAC46FDAAD"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E3902E423BAE2FB"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "409344B4B0738140"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/find_scroll_halberd"
+				criterion: ""
+				id: "4C0CF42A2E4C52B0"
+				type: "advancement"
+			}]
+			title: "Алебарда"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Найди scroll для key guard."]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4F36F48075B99B03"
+			rewards: [
+				{
+					count: 4
+					id: "15CD4DA98AB13FFC"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3EF5FEBDFE95FBB6"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "35EDD61A946A93ED"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/find_scroll_key_guard"
+				criterion: ""
+				id: "2F112E07F38CD5AF"
+				type: "advancement"
+			}]
+			title: "Ключевая гарда"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Найди scroll для mace."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C9F86FE4F985C00"
+			rewards: [
+				{
+					count: 4
+					id: "22E068C5D1EBC456"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "163F464506331AAC"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "72AC6079E9B610A3"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/find_scroll_mace"
+				criterion: ""
+				id: "45CD91E511D780FE"
+				type: "advancement"
+			}]
+			title: "Молотящая булава"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C9F86FE4F985C00"]
+			description: ["Найди scroll для tonal blade."]
+			icon: "minecraft:amethyst_shard"
+			id: "00E53788AE3DEED9"
+			rewards: [
+				{
+					count: 8
+					id: "7BA1BAB2DA9008D8"
+					item: "minecraft:amethyst_shard"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0CEA51356821C583"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "052DD77EB6C95035"
+					team_reward: true
+					type: "xp"
+					xp: 900
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/find_scroll_tonal_blade"
+				criterion: ""
+				id: "22ED4CE47061F12B"
+				type: "advancement"
+			}]
+			title: "Тональный клинок"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B118EF0E0DF37DF"]
+			description: ["Получи scroll для quarry hammer."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "187A08C110F53A6A"
+			rewards: [
+				{
+					count: 6
+					id: "12D1449FF01FD37F"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0C253D6C694C0D6D"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2BE6C8CDCE4B998A"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/get_scroll_quarry_hammer"
+				criterion: ""
+				id: "65E15ED6D851E24B"
+				type: "advancement"
+			}]
+			title: "Карьерный молот"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["187A08C110F53A6A"]
+			description: ["Получи scroll для katana."]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "583E7D2C43777F65"
+			rewards: [
+				{
+					count: 6
+					id: "512DF0FFEEE1EFEB"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0F9E38233C70FB6B"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4B9E9293F048C4E9"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/get_scroll_katana"
+				criterion: ""
+				id: "784B2551F9312C59"
+				type: "advancement"
+			}]
+			title: "Свиток катаны"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["187A08C110F53A6A"]
+			description: ["Получи scroll для flamberge."]
+			icon: "minecraft:blaze_rod"
+			id: "1029918C80123E0A"
+			rewards: [
+				{
+					count: 4
+					id: "307A0C7F36729DAE"
+					item: "minecraft:gold_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2E87714F14F799D6"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "51D878173C88B4DF"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/get_scroll_flamberge"
+				criterion: ""
+				id: "477E63905EC81580"
+				type: "advancement"
+			}]
+			title: "Жар клинка"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1029918C80123E0A"]
+			description: ["Получи легендарный Crucible scroll."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C71A7A931AAE4D4"
+			rewards: [
+				{
+					count: 2
+					id: "69EAF22726E456A9"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 12
+					id: "189A0EC16E69701F"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "047EF2187E5E2BF8"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/get_scroll_crucible"
+				criterion: ""
+				id: "5C123B00701108E2"
+				type: "advancement"
+			}]
+			title: "Свиток Горнила"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["187A08C110F53A6A"]
+			description: ["Получи легендарный Rending Scissors scroll."]
+			icon: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18F0FD9852FCD34F"
+			rewards: [
+				{
+					count: 2
+					id: "7424B4E0EE21FB7B"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 12
+					id: "726ACA15AB9523B6"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "445EB19EE3FDD4A0"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/get_scroll_rending_scissors"
+				criterion: ""
+				id: "4475806DA179B539"
+				type: "advancement"
+			}]
+			title: "Режущие ножницы"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: ["Получи легендарный Murasama scroll."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09C44951B89D16CF"
+			rewards: [
+				{
+					count: 4
+					id: "39FAF8E7712E3F5E"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2CE24259E4071120"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "43D5039F70053E8E"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/get_scroll_murasama"
+				criterion: ""
+				id: "6B54B8A6F2C221CD"
+				type: "advancement"
+			}]
+			title: "Сломанные воспоминания"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C71A7A931AAE4D4"]
+			description: ["Получи ascendant Architect's Crucible scroll."]
+			icon: "art_of_forging:mark_of_the_architect"
+			id: "4AC1C3AC0EAC8CB2"
+			rewards: [
+				{
+					count: 4
+					id: "5A19BDA9484430DE"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0BBFFDAF59514DEB"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "36D75AEA02614979"
+					team_reward: true
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:scrolls/get_scroll_architects_crucible"
+				criterion: ""
+				id: "5170174104DF57A4"
+				type: "advancement"
+			}]
+			title: "Свиток Архитектора"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B118EF0E0DF37DF"]
+			description: ["Создай resonant alloy mixture и открой путь к поздним материалам Art of Forging."]
+			icon: "art_of_forging:resonant_alloy"
+			id: "1BACBAD108592977"
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "art_of_forging:materials/root"
+				criterion: ""
+				id: "2291A1B7E12DEF42"
+				type: "advancement"
+			}]
+			title: "Компендиум материалов"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["Переплавь resonant alloy в Forged Steel ingot."]
+			icon: "art_of_forging:forged_steel_ingot"
+			id: "37D9669DBB7A02EE"
+			rewards: [
+				{
+					count: 6
+					id: "71E9CA0A4FC4B13E"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7574CABED3FEEEB7"
+					item: "minecraft:coal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1198E6D9A0A7693E"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "art_of_forging:materials/forged_ingot"
+				criterion: ""
+				id: "704FF2DDD5D65EB5"
+				type: "advancement"
+			}]
+			title: "Сталь древних"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			description: ["Найди vobrite crystal в кораблекрушении."]
+			icon: "art_of_forging:vobrite_crystal"
+			id: "1DABC8919FB32B26"
+			rewards: [
+				{
+					count: 8
+					id: "1E8B4BBEC9494D99"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A9F8CBB260D9389"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2BCEA707A2F45557"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "art_of_forging:materials/vobrite_crystal"
+				criterion: ""
+				id: "1C47D1642CC62FAB"
+				type: "advancement"
+			}]
+			title: "Кристалл штормовых облаков"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			description: ["Создай Vobrivium ingot, соединив Forged Steel и vobrite crystal."]
+			icon: "art_of_forging:vobrivium_ingot"
+			id: "68058A633FBB9215"
+			rewards: [
+				{
+					count: 2
+					id: "275101C7CBB54CA8"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 12
+					id: "0FDD53B1909D1907"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5C15C5B3F5DFA4E5"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "art_of_forging:materials/vobrivium_ingot"
+				criterion: ""
+				id: "77B8C444DD15C65E"
+				type: "advancement"
+			}]
+			title: "Громовой металл"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			description: ["Создай Endsteel ingot через dragon's breath."]
+			icon: "art_of_forging:endsteel_ingot"
+			id: "40CCDC2D0CFA77F2"
+			rewards: [
+				{
+					count: 4
+					id: "3043DB61D874992A"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6CCA0D9FF14FA2D0"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7BF746E6B135DAC3"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "art_of_forging:materials/endsteel_ingot"
+				criterion: ""
+				id: "026AA6560C073168"
+				type: "advancement"
+			}]
+			title: "Крайняя сталь"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			description: ["Найди demonic item в сундуке Ancient City."]
+			icon: "art_of_forging:ancient_blade"
+			id: "7AA08ECDA5F7C042"
+			rewards: [
+				{
+					count: 4
+					id: "0A3CB720EC25C28D"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "688BBCB815297B56"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1EE378DB7FE9A8BB"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "art_of_forging:materials/find_demonic_item"
+				criterion: ""
+				id: "7785D229FE67DDEA"
+				type: "advancement"
+			}]
+			title: "Древнее и злобное"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			description: ["Собери все три demonic artifacts."]
+			icon: "art_of_forging:demonic_blade"
+			id: "6F7D51354948C9D9"
+			rewards: [
+				{
+					count: 8
+					id: "2875A0A53FD8D3CE"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 24
+					id: "4F464819D7DE902A"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "59246A1BB89A153D"
+					team_reward: true
+					type: "xp"
+					xp: 3500
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "art_of_forging:materials/find_all_demonic_items"
+				criterion: ""
+				id: "2F5EF37B02322E2B"
+				type: "advancement"
+			}]
+			title: "Все демонические артефакты"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			description: ["Получи Sigil of Eden, который иногда падает с Wither."]
+			icon: "art_of_forging:sigil_of_eden"
+			id: "72CB3666D8F2CCC5"
+			rewards: [
+				{
+					count: 8
+					id: "4076380E394B5001"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 24
+					id: "10888B738EAB4649"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0C8E815D5021AF9E"
+					team_reward: true
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "art_of_forging:materials/sigil_of_eden"
+				criterion: ""
+				id: "7B659176B7AFF175"
+				type: "advancement"
+			}]
+			title: "Сигил Эдема"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			description: ["Открой ветку модулей Art of Forging и подготовься к редким формам оружия."]
+			icon: "minecraft:smithing_table"
+			id: "7A00917D24AFBE5F"
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "tetra:art_of_forging/root"
+				criterion: ""
+				id: "06B3B3B26CE2457F"
+				type: "advancement"
+			}]
+			title: "Искусство ковки"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7A00917D24AFBE5F"]
+			description: ["Собери rapier module."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "408D5E1E26A2D5C4"
+			rewards: [
+				{
+					count: 4
+					id: "713DD254535DB7C9"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D78FF274C0D4252"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "313FE71622F3300F"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/rapier_upgrade"
+				criterion: ""
+				id: "74CD64E091B15BA1"
+				type: "advancement"
+			}]
+			title: "Прославленная игла"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["408D5E1E26A2D5C4"]
+			description: ["Собери katana blade."]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "586AE69E826BEE79"
+			rewards: [
+				{
+					count: 6
+					id: "7CDEA98239E68997"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "62D392A4125D0A7A"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6A1E829C1C4C535A"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/katana_upgrade"
+				criterion: ""
+				id: "7C3EF9D49CF30922"
+				type: "advancement"
+			}]
+			title: "Клинок катаны"
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			description: ["Собери flamberge."]
+			icon: "minecraft:blaze_rod"
+			id: "1B2B762142BB14A5"
+			rewards: [
+				{
+					count: 4
+					id: "7633BD1610291908"
+					item: "minecraft:gold_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5C4DC0A7A004BD4C"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "08A9CC6CBF94433E"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/flamberge_upgrade"
+				criterion: ""
+				id: "3D89ACCB841F8E2B"
+				type: "advancement"
+			}]
+			title: "Клинок фламберга"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1B2B762142BB14A5"]
+			description: ["Создай legendary Crucible blade."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C09BBA3C1C6F3DF"
+			rewards: [
+				{
+					count: 4
+					id: "72A21CCE99DF4863"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "08EFD79AEAE67A78"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6551E1EA9ADCB3FF"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/crucible_upgrade"
+				criterion: ""
+				id: "46DE7AF1BA4375DA"
+				type: "advancement"
+			}]
+			title: "Клинок Горнила"
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0C09BBA3C1C6F3DF"]
+			description: ["Улучши Crucible blade до Architect's Crucible."]
+			icon: "art_of_forging:mark_of_the_architect"
+			id: "388902A3A75452DC"
+			rewards: [
+				{
+					count: 8
+					id: "35F054D26A959465"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5756B8BE4587466E"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2E4D15B2D95264EB"
+					team_reward: true
+					type: "xp"
+					xp: 4000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/architects_crucible"
+				criterion: ""
+				id: "5DF229AD25EAB05D"
+				type: "advancement"
+			}]
+			title: "Полное отпущение"
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			description: ["Улучши katana blade до легендарной Murasama."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27CF73D7CC6D6498"
+			rewards: [
+				{
+					count: 8
+					id: "5C7F16697ABBAA89"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 24
+					id: "436AFB260469FAA5"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4C841254878F046B"
+					team_reward: true
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/murasama_blade"
+				criterion: ""
+				id: "5AF7A2FC702B1949"
+				type: "advancement"
+			}]
+			title: "Будет кровопролитие"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1B2B762142BB14A5"]
+			description: ["Собери red rending scissor blade."]
+			icon: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4485BE0B90484603"
+			rewards: [
+				{
+					count: 2
+					id: "298978F201F2EC5D"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 12
+					id: "719D9C61E18F54C9"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "53C1E12C9F0E874F"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/rending_scissor_red_upgrade"
+				criterion: ""
+				id: "7939306A6D4208AC"
+				type: "advancement"
+			}]
+			title: "Красная половина"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4485BE0B90484603"]
+			description: ["Собери purple rending scissor blade."]
+			icon: "minecraft:amethyst_shard"
+			id: "09848C1B0C64607C"
+			rewards: [
+				{
+					count: 2
+					id: "27C72834245FB489"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 12
+					id: "61755FAB2D713924"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "74761216491D061B"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/rending_scissor_purple_upgrade"
+				criterion: ""
+				id: "0C60F6E98C55A9A0"
+				type: "advancement"
+			}]
+			title: "Фиолетовая половина"
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["09848C1B0C64607C"]
+			description: ["Собери completed Rending Scissor blade."]
+			icon: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DEED801D5618C5F"
+			rewards: [
+				{
+					count: 8
+					id: "3FF8937273DADB48"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 24
+					id: "433CD1D9EB1438E8"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0E15060C2E0F6529"
+					team_reward: true
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/rending_scissor_complete_upgrade"
+				criterion: ""
+				id: "207D9029ED8DDE3F"
+				type: "advancement"
+			}]
+			title: "Смертельно одет"
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7A00917D24AFBE5F"]
+			description: ["Собери dreadnought stave."]
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5056B60FB8AE91C4"
+			rewards: [
+				{
+					count: 6
+					id: "0CA5E01FA178939C"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "617DB97788FEEA46"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "637C288C23FFE339"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/dreadnought_upgrade"
+				criterion: ""
+				id: "6C9CAA1A01FEBEDA"
+				type: "advancement"
+			}]
+			title: "Основа дредноута"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			description: ["Собери Remembrance stave с Dark Orb."]
+			icon: "minecraft:ender_eye"
+			id: "0617BCF79E853647"
+			rewards: [
+				{
+					count: 8
+					id: "326D985B357D9332"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 24
+					id: "5481CE026DD1E162"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "30D8B217CDD287DF"
+					team_reward: true
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/remembrance_upgrade"
+				criterion: ""
+				id: "439A7E83842553DC"
+				type: "advancement"
+			}]
+			title: "Ты не один"
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7A00917D24AFBE5F"]
+			description: ["Собери tomahawk head."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "204D676E3F62DAF9"
+			rewards: [
+				{
+					count: 4
+					id: "733E3ACF2F701022"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "71FD163790750832"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "23481DEF8E98ED29"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/tomahawk_upgrade"
+				criterion: ""
+				id: "13EDD364625F2A76"
+				type: "advancement"
+			}]
+			title: "Вот и Джонни"
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["72CB3666D8F2CCC5"]
+			description: ["Собери Euclidean Dagger, используя Sigil of Eden."]
+			icon: "art_of_forging:sigil_of_eden"
+			id: "627D9E102E2788FD"
+			rewards: [
+				{
+					count: 8
+					id: "4E84B1157C7B9E54"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 24
+					id: "554B5ED560848EDA"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1C96C403805BD324"
+					team_reward: true
+					type: "xp"
+					xp: 3500
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/euclidean_dagger_upgrade"
+				criterion: ""
+				id: "0B41E30868DC179F"
+				type: "advancement"
+			}]
+			title: "Ночь принадлежит тебе"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7A00917D24AFBE5F"]
+			description: ["Используй Echo Shard как sword fuller."]
+			icon: "minecraft:echo_shard"
+			id: "51DE17841EF0219C"
+			rewards: [
+				{
+					count: 12
+					id: "2CD87ADE6790BD5D"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "17981DCA79A1F694"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "15CA6A0435A5EBCD"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/echo_fuller"
+				criterion: ""
+				id: "7E5C208DCEEF869B"
+				type: "advancement"
+			}]
+			title: "Я был божеством"
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			description: ["Убей Warden nano-infused оружием и получи eerie shard."]
+			icon: "art_of_forging:eerie_shard"
+			id: "34267198DC680CB0"
+			rewards: [
+				{
+					count: 8
+					id: "08979DEFD5B34B2C"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "204A46B74FC1BEF1"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0D92C8B3086E2EA7"
+					team_reward: true
+					type: "xp"
+					xp: 4000
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:art_of_forging/eerie_fuller"
+				criterion: ""
+				id: "65D6C8B1930847F9"
+				type: "advancement"
+			}]
+			title: "Звук тишины"
+			x: 10.0d
+			y: 18.0d
+		}
+	]
+	title: "Шахтёрское ремесло - свитки и искусство ковки"
+}

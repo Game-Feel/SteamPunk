@@ -1,0 +1,49 @@
+{
+  "block.chalk.chalk_mark_block": "Рисунок мелом",
+
+  "item.chalk.black_chalk": "Черный мелок",
+  "item.chalk.red_chalk": "Красный мелок",
+  "item.chalk.green_chalk": "Зелёный мелок",
+  "item.chalk.brown_chalk": "Коричневый мелок",
+  "item.chalk.blue_chalk": "Синий мелок",
+  "item.chalk.purple_chalk": "Фиолетовый мелок",
+  "item.chalk.cyan_chalk": "Бирюзовый мелок",
+  "item.chalk.light_gray_chalk": "Светло-серый мелок",
+  "item.chalk.gray_chalk": "Серый мелок",
+  "item.chalk.pink_chalk": "Розовый мелок",
+  "item.chalk.lime_chalk": "Лаймовый мелок",
+  "item.chalk.yellow_chalk": "Жёлтый мелок",
+  "item.chalk.light_blue_chalk": "Голубой мелок",
+  "item.chalk.magenta_chalk": "Пурпурный мелок",
+  "item.chalk.orange_chalk": "Оранжевый мелок",
+  "item.chalk.white_chalk": "Белый мелок",
+
+  "gui.chalk.no_symbols_unlocked": "Вы не умеете рисовать специальные символы",
+  "gui.chalk.unlocked_symbol_message": "Вы научились рисовать %s мелом.",
+
+  "item.chalk.chalk_box": "Коробок для Мела",
+  "item.chalk.chalk_box.tooltip.drawing_with": "Рисуем с: ",
+
+   "gui.chalk.symbol.center": "Точка",
+   "gui.chalk.symbol.arrow": "Стрелка",
+   "gui.chalk.symbol.house": "Дом",
+   "gui.chalk.symbol.check": "Галочка",
+   "gui.chalk.symbol.cross": "Крест",
+   "gui.chalk.symbol.heart": "Сердце",
+   "gui.chalk.symbol.skull": "Череп",
+   "gui.chalk.symbol.pickaxe": "Кирка",
+
+  "advancement.chalk.get_skeleton_skull": "Время Пересчитать кости",
+  "advancement.chalk.get_skeleton_skull.description": "Получите череп скелета",
+  "advancement.chalk.sleep_three_times_in_one_place": "Дом, милый, дом",
+  "advancement.chalk.sleep_three_times_in_one_place.description": "Поспите на одном месте три раза подряд",
+  "advancement.chalk.black_chalk_on_black_block": "Один среди тьмы...",
+  "advancement.chalk.black_chalk_on_black_block.description": "Нарисуйте чёрным мелом на чёрном блоке в темноте",
+  "advancement.chalk.draw_mark_in_maze": "Эй! Сюда!",
+  "advancement.chalk.draw_mark_in_maze.description": "Нарисуйте мелом лабиринтную структуру",
+  "advancement.chalk.vandalism": "Это уже Вандализм!",
+  "advancement.chalk.vandalism.description": "Нарисуйте мелом на доме жителя",
+
+
+  "container.chalk.chalk_box": "Коробок для Мела"
+}

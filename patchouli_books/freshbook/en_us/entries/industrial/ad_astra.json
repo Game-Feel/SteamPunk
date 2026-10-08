@@ -1,0 +1,16 @@
+{
+    "name": "Space",
+    "icon": "ad_astra:earth_globe",
+    "category": "patchouli:industrial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Would you like to try yourself as an astronaut? Explore planets and life on them? Help Elon Musk get to Mars...? Then create an educational book with an accurate description of you:"
+        },
+        {
+            "type": "crafting",
+            "recipe": "ad_astra:astrodux",
+            "text": "Have a successful space exploration!"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nethers_exoticism:item/ramboutan_juice_eating_2"
+  }
+}

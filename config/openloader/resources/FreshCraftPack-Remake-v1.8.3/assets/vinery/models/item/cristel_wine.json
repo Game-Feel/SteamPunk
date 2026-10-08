@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "vinery:block/cristel_wine",
+	  "textures": {
+		"1": "vinery:block/wine/cristel_wine"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/cristel_wine"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/cristel_wine"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/cristel_wine"
+		}
+	  }
+	}
+  }

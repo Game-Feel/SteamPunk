@@ -1,0 +1,12 @@
+{
+    "name": "Dungeons",
+    "icon": "minecraft:map",
+    "category": "patchouli:other_category",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "text",
+            "text": "During your travels, you will encounter familiar but improved dungeons. They've become bigger, more dangerous, more interesting! But apart from them, you will also have to explore new, unknown buildings and dungeons."
+        }
+    ]
+}

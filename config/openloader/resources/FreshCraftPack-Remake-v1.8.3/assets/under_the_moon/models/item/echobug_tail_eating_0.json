@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "under_the_moon:item/echobug_tail_eating_0"
+  }
+}

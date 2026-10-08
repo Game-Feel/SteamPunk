@@ -1,0 +1,16 @@
+{
+    "name": "Coordinates",
+    "icon": "minecraft:compass",
+    "category": "patchouli:coordination_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are no coordinates here. To navigate the terrain, you will now have to use special tools, as well as your memory. You must admit that this is much more complicated and interesting than simple coordinates."
+        },
+        {
+            "type": "text",
+            "text": "One example of terrain orientation is when the sun and moon rise in the east and set in the west."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create_sa:custom/brass_cube_item",
+  "textures": {
+    "all": "create_sa:block/brass_cube_face",
+    "particle": "create_sa:block/brass_cube_face",
+    "2": "create_sa:block/brass_cube"
+  },
+  "render_type": "cutout_mipped"
+}

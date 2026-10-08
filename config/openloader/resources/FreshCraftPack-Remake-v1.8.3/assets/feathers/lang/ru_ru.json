@@ -1,0 +1,47 @@
+{
+"feathers.max_feathers": "Макс. Перья",
+"feathers.feather_regen": "Восстановление перьев",
+
+"effect.feathers.endurance": "Выносливость",
+"item.minecraft.potion.effect.endurance_potion": "Зелье выносливости",
+"item.minecraft.splash_potion.effect.endurance_potion": "Взрывное зелье выносливости",
+"item.minecraft.lingering_potion.effect.endurance_potion": "Туманное зелье выносливости",
+"item.minecraft.tipped_arrow.effect.endurance_potion": "Стрела выносливости",
+
+"item.minecraft.potion.effect.long_endurance_potion": "Зелье выносливости",
+"item.minecraft.splash_potion.effect.long_endurance_potion": "Взрывное зелье выносливости",
+"item.minecraft.lingering_potion.effect.long_endurance_potion": "Туманное зелье выносливости",
+"item.minecraft.tipped_arrow.effect.long_endurance_potion": "Стрела выносливости",
+
+"item.minecraft.potion.effect.strong_endurance_potion": "Зелье выносливости",
+"item.minecraft.splash_potion.effect.strong_endurance_potion": "Взрывное зелье выносливости",
+"item.minecraft.lingering_potion.effect.strong_endurance_potion": "Туманное зелье выносливости",
+"item.minecraft.tipped_arrow.effect.strong_endurance_potion": "Стрела выносливости",
+
+"effect.feathers.cold": "Заморозка",
+"item.minecraft.potion.effect.cold_potion": "Зелье заморозки",
+"item.minecraft.splash_potion.effect.cold_potion": "Взрывное зелье заморозки",
+"item.minecraft.lingering_potion.effect.cold_potion": "Туманное зелье заморозки",
+"item.minecraft.tipped_arrow.effect.cold_potion": "Стрела заморозки",
+
+"effect.feathers.energized": "Заряженость",
+"item.minecraft.potion.effect.energized_potion": "Зелье энергии",
+"item.minecraft.splash_potion.effect.energized_potion": "Взрывное зелье энергии",
+"item.minecraft.lingering_potion.effect.energized_potion": "Туманное зелье энергии",
+"item.minecraft.tipped_arrow.effect.energized_potion": "Стрела энергии",
+
+"item.minecraft.potion.effect.strong_energized_potion": "Зелье энергии",
+"item.minecraft.splash_potion.effect.strong_energized_potion": "Взрывное зелье энергии",
+"item.minecraft.lingering_potion.effect.strong_energized_potion": "Туманное зелье энергии",
+"item.minecraft.tipped_arrow.effect.strong_energized_potion": "Стрела выносливости",
+
+"item.minecraft.potion.effect.long_energized_potion": "Зелье энергии",
+"item.minecraft.splash_potion.effect.long_energized_potion": "Взрывное зелье энергии",
+"item.minecraft.lingering_potion.effect.long_energized_potion": "Туманное зелье энергии",
+"item.minecraft.tipped_arrow.effect.long_energized_potion": "Стрела энергии",
+
+"enchantment.feathers.lightweight": "Выносливый",
+"enchantment.feathers.heavy": "Проклятие тяжести",
+
+"text.feathers.tooltip": "+%s Вес"
+}

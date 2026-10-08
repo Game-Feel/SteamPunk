@@ -1,0 +1,48 @@
+{
+  "weaponItems": {
+    "entries": {
+      "netherite_sword": 0.010,
+      "iron_axe": 0.050,
+      "stone_axe": 0.070,
+      "golden_axe": 0.70,
+      "iron_sword": 0.050,
+      "shield": 0.050,
+      "stone_sword": 0.090,
+      "golden_sword": 0.70
+    },
+    "defaultItem": "air"
+  },
+  "lootItems": {
+    "entries": {
+      "gold_ingot": 0.4,
+      "nether_wart": 0.1,
+      "gold_nugget": 0.8
+    },
+    "defaultItem": "air"
+  },
+  "studyItems": {
+    "entries": {
+      "writable_book": 0.1,
+      "book": 0.4,
+      "enchanted_book": 0.3,
+      "paper": 0.1
+    },
+    "defaultItem": "air"
+  },
+  "messHallItems": {
+    "entries": {
+      "porkchop": 0.3,
+      "cooked_porkchop": 0.3,
+      "gold_ingot": 0.4
+    },
+    "defaultItem": "air"
+  },
+  "alchemyItems": {
+    "entries": {
+      "fire_charge": 0.4,
+      "magma_cream": 0.6,
+      "quartz": 0.6
+    },
+    "defaultItem": "air"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Dinosaurs",
+    "icon": "unusualprehistory:ammonite_shell_icon",
+    "category": "patchouli:industrial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The rebirth of dinosaurs and ancient plants - yes, it is possible! This is a great add-on where you can read the history of prehistoric creatures, extract fossils, revive and use"
+        },
+        {
+            "type": "crafting",
+            "recipe": "unusualprehistory:encyclopedia",
+            "text": "features of animals, plants, and more. To start your journey in this business, create an encyclopedia."
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Soulspring Lamp",
+    "icon": "cold_sweat:soulspring_lamp",
+    "category": "patchouli:coldsweat_category",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Soulspring Lamp normalizes the temperature around you when you hold it in your hand. Without it, you simply won't be able to walk on the Nether."
+        },
+        {
+            "type": "crafting",
+            "title": "Soulspring Lamp",
+            "text": "You're lucky - Soulspring Lamp is fully fueled when you create it. It is fueled by the sprouts of souls that grow in the Valleys of the Sand of Souls.",
+            "recipe": "cold_sweat:soulspring_lamp"
+        },
+        {
+            "type": "image",
+            "text": "The sprouts of souls can also be grown in the Overworld.",
+            "title": "Sprouts of souls",
+            "border": true,
+            "images": [
+                    "patchouli:soul_sprout.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "They get on the Soul Sand/Soul Soil. Wait until it is fully ripe, otherwise only 1 unit will fall out."
+        }
+
+    ]
+}

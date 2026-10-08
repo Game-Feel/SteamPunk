@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/customcross",
+  "textures": {
+    "cross": "minecraft:block/sugar_cane",
+    "top": "minecraft:block/sugar_cane_top5"
+  }
+}

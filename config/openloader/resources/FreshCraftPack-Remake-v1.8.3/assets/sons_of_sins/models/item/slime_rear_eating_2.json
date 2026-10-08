@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sons_of_sins:item/slime_rear_eating_2"
+  }
+}

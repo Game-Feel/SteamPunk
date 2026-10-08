@@ -1,0 +1,34 @@
+{
+  "key.comicsbubbleschat.category": "Comics Bubbles Chat",
+  "key.openoptions.desc": "Настройки Интерфейса",
+  "key.openguitext.desc": "Текст интерфейса",
+
+  "text.red": "Красный",
+  "text.green": "Зелёный",
+  "text.blue": "Синий",
+  "text.alpha": "Прозрачность",
+
+  "text.config.title": "Настройки Comics Bubbles Chat",
+  "text.config.outline": "Выбор цвета контура",
+  "text.config.inside": "Выбор внутреннего цвета",
+  "text.config.text": "Параметр цвета текста",
+  "text.config.test": "Это проверка!",
+  "text.config.resetcolorduration": "Сброс цвета и длительности",
+  "text.config.resetstack": "Сброс максимального количества пузырьков, которые можно увеличивать",
+  "text.config.resetlinewidth": "Сброс максимальной ширины линии",
+  "text.config.clearbubbles": "Удалить текущие пузырьки",
+  "text.config.maxstackbubbles": "Максимальное количество пузырьков, которые можно увеличивать (0 = ∞)",
+  "text.config.maxlinewidth": "Максимальная ширина линии (мин = 50)",
+  "text.config.enablebubble": "Включить пузырьки",
+  "text.config.enablethroughblock": "Прозрачность через блок (например никнейм игрока)",
+  "text.config.forceformatchat": "Принудительный формат чата (если пузырьки не появляются)",
+
+  "text.config.duration.suffix": "секунды",
+  "text.config.duration.prefix": "Длительность пузырьков",
+  "text.config.sizebubble.prefix": "Размер пузырьков",
+  "text.config.range.prefix": "Расстояние между пузырьками",
+  "text.mustbeplayer" : "Вы должны быть игроком, чтобы использовать эту команду!",
+
+
+  "text.config.nolinked": "Мод не привязан к серверу, пузырьки появляться не будут!"
+}

@@ -1,0 +1,29 @@
+{
+  "configVersion": 2,
+  "enabledByDefault": true,
+  "xOffset": 25,
+  "sneakXOffset": 18,
+  "sitXOffset": 15,
+  "renderStuckFeatures": true,
+  "vanillaHandsMode": "OFF",
+  "dynamicMode": true,
+  "vanillaHandsSkipSwimming": true,
+  "autoVanillaHands": [
+    "create:potato_cannon",
+    "create:handheld_worldshaper",
+    "twilightforest:filled_ore_map",
+    "map_atlases:atlas",
+    "twilightforest:filled_magic_map",
+    "twilightforest:filled_maze_map",
+    "create:extendo_grip",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert",
+    "minecraft:crossbow",
+    "minecraft:bow",
+    "dungeons_plus:soul_cannon"
+  ],
+  "autoToggleModItems": [
+    "antiqueatlas:antique_atlas",
+    "exposure:camera"
+  ]
+}

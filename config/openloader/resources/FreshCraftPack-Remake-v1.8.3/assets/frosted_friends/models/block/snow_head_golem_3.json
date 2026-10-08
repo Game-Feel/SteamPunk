@@ -1,0 +1,13 @@
+{
+  "parent": "frosted_friends:custom/snow_head_golem_3",
+  "textures": {
+    "all": "frosted_friends:block/snowman_head_golem",
+    "particle": "frosted_friends:block/pumpkin_side",
+    "0": "frosted_friends:block/pile_of_snow",
+    "1": "frosted_friends:block/snowman_head",
+    "2": "frosted_friends:block/carved_pumpkin",
+    "3": "frosted_friends:block/pumpkin_side",
+    "4": "frosted_friends:block/pumpkin_top"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Средняя ледяная стена",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:glacier_wall_charm",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:glacier_wall_charm",
+      "text": "Модифицированная $(l:snowwallcharm)Малая ледяная стена$(). Дополненный ледяными осколками и ядрами, она ещё больше повышает устойчивость владельца к ударам."
+    }
+  ]
+}

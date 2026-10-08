@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_plus:item/soul_cannon_held",
+  "textures": {
+    "particle": "dungeons_plus:item/soul_cannon_inventory",
+    "tex": "dungeons_plus:item/soul_cannon_first_person"
+  }
+}

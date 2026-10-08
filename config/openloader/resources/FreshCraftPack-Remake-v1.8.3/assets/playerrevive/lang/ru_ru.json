@@ -1,0 +1,8 @@
+{
+	"playerrevive.chat.bleeding": "%s свалился с ног %s",
+	"death.attack.bledToDeath.player": "%s скончался",
+	"playerrevive.gui.button.send": "отправить",
+	"playerrevive.gui.label.time_left": "Времени осталось %s",
+	"playerrevive.gui.hold": "Удерживайте '%s' в течении %s секунд",
+	"playerrevive.revive.item": "Вам требуется "
+}

@@ -1,0 +1,15 @@
+{
+	"variants": {
+		"": [
+		{
+				"model": "betterend:block/thallasium_ore"
+		},
+		{
+				"model": "betterend:block/thallasium_ore1"
+		},
+		{
+				"model": "betterend:block/thallasium_ore2"
+		}
+		]
+	}
+}

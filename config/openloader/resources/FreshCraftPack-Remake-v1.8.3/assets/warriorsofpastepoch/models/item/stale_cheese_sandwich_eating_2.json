@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "warriorsofpastepoch:item/stale_cheese_sandwich_eating_2"
+  }
+}

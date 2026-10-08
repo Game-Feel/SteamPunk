@@ -1,0 +1,46 @@
+{
+    "name": "Creating a Music Disc",
+    "icon": "etched:blank_music_disc",
+    "category": "patchouli:etched_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "crafting",
+            "text": "You can create your own Music Disc on a workbench or using the $(6)Create$() add-on.",
+            "title": "Blank Music Disk",
+            "recipe": "etched:blank_music_disc"
+        },
+        {
+            "type": "text",
+            "text": "Next, you need to create a label with which you can change the name and author of the Music Disc."
+        },
+        {
+            "type": "crafting",
+            "title": "Music Label",
+            "text": "To change the name and author, select Music Label in the quick access slot and press the RMB. Each time a Music Disc is created, it is not necessary to change its label.",
+            "recipe": "etched:music_label"
+        },
+        {
+            "type": "crafting",
+            "title": "Etching table",
+            "text": "We've already made a Music Disc and a label for it. Now let's put them together for $(9)on etching table$().",
+            "recipe": "etched:etching_table"
+        },
+        {
+            "type": "text",
+            "text": "Going into it, we will see at the top a field for a URL link, a plate with a Music Label and a menu with a selection of the core of the plate. The most important part in all this is the URL link.$(br2)To get a link to a track, you need to go to the website with the music and select the track you like,"
+        },
+        {
+            "type": "text",
+            "text": "click on the download button of the PC and select $(l)Copy the link address $().$(br2)All your songs are saved in the $(n)cache$(), in the etched-sounds folder, at the root of the build. Thanks to this, you don't have to worry about permanent and temporary links."
+        },
+        {
+            "type": "text",
+            "text": "Trusted sites from which it is best to take links (but this does not mean that it is impossible from others): $(br)$(l:https://rus.hitmotop.com)Hitmo$() $(br)$(l:https://www.newgrounds.com/audio)Featured Audio$() $(br)$(l:https://ru.drivemusic.me)DriveMusic$() $(br)$(l:https://mus.zvukofon.com)MusPortal$() $(br)$(l:https://mp3uks.ru)mp3uks$() $(br2)Only mp3/wav/ogg are supported. YouTube and any cloud storage are not supported."
+        },
+        {
+            "type": "text",
+            "text": "After all this process, select the core of the Music Disc you like and take it away.$(br)The name of the newly created Music Disc can be changed to $(9)anvil$().$(br2)Music $(n)everywhere$() will be played in a loop, except for $(9)Jukebox$()."
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "immersive_weathering:item/ice_sickle"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.15
+      },
+      "model": "eatinganimation:item/iw_ice_sickle_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.27
+      },
+      "model": "eatinganimation:item/iw_ice_sickle_eating_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.4
+      },
+      "model": "eatinganimation:item/iw_ice_sickle_eating_2"
+    }
+  ]
+}
+  }
+}

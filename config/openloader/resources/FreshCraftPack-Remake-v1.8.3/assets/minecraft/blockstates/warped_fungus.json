@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [ { "model": "block/warped_fungi", "weight":7 }
+,{ "model": "block/warped_fungi1", "weight":6 }
+,{ "model": "block/warped_fungi2", "weight":5 }
+,{ "model": "block/warped_fungi3", "weight":4 }
+,{ "model": "block/warped_fungi4", "weight":3 }
+
+ ]   }
+}

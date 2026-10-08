@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miner_craft_part_5"
+	group: "41BD389B96B19D27"
+	icon: "betterfurnacesreforged:extreme_forge"
+	id: "1FC4C9B7257779D8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7A92B0E5512F08E6"]
+			description: ["Добудь алмаз после работы с алмазным точильным кругом Spelunkery. Это переход от камней и осколков к настоящей редкой добыче."]
+			icon: "minecraft:diamond"
+			id: "71662E77E07E7AE7"
+			rewards: [
+				{
+					count: 4
+					id: "387FB65AA6456930"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0BAD827155814850"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "291FDD70F6819E3D"
+				type: "advancement"
+			}]
+			title: "Первый настоящий алмаз"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42CB810B910A86B0"]
+			description: ["Собери Iron Furnace из Better Furnaces Reforged. Для шахтёра это переход от обычной плавки к нормальной обработке руды."]
+			icon: "betterfurnacesreforged:iron_furnace"
+			id: "30EB83002B4B2239"
+			rewards: [
+				{
+					count: 16
+					id: "686547DFAF3E0D4E"
+					item: "minecraft:coal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2C5A1518D00B5219"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "betterfurnacesreforged:overcooked"
+				criterion: ""
+				id: "45666A499070A61D"
+				type: "advancement"
+			}]
+			title: "Первая улучшенная печь"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Открой fuel verifier. Это маленький технический шаг для контроля топлива и плавки."]
+			icon: "betterfurnacesreforged:fuel_verifier"
+			id: "6EE033948B4D476A"
+			rewards: [
+				{
+					count: 16
+					id: "33A82E3CE085257C"
+					item: "minecraft:coal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "12C485535973B94C"
+					team_reward: true
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				advancement: "betterfurnacesreforged:useless"
+				criterion: ""
+				id: "649D1CCABB62A498"
+				type: "advancement"
+			}]
+			title: "Проверка топлива"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Сделай color upgrade для улучшенных печей. Небольшая боковая ветка, больше про удобство и порядок в базе."]
+			icon: "betterfurnacesreforged:color_upgrade"
+			id: "78AEE4F04A478FC9"
+			rewards: [
+				{
+					count: 4
+					id: "7A2AA2DD974A42D0"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2237BBD7EE2E8745"
+					team_reward: true
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				advancement: "betterfurnacesreforged:colorful"
+				criterion: ""
+				id: "20FDC0A5C19566BF"
+				type: "advancement"
+			}]
+			title: "Цветная модернизация"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["Открой ore processing upgrade. Это уже полезный шахтёрский апгрейд: руда начинает работать эффективнее."]
+			icon: {
+				Count: 1
+				id: "betterfurnacesreforged:ore_processing_upgrade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11BFE36D0307685D"
+			rewards: [
+				{
+					count: 4
+					id: "1AEA148D673C2E66"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "43DFF453803B8487"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "betterfurnacesreforged:dupeores"
+				criterion: ""
+				id: "631D6EFAA9BBB27C"
+				type: "advancement"
+			}]
+			title: "Обработка руды"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11BFE36D0307685D"]
+			description: ["Дойди до Extreme Furnace. Это не стартовая плавка, а уже серьёзный этап развития базы шахтёра."]
+			icon: "betterfurnacesreforged:extreme_furnace"
+			id: "69EED7E03643D5B1"
+			rewards: [
+				{
+					count: 8
+					id: "4B7BAD4DE8512F9B"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "13682CABDF697C29"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				advancement: "betterfurnacesreforged:thebestfurnace"
+				criterion: ""
+				id: "5232EC771272DB86"
+				type: "advancement"
+			}]
+			title: "Экстремальная печь"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Собери Extreme Forge. Это финальный узел печной ветки: дорого, поздно и полезно для большой шахтёрской базы."]
+			icon: "betterfurnacesreforged:extreme_forge"
+			id: "41ED135DC3EFC566"
+			rewards: [
+				{
+					count: 4
+					id: "2CD48921CCC80722"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "540CE97CD9202CA5"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "01974C6E0F572166"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "betterfurnacesreforged:forges"
+				criterion: ""
+				id: "5104041902B640D6"
+				type: "advancement"
+			}]
+			title: "Экстремальная кузница"
+			x: 8.0d
+			y: 2.0d
+		}
+	]
+	title: "Шахтёрское ремесло - плавка и добивка"
+}

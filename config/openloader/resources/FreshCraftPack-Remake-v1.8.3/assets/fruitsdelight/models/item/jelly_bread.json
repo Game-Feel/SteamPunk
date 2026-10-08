@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fruitsdelight:item/jelly_bread",
+    "layer1": "fruitsdelight:item/jelly_bread_filler_0"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "fruitsdelight:item/jelly_bread_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "fruitsdelight:item/jelly_bread_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "fruitsdelight:item/jelly_bread_eating_2"
+    }
+  ]
+}

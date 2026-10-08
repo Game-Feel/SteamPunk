@@ -1,0 +1,55 @@
+# Сборка SteamPunk: в репозиторий попадает только то, что ниже разрешено (!).
+# Всё остальное (миры, логи, карты, лаунчер, аккаунты, кэши) игнорируется.
+
+# 1) сначала игнорируем всё в корне папки игры
+/*
+
+# 2) разрешаем только нужное
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/Обновить.cmd
+!/Отправить.cmd
+!/mods/
+!/config/
+!/resourcepacks/
+!/shaderpacks/
+!/versions/
+!/libraries/
+!/kubejs/
+!/defaultconfigs/
+!/fancymenu_data/
+!/schematics/
+!/ftbquests/
+!/patchouli_books/
+
+# 3) мусор и кэши внутри разрешённых папок
+desktop.ini
+Thumbs.db
+*.bak
+*.tmp
+*.log
+/mods/.connector/
+/versions/*/natives/
+/config/spark/
+/config/sodium-fingerprint.json
+/shaderpacks/*.txt
+
+# 4) профили лаунчера и аккаунты не синхронизируем нигде
+*launcher_profiles*.json
+*launcher_accounts*.json
+*tlauncher*profiles*.json
+*tlauncher*accounts*.json
+usercache.json
+usernamecache.json
+/config/ias.json
+/config/ias/
+/config/accountswitcher/
+
+# 5) управление у каждого своё: options.txt и так не попадает, а это бинды модов
+/config/fzzy_config/keybinds.toml
+/config/punchy/triggerable-keybindings.json
+
+# 6) данные по отдельным мирам и серверам (там бывают IP), у каждого свои
+/config/inventoryprofilesnext/*/
+!/config/inventoryprofilesnext/integrationHints/

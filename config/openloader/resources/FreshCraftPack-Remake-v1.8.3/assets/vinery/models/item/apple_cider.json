@@ -1,0 +1,33 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "vinery:block/apple_cider",
+	  "textures": {
+		"2": "vinery:block/bag_side",
+		"3": "vinery:block/bag_bottom",
+		"4": "vinery:block/wine/cider"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/apple_cider"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/apple_cider"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/apple_cider"
+		}
+	  }
+	}
+  }

@@ -1,0 +1,101 @@
+{
+	"config.namepain.vanilla":						"§b[vanilla: %s]",
+	"config.namepain.default":						"§b[default: %s]",
+	"config.namepain.range":						"§b[range: %s ~ %s]",
+	"config.namepain.rangedefault":					"§b[range: %s ~ %s, default: %s]",
+
+	"config.namepain.settings":						"Settings",
+
+	"config.namepain.applyToPlayers":				"Apply to Players",
+	"config.namepain.applyToPlayers.comment0":		" §2true§r: Apply Name Pain coloring to player nameplates.",
+	"config.namepain.applyToPlayers.comment1":		"§4false§r: Keep original coloring on player nameplates.",
+
+	"config.namepain.playersAlwaysNamed":			"Players Always Named",
+	"config.namepain.playersAlwaysNamed.comment0":	" §2true§r: Always see nameplates of other players.",
+	"config.namepain.playersAlwaysNamed.comment1":	"§4false§r: Only see their nameplates when looking at them.",
+
+	"config.namepain.seeYourName":					"See Your Name",
+	"config.namepain.seeYourName.comment0":			" §2true§r: See your own nameplate in 3rd-person view.",
+	"config.namepain.seeYourName.comment1":			"§4false§r: Never see your nameplate.",
+
+	"config.namepain.applyToMobs":					"Apply to Mobs",
+	"config.namepain.applyToMobs.comment0":			" §2true§r: Apply Name Pain coloring to mob nameplates.",
+	"config.namepain.applyToMobs.comment1":			"§4false§r: Keep original coloring on mob nameplates.",
+
+	"config.namepain.seeInjuredNames":				"See Injured Mob Names",
+	"config.namepain.seeInjuredNames.comment0":		" §2true§r: See nameplates of nearby injured mobs.",
+	"config.namepain.seeInjuredNames.comment1":		"§4false§r: Only see their nameplates if they're named.",
+
+	"config.namepain.injuredAlwaysNamed":			"Injured Always Named",
+	"config.namepain.injuredAlwaysNamed.comment0":	"§eRequires: See Injured Mob Names",
+	"config.namepain.injuredAlwaysNamed.comment1":	" §2true§r: Always see nameplates of nearby injured mobs.",
+	"config.namepain.injuredAlwaysNamed.comment2":	"§4false§r: Only see their nameplates when looking at them.",
+
+	"config.namepain.tamesAlwaysNamed":				"Tames Always Named",
+	"config.namepain.tamesAlwaysNamed.comment0":	" §2true§r: Always see nameplates of your named tames.",
+	"config.namepain.tamesAlwaysNamed.comment1":	"§4false§r: Only see their nameplates when looking at them.",
+
+	"config.namepain.horsesAlwaysNamed":			"Horses Always Named",
+	"config.namepain.horsesAlwaysNamed.comment0":	"Horses and similar beasts aren't tames. Name Pain can't",
+	"config.namepain.horsesAlwaysNamed.comment1":	"detect if an owned horse is yours or not. Choose to see",
+	"config.namepain.horsesAlwaysNamed.comment2":	"their nameplates regardless of who their owner is.",
+	"config.namepain.horsesAlwaysNamed.comment3":	" §2true§r: Always see nameplates of owned, named horse-types.",
+	"config.namepain.horsesAlwaysNamed.comment4":	"§4false§r: Only see their nameplates when looking at them.",
+
+	"config.namepain.villagersAlwaysNamed":			"Villagers Always Named",
+	"config.namepain.villagersAlwaysNamed.comment0":" §2true§r: Always see nameplates of named villagers.",
+	"config.namepain.villagersAlwaysNamed.comment1":"§4false§r: Only see their nameplates when looking at them.",
+
+	"config.namepain.golemsAlwaysNamed":			"Golems Always Named",
+	"config.namepain.golemsAlwaysNamed.comment0":	" §2true§r: Always see nameplates of named golems.",
+	"config.namepain.golemsAlwaysNamed.comment1":	"§4false§r: Only see their nameplates when looking at them.",
+
+	"config.namepain.applyToScores":				"Apply to Scoreboards",
+	"config.namepain.applyToScores.comment0":		" §2true§r: Apply Name Pain coloring to scoreboards.",
+	"config.namepain.applyToScores.comment1":		"§4false§r: Keep original coloring on scoreboards.",
+
+	"config.namepain.stripFormat":					"Strip Format",
+	"config.namepain.stripFormat.comment0":			" §2true§r: Remove preformatting (like team color) from text.",
+	"config.namepain.stripFormat.comment1":			"§4false§r: Nameplate text might ignore Name Color.",
+
+	"config.namepain.seeFrameNames":				"See Frame Names",
+	"config.namepain.seeFrameNames.comment0":		" §2true§r: Only see item frame nameplates when looking at them.",
+	"config.namepain.seeFrameNames.comment1":		"§4false§r: Never see their nameplates.",
+
+	"config.namepain.namesWithoutHUD":				"Names Without HUD",
+	"config.namepain.namesWithoutHUD.comment0":		" §2true§r: See nameplates when the HUD is off.",
+	"config.namepain.namesWithoutHUD.comment1":		"§4false§r: Only see nameplates when the HUD is on.",
+
+	"config.namepain.visibleRange":					"Visible Range",
+	"config.namepain.visibleRange.comment0":		"Nameplates beyond this distance are culled. Hold",
+	"config.namepain.visibleRange.comment1":		"the Show Culled Names key to temporarily restore",
+	"config.namepain.visibleRange.comment2":		"full 64m range (see Controls).",
+	"config.namepain.visibleRange.comment3":		" ",
+	"config.namepain.visibleRange.comment4":		"If the screen is overwhelmed with names, for example",
+	"config.namepain.visibleRange.comment5":		"near a large pack of tamed wolves, decreasing this",
+	"config.namepain.visibleRange.comment6":		"value may help.",
+
+	"config.namepain.doValentines":					"Valentine Names",
+	"config.namepain.doValentines.comment0":		" §2true§r: <3 <3 <3",
+	"config.namepain.doValentines.comment1":		"§4false§r: Forever alone.",
+
+	"config.namepain.doAprilFools":					"April Fools' Names",
+	"config.namepain.doAprilFools.comment0":		" §2true§r: \\|/ |-| /-\\ '|' ' $ | |\\| /-\\ |\\| /-\\ /\\/\\ [- ?",
+	"config.namepain.doAprilFools.comment1":		"§4false§r: Letters.",
+
+	"config.namepain.nameMax":						"Name Color @ Max Health",
+	"config.namepain.nameMax.comment0":				"RGBA values for NAMES with MAXIMUM health",
+	"config.namepain.nameMin":						"Name Color @ Min Health",
+	"config.namepain.nameMin.comment0":				"RGBA values for NAMES with MINIMUM health",
+	"config.namepain.plateMax":						"Plate Color @ Max Health",
+	"config.namepain.plateMax.comment0":			"RGBA values for PLATES with MAXIMUM health",
+	"config.namepain.plateMin":						"Plate Color @ Min Health",
+	"config.namepain.plateMin.comment0":			"RGBA values for PLATES with MINIMUM health",
+	"config.namepain.colorR":						"§cRed",
+	"config.namepain.colorG":						"§aGreen",
+	"config.namepain.colorB":						"§9Blue",
+	"config.namepain.colorA":						"§7Alpha",
+	"config.namepain.colorA.comment0":				"§70 = transparent, §r255 = opaque",
+
+	"key.namepain.showCulled":						"Показывать отобранные имена"
+}

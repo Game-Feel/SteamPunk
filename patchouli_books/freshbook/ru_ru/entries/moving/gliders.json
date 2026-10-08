@@ -1,0 +1,69 @@
+{
+    "name": "Планеры",
+    "icon": "vc_gliders:paraglider_wood",
+    "category": "patchouli:movement_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Для путешествий в горной местности, где можно упасть и разбиться, вам точно пригодится Планер. Он является некой альтернативой элитрам, позволяя плавно спускаться вниз, прыгая с высоких мест."
+        },
+        {
+            "type": "text",
+            "text": "Интересный факт: над костром есть тяга, благодаря которой можно взлететь."
+        },
+        {
+            "type": "crafting",
+            "title": "Армированная бумага",
+            "text": "Для создания Планера, нужна Армированная бумага. Она понадобится при создании любого планера и его починки.",
+            "recipe": "vc_gliders:reinforced_paper"
+        },
+        {
+            "type": "crafting",
+            "title": "Базовый планер",
+            "text": "Положите его в слот нагрудника, найдите высокую точку и, спрыгнув с неё, нажмите пробел, как если бы это были элитры.",
+            "recipe": "vc_gliders:paraglider_wood"
+        },
+        {
+            "type": "text",
+            "text": "Другие планеры отличаются только прочностью."
+        },
+        {
+            "type": "crafting",
+            "title": "Твёрдая бумага",
+            "recipe": "vc_gliders:reinforced_paper_iron",
+            "recipe2": "vc_gliders:reinforced_paper_gold"
+        },
+            {
+            "type": "crafting",
+            "title": "Более твёрдая бумага",
+            "recipe": "vc_gliders:reinforced_paper_diamond",
+            "recipe2": "vc_gliders:reinforced_paper_netherite"
+        },
+        {
+            "type": "crafting",
+            "title": "Прочные планеры",
+            "recipe": "vc_gliders:paraglider_iron",
+            "recipe2": "vc_gliders:paraglider_gold"
+        },
+        {
+            "type": "crafting",
+            "title": "Более прочные планеры",
+            "recipe": "vc_gliders:paraglider_diamond",
+            "recipe2": "vc_gliders:paraglider_netherite"
+        },
+        {
+            "type": "text",
+            "text": "Любой простой планер сгорит в Незере или от попадания в него молнии во время грозы, будьте осторожнее. Чтобы его восстановить, используйте Армированную бумагу, которую вы использовали именно для этого планера, на наковальне."
+        },
+        {
+            "type": "text",
+            "text": "Чтобы безопасно летать в подобных условиях, нужно добавить улучшение, опять же, на наковальне."
+        },
+        {
+            "type": "crafting",
+            "title": "Для Незера и от грозы",
+            "recipe": "vc_gliders:nether_upgrade",
+            "recipe2": "vc_gliders:copper_upgrade"
+        }
+    ]
+}

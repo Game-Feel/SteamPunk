@@ -1,0 +1,74 @@
+{
+	"credit": "Made by Satisfy",
+	"textures": {
+		"1": "brewery:block/whiskey_carrasconlabel_1",
+		"2": "brewery:block/whiskey_carrasconlabel_2",
+		"3": "brewery:block/whiskey_carrasconlabel_3",
+		"4": "brewery:block/whiskey_carrasconlabel_4",
+		"particle": "brewery:block/whiskey_carrasconlabel_1"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 10, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
+			"faces": {
+				"north": {"uv": [4, 6, 12, 16], "texture": "#1"},
+				"east": {"uv": [4, 6, 12, 16], "texture": "#1"},
+				"south": {"uv": [4, 6, 12, 16], "texture": "#1"},
+				"west": {"uv": [4, 6, 12, 16], "texture": "#1"},
+				"up": {"uv": [1, 1, 9, 9], "texture": "#4"},
+				"down": {"uv": [8, 0, 0, 8], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3, 2, 3],
+			"to": [13, 9, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 3]},
+			"faces": {
+				"north": {"uv": [3, 7, 13, 14], "texture": "#1"},
+				"east": {"uv": [3, 7, 13, 14], "texture": "#1"},
+				"south": {"uv": [3, 7, 13, 14], "texture": "#1"},
+				"west": {"uv": [3, 7, 13, 14], "texture": "#1"},
+				"up": {"uv": [0, 0, 10, 10], "texture": "#4"},
+				"down": {"uv": [0, 0, 10, 10], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7, 10, 7],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [7, 0, 9, 6], "texture": "#1"},
+				"east": {"uv": [7, 0, 9, 6], "texture": "#1"},
+				"south": {"uv": [7, 0, 9, 6], "texture": "#1"},
+				"west": {"uv": [7, 0, 9, 6], "texture": "#1"},
+				"up": {"uv": [8, 0, 10, 2], "texture": "#2"},
+				"down": {"uv": [8, 0, 10, 2], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [32.5, 0, 13],
+			"translation": [-0.25, -3, -0.25],
+			"scale": [0.69, 0.69, 0.69]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [32.5, 0, 13],
+			"translation": [-0.25, -3, -0.25],
+			"scale": [0.69, 0.69, 0.69]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 20],
+			"translation": [0, 1.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 20],
+			"translation": [0, 1.25, 1]
+		},
+		"ground": {
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

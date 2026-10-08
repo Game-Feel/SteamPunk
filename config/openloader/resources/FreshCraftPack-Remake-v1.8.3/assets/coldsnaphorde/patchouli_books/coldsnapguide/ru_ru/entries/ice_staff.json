@@ -1,0 +1,13 @@
+{
+  "name": "Ледяной посох",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:ice_staff",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:ice_staff",
+      "text": "Посох, способный вызывать ледяные снаряды. Ледяные снаряды при ударе могут образовывать ледяные глыбы."
+    }
+  ]
+}

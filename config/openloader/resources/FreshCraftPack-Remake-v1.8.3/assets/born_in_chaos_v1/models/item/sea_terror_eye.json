@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "born_in_chaos_v1:item/fisheye"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.15
+      },
+      "model": "born_in_chaos_v1:item/fisheye_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.32
+      },
+      "model": "born_in_chaos_v1:item/fisheye_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.5
+      },
+      "model": "born_in_chaos_v1:item/fisheye_eating_2"
+    }
+  ]
+}

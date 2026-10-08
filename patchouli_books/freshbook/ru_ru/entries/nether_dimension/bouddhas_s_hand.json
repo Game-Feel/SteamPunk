@@ -1,0 +1,12 @@
+{
+    "name": "Рука Будды",
+    "icon": "nethers_exoticism:bouddha_s_hand",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Рука Будды растёт в биомах Долины песка душ на Костных блоках. При поедании даст эффект ночного зрения.",
+            "item": "nethers_exoticism:bouddha_s_hand"
+        }
+    ]
+}

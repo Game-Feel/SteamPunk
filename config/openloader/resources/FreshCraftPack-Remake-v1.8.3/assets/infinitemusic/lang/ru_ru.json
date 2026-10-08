@@ -1,0 +1,5 @@
+{
+   "text.autoconfig.infinitemusic.option.timer": "Время (в секундах) между двумя музыкальными композициями.",
+   "infinitemusic.debug.timer": "Время до следующей музыки: %s тактов.",
+   "infinitemusic.debug.music": "Текущая музыка: %s"
+}

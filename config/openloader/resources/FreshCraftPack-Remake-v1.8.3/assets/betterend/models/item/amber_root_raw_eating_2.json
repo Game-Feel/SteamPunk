@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/amber_root_raw_eating_2"
+  }
+}

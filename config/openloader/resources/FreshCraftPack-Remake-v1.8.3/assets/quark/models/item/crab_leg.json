@@ -1,0 +1,29 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "quark:item/crab_leg"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "eatinganimation:item/qu_crab_leg_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "eatinganimation:item/qu_crab_leg_eating_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "eatinganimation:item/qu_crab_leg_eating_2"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Посох ледника",
+  "category": "coldsnaphorde:coldsnaptier3",
+  "icon": "coldsnaphorde:glacier_staff",
+  "advancement": "coldsnaphorde:horde_breaker",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:glacier_staff",
+      "text": "Модифицированный $(l:ice_staff)Ледяной посох$() способен вызывать снаряды из плотного и голубого льда."
+    }
+  ]
+}

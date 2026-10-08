@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "create_sa:item/model_32",
+	  "textures": {
+		"layer0": "create_sa:item/blazing_pickaxe_hendheld"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "create_sa:item/blazing_pickaxe"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "create_sa:item/blazing_pickaxe"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "create_sa:item/blazing_pickaxe"
+		}
+	  }
+	}
+  }

@@ -1,0 +1,12 @@
+{
+  "name": "Термометр",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:thermometer",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:thermometer",
+      "text": "Устройство, используемое для контроля температуры окружающей среды, в которой вы находитесь. Подходит для определения условий появления Орды."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Netherite Monstrosity",
+    "icon": "cataclysm:monstrous_horn",
+    "category": "patchouli:bosses_category",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A non-difficult boss that drops items useful for killing other, more difficult bosses.$(br)Lives in Nether."
+        },
+        {
+            "border": "true",
+            "title": "The Forge of Souls",
+            "type": "image",
+            "text": "A small forge-like structure.",
+            "images": [
+                "patchouli:kyzn_soul.png"
+            ]
+        },
+        {
+            "type": "crafting",
+            "title": "Eye of Monstrous",
+            "text": "It is necessary to search for the Forge of Souls.",
+            "recipe": "cataclysm:monstrous_eye"
+        },
+        {
+            "type": "text",
+            "text": "Usually his monastery can be found just walking along the Nether.$(br2)As soon as you approach the Monster, it will wake up.$(br2)The boss uses devastating attacks from close range, sometimes shooting lava when the target is too far away. After a few lava throws,"
+        },
+        {
+            "type": "text",
+            "text": "he will start sucking it nearby to recharge. Sucking in the lava heals him, so try to keep him away from it. When his health drops below 33%, he becomes enraged and begins to attack more often.$(br2)As a result, we can say that to defeat him"
+        },
+        {
+            "type": "text",
+            "text": "You just need to dodge the attacks and stock up on fire resistance potions."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Блоки леденцов",
+  "category": "coldsnaphorde:coldsnaptiero",
+  "icon": "coldsnaphorde:redcandycane",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "coldsnaphorde:redcandycane",
+      "text": "Декоративный блок, который можно найти только в подарках."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "coldsnaphorde:greencandycane",
+      "text": "Декоративный блок, который можно найти только в подарках."
+    }
+  ]
+}

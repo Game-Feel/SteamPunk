@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nethers_exoticism:item/curious_fruits_salad_eating_1"
+  }
+}

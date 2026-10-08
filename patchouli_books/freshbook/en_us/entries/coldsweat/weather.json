@@ -1,0 +1,12 @@
+{
+    "name": "Weather conditions",
+    "icon": "minecraft:snowball",
+    "category": "patchouli:coldsweat_category",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Weather conditions also affect the temperature. Rain and snow reduce it. Biomes are no exception - in deserts you will feel like in a frying pan, and in snow-covered biomes, like in a freezer.                                         Не советую купаться ночью, особенно в холодных биомах..."
+        }
+    ]
+}

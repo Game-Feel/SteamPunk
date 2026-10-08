@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nethers_exoticism:item/jaboticaba_juice_wither_cure_eating_1"
+  }
+}

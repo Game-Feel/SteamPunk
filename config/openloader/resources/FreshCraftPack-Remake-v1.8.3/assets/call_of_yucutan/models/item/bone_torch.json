@@ -1,0 +1,9 @@
+{
+  "parent": "call_of_yucutan:custom/bone_torch_ground",
+  "textures": {
+    "all": "call_of_yucutan:block/bone_torch",
+    "particle": "call_of_yucutan:block/bone_torch",
+    "1": "call_of_yucutan:block/bone_torch"
+  },
+  "render_type": "cutout_mipped"
+}

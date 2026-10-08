@@ -1,0 +1,728 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "vinery_advancement_mirror"
+	group: "189989671235D85C"
+	icon: "vinery:wine_bottle"
+	id: "1FD88141B864AEFC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Спасибо, что играете с Vinery!"]
+			hide_dependency_lines: false
+			icon: "vinery:wine_bottle"
+			id: "3D8F077E4301690A"
+			shape: "circle"
+			size: 1.2d
+			subtitle: "Welcome to Vinery!"
+			tasks: [{
+				advancement: "vinery:main/root"
+				criterion: ""
+				id: "0B153AD0BDE6B59F"
+				type: "advancement"
+			}]
+			title: "Добро пожаловать в Vinery"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D8F077E4301690A"]
+			description: ["Apple and Cherry Trees now grow in Plains Biomes."]
+			hide_dependency_lines: false
+			icon: "vinery:apple_tree_sapling"
+			id: "1F7B961DA17E9444"
+			rewards: [
+				{
+					id: "35A3BD1C0831687A"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3C0B4798E81FF0C9"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/fruits_of_the_field"
+				criterion: ""
+				id: "331DFFF7D6850F14"
+				type: "advancement"
+			}]
+			title: "Fruits of the Field"
+			x: 2.2d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F7B961DA17E9444"]
+			description: ["Harvest an Apple."]
+			hide_dependency_lines: false
+			icon: "minecraft:apple"
+			id: "5A5263FEB03A5ECA"
+			rewards: [
+				{
+					count: 2
+					id: "27460FE5A81124AD"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "375608BB2581F315"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/forbidden_fruit"
+				criterion: ""
+				id: "1043CB32025C147D"
+				type: "advancement"
+			}]
+			title: "Forbidden Fruit"
+			x: 4.6d
+			y: -3.8d
+		}
+		{
+			dependencies: ["1F7B961DA17E9444"]
+			description: ["Harvest your first Cherry."]
+			hide_dependency_lines: false
+			icon: "vinery:cherry"
+			id: "2342898FE9724EDB"
+			rewards: [
+				{
+					count: 2
+					id: "249E7BCAF1A49B56"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "16DB34A7CA994BB6"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/cherry_picker"
+				criterion: ""
+				id: "01F6379DDEE51E48"
+				type: "advancement"
+			}]
+			title: "Cherry Picker"
+			x: 4.6d
+			y: -2.2d
+		}
+		{
+			dependencies: ["5A5263FEB03A5ECA"]
+			description: ["Place an Apple Press."]
+			hide_dependency_lines: false
+			icon: "vinery:apple_press"
+			id: "1A3C40D5199FA489"
+			rewards: [
+				{
+					count: 4
+					id: "650F30F89722A8EE"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "28F73FCD87FFAD9D"
+					team_reward: true
+					type: "xp"
+					xp: 145
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Goal"
+			tasks: [{
+				advancement: "vinery:main/the_first_press"
+				criterion: ""
+				id: "3C8DC41888579815"
+				type: "advancement"
+			}]
+			title: "The First Press"
+			x: 7.0d
+			y: -3.8d
+		}
+		{
+			dependencies: ["1A3C40D5199FA489"]
+			description: ["Produce Apple Mash by processing Apples in an Apple Press."]
+			hide_dependency_lines: false
+			icon: "vinery:apple_mash"
+			id: "535E18CACC72AB28"
+			rewards: [
+				{
+					count: 2
+					id: "24D9E8596360C4CD"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "34745D2EF4E7DC51"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/mashy_success"
+				criterion: ""
+				id: "618BDF00D05B97D1"
+				type: "advancement"
+			}]
+			title: "Mashy Success"
+			x: 9.4d
+			y: -4.6d
+		}
+		{
+			dependencies: ["1A3C40D5199FA489"]
+			description: ["Collect Apple Juice."]
+			hide_dependency_lines: false
+			icon: "vinery:apple_juice"
+			id: "16E606DBD7DC8A64"
+			rewards: [
+				{
+					count: 2
+					id: "733C9DDCB92FE8C1"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "45D84E7FA999E214"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/purely_apple"
+				criterion: ""
+				id: "4C6272B2EACCF313"
+				type: "advancement"
+			}]
+			title: "Purely Apple"
+			x: 9.4d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D8F077E4301690A"]
+			description: ["Find and collect any Grape Seed."]
+			hide_dependency_lines: false
+			icon: "vinery:jungle_grape_seeds_red"
+			id: "349F9A1260C348B7"
+			rewards: [
+				{
+					id: "3BED891487734BD5"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0A8150BF92D0A822"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/wild_harvest"
+				criterion: ""
+				id: "7D297479A7DEF6E1"
+				type: "advancement"
+			}]
+			title: "Wild Harvest"
+			x: 2.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["349F9A1260C348B7"]
+			description: ["Grow Jungle Seeds Lattices."]
+			hide_dependency_lines: false
+			icon: "vinery:oak_lattice"
+			id: "66C11332257C9F15"
+			rewards: [
+				{
+					count: 2
+					id: "0CD5C45E00F565D3"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0402D09F84F3DB7C"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/overgrown_lattices"
+				criterion: ""
+				id: "2390B548326D9AA8"
+				type: "advancement"
+			}]
+			title: "Overgrown Lattices"
+			x: 4.6d
+			y: -0.8d
+		}
+		{
+			dependencies: ["66C11332257C9F15"]
+			description: ["Harvest Red and White Jungle Grapes."]
+			hide_dependency_lines: false
+			icon: "vinery:jungle_grapes_red"
+			id: "14EE22B840F5D53F"
+			rewards: [
+				{
+					id: "7027E03C41674583"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5A23178AAFF869CE"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "194663D11B133FCA"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "684FB75D06063F51"
+					team_reward: true
+					type: "xp"
+					xp: 275
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Challenge"
+			tasks: [{
+				advancement: "vinery:main/budding_grapes"
+				criterion: ""
+				id: "0CB890F2C0CB2335"
+				type: "advancement"
+			}]
+			title: "Budding Grapes"
+			x: 7.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["349F9A1260C348B7"]
+			description: ["Boost your grape yield by planting seeds on Grapevine Stems."]
+			hide_dependency_lines: false
+			icon: "vinery:grapevine_stem"
+			id: "24695FC1E7A0FAEB"
+			rewards: [
+				{
+					count: 2
+					id: "433927F813E9AE6C"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "19758D7841E83445"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/sowing_the_future"
+				criterion: ""
+				id: "789B23185FB79376"
+				type: "advancement"
+			}]
+			title: "Sowing the Future"
+			x: 4.6d
+			y: 0.8d
+		}
+		{
+			dependencies: ["24695FC1E7A0FAEB"]
+			description: ["Harvest Red, White, Taiga, and Savanna Grape variants."]
+			hide_dependency_lines: false
+			icon: "vinery:taiga_grapes_red"
+			id: "3013D7754FDACE69"
+			rewards: [
+				{
+					id: "7DBB68C1F077B183"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5ACF64CA69E217D3"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "144D63DD1C368EE8"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5A59238C2DC5A773"
+					team_reward: true
+					type: "xp"
+					xp: 275
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Challenge"
+			tasks: [{
+				advancement: "vinery:main/grape_picker"
+				criterion: ""
+				id: "359CC9CC29EBD2DC"
+				type: "advancement"
+			}]
+			title: "Grape Picker"
+			x: 7.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["349F9A1260C348B7"]
+			description: ["Collect all Grape variants."]
+			hide_dependency_lines: false
+			icon: "vinery:savanna_grapes_white"
+			id: "5EE817A84E80797F"
+			rewards: [
+				{
+					id: "7623443DA87013ED"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6A02C242A47152E6"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7AFDB3EAE2493925"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "582636BE70C44F8B"
+					team_reward: true
+					type: "xp"
+					xp: 230
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Challenge"
+			tasks: [{
+				advancement: "vinery:main/vineyard_visionary"
+				criterion: ""
+				id: "7333E2E1227537EB"
+				type: "advancement"
+			}]
+			title: "Vineyard Visionary"
+			x: 7.0d
+			y: 2.2d
+		}
+		{
+			dependencies: ["3D8F077E4301690A"]
+			description: ["Place a Grapevine Pot."]
+			hide_dependency_lines: false
+			icon: "vinery:grapevine_pot"
+			id: "6403A7A1E56EB9CC"
+			rewards: [
+				{
+					count: 4
+					id: "6F7E5E44B83B5B7C"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0E3AE33D4EBB8D75"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			subtitle: "Goal"
+			tasks: [{
+				advancement: "vinery:main/juice_it_up"
+				criterion: ""
+				id: "64AA72F4FD6CA86E"
+				type: "advancement"
+			}]
+			title: "Juice It Up!"
+			x: 2.2d
+			y: 3.4d
+		}
+		{
+			dependencies: ["6403A7A1E56EB9CC"]
+			description: ["Obtain any Grape Juice variant."]
+			hide_dependency_lines: false
+			icon: "vinery:red_taiga_grapejuice"
+			id: "58634837B9E4EB42"
+			rewards: [
+				{
+					count: 2
+					id: "38B0393AA195E3FD"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0297FE60A2D0F0D5"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/juicy_success"
+				criterion: ""
+				id: "091775D9DBC00DEC"
+				type: "advancement"
+			}]
+			title: "Juicy Success"
+			x: 4.6d
+			y: 3.4d
+		}
+		{
+			dependencies: ["58634837B9E4EB42"]
+			description: ["Collect all Grapejuice variants."]
+			hide_dependency_lines: false
+			icon: "vinery:white_taiga_grapejuice"
+			id: "026C1DCFF6C45A1B"
+			rewards: [
+				{
+					id: "4B4575C8B5132D0D"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2C1F850FCDC1FBD3"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B85C854B2270BFF"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0F0CCEE916C74ECB"
+					team_reward: true
+					type: "xp"
+					xp: 275
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Challenge"
+			tasks: [{
+				advancement: "vinery:main/nectar_of_life"
+				criterion: ""
+				id: "30897727C63DE2C4"
+				type: "advancement"
+			}]
+			title: "Nectar of Life"
+			x: 7.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["58634837B9E4EB42"]
+			description: ["Place an Fermentation Barrel."]
+			hide_dependency_lines: false
+			icon: "vinery:fermentation_barrel"
+			id: "7A05BA82B3DE1C88"
+			rewards: [
+				{
+					count: 2
+					id: "1B206168A534396A"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "322930188CCCDD0E"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/the_magic_of_the_barrel"
+				criterion: ""
+				id: "7F42BCAECB4AA637"
+				type: "advancement"
+			}]
+			title: "The Magic of the Barrel"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A05BA82B3DE1C88"]
+			description: ["Harvest any Wine."]
+			hide_dependency_lines: false
+			icon: "vinery:red_wine"
+			id: "64EF840184CC1070"
+			rewards: [
+				{
+					count: 2
+					id: "10E77A8C7CC14850"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "37F9E6637EC9351D"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/the_noble_drop"
+				criterion: ""
+				id: "5E56D3B5B6A6E3FB"
+				type: "advancement"
+			}]
+			title: "The Noble Drop"
+			x: 9.4d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64EF840184CC1070"]
+			description: ["Collect all Wine variants."]
+			hide_dependency_lines: false
+			icon: "vinery:jellie_wine"
+			id: "1C0A26159371F7C5"
+			rewards: [
+				{
+					id: "7BA71EA5B9874C4A"
+					item: "minecraft:diamond_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "55A1AE901BA1852E"
+					item: "minecraft:gold_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B52A1C30943299F"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2C8134371CCF35CD"
+					team_reward: true
+					type: "xp"
+					xp: 365
+				}
+			]
+			shape: "diamond"
+			size: 1.16d
+			subtitle: "Challenge"
+			tasks: [{
+				advancement: "vinery:main/wine_somelier"
+				criterion: ""
+				id: "00825A55533341B0"
+				type: "advancement"
+			}]
+			title: "Wine Sommelier"
+			x: 11.8d
+			y: 2.2d
+		}
+		{
+			dependencies: ["64EF840184CC1070"]
+			description: ["Obtain a bottle of MissLilitu Wine aged to perfection for 15 years."]
+			hide_dependency_lines: false
+			icon: "vinery:lilitu_wine"
+			id: "70C759F3666579E7"
+			rewards: [
+				{
+					count: 2
+					id: "625A0844398D9724"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5D9E962141095FA9"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "Task"
+			tasks: [{
+				advancement: "vinery:main/vintage_perfection"
+				criterion: ""
+				id: "6CACE9047260E20E"
+				type: "advancement"
+			}]
+			title: "Vintage Percetion"
+			x: 11.8d
+			y: 3.8d
+		}
+	]
+	title: "Farmer's Delight - Vinery"
+}

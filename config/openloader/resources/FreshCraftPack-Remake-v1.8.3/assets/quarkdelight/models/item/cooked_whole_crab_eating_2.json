@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quarkdelight:item/cooked_whole_crab_eating_2"
+  }
+}

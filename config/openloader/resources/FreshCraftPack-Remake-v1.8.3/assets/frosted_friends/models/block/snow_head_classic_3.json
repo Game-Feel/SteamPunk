@@ -1,0 +1,11 @@
+{
+  "parent": "frosted_friends:custom/snow_head_top_hat_3",
+  "textures": {
+    "all": "frosted_friends:block/snowman_head_classic",
+    "particle": "frosted_friends:block/snow",
+    "0": "frosted_friends:block/pile_of_snow",
+    "1": "frosted_friends:block/snowman_head",
+    "2": "frosted_friends:block/snowman_classic"
+  },
+  "render_type": "cutout_mipped"
+}

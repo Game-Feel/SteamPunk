@@ -1,0 +1,115 @@
+{
+    "name": "Opening of the End",
+    "icon": "endrem:ancient_portal_frame",
+    "priority": true,
+    "category": "patchouli:end_dimension_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "To find the Stronghold, instead of Ender's Eye, you will have to use new eyes, and to get to the End, you will need to activate the portal with 12 different Ender's eyes!"
+        },
+        {
+            "type": "text",
+            "text": "There are 16 of them in total, each of them is mined in different ways - some are created, some are scattered across buildings in the Upper World and the Cave, and some can be mined by chance."
+        },
+        {
+            "type": "spotlight",
+            "text": "Pirates say that this eye gave them the opportunity to see the legendary Black Pearl.",
+            "item": "endrem:black_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "One of the last artifacts left by the ice scientists before they all suddenly disappeared from the world.",
+            "item": "endrem:cold_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "The eye of the greedy king, darkened in solitude. Legend has it that it will bring endless wealth to its owner.",
+            "item": "endrem:corrupted_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "$(k)fff5472938492364914$()",
+            "item": "endrem:cryptic_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "A powerful but destructive artifact. The Piglins vowed to protect him with their lives.",
+            "item": "endrem:cursed_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "A sacred talisman that is said to protect its owner from mishaps.",
+            "item": "endrem:evil_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "No one else saw those who followed this eye. Rumor has it that they have found the great city of Atlantis or lost their way trying to find it.",
+            "item": "endrem:exotic_eye"
+        },
+        {
+            "type": "crafting",
+            "title": "Рецепт Экзотического Ока",
+            "text": "You can get an Exotic Eye by combining a Conduit, a glowing ink bag and Corals.",
+            "recipe": "endrem:exotic_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "It has seen many warriors drown in the depths of the sea.",
+            "item": "endrem:guardian_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "It is rumored that it was forged by the first blacksmiths of time.",
+            "item": "endrem:lost_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "Without this eye, the summoner has no power.",
+            "item": "endrem:magical_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "It was lost during the battle between Hell and Heaven.",
+            "item": "endrem:nether_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "Legends say that this eye once belonged to one of the great sandworms.",
+            "item": "endrem:old_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "It is believed that this eye gave our ancestors knowledge about Redstone.",
+            "item": "endrem:rogue_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "Memories of the past lives of those who live in death.",
+            "item": "endrem:undead_eye"
+        },
+        {
+            "type": "crafting",
+            "title": "Рецепт Ока Нежити",
+            "text": "You can get the Eye of the Undead by combining Rotten Flesh, Bone, a Tear of Gast, a Phantom Membrane and the Soul of the Undead. The soul of the Undead falls from the skeleton horse.",
+            "recipe": "endrem:undead_eye"
+        },
+        {
+
+            "type": "spotlight",
+            "text": "It is believed that this eye has seen ancient brewing recipes lost in time.",
+            "item": "endrem:witch_eye"
+        },
+        {
+            "type": "crafting",
+            "title": "Рецепт Ока ведьмы",
+            "text": "You can get the Witch's Eye by combining Ender's Eye and the Witch's Eye. The witch's eye falls out... from the witch.",
+            "recipe": "endrem:witch_eye"
+        },
+        {
+            "type": "spotlight",
+            "text": "Witnessed the destruction. Maybe he also witnessed the disappearance of your belongings.",
+            "item": "endrem:wither_eye"
+        }
+    ]
+}

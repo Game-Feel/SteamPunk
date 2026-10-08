@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "letmorefishlove:item/blizzard_fin_roe_eating_2"
+  }
+}

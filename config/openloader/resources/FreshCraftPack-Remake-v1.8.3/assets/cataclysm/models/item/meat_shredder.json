@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "cataclysm:item/meat_shredder_hendheld",
+	  "textures": {
+		"layer0": "cataclysm:item/meat_shredder"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "cataclysm:item/meat_shredder_item"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "cataclysm:item/meat_shredder_item"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "cataclysm:item/meat_shredder_item"
+		}
+	  }
+	}
+  }

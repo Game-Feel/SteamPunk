@@ -1,0 +1,43 @@
+{
+    "name": "The Harbinger",
+    "icon": "cataclysm:witherite_ingot",
+    "category": "patchouli:bosses_category",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A robotic creature standing in an underground factory in the form of a statue.$(br)It lives in the Overworld."
+        },
+        {
+            "border": "true",
+            "title": "The Ancient Factory",
+            "type": "image",
+            "text": "A structure located deep underground.",
+            "images": [
+                "patchouli:acient_factory.png"
+            ]
+        },
+        {
+            "type": "crafting",
+            "title": "Eye of Mech",
+            "text": "It is necessary to search for an Ancient Factory.",
+            "recipe": "cataclysm:mech_eye"
+        },
+        {
+            "type": "text",
+            "text": "To revive, you need to put a Nether Star in it.$(br2)The boss resembles a Wither, only modified. He gets homing missiles and lasers. He can also fly.$(br2)There are columns around it,"
+        },
+        {
+            "type": "text",
+            "text": "which contains EMP. Press the lever to charge the EMP and when the Harbinger gets close to them, it will take good damage, as well as stun. Behind these pillars, you will have to hide from the death ray, as it almost completely ignores"
+        },
+        {
+            "type": "text",
+            "text": "any kind of armor.$(br2)The boss imposes negative effects when hit, especially desiccation.$(br2)To defeat him, you need to try to make the most of your EMP and dodge attacks. Harbinger, though, has a lot of health and armor,"
+        },
+        {
+            "type": "text",
+            "text": "He's not that difficult of a boss."
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "another_furniture:block/template/chair",
+  "textures": {
+      "bottom":"betterend:block/chair/bottom/umbrella",
+      "seat": "betterend:block/chair/seat/umbrella",
+      "back": "betterend:block/chair/back/umbrella"
+  }
+}

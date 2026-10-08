@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "snowyspirit:item/candy_cane_eating_1"
+  }
+}

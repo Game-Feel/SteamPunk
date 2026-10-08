@@ -1,0 +1,6 @@
+############
+## Server Config Profile "default"
+##
+
+profile_name = Default
+everyone_tracks_everyone = false

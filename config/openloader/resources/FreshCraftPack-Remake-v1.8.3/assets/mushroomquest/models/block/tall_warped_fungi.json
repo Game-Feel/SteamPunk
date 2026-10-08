@@ -1,0 +1,9 @@
+{
+  "parent": "mushroomquest:custom/warpedtoadstool",
+  "textures": {
+    "all": "mushroomquest:block/warpedtoadstool",
+    "particle": "mushroomquest:block/warpedtoadstool",
+    "0": "mushroomquest:block/warpedtoadstool"
+  },
+  "render_type": "cutout"
+}

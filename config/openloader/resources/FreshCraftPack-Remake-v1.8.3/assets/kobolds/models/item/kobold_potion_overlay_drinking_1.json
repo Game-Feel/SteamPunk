@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kobolds:item/kobold_potion_overlay_drinking_1",
+    "layer1": "kobolds:item/kobold_bottle_without_cork"
+  }
+}

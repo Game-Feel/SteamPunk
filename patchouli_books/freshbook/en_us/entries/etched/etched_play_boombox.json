@@ -1,0 +1,21 @@
+{
+    "name": "The Boombox",
+    "icon": "etched:boombox",
+    "category": "patchouli:etched_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A boombox is necessary for those who travel and do not want to constantly put music blocks, put Music Discs or links in them - everything with them. We take the boombox in the LMB inventory, aim at the plate we need and press the RMB, thereby placing it in the boombox."
+        },
+        {
+            "type": "crafting",
+            "title": "The Boombox",
+            "text": "After doing the same, but with an empty inventory slot, he will give you the plate back. You can also do the opposite - RMB on it with a plate to give it away and just RMB on it to take it away.",
+            "recipe": "etched:boombox"
+        },
+        {
+            "type": "text",
+            "text": "After exiting the inventory and pressing the key combination Shift+RMB, the boombox will start playing the track. Music can be paused by pressing the keyboard shortcut Shift+RMB. But after you remove the pause, the music starts all over again... It holds only one Music Disc."
+        }
+    ]
+}

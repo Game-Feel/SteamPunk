@@ -1,0 +1,32 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "vinery:block/jo_special_mixture",
+	  "textures": {
+		"1": "vinery:block/wine/stal_wine",
+		"2": "vinery:block/wine/jo_special_mixture"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/jo_special_mixture"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/jo_special_mixture"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "vinery:item/jo_special_mixture"
+		}
+	  }
+	}
+  }

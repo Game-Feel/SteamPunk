@@ -1,0 +1,38 @@
+{
+	"multipart": [
+		{"apply": [
+			{"model": "block/diag_cobweb"},
+			{"model": "block/diag_cobweb", "y": 90},
+			{"model": "block/diag_cobweb", "y": 180},
+			{"model": "block/diag_cobweb", "y": 270}]
+		},
+		{"apply": [
+			{"model": "block/diag_cobweb", "y": 90},
+			{"model": "block/diag_cobweb", "y": 180},
+			{"model": "block/diag_cobweb", "y": 270},
+			{"model": "block/diag_cobweb"}]
+		},
+		{"apply": [
+			{"model": "block/air", "weight": 4},
+			{"model": "block/22_5_cobweb"},
+			{"model": "block/22_5_cobweb", "y": 90},
+			{"model": "block/22_5_cobweb", "y": 180},
+			{"model": "block/22_5_cobweb", "y": 270},
+			{"model": "block/nega_22_5_cobweb"},
+			{"model": "block/nega_22_5_cobweb", "y": 90},
+			{"model": "block/nega_22_5_cobweb", "y": 180},
+			{"model": "block/nega_22_5_cobweb", "y": 270}]
+		},
+		{"apply": [
+			{"model": "block/air", "weight": 8},
+			{"model": "block/22_5_cobweb", "y": 90},
+			{"model": "block/22_5_cobweb", "y": 180},
+			{"model": "block/22_5_cobweb", "y": 270},
+			{"model": "block/22_5_cobweb"},
+			{"model": "block/nega_22_5_cobweb", "y": 90},
+			{"model": "block/nega_22_5_cobweb", "y": 180},
+			{"model": "block/nega_22_5_cobweb", "y": 270},
+			{"model": "block/nega_22_5_cobweb"}]
+		}
+	]
+}

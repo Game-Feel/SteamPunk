@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":    { "model": "quark:block/cut_soul_sandstone" },
+        "axis=z":     { "model": "quark:block/cut_soul_sandstone", "x": 90 },
+        "axis=x":     { "model": "quark:block/cut_soul_sandstone", "x": 90, "y": 90 }
+    }
+}

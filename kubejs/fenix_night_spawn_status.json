@@ -1,0 +1,85 @@
+{
+	"version": 4,
+	"status": "daytime",
+	"spawned": 0,
+	"attempts": 2460,
+	"errors": 0,
+	"spawnedByType": {},
+	"lastChecks": {},
+	"nearPlayers": [],
+	"generator": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+	"dayTime": 11358,
+	"loadedMonsters": 189,
+	"players": 1,
+	"targets": {
+		"minecraft:zombie": 31,
+		"minecraft:skeleton": 31,
+		"minecraft:creeper": 31,
+		"minecraft:spider": 10,
+		"minecraft:slime": 6
+	},
+	"countRadius": 128,
+	"lastActive": {
+		"dayTime": 18006,
+		"status": "active",
+		"loadedMonsters": 189,
+		"nearPlayers": [
+			{
+				"x": 14.776948772135283,
+				"y": 125,
+				"z": 6.344426725128098,
+				"within80": {
+					"zombie": 6,
+					"skeleton": 5,
+					"creeper": 7,
+					"spider": 2,
+					"slime": 0
+				},
+				"zombie": 10,
+				"skeleton": 10,
+				"creeper": 12,
+				"spider": 2,
+				"slime": 0
+			}
+		],
+		"checks": {
+			"minecraft:zombie": {
+				"attempts": 12,
+				"biome_denied": 10,
+				"snow_surface": 3,
+				"too_far": 2
+			},
+			"minecraft:skeleton": {
+				"attempts": 12,
+				"snow_surface": 7,
+				"biome_denied": 9,
+				"too_far": 3
+			},
+			"minecraft:creeper": {
+				"attempts": 12,
+				"biome_denied": 9,
+				"snow_surface": 4,
+				"too_far": 2,
+				"near_world_spawn": 1
+			},
+			"minecraft:spider": {
+				"attempts": 12,
+				"snow_surface": 5,
+				"biome_denied": 10,
+				"too_far": 2
+			},
+			"minecraft:slime": {
+				"attempts": 12,
+				"snow_surface": 8,
+				"biome_denied": 6,
+				"too_far": 5,
+				"block_light": 1
+			}
+		},
+		"biomePools": {
+			"minecraft:snowy_taiga": {},
+			"minecraft:taiga": {},
+			"minecraft:frozen_river": {}
+		}
+	}
+}

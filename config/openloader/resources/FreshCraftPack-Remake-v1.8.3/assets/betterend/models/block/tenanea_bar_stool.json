@@ -1,0 +1,7 @@
+{
+  "parent": "bclib:block/bar_stool",
+  "textures": {
+    "texture": "betterend:block/tenanea_stripped_log_side",
+    "cloth": "betterend:block/bar_stool/tenanea_bar_stool"
+  }
+}

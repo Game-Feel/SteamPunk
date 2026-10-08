@@ -1,0 +1,13 @@
+{
+  "name": "Ледяной осколок",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:iceshard",
+  "advancement": "coldsnaphorde:sliced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "coldsnaphorde:iceshard",
+      "text": "Ледяной осколок - это слабый, фундаментальный компонент магии, который поддерживает Орду в движении. Регулярно выпадает из рук членов Орды и внутри самой Орды. Используется при крафте."
+    }
+  ]
+}

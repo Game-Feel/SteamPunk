@@ -1,0 +1,17 @@
+{
+  "category.spyglass-improvements": "Улучшения в подзорной трубе",
+  "key.spyglass-improvements.use": "Использовать подзорную трубу",
+  "options.spyglass-improvements.zoomQuantity": "Увеличение масштаба: %s steps",
+  "options.spyglass-improvements.hideSettingsButton": "Кнопка Скрыть настройки: %s",
+  "options.spyglass-improvements.hideSettingsButton.tooltip": "Скройте кнопку настроек на экране настроек Minecraft. Вы все еще можете получить доступ к этому экрану через меню мода",
+  "options.spyglass-improvements.showCrosshair": "Показать перекрестие: %s",
+  "options.spyglass-improvements.smoothCamera": "Плавная камера: %s",
+  "options.spyglass-improvements.spyglassOverlay": "Накладка на подзорную трубу: %s",
+  "options.spyglass-improvements.spyglassOverlay.Default": "По умолчанию",
+  "options.spyglass-improvements.spyglassOverlay.Clear": "Чистый",
+  "options.spyglass-improvements.spyglassOverlay.Circle": "Круг",
+  "options.spyglass-improvements.spyglassOverlay.None": "None",
+  "options.spyglass-improvements.title": "Настройки улучшений подзорной трубы",
+  "options.spyglass-improvements.reset": "Сброс конфигурации"
+
+}

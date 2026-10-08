@@ -1,0 +1,8 @@
+{
+  "parent": "another_furniture:block/template/chair",
+  "textures": {
+      "bottom":"betterend:block/chair/bottom/pythadendron",
+      "seat": "betterend:block/chair/seat/pythadendron",
+      "back": "betterend:block/chair/back/pythadendron"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Шкура зебры",
+  "icon": "recrafted_creatures:zebra_hide",
+  "category": "recrafted_creatures:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Шкура зебры, очевидно, была снята с зебр. Используя две шкуры зебры, положенные друг на друга, вы можете сделать ковёр из шкур зебр! Что ещё более важно, вы можете соединить одну шкуру вместе с книгой, чтобы создать справочник животных!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "recrafted_creatures:zebra_hide"
+    }
+  ]
+}

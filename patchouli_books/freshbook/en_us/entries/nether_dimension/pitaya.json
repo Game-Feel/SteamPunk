@@ -1,0 +1,12 @@
+{
+    "name": "Pitaya",
+    "icon": "nethers_exoticism:pitaya",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Pitaya grows in a Crimson forest on the trunk of a Pitaya, the trunk itself is very similar to a real cactus. When eaten, it gives the effect of Immunity to Wither.",
+            "item": "nethers_exoticism:pitaya"
+        }
+    ]
+}

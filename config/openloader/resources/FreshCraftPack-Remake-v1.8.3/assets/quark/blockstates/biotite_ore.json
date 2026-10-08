@@ -1,0 +1,15 @@
+{
+	"variants": {
+		"": [
+		{ 
+		"model": "quark:block/biotite_ore" 
+		},
+		{ 
+		"model": "quark:block/biotite_ore1" 
+		},
+		{ 
+		"model": "quark:block/biotite_ore2" 
+		}
+		]
+	}
+}

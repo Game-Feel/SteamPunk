@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "create_sa:item/model_32",
+	  "textures": {
+		"layer0": "create_sa:item/rose_quartz_axe_hendheld"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "create_sa:item/rose_quartz_axe"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "create_sa:item/rose_quartz_axe"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "create_sa:item/rose_quartz_axe"
+		}
+	  }
+	}
+  }

@@ -1,0 +1,15 @@
+{
+    "name": "Create even more",
+    "icon": "vs_clockwork:wanderlite_matrix",
+    "category": "patchouli:industrial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are a huge number of different add-ons to Create, from small to individual large projects. To track progress, keep track of the achievements in the supplement you are studying, and also see the Reflections of the subjects."
+        },
+        {
+            "type": "text",
+            "text": "Now you can build entire factories for the production of everything and everything!"
+        }
+    ]
+}

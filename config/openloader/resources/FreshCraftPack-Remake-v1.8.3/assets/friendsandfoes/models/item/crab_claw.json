@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "friendsandfoes:item/crab_claw"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-134.98, 88.2, 120.31],
+			"translation": [0, -1.75, -1.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-134.98, 88.2, 120.31],
+			"translation": [0, -1.75, -1.25],
+			"scale": [0.55, 0.55, 0.55]
+		}
+	}
+}

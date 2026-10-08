@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+	{
+      "model": "byg:block/blue_nether_gold_ore"
+    },
+	{
+      "model": "byg:block/blue_nether_gold_ore1"
+    },
+	{
+      "model": "byg:block/blue_nether_gold_ore2"
+    },
+	{
+      "model": "byg:block/blue_nether_gold_ore3"
+    },
+	{
+      "model": "byg:block/blue_nether_gold_ore4"
+    }
+	]
+  }
+}

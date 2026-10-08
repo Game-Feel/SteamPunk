@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [ 
+	{
+      "model": "minecraft:block/gold_ore"
+    },
+	{
+      "model": "minecraft:block/gold_ore1"
+    },
+	{
+      "model": "minecraft:block/gold_ore2"
+    },
+	{
+      "model": "minecraft:block/gold_ore3"
+    },
+	{
+      "model": "minecraft:block/gold_ore4"
+    }
+	]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Молниеотводящий преобразователь",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:transposerpiece",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "coldsnaphorde:transposerpiece",
+      "text": "Иногда Уничтожители роняют элемент молниеотвода. Для создания преобразователя используются устройства, которые Уничтожители используют для вызова молнии по требованию."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:lightningtransposer",
+      "text": "Молниеотводящий преобразователь, используемый Уничтожителем. Может использоваться для крафта, или вы можете перемещать один из них в руке, чтобы призвать молнию на себя."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:lightningsnowball",
+      "text": "Молниеотводящий преобразователь, прикрепленный к снежку. Молниеотводящий преобразователь активируется, когда снежок соприкасается с чем-либо."
+    }
+  ]
+}

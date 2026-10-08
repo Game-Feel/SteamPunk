@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/fd_glow_berry_custard_eating_2"
+  }
+}

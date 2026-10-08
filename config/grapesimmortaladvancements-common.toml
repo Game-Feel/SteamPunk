@@ -1,0 +1,5 @@
+
+[General]
+	#Установите значение false, чтобы команды не работали.
+	commandsEnabled = true
+

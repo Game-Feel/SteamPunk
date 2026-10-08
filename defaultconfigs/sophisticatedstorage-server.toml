@@ -1,0 +1,385 @@
+#Server Settings
+[server]
+	#Limit of maximum number of upgrades of type per storage in format of "StorageType|UpgradeRegistryName[or UpgradeGroup]|MaxNumber"
+	maxUpgradesPerStorage = ["shulker_box|stack_upgrades|2", "shulker_box|furnace_upgrades|1", "shulker_box|jukebox_upgrades|1", "chest|stack_upgrades|2", "chest|furnace_upgrades|1", "chest|jukebox_upgrades|1", "limited_barrel|jukebox_upgrades|1", "limited_barrel|furnace_upgrades|1", "barrel|stack_upgrades|2", "barrel|furnace_upgrades|1", "barrel|jukebox_upgrades|1"]
+	#Threshold of number of item entities dropped from chest / barrel above which break is canceled (unless shift key is pressed) and message is displayed explaining to player many drops and packing tape use
+	#Range: 0 ~ 1000
+	tooManyItemEntityDrops = 200
+
+	#Wood Barrel Settings
+	[server.WoodBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 36
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Copper Barrel Settings
+	[server.CopperBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 54
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Iron Barrel Settings
+	[server.IronBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 72
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Gold Barrel Settings
+	[server.GoldBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 90
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Diamond Barrel Settings
+	[server.DiamondBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 135
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 6
+
+	#Netherite Barrel Settings
+	[server.NetheriteBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 180
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 10
+
+	#Limited Barrel I Settings
+	[server.LimitedBarrelI]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 32
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Limited Copper Barrel I Settings
+	[server.LimitedCopperBarrelI]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 53
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Limited Iron Barrel I Settings
+	[server.LimitedIronBarrelI]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 64
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Limited Gold Barrel I Settings
+	[server.LimitedGoldBarrelI]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 96
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Limited Diamond Barrel I Settings
+	[server.LimitedDiamondBarrelI]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 128
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 6
+
+	#Limited Netherite Barrel I Settings
+	[server.LimitedNetheriteBarrelI]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 200
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 10
+
+	#Limited Barrel II Settings
+	[server.LimitedBarrelII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 16
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Limited Copper Barrel II Settings
+	[server.LimitedCopperBarrelII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 27
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Limited Iron Barrel II Settings
+	[server.LimitedIronBarrelII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 32
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Limited Gold Barrel II Settings
+	[server.LimitedGoldBarrelII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 48
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Limited Diamond Barrel II Settings
+	[server.LimitedDiamondBarrelII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 64
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 6
+
+	#Limited Netherite Barrel II Settings
+	[server.LimitedNetheriteBarrelII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 120
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 10
+
+	#Limited Barrel III Settings
+	[server.LimitedBarrelIII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 10
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Limited Copper Barrel III Settings
+	[server.LimitedCopperBarrelIII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 17
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Limited Iron Barrel III Settings
+	[server.LimitedIronBarrelIII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 20
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Limited Gold Barrel III Settings
+	[server.LimitedGoldBarrelIII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 30
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Limited Diamond Barrel III Settings
+	[server.LimitedDiamondBarrelIII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 40
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 6
+
+	#Limited Netherite Barrel III Settings
+	[server.LimitedNetheriteBarrelIII]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 100
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 10
+
+	#Limited Barrel IV Settings
+	[server.LimitedBarrelIV]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 8
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Limited Copper Barrel IV Settings
+	[server.LimitedCopperBarrelIV]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 13
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Limited Iron Barrel IV Settings
+	[server.LimitedIronBarrelIV]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 16
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Limited Gold Barrel IV Settings
+	[server.LimitedGoldBarrelIV]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 24
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Limited Diamond Barrel IV Settings
+	[server.LimitedDiamondBarrelIV]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 32
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 6
+
+	#Limited Netherite Barrel IV Settings
+	[server.LimitedNetheriteBarrelIV]
+		#Multiplier that's used to calculate base slot limit
+		#Range: 1 ~ 8192
+		baseSlotLimitMultiplier = 100
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 10
+
+	#Wood Chest Settings
+	[server.WoodChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 36
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Copper Chest Settings
+	[server.CopperChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 54
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Iron Chest Settings
+	[server.IronChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 72
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Gold Chest Settings
+	[server.GoldChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 90
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Diamond Chest Settings
+	[server.DiamondChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 135
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 6
+
+	#Netherite Chest Settings
+	[server.NetheriteChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 180
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 10
+
+	#Shulker Box Settings
+	[server.ShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 36
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Copper Shulker Box Settings
+	[server.CopperShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 54
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Iron Shulker Box Settings
+	[server.IronShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 72
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Gold Shulker Box Settings
+	[server.GoldShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 90
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Diamond Shulker Box Settings
+	[server.DiamondShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 135
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 6
+
+	#Netherite Shulker Box Settings
+	[server.NetheriteShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 180
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 10

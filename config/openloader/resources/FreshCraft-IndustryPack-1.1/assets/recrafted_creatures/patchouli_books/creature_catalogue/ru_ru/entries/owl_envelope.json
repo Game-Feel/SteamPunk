@@ -1,0 +1,15 @@
+{
+  "name": "Конверт совы",
+  "icon": "recrafted_creatures:owl_envelope",
+  "category": "recrafted_creatures:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Конверт можно изготовить из двух листов бумаги. В нём можно хранить как один предмет, так и целый стак таких предметов. Вы можете дать прирученной сове один из них, чтобы она подержала его и передала по назначению."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "recrafted_creatures:owl_envelope"
+    }
+  ]
+}

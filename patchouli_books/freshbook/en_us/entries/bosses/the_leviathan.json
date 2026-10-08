@@ -1,0 +1,41 @@
+{
+    "name": "Leviathan",
+    "icon": "cataclysm:abyssal_sacrifice",
+    "category": "patchouli:bosses_category",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The problem with this boss is that he's underwater... The battle might not be an easy one. It's also a challenge to summon him.$(br)Trapped in the Overworld."
+        },
+        {
+            "border": "true",
+            "title": "The Sunken City",
+            "type": "image",
+            "text": "An underwater structure resembling Atlantis.",
+            "images": [
+                "patchouli:atlantida.png"
+            ]
+        },
+        {
+            "type": "crafting",
+            "title": "Eye of Abyss",
+            "text": "It is necessary to search for a Sunken City.",
+            "recipe": "cataclysm:abyss_eye"
+        },
+        {
+            "type": "crafting",
+            "title": "Abyssal Sacrifice",
+            "text": "It is necessary to summon Leviathan. Instead of Crystallized coral, you can use a piece of coral. Athame falls from the Deepling Priest, corals from",
+            "recipe": "cataclysm:abyssal_sacrifice"
+        },
+        {
+            "type": "text",
+            "text": "Coralssus and Amethyst crab. All these creatures are mini-bosses, quite annoying. Especially the Deepling Priest varieties.$(br2)To summon Leviathan, you need to click on the altar in the center of the city floor, holding a heart in your hand."
+        },
+        {
+            "type": "text",
+            "text": "Attacks with void projectiles and beams. Leviathan is not very strong, but it is difficult to dodge his attacks, so be careful."
+        }
+    ]
+}

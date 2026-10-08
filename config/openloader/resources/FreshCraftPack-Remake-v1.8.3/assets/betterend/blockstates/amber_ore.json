@@ -1,0 +1,15 @@
+{
+	"variants": {
+		"": [
+		{
+				"model": "betterend:block/amber_ore"
+		},
+		{
+				"model": "betterend:block/amber_ore1"
+		},
+		{
+				"model": "betterend:block/amber_ore2"
+		}
+		]
+	}
+}

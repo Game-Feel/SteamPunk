@@ -1,0 +1,13 @@
+{
+    "_comment": "CONFIG",
+    "creeperconfetti.config.title": "Конфигурация Creeper Confetti",
+    "confettichance.creeperconfetti.config": "Confetti Chance",
+    "confettichance.creeperconfetti.config.tooltip": "Процентный шанс того, что крипер взорвётся и превратится в конфетти.",
+    "damageplayers.creeperconfetti.config": "Damages Player",
+    "damageplayers.creeperconfetti.config.tooltip": "Установите значение true, если вы всё равно хотите, чтобы криперы наносили урон игрокам.",
+    "cheerchance.creeperconfetti.config": "Cheer Chance",
+    "cheerchance.creeperconfetti.config.tooltip": "Процент вероятности воспроизведения звука приветствия.",
+
+    "_comment": "SOUNDS",
+    "creeperconfetti.subtitle.confetti" : "Звуки конфетти"
+}

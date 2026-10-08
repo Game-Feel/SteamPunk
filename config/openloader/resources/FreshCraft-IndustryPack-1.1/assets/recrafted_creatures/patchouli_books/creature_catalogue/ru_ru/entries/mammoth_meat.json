@@ -1,0 +1,23 @@
+{
+  "name": "Мясо мамонта",
+  "icon": "recrafted_creatures:mammoth_spawn_egg",
+  "category": "recrafted_creatures:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "С мамонтов выпадает их мясо.$(br2)Его можно класть на землю и есть как пирог.$(br2)Его также можно приготовить в печи и коптильне, как и другую еду."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "recrafted_creatures:raw_mammoth_meat"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "recrafted_creatures:cooked_mammoth_meat"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "recrafted_creatures:cooked_mammoth_meat"
+    }
+  ]
+}

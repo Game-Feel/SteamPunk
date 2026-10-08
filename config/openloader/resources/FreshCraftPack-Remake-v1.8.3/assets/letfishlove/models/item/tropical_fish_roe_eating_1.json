@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "letfishlove:item/tropical_fish_roe_eating_1"
+  }
+}

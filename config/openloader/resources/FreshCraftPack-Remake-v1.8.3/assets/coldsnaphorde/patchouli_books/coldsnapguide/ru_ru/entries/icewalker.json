@@ -1,0 +1,13 @@
+{
+  "name": "Жезл ледохода",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:wand_of_ice_walker",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:wand_of_frost_walker",
+      "text": "Волшебная палочка, которая позволяет владельцу временно замораживать воду под ногами."
+    }
+  ]
+}

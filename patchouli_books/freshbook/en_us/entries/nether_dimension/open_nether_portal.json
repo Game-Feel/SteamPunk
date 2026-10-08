@@ -1,0 +1,13 @@
+{
+    "name": "How do I open the portal?",
+    "icon": "spelunkery:portal_fluid_bottle",
+    "priority": true,
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "To open the portal to Nether, you need to use a Bottle of dimensional tears instead of a Flint. It can be found in a chest near the Destroyed Portal. It is impossible to create.",
+            "item": "spelunkery:portal_fluid_bottle"
+        }
+    ]
+}

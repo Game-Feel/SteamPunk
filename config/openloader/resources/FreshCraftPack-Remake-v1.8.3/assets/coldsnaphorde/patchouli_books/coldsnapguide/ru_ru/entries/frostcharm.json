@@ -1,0 +1,13 @@
+{
+  "name": "Ожерелье ледяного очарования",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:frost_charm",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:frost_charm",
+      "text": "Защитный амулет, который имеет шанс замедлить врагов, атакующих владельца с помощью Медлительности."
+    }
+  ]
+}

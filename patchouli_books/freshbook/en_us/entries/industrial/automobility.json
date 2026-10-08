@@ -1,0 +1,16 @@
+{
+    "name": "Automobiles",
+    "icon": "automobility:crowbar",
+    "category": "patchouli:industrial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can make any kind of cars and do tuning. Create an Auto Mechanic's Table and a Car Assembler to assemble your first swallow."
+        },
+        {
+            "type": "crafting",
+            "recipe": "automobility:auto_mechanic_table",
+            "recipe2": "automobility:automobile_assembler"
+        }
+    ]
+}

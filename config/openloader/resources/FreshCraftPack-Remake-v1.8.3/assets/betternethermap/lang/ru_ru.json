@@ -1,0 +1,6 @@
+{
+  "betternethermap.failmessage": "Этот тип карты должен быть включен в конфигурации.",
+  "item.betternethermap.fixedmap": "Карта фиксированной высоты",
+  "item.betternethermap.snapmap": "Карта с привязанной высотой",
+  "item.betternethermap.variablemap": "Карта с переменной высотой"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "festive_delight:item/festive_chicken_eating_1"
+  }
+}

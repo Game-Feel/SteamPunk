@@ -1,0 +1,12 @@
+#Allow sleeping only without armor or in pajamas
+sleepFeature = true
+#Default weight to armor ratio
+#Range: 0.0 ~ 100.0
+weightPerArmor = 2.0
+#Sleeping items
+pajamas = ["minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_helmet", "alexsmobs:unsettling_kimono", "wardrobe:taiga_leggings", "wardrobe:taiga_chestplate", "wardrobe:taiga_helmet", "wardrobe:snowy_leggings", "wardrobe:snowy_chestplate", "wardrobe:snowy_helmet", "wardrobe:jungle_chestplate", "wardrobe:jungle_leggings", "wardrobe:savanna_leggings", "wardrobe:savanna_chestplate"]
+#Blacklist items have no weight
+blacklist = ["alexsmobs:emu_leggings", "alexsmobs:frontier_cap", "alexsmobs:roadrunner_boots", "wardrobe:fox_hat_helmet", "wardrobe:snow_fox_hat_helmet"]
+#Custom weight presets
+presets = ["dungeons_plus:frosted_cowl=1", "seasonalfauna:manul_fur_coat_chestplate=6", "alexsmobs:fedora=1", "nethers_exoticism:kiwano_helmet=2", "nethers_exoticism:kiwano_chestplate=4", "nethers_exoticism:kiwano_leggings=3", "nethers_exoticism:kiwano_boots=2", "endermanoverhaul:snowy_hood=4", "endermanoverhaul:badlands_hood=4", "endermanoverhaul:savanna_hood=4"]
+

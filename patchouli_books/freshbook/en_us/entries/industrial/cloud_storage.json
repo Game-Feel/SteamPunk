@@ -1,0 +1,16 @@
+{
+    "name": "Cloud storage",
+    "icon": "cloudstorage:balloon",
+    "category": "patchouli:industrial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you need a lot of space, and even with its own twist, you can use cloud storage - literally a chest on balloons. You will find all the information in the book, and you can get the items to create it.,"
+        },
+        {
+            "type": "crafting",
+            "recipe": "cloudstorage:guide_book",
+            "text": "traveling the world and especially... near the sky."
+        }
+    ]
+}

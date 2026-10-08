@@ -1,0 +1,21 @@
+{
+    "name": "Album Cover",
+    "icon": "etched:album_cover",
+    "category": "patchouli:etched_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Album Cover is needed to save space if you have a lot of Music Disc. It can hold up to 9 Music Disc. Interacts with the $(9)Album Jukebox$(), the $(9)Jukebox$(), the Minecart with Jukebox."
+        },
+        {
+            "type": "crafting",
+            "title": "Album Cover",
+            "text": "Selecting a specific track is only possible in the $(9)album player$() (which is logical). In all other cases, in order. Add and take tracks in the same way as for $(l:etched/etched_play_boombox)Boombox$().",
+            "recipe": "etched:album_cover"
+        },
+        {
+            "type": "text",
+            "text": "You cannot change the color of the cover."
+        }
+    ]
+}

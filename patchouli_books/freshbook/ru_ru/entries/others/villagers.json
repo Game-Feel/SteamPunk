@@ -1,0 +1,30 @@
+{
+    "name": "Крестьяне",
+    "icon": "wardrobe:farmers_hat_helmet",
+    "category": "patchouli:other_category",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "1. Крестьян теперь можно заинтересовать изумрудным блоком, перегоняя их с одного места на другое.$(br)2. Не получиться сделать ферму железа - с големов больше не выпадает металл."
+        },
+        {
+            "type": "text",
+            "text": "3. Максимальные зачарования и алмазная броня больше не продаются.$(br)4. Излечив жителя, вы не получите огромной скидки.$(br2)Крестьяне стали щедрее, они могут продавать животных в ящиках. Шанс не 100%, что у определённого крестьянина будет"
+        },
+        {
+            "type": "text",
+            "text": "продаваться животное в ящике.$(br)Не всех можно купить. Все купленные у жителей животные используются в создании других животных в ящиках, смотрите крафты."
+        },
+        {
+            "type": "spotlight",
+            "title": "Животные в ящике",
+            "text": "$(li)Лучник - цыплёнка$(li)Мясник - поросёнка$(li)Фермер - телёнка$(li)Пастух - ягнёнка$(li)Оружейник - волчонка$(li)Рыбак - лисёнка$(li)Кожевник - жеребёнка$(li)Священник - котёнка",
+            "item": "villagersellanimals:crate_piglet,villagersellanimals:crate_calf,villagersellanimals:crate_chick,villagersellanimals:crate_lamb,villagersellanimals:crate_wolf_pup,villagersellanimals:crate_fox_pup,villagersellanimals:crate_foal,villagersellanimals:crate_kitten,villagersellanimals:crate_goatlet,villagersellanimals:crate_rabbit_cub,villagersellanimals:crate_red_mooshroom,villagersellanimals:crate_brown_mooshroom,villagersellanimals:crate_hoglet,villagersellanimals:crate_llama_baby,villagersellanimals:crate_parrot_baby,villagersellanimals:crate_zombie_foal,villagersellanimals:crate_skeleton_foal,villagersellanimals:crate_zoglet"
+        },
+        {
+            "type": "text",
+            "text": "$(li)Каменьщик - козлёнка$(li)Библиотекарь - крольчонка$(li)Инстументальщик - детёныша ламы$(li)Бронник - попугая"
+        }
+    ]
+}

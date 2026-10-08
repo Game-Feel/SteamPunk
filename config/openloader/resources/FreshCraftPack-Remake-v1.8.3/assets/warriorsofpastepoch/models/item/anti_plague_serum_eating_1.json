@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "warriorsofpastepoch:item/anti_plague_serum_eating_1"
+  }
+}

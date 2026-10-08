@@ -1,0 +1,14 @@
+#Enable/Disable Server Entries overrides
+enabled = true
+#Internal Version Number. NO TOUCHY!
+version = 2
+#Server override entries
+[[entry]]
+    ip = "summer.freshcraft.org"
+    description = "Играет на оф. сервере FreshCraft"
+    state = "Находится в %biome%"
+    largeImageKey = ["fresh"]
+    largeImageText = "Сервер FreshCraft"
+    smallImageKey = ["fresh_mini"]
+    smallImageText = "Сервер Freshcraft"
+

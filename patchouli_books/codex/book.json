@@ -1,0 +1,16 @@
+{
+    "name": "Кодекс",
+    "landing_text": "Приветствую $(playername)! Добро пожаловать на сервер Freshcraft! Эта книга покажет тебе настоящие правила сервера и познакомит с самим сервером.",
+    "model": "patchouli:book_blue",
+    "book_texture": "patchouli:textures/gui/book_blue.png",
+    "use_blocky_font": true,
+    "open_sound": "patchouli:sounds/book_open",
+    "flip_sound": "patchouli:sounds/book_flip",
+    "link_color": "9932CC",
+    "text_overflow_mode": "resize",
+    "progress_bar_color": "E6E6FA",
+    "progress_bar_background": "8A2BE2",
+    "version": 2,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": true
+}

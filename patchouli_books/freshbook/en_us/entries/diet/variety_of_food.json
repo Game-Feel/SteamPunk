@@ -1,0 +1,57 @@
+{
+    "name": "Different meals",
+    "icon": "minecraft:apple",
+    "category": "patchouli:diet_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Now, by following a certain diet, you can either become stronger or die altogether. When you go into the inventory, you will notice an icon with food."
+        },
+        {
+            "type": "image",
+            "border": true,
+            "title": "The Diet icon",
+            "text": "Clicking on it will open the diet interface.",
+            "images": [
+                "patchouli:diet1.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Interface",
+            "border": true,
+            "text": "Every food here has its own characteristics.",
+            "images": [
+                "patchouli:diet3.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "By eating a variety of things, you upgrade certain groups. If there is the same thing, then firstly, the food will give less satiety, and secondly, other indicators will decrease."
+        },
+        {
+            "type": "image",
+            "title": "Diet",
+            "border": true,
+            "text": "That's how it works.",
+            "images": [
+                "patchouli:diet5.png",
+                "patchouli:diet4.png",
+                "patchouli:diet_6.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "After almost completely pumping the group, you will get certain effects that can be viewed above the diet indicators."
+        },
+        {
+            "type": "image",
+            "title": "Effects",
+            "border": true,
+            "images": [
+                "patchouli:diet7.png"
+            ]
+        }
+    ]
+}

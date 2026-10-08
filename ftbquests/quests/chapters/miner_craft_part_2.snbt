@@ -1,0 +1,1716 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miner_craft_part_2"
+	group: "41BD389B96B19D27"
+	icon: "tetra:forged_crate"
+	id: "4755410657DCE969"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Вторая часть шахтёрской ветки: геоды, древние руины Tetra, контейнеры, схемы и восстановление кузнечного молота."]
+			icon: "tetra:geode"
+			id: "1C89FAB8BD0A7AF7"
+			shape: "hexagon"
+			size: 1.35d
+			tasks: [{
+				advancement: "tetra:spelunking/root"
+				criterion: ""
+				id: "480F35DD221F90B2"
+				type: "advancement"
+			}]
+			title: "Древние глубины Tetra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C89FAB8BD0A7AF7"
+			]
+			description: ["Найди геоду при добыче deepslate. В темноте такие блоки выдают себя блеском."]
+			icon: "tetra:geode"
+			id: "715B4D84DA7BD8BC"
+			rewards: [
+				{
+					count: 24
+					id: "0565FF1B7311E77D"
+					item: "minecraft:torch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6623EDF6C96AF8FF"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/geode"
+				criterion: ""
+				id: "743B2D73F27540F1"
+				type: "advancement"
+			}]
+			title: "Геода в глубинном сланце"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"715B4D84DA7BD8BC"
+			]
+			description: ["Улучши mallet и раскрой геоду на workbench."]
+			icon: "minecraft:raw_gold"
+			id: "0149789ECCE5C18D"
+			rewards: [
+				{
+					count: 2
+					id: "50095E00FA89D565"
+					item: "minecraft:gold_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5EDAE286D2C2300C"
+					team_reward: true
+					type: "xp"
+					xp: 400
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/geode_open"
+				criterion: ""
+				id: "05DA773FA20E182A"
+				type: "advancement"
+			}]
+			title: "Расколотая геода"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0149789ECCE5C18D"
+			]
+			description: ["Найди pristine gem в геоде и используй его как socket для оружия или инструмента."]
+			icon: "tetra:pristine_lapis"
+			id: "66446D0075BD4E0A"
+			rewards: [
+				{
+					count: 12
+					id: "17E54416CC47AF27"
+					item: "minecraft:lapis_lazuli"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "28D28EB9EC8AC094"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/pristine_socket"
+				criterion: ""
+				id: "46CDDB3E4EC08B46"
+				type: "advancement"
+			}]
+			title: "Чистый камень для гнезда"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C89FAB8BD0A7AF7"
+			]
+			description: ["Найди Tetra scroll в мире или купи его у жителя."]
+			icon: {
+				Count: 1
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							material: 0
+							ribbon: "ffffff"
+						}]
+					}
+				}
+			}
+			id: "755AD35A604CCD21"
+			rewards: [
+				{
+					count: 2
+					id: "10F360A088115F29"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7EABD3274A574CC6"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll"
+				criterion: ""
+				id: "6F6CA7F14C5732DE"
+				type: "advancement"
+			}]
+			title: "Первый свиток"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"755AD35A604CCD21"
+			]
+			description: ["Купи у cartographer карту, которая ведёт к древним руинам."]
+			icon: "minecraft:filled_map"
+			id: "0C756455E2F3B54D"
+			rewards: [
+				{
+					count: 4
+					id: "42181F95B35696F9"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2F3E70127440E8B2"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_ruins_map"
+				criterion: ""
+				id: "76EE1F93426774EC"
+				type: "advancement"
+			}]
+			title: "Карта древних руин"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"755AD35A604CCD21"
+			]
+			description: ["Восстанови sweeping-функцию holosphere scanner, чтобы точнее искать древние руины."]
+			icon: {
+				Count: 1
+				id: "tetra:holo"
+				tag: {
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "frame/ancient"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner:scanner/sweeper": 0
+					"holo/scanner_material": "scanner/default"
+					id: "spelunking/sweeper"
+				}
+			}
+			id: "49035B5DC6421CE1"
+			rewards: [
+				{
+					count: 12
+					id: "5051664F98C7D955"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1CC25699A9FF6FC2"
+					team_reward: true
+					type: "xp"
+					xp: 600
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/sweeper"
+				criterion: ""
+				id: "6B0D90611CF5AEA7"
+				type: "advancement"
+			}]
+			title: "Сканер-метёлка"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"49035B5DC6421CE1"
+			]
+			description: ["Восстанови percussion scanning у holosphere scanner и просканируй чанки молотом."]
+			icon: {
+				Count: 1
+				id: "tetra:holo"
+				tag: {
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "frame/ancient"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner:scanner/percussion_scanner": 0
+					"holo/scanner_material": "scanner/default"
+					id: "spelunking/percussion_scanner"
+				}
+			}
+			id: "6A815F445EECE082"
+			rewards: [
+				{
+					count: 16
+					id: "2E3543D6EA9DFC25"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "280A392D063A6227"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/percussion_scanner"
+				criterion: ""
+				id: "1A4CE78A2A9B5FE6"
+				type: "advancement"
+			}]
+			title: "Перкуссионный сканер"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0C756455E2F3B54D"
+			]
+			description: ["Найди древние руины глубоко под холодными или горными биомами."]
+			icon: "tetra:forged_pillar"
+			id: "1B5F34E3E055097F"
+			rewards: [
+				{
+					count: 32
+					id: "13B6A6148FD00E72"
+					item: "minecraft:torch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3F3FDCFCB47BF1FF"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "57EEA7FB54ABD48B"
+				type: "advancement"
+			}]
+			title: "Древние руины"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1B5F34E3E055097F"
+			]
+			description: ["Разбей подсвеченные зоны на crates и containers правильными инструментами."]
+			icon: "tetra:forged_crate"
+			id: "0DED40FF6FE5202A"
+			rewards: [
+				{
+					count: 4
+					id: "1BB690F3654DA9AB"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "62E00D13649B6822"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/containers"
+				criterion: ""
+				id: "7501915AC306D6AE"
+				type: "advancement"
+			}]
+			title: "Вскрытие контейнеров"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Достань forged bolt из руин."]
+			icon: "tetra:forged_bolt"
+			id: "0BA27C1988BDA9B4"
+			rewards: [
+				{
+					count: 2
+					id: "451E3BB89F59B940"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3386A0EBC30665A1"
+					team_reward: true
+					type: "xp"
+					xp: 600
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_bolt"
+				criterion: ""
+				id: "343888B582B33F6E"
+				type: "advancement"
+			}]
+			title: "Древний болт"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0BA27C1988BDA9B4"
+			]
+			description: ["Используй bolt для binding на инструменте или оружии, а затем настрой характеристики во вкладке tweak."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_pickaxe_left_material": "basic_pickaxe/iron"
+					"double/basic_pickaxe_right_material": "basic_pickaxe/iron"
+					"double/binding": "double/binding"
+					"double/binding_material": "double_binding/bolt"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_pickaxe_left"
+					"double/head_right": "double/basic_pickaxe_right"
+					id: "spelunking/use_bolt"
+				}
+			}
+			id: "112CABFCA548D1FA"
+			rewards: [
+				{
+					count: 2
+					id: "4C238D5FBF3AB25B"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "22745C6D42CE39AB"
+					team_reward: true
+					type: "xp"
+					xp: 900
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/use_bolt"
+				criterion: ""
+				id: "3599E8A6E1A9AFBB"
+				type: "advancement"
+			}]
+			title: "Тонкая настройка"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди quick latch в руинах и используй его для attachment на toolbelt."]
+			icon: "tetra:quick_latch"
+			id: "365192CAD1E321C9"
+			rewards: [
+				{
+					count: 4
+					id: "62ACB034FAA6AF51"
+					item: "minecraft:leather"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4530BABCAF45E01E"
+					team_reward: true
+					type: "xp"
+					xp: 600
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_latch"
+				criterion: ""
+				id: "76F19003928D3480"
+				type: "advancement"
+			}]
+			title: "Быстрая защёлка"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди planar stabilizer в древнем контейнере."]
+			icon: "tetra:planar_stabilizer"
+			id: "1820302691F30A88"
+			rewards: [
+				{
+					id: "332CCFD0A102E4D9"
+					item: "minecraft:ender_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5039755353A27646"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_planar"
+				criterion: ""
+				id: "7527993426F16143"
+				type: "advancement"
+			}]
+			title: "Планарный стабилизатор"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1820302691F30A88"
+			]
+			description: ["Используй planar stabilizer для мощного attachment на toolbelt."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_toolbelt"
+				tag: {
+					id: "spelunking/suspend_belt"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/belt_material": "belt/buckled"
+				}
+			}
+			id: "0ABFE2541D70E17A"
+			rewards: [
+				{
+					count: 4
+					id: "1546073FE985AE14"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "66F12E70C14778E5"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/suspend_belt"
+				criterion: ""
+				id: "2AC018D48022D456"
+				type: "advancement"
+			}]
+			title: "Подвес на поясе"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1820302691F30A88"
+			]
+			description: ["Используй два planar stabilizer для bow stabilizer."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_bow"
+				tag: {
+					Damage: 0
+					"bow/basic_string_material": "basic_string/string"
+					"bow/long_stave_material": "long_stave/acacia"
+					"bow/riser": "bow/stabilizer"
+					"bow/stabilizer_material": "stabilizer/linear"
+					"bow/stave": "bow/long_stave"
+					"bow/string": "bow/basic_string"
+					id: "spelunking/suspend_bow"
+				}
+			}
+			id: "30834C846BD4555F"
+			rewards: [
+				{
+					count: 4
+					id: "5C943DD8CE1A9B7A"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "724B03AFEB3AED12"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/suspend_bow"
+				criterion: ""
+				id: "4128C753E55999A0"
+				type: "advancement"
+			}]
+			title: "Стабилизированный лук"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди thermal cell в древних руинах."]
+			icon: {
+				Count: 1
+				id: "tetra:thermal_cell"
+				tag: {
+					Damage: 128
+				}
+			}
+			id: "2A671D1354DD56AF"
+			rewards: [
+				{
+					count: 8
+					id: "2F611B2A35599636"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6F17EDB70CFA6C81"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_cell"
+				criterion: ""
+				id: "0B28BEEC2224C3EF"
+				type: "advancement"
+			}]
+			title: "Термальная ячейка"
+			x: 10.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"2A671D1354DD56AF"
+			]
+			description: ["Полностью заряди thermal cell через transfer unit или core extractor."]
+			icon: {
+				Count: 1
+				id: "tetra:thermal_cell"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E8491E44F261F71"
+			rewards: [
+				{
+					count: 16
+					id: "4BD673E93BB4D3F1"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "369B80FA4CAF27E3"
+					team_reward: true
+					type: "xp"
+					xp: 900
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/refill_cell"
+				criterion: ""
+				id: "38229A1582D5F94A"
+				type: "advancement"
+			}]
+			title: "Заряженная ячейка"
+			x: 12.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"4E8491E44F261F71"
+			]
+			description: ["Почини forge hammer, установив две заряженные thermal cells и два upgrades."]
+			icon: "tetra:hammer_base"
+			id: "1F8C74CCDEE2241E"
+			rewards: [
+				{
+					count: 6
+					id: "66F3A6A3C2D063F1"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "045CCCCAB5783485"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_fix"
+				criterion: ""
+				id: "768EF893FC133734"
+				type: "advancement"
+			}]
+			title: "Восстановленный forge hammer"
+			x: 14.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"1F8C74CCDEE2241E"
+			]
+			description: ["Установи combustion chamber на forge hammer, чтобы повысить hammer tier."]
+			icon: "tetra:combustion_chamber"
+			id: "653A2D0F15B195FA"
+			rewards: [
+				{
+					count: 4
+					id: "4294DDC347E40746"
+					item: "minecraft:blaze_powder"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3E6B19D4009DE172"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_power"
+				criterion: ""
+				id: "719885DB9188C1BC"
+				type: "advancement"
+			}]
+			title: "Камера сгорания"
+			x: 16.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"1F8C74CCDEE2241E"
+			]
+			description: ["Используй forge hammer для модуля, требующего hammering tier 5+."]
+			icon: "tetra:forged_workbench"
+			id: "023E81F87F71C3CB"
+			rewards: [
+				{
+					count: 4
+					id: "16381303A181C677"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "01F13FC58B1BFF80"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_craft"
+				criterion: ""
+				id: "62F23DE4DE17845E"
+				type: "advancement"
+			}]
+			title: "Канал магматического пресса"
+			x: 16.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"023E81F87F71C3CB"
+			]
+			description: ["Столкнись с jam у forge hammer head."]
+			icon: "tetra:hammer_base"
+			id: "692604BBC051D854"
+			rewards: [
+				{
+					count: 2
+					id: "0EB223F1FE996E10"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "22A6EEE267273CFC"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_jam"
+				criterion: ""
+				id: "2EA73898EAB4DA15"
+				type: "advancement"
+			}]
+			title: "Заклинившая голова"
+			x: 18.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"692604BBC051D854"
+			]
+			description: ["Ударь заклинившую голову handheld hammer tier 4+, чтобы вернуть forge hammer в рабочее состояние."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "spelunking/hammer_unjam"
+				}
+			}
+			id: "772D437CEC43ED6A"
+			rewards: [
+				{
+					count: 2
+					id: "748BB73DABCA47B2"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "297A203A1F9FD695"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_unjam"
+				criterion: ""
+				id: "1827181BB3B7C680"
+				type: "advancement"
+			}]
+			title: "Вернуть молот к работе"
+			x: 20.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"1F8C74CCDEE2241E"
+			]
+			description: ["Используй claw, чтобы снять upgrade с forge hammer."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/butt_right_material": "butt/iron"
+					"double/claw_left_material": "claw/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/claw_left"
+					"double/head_right": "double/butt_right"
+					id: "spelunking/hammer_remove"
+				}
+			}
+			id: "17BE1090DBD14BA5"
+			rewards: [
+				{
+					count: 2
+					id: "71EEE75E7EBB953B"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6A5750B20E53DEC0"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_remove"
+				criterion: ""
+				id: "16AEF7E2264FA3AE"
+				type: "advancement"
+			}]
+			title: "Коготь для демонтажа"
+			x: 16.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"653A2D0F15B195FA"
+			]
+			description: ["Собери double-sided netherite hammer с помощью полностью улучшенного forge hammer."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/netherite"
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "upgrades/hammer_6"
+				}
+			}
+			id: "5E02C13065FA7B57"
+			rewards: [
+				{
+					id: "79E445F0F303FE08"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6C7095B80CB5800E"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				id: "3DBEA7431696D9C4"
+				type: "advancement"
+			}]
+			title: "Молот VI - незерит"
+			x: 18.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"653A2D0F15B195FA"
+				"5E02C13065FA7B57"
+			]
+			description: ["Используй hammer tier 6 с Silk Touch, чтобы забирать блоки из руин."]
+			icon: "tetra:forged_platform_slab"
+			id: "02890788D53667F1"
+			rewards: [
+				{
+					id: "1C19416EF4EACAD3"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1B2D182F83D15E17"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/loot_ruins"
+				criterion: ""
+				id: "182237FEB26036BC"
+				type: "advancement"
+			}]
+			title: "Сбор блоков руин"
+			x: 20.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Используй claw на обратной стороне ancient schematic, чтобы снять часть схемы."]
+			icon: "tetra:extractor_1_1"
+			id: "1E2035FD3EF7756A"
+			rewards: [
+				{
+					count: 16
+					id: "4B85FFCAF6E7C9AF"
+					item: "minecraft:paper"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "452C7454DB676AB6"
+					team_reward: true
+					type: "xp"
+					xp: 700
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/schematic_pry"
+				criterion: ""
+				id: "225FCCA4ADA95027"
+				type: "advancement"
+			}]
+			title: "Вырванный фрагмент схемы"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1E2035FD3EF7756A"
+			]
+			description: ["Замени разрушенные части ancient schematic целыми, чтобы открыть мощные инструменты."]
+			icon: "tetra:earthpiercer_0_1"
+			id: "5DB1F4E42191E75C"
+			rewards: [
+				{
+					count: 4
+					id: "423FB6BC24FF175D"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6D0D64D713C9DFD6"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/schematic_complete"
+				criterion: ""
+				id: "04C0F459BC3C6750"
+				type: "advancement"
+			}]
+			title: "Восстановленная схема"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5DB1F4E42191E75C"
+			]
+			description: ["Используй Echo Shard, чтобы empower inert Stonecutter или Earthpiercer."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "spelunking/schematic_empower"
+					"sword/basic_hilt_material": "basic_hilt/spruce"
+					"sword/blade": "sword/unbound_stonecutter"
+					"sword/blade:unbound_stonecutter/echo_shard": 0
+					"sword/decorative_pommel_material": "decorative_pommel/iron"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/pommel": "sword/decorative_pommel"
+					"sword/unbound_stonecutter_material": "unbound_stonecutter/iron"
+				}
+			}
+			id: "511B4FFF85E3E192"
+			rewards: [
+				{
+					count: 4
+					id: "70531AB1E599C6F8"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5AA67D043A2DA2A6"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/schematic_empower"
+				criterion: ""
+				id: "33C27AECE863BF5B"
+				type: "advancement"
+			}]
+			title: "Активированная схема"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"511B4FFF85E3E192"
+			]
+			description: ["Расколи Echo Shard после трёх fractures, чтобы снизить негативные эффекты."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "spelunking/schematic_shatter"
+					"sword/basic_hilt_material": "basic_hilt/copper"
+					"sword/blade": "sword/unbound_stonecutter"
+					"sword/blade:unbound_stonecutter/shattered": 0
+					"sword/decorative_pommel_material": "decorative_pommel/netherite"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/hilt:hilt/wrap/twisting_vine": 0
+					"sword/pommel": "sword/decorative_pommel"
+					"sword/unbound_stonecutter_material": "unbound_stonecutter/spruce"
+				}
+			}
+			id: "3A5469BA07D1DD40"
+			rewards: [
+				{
+					id: "24B60B5BB374AB89"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "32CC5621BD49C85D"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/schematic_shatter"
+				criterion: ""
+				id: "3354E68D5AF98261"
+				type: "advancement"
+			}]
+			title: "Расщеплённый Echo Shard"
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди earthpiercer в container и установи его на handle."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_single"
+				tag: {
+					Damage: 0
+					id: "spelunking/earthpiercer"
+					"single/basic_handle_material": "basic_handle/stick"
+					"single/earthpiercer_material": "earthpiercer/earthpiercer"
+					"single/handle": "single/basic_handle"
+					"single/head": "single/earthpiercer"
+				}
+			}
+			id: "494E5FC0AD99DA58"
+			rewards: [
+				{
+					count: 4
+					id: "4AC2C6C6C84DF3F1"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "61CBAE7D58B97F20"
+					team_reward: true
+					type: "xp"
+					xp: 900
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/earthpiercer"
+				criterion: ""
+				id: "6B7B1DD164C5A952"
+				type: "advancement"
+			}]
+			title: "Earthpiercer"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди stonecutter в container и установи его на hilt."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "spelunking/stonecutter"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/stonecutter"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/stonecutter_material": "stonecutter/stonecutter"
+				}
+			}
+			id: "7D11975C490B77DC"
+			rewards: [
+				{
+					count: 4
+					id: "4EED0D4A629FE60F"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5785F52C0ABBEFA5"
+					team_reward: true
+					type: "xp"
+					xp: 900
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/stonecutter"
+				criterion: ""
+				id: "0953C6E647E6FA77"
+				type: "advancement"
+			}]
+			title: "Stonecutter"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7D11975C490B77DC"
+			]
+			description: ["Зачаруй stonecutter на Efficiency, чтобы увеличить площадь среза."]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 1
+					}]
+					id: "spelunking/stonecutter_enchant"
+				}
+			}
+			id: "306508F9C7BCAD1C"
+			rewards: [
+				{
+					count: 16
+					id: "47712477C16ABAA3"
+					item: "minecraft:lapis_lazuli"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "263094920A22AFB5"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/stonecutter_enchant"
+				criterion: ""
+				id: "6AF5D8AFCF0221FB"
+				type: "advancement"
+			}]
+			title: "Stonecutter с Efficiency"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди chthonic extractor в crate или ancient container."]
+			icon: "tetra:chthonic_extractor"
+			id: "0E8FAE722962157C"
+			rewards: [
+				{
+					count: 4
+					id: "5F9D418761B722BB"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4CD110E85F846327"
+					team_reward: true
+					type: "xp"
+					xp: 900
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_extractor"
+				criterion: ""
+				id: "22567ED7E362987B"
+				type: "advancement"
+			}]
+			title: "Chthonic Extractor"
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0E8FAE722962157C"
+			]
+			description: ["Замени правую голову double-headed tool на неиспользованный chthonic extractor."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_pickaxe_left_material": "basic_pickaxe/netherite"
+					"double/extractor_right_material": "extractor/extractor"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_pickaxe_left"
+					"double/head_right": "double/extractor_right"
+					id: "spelunking/chthonic_module"
+				}
+			}
+			id: "01BCBADDCBBFCD9A"
+			rewards: [
+				{
+					count: 4
+					id: "7D9F478F734DA640"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4D296C3BF3FE94A5"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_module"
+				criterion: ""
+				id: "2E228D3369EAC80A"
+				type: "advancement"
+			}]
+			title: "Экстрактор как модуль"
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0E8FAE722962157C"
+			]
+			description: ["Поставь chthonic extractor на bedrock и ударь сверху hammer."]
+			icon: "minecraft:bedrock"
+			id: "05ECC4368FDBDA57"
+			rewards: [
+				{
+					id: "4220360DDD8E65CA"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6DCBF790F2EE0077"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_hammer"
+				criterion: ""
+				id: "07D7D98C0D16E9F7"
+				type: "advancement"
+			}]
+			title: "Ручная глубинная добыча"
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1F8C74CCDEE2241E"
+				"0E8FAE722962157C"
+			]
+			description: ["Поставь forge hammer над extractor и запитай redstone для автоматической работы."]
+			icon: "tetra:hammer_base"
+			id: "7FEFA550CF3C2E8A"
+			rewards: [
+				{
+					id: "464A3FC617082AE6"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6ABEBDEA65109078"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_automation"
+				criterion: ""
+				id: "29FB9BDBAFBB5DB9"
+				type: "advancement"
+			}]
+			title: "Автоматическая глубинная добыча"
+			x: 18.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0E8FAE722962157C"
+			]
+			description: ["Выстрели chthonic extractor из crossbow с высокой draw strength."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_crossbow"
+				tag: {
+					Charged: 1b
+					ChargedProjectiles: [{
+						Count: 1b
+						id: "tetra:chthonic_extractor_used"
+					}]
+					Damage: 0
+					"crossbow/attachment_0": "crossbow/stirrup"
+					"crossbow/basic_stave_material": "basic_stave/stick"
+					"crossbow/basic_stock_material": "basic_stock/stick"
+					"crossbow/basic_string_material": "basic_string/string"
+					"crossbow/stave": "crossbow/basic_stave"
+					"crossbow/stirrup_material": "stirrup/iron"
+					"crossbow/stock": "crossbow/basic_stock"
+					"crossbow/string": "crossbow/basic_string"
+					id: "advancement-extractor-crossbow"
+				}
+			}
+			id: "4B4B335FEF1EDF13"
+			rewards: [
+				{
+					count: 6
+					id: "05584DF99E29C06D"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4AF4FE1080340BF0"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_crossbow"
+				criterion: ""
+				id: "1DB4AC250C7E6075"
+				type: "advancement"
+			}]
+			title: "Экстрактор в арбалете"
+			x: 12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"4B4B335FEF1EDF13"
+			]
+			description: ["Остуди extractor водой или дай ему остыть, чтобы не получить fire damage при поднятии."]
+			icon: "minecraft:water_bucket"
+			id: "40EA2529EAB3F76E"
+			rewards: [
+				{
+					id: "24263D365502E244"
+					item: "minecraft:water_bucket"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "154307BB2D6DD911"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_cooldown"
+				criterion: ""
+				id: "77E0563078E801A4"
+				type: "advancement"
+			}]
+			title: "Охлаждение экстрактора"
+			x: 14.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди Encoded Canister в forged container."]
+			icon: "art_of_forging:encoded_canister"
+			id: "4D6CAB86705BCBD7"
+			rewards: [
+				{
+					count: 4
+					id: "641C8BC85E4A94E2"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "30C6F109A309D789"
+					team_reward: true
+					type: "xp"
+					xp: 900
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_canister"
+				criterion: ""
+				id: "2B120604CD513156"
+				type: "advancement"
+			}]
+			title: "Закодированный контейнер"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди Esoteric Codex в forged container."]
+			icon: "art_of_forging:esoteric_codex"
+			id: "4DADF8F247137C0E"
+			rewards: [
+				{
+					count: 6
+					id: "4884D539B8B0D142"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6856F5FEDE95212F"
+					team_reward: true
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/find_codex"
+				criterion: ""
+				id: "4626589A32B73C4F"
+				type: "advancement"
+			}]
+			title: "Эзотерический кодекс"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4D6CAB86705BCBD7"
+				"4DADF8F247137C0E"
+			]
+			description: ["Скрафти The Architect’s Apocrypha из Encoded Canister и Esoteric Codex."]
+			icon: "art_of_forging:mark_of_the_architect"
+			id: "567067B2B2B365B1"
+			rewards: [
+				{
+					count: 2
+					id: "582540E053742605"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2921A81A8A3E5F91"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/craft_architects_mark"
+				criterion: ""
+				id: "47D1985DCD033631"
+				type: "advancement"
+			}]
+			title: "Апокриф Архитектора"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+			]
+			description: ["Найди nano-insectoid в forged container."]
+			icon: "art_of_forging:nano_insectoid"
+			id: "386AC202A8118423"
+			rewards: [
+				{
+					count: 4
+					id: "0AFFAB01B3F24143"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "709952A007603E5E"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:spelunking/find_nano_insectoid"
+				criterion: ""
+				id: "7E2C1A33F0E00F04"
+				type: "advancement"
+			}]
+			title: "Нано-инсектоид"
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0DED40FF6FE5202A"
+				"1820302691F30A88"
+				"653A2D0F15B195FA"
+			]
+			description: ["Скрафти shockwave chamber из combustion chamber, planar stabilizer и vobrite crystals."]
+			icon: "art_of_forging:shockwave_chamber"
+			id: "16015386DF553AE9"
+			rewards: [
+				{
+					id: "17DA555F70AF8E64"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "51304E22446E4210"
+					team_reward: true
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/craft_shockwave_chamber"
+				criterion: ""
+				id: "53518631B6543D54"
+				type: "advancement"
+			}]
+			title: "Shockwave Chamber"
+			x: 18.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"16015386DF553AE9"
+			]
+			description: ["Собери Shockwave Hammer на базе shockwave chamber."]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					"double/basic_handle_material": "basic_handle/netherite"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/shockwave_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "spelunking/shockwave_hammer"
+				}
+			}
+			id: "79144B95CC39B1A5"
+			rewards: [
+				{
+					count: 2
+					id: "3AC78B48CFAFE576"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "69B49DF08D8CB498"
+					team_reward: true
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "tetra:spelunking/shockwave_hammer"
+				criterion: ""
+				id: "099F884985A068B1"
+				type: "advancement"
+			}]
+			title: "Shockwave Hammer"
+			x: 20.0d
+			y: -18.0d
+		}
+	]
+	title: "Шахтёрское ремесло - древние руины и молот"
+}

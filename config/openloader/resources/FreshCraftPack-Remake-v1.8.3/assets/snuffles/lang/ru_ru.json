@@ -1,0 +1,21 @@
+{
+  "block.snuffles.snuffle_fluff": "Пух снуфла",
+  "block.snuffles.frosty_fluff": "Морозный пух",
+  "block.snuffles.snuffle_fluff_carpet": "Ковёр из сопящего пуха",
+  "block.snuffles.frosty_fluff_carpet": "Ковёр из морозного пуха",
+
+  "item.snuffles.snuffle_spawn_egg": "Яйцо призыва снуфла",
+
+  "entity.snuffles.snuffle": "Снуфл",
+
+  "snuffles.subtitles.block.frosty_fluff.thaw": "Пух оттаивает",
+
+  "snuffles.subtitles.entity.snuffle.ambient": "Снуфл шмыгает",
+  "snuffles.subtitles.entity.snuffle.death": "Снуфл умер",
+  "snuffles.subtitles.entity.snuffle.eat": "Снуфл прихлебывает",
+  "snuffles.subtitles.entity.snuffle.hurt": "Снуфл получает урон",
+  "snuffles.subtitles.entity.snuffle.shake": "Снуфл трясётся",
+  "snuffles.subtitles.entity.snuffle.step": "Снуфл шагает",
+  "snuffles.subtitles.entity.snuffle.style": "Хлюпает носом",
+  "snuffles.subtitles.entity.snuffle.thaw": "Снуфл оттаивает"
+}

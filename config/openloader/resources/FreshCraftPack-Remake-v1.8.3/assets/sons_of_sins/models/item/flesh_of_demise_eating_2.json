@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sons_of_sins:item/flesh_of_demise_eating_2"
+  }
+}

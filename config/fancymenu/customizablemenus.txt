@@ -1,0 +1,35 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+de.dafuqs.paginatedadvancements.client.PaginatedAdvancementScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+

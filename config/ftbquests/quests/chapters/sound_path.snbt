@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "sound_path"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:note_block"
+	id: "55CDE0EC5C767150"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "4AF724CEDC9D787F"
+			invisible: true
+			rewards: [{
+				command: "/spellranks set @p sound 4"
+				elevate_perms: true
+				icon: "minecraft:note_block"
+				id: "5FBC0C4D8A444806"
+				silent: true
+				title: "Rank 4 of Sound Path"
+				type: "command"
+			}]
+			subtitle: "Welcome to the Sound Path"
+			tasks: [{
+				icon: "minecraft:note_block"
+				id: "1E5B30F7BD366EDD"
+				title: "Sound"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AF724CEDC9D787F"]
+			id: "0000534F554D5234"
+			rewards: [{
+				command: "/spellranks set @p sound 3"
+				elevate_perms: true
+				icon: "minecraft:note_block"
+				id: "65B061B22C468DAA"
+				silent: true
+				title: "Rank 3 of Sound Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 4 of the Sound Path"
+			title: "Master Rank 4"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000534F554D5234"]
+			id: "0000534F554D5233"
+			rewards: [{
+				command: "/spellranks set @p sound 2"
+				elevate_perms: true
+				icon: "minecraft:note_block"
+				id: "17025677F37D21C9"
+				silent: true
+				title: "Rank 2 of Sound Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 3 of the Sound Path"
+			title: "Master Rank 3"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000534F554D5233"]
+			id: "0000534F554D5232"
+			rewards: [{
+				command: "/spellranks set @p sound 1"
+				elevate_perms: true
+				icon: "minecraft:note_block"
+				id: "28AB88507161FD2A"
+				silent: true
+				title: "Rank 1 of Sound Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 2 of the Sound Path"
+			title: "Master Rank 2"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000534F554D5232"]
+			id: "0000534F554D5231"
+			rewards: [{
+				command: "/spellranks set @p sound 0"
+				elevate_perms: true
+				icon: "minecraft:note_block"
+				id: "6146EB682AA0BE83"
+				silent: true
+				title: "Rank 0 of Sound Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 1 of the Sound Path"
+			title: "Master Rank 1"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000534F554D5231"]
+			id: "0000534F554D5230"
+			subtitle: "Master Rank 0 of the Sound Path"
+			title: "Master Rank 0"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Sound Path"
+}

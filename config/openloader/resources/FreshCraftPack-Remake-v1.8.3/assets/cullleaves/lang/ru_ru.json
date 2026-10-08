@@ -1,0 +1,9 @@
+{
+	"cullleaves.midnightconfig.title":"Отбраковка листвы",
+	"cullleaves.midnightconfig.enabled.tooltip":"После изменения этого параметра необходимо перезагрузить чанки (F3 + A)",
+	"cullleaves.midnightconfig.enabled.tooltip.sodium":"Позволяет отбраковывать листья, что значительно повышает производительность",
+	"cullleaves.midnightconfig.enabled":"Отбраковка листвы",
+	"cullleaves.midnightconfig.cullRoots.tooltip":"Позволяет отбраковывать корни мангровых деревьев.\n§cПосле изменения этого параметра необходимо перезагрузить чанки (F3 + A)",
+	"cullleaves.midnightconfig.cullRoots.tooltip.sodium":"Позволяет отбраковывать корни мангровых деревьев.",
+	"cullleaves.midnightconfig.cullRoots":"Отбраковка корней мангровых деревьев."
+}

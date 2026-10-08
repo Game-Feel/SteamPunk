@@ -1,0 +1,7 @@
+#List of items that cannot get qualities.
+"Black list" = []
+#Overrides reforging requirements. Format: item_or_tag|material_item
+Override = ["minecraft:bow|minecraft:string", "minecraft:crossbow|minecraft:string", "minecraft:fishing_rod|minecraft:string", "create:wrench|create:brass_ingot"]
+#Item that can be used to reforge any item.
+"Global reforger" = "minecraft:gold_ingot"
+

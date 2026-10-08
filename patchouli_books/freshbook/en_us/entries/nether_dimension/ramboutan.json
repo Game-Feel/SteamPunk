@@ -1,0 +1,18 @@
+{
+    "name": "Rambutan",
+    "icon": "nethers_exoticism:ramboutan",
+    "category": "patchouli:nether_dimension_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Rambutan grows on a Rambutan tree, which can be found in the Nether Wasteland biome. When eaten, it gives a Regeneration effect, but it will cause little damage. You can also make a shield, carpet and helmet out of Rambutan.",
+            "item": "nethers_exoticism:ramboutan"
+        },
+        {
+            "type": "spotlight",
+            "title": "Rambutan Items",
+            "text": "The helmet will produce spines if you start shaking your head quickly. The carpet is like thorns on the ground. Defending with a shield, the attacker will take damage.",
+            "item": "nethers_exoticism:ramboutan_helmet,nethers_exoticism:rambutan_carpet,nethers_exoticism:rambutan_shield"
+        }
+    ]
+}

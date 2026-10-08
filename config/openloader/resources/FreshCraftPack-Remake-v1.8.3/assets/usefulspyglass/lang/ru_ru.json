@@ -1,0 +1,7 @@
+{
+  "enchantment.usefulspyglass.marking": "Метка",
+  "text.usefulspyglass.neutral": "Нейтральный",
+  "text.usefulspyglass.friendly": "Дружелюбный",
+  "text.usefulspyglass.hostile": "Враждебный",
+  "enchantment.usefulspyglass.marking.desc": "Применяет эффект свечения к мобам, рассматриваемым в подзорную трубу."
+}

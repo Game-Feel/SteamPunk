@@ -1,0 +1,17 @@
+{
+  "advancementframes.gui.advancements": "Выберите достижение для отображения",
+  "advancementframes.gui.statistics": "Выберите статистику для отображения",
+  "advancementframes.message.advancement": "%1$s выполнил достижение %2$s",
+  "advancementframes.message.stat": "%1$s %2$s: %3$s",
+  "block.advancementframes.advancement_frame": "Рамка для достижений",
+  "block.advancementframes.stat_frame": "Рамка для статистики",
+  "stat.advancementframes.used": "%s использовано",
+  "stat.advancementframes.dropped": "%s выброшено",
+  "stat.advancementframes.crafted": "%s создано",
+  "stat.advancementframes.mined": "%s добыто",
+  "stat.advancementframes.broken": "%s сломано",
+  "stat.advancementframes.picked_up": "%s подобрано",
+  "stat.advancementframes.killed": "%s убил",
+  "stat.advancementframes.killed_by": "Убил %s",
+  "advancementframes.display_source.stat": "Значение параметра"
+}

@@ -1,0 +1,60 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+	  "parent": "brewery:item/beer_handled",
+	"textures": {
+		"0": "brewery:block/beer_haley",
+		"1": "brewery:block/beer_haley",
+		"particle": "brewery:block/beer_haley"
+	  }
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "brewery:item/beer_haley"
+		},
+		"gui_light": "front"
+	  },
+	  "ground": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "brewery:item/beer_haley"
+		}
+	  },
+	  "fixed": {
+		"parent": "item/generated",
+		"textures": {
+		  "layer0": "brewery:item/beer_haley"
+		}
+	  }
+	},
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "brewery:item/beer_haley_handled_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "brewery:item/beer_haley_handled_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "brewery:item/beer_haley_handled_eating_2"
+    }
+  ]
+}

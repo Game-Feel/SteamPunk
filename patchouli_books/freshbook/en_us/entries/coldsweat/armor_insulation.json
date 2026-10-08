@@ -1,0 +1,59 @@
+{
+    "name": "Clothes",
+    "icon": "cold_sweat:sewing_table",
+    "category": "patchouli:coldsweat_category",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Armor can be hemmed to reduce the effects of extreme temperatures on the player. There are many hemming elements that can be mixed to provide optimal protection the player depends on the environment."
+        },
+        {
+            "type": "crafting",
+            "text": "The stitching of the armor takes place on a sewing table.$(br2)Insulation is measured in glasses. Blue - from the cold, red - from the heat.",
+            "recipe": "cold_sweat:sewing_table"
+        },
+        {
+            "type": "image",
+            "text": "Green is adaptive, adapts to the environment.",
+            "title": "Isolation glasses",
+            "border": true,
+            "images": [
+                "patchouli:armor_ut1.png",
+                "patchouli:armor_ut2.png",
+                "patchouli:armor_ut3.png",
+                "patchouli:armor_ut4.png"
+            ]
+        },
+        {
+            "type": "image",
+            "text": "Purple is neutral (it provides protection from both heat and cold).",
+            "title": "Sewing table",
+            "border": true,
+            "images": [
+                "patchouli:sewing_table2.png"
+            ]
+
+        },
+        {
+            "type": "text",
+            "text": "We put the armor we want to sew in the upper slot of the Sewing table, and the object to be sewn in the lower slot. As a result, we get a stitched armor.$(br2)Each piece of armor has a certain number of free points available for stitching."
+        },
+        {
+            "type": "text",
+            "text": "If the item being stitched has more points than the available free points on the armor element (for example, there are no free points on a 4/4 helmet), it cannot be stitched."
+        },
+        {
+            "type": "text",
+            "text": "The best way to hem armor is to use leather armor."
+        },
+        {
+            "type": "text",
+            "text": "If you want to remove the hemmed item from the armor, use scissors by placing them in the hemming slot.$(br2)There are 2 sets of special thermal underwear - made of hoglin hide and goat fur.$(br)The first one perfectly protects from heat, the second from cold."
+        },
+        {
+            "type": "text",
+            "text": "To get the fur, you need to trim the goat. To get hoglin's skin, you need to kill him.$(br2)Important: almost any armor and clothing can keep you warm or cool."
+        }
+    ]
+}

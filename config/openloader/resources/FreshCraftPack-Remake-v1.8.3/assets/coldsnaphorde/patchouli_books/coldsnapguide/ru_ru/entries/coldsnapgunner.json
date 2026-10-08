@@ -1,0 +1,53 @@
+{
+  "name": "Снеговик-стрелок",
+  "category": "coldsnaphorde:coldsnapmobs",
+  "icon": "coldsnaphorde:gunner_spawn_egg",
+  "advancement": "coldsnaphorde:coldsnapgunner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Стрелку подарили игрушечное ружьё. Оставшись одни, Стрелок мог попрактиковаться в стрельбе. Теперь он целятся в глаза любому игроку, которого встретят. Их прицел был бы лучше, если бы его собственные глаза не были сделаны из угля..."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:coldsnapgunner",
+      "name": "Снеговик-стрелок"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-стрелок из Незера",
+      "text": "Стрелок, растаявший от жары в Незере. Никто не знает, как и почему Орда снеговиков решила, что отправиться в Незер было бы хорошей идеей, но те, кто это сделал, оставляют за собой шлейф слякоти, когда двигаются.",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ncoldsnapgunner",
+      "name": "Снеговик-стрелок из Незера",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-стрелок из Энда",
+      "text": "Стрелок, мутировавший из-за безлюдных окрестностей Энда. Имеет шанс телепортировать вас или самого себя при атаке или при получении урона",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ecoldsnapgunner",
+      "name": "Снеговик-стрелок из Энда",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-стрелок из Чумы",
+      "text": "Стрелок, наполненный мутными водами болота. Может передавать паразитов и болезни или вообще вызывать у вас плохое самочувствие",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:pcoldsnapgunner",
+      "name": "Снеговик-стрелок из Чумы",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Вечный ритуал",
+    "icon": "betterend:eternal_pedestal",
+    "read_by_default": true,
+    "category": "betterend:rituals",
+    "pages": [
+        {
+            "type": "text",
+            "text": "\"Не такой уж это и простой способ вернуться в Верхний мир.\"$(br2)Путешествуя по миру Энда, вы можете наткнуться на древние руины."
+        },
+        {
+            "type": "image",
+            "text": "Существует разрушенный (или нет) каркас $(bold)рунного флаволита$() и шесть пьедесталов вокруг него.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/eternal_ritual/portal_structure.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Это остатки величественных порталов, которые когда-то соединяли миры Энда и Верхнего мира.$(br2)Для активации портала вам необходимо восстановить рамку (если она сломана)."
+        },
+        {
+            "type": "image",
+            "text": "И поставить 6 $(bold)вечные кристаллы$() на пьедесталы.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/eternal_ritual/portal_frame_full.png"
+            ]
+        },
+        {
+            "type": "image",
+            "text": "После того, как вы поместите последний кристалл, портал будет активирован.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/eternal_ritual/ritual_finished.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Рунный флаволит$() (для восстановления) и $(bold)вечный кристалл$() может быть получен с помощью $(l:rituals/infusion_ritual)ритуала наполнения$(/l)."
+        }
+    ]
+}

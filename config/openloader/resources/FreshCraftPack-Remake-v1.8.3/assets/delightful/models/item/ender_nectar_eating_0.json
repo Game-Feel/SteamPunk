@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "delightful:item/ender_nectar_eating_0"
+  }
+}

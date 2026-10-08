@@ -1,0 +1,321 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.leaves_type]
+
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
+
+		[types.leaves_type.biomesoplenty]
+			origin = false
+			flowering_oak = true
+			rainbow_birch = true
+			snowblossom = true
+			fir = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = false
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			null = false
+			cypress = true
+			pine = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			empyreal = true
+
+		[types.leaves_type.sn0wfrogs_capybaras]
+			mandarin = false
+			flowering_mandarin = false
+
+		[types.leaves_type.nethers_exoticism]
+			jaboticaba = false
+
+		[types.leaves_type.fruitsdelight]
+			pear = false
+			hawberry = false
+			lychee = false
+			mango = false
+			persimmon = false
+			peach = false
+			orange = false
+			apple = false
+			mangosteen = false
+			bayberry = false
+			kiwi = false
+			fig = false
+			durian = false
+
+		[types.leaves_type.arts_and_crafts]
+			cork = false
+
+		[types.leaves_type.autumnity]
+			maple = true
+			yellow_maple = true
+			orange_maple = true
+			red_maple = true
+
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
+		[types.leaves_type.quark]
+			ancient = false
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.vinery]
+			grapevine = false
+			dark_cherry = false
+			apple = false
+
+		[types.leaves_type.regions_unexplored]
+			bamboo = false
+			golden_larch = false
+			alpha = false
+			apple_oak = false
+			baobab = false
+			blackwood = false
+			magnolia = false
+			cypress = false
+			dead = false
+			dead_pine = false
+			eucalyptus = false
+			flowering = false
+			kapok = false
+			larch = false
+			maple = false
+			mauve = false
+			orange_maple = false
+			palm = false
+			pine = false
+			blue_magnolia = false
+			pink_magnolia = false
+			redwood = false
+			red_maple = false
+			brimwood = false
+			enchanted_birch = false
+			small_oak = false
+			silver_birch = false
+			socotra = false
+			white_magnolia = false
+			willow = false
+			ashen = false
+
+		[types.leaves_type.betterend]
+			pythadendron = false
+			lacugrove = false
+			dragon_tree = false
+			tenanea = false
+			lucernia = false
+
+		[types.leaves_type.ad_astra]
+			glacian = true
+
+		[types.leaves_type.unusualprehistory]
+			foxxi = false
+			ginkgo = false
+			dryo = false
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+	[types.cake]
+
+		[types.cake.mynethersdelight]
+			magma_cake = false
+
+	[types.wood_type]
+
+		[types.wood_type.mynethersdelight]
+			powdery = false
+
+		[types.wood_type.nethers_exoticism]
+			jabuticaba = true
+			ramboutan = true
+
+		[types.wood_type.gardens_of_the_dead]
+			soulblight = true
+			whistlecane = true
+
+		[types.wood_type.ecologics]
+			flowering_azalea = true
+			azalea = true
+			coconut = true
+			walnut = true
+
+		[types.wood_type.quark]
+			azalea = false
+			ancient = false
+			blossom = false
+
+		[types.wood_type.biomesoplenty]
+			fir = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = false
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			pine = true
+			maple = true
+			empyreal = true
+
+		[types.wood_type.arts_and_crafts]
+			cork = false
+
+		[types.wood_type.valhelsia_structures]
+			lapidified_jungle = false
+
+		[types.wood_type.cataclysm]
+			chorus = false
+
+		[types.wood_type.betterarcheology]
+			rotten = false
+
+		[types.wood_type.autumnity]
+			maple = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.vinery]
+			dark_cherry = false
+
+		[types.wood_type.regions_unexplored]
+			alpha = false
+			baobab = false
+			blackwood = false
+			blue_bioshroom = false
+			brimwood = false
+			cobalt = false
+			cypress = false
+			dead = false
+			eucalyptus = false
+			green_bioshroom = false
+			joshua = false
+			kapok = false
+			larch = false
+			magnolia = false
+			maple = false
+			mauve = false
+			palm = false
+			pine = false
+			pink_bioshroom = false
+			redwood = false
+			socotra = false
+			willow = false
+			yellow_bioshroom = false
+
+		[types.wood_type.betterend]
+			end_lotus = false
+			jellyshroom = false
+			lucernia = false
+			mossy_glowshroom = false
+			pythadendron = false
+			dragon_tree = false
+			helix_tree = false
+			lacugrove = false
+			tenanea = false
+			umbrella_tree = false
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
+		[types.wood_type.unusualprehistory]
+			foxxi = true
+			ginkgo = true
+			dryo = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
+#Disables specific entries
+[entries]
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = false
+
+		[entries.leaves_type.regions_unexplored]
+			shrub = false
+
+	[entries.wood_type]
+
+		[entries.wood_type.valhelsia_structures]
+			bundled_stripped_posts = false
+			stripped_post = true
+			cut_post = true
+			bundled_posts = false
+			post = true
+			cut_stripped_post = true
+
+		[entries.wood_type.another_furniture]
+			flower_box = true
+			shelf = true
+			shutter = true
+			bench = true
+			table = true
+			drawer = true
+			chair = true
+
+		[entries.wood_type.valhelsia_furniture]
+			table = false
+			stool = false
+			hay_chair = false
+			chair = false
+			desk_drawer = false
+			desk = false
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.quark]
+			hollow_log = false
+			vertical_planks = true
+			post = false
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = false
+			ladder = true
+			vertical_slab = true
+
+		[entries.wood_type.friendsandfoes]
+			beehive = false
+
+		[entries.wood_type.hearth_and_home]
+			lattice = true
+			parquet = true
+			vertical_trim = true
+			trim = true
+			sanded_wood = true
+
+		[entries.wood_type.regions_unexplored]
+			branch = false
+

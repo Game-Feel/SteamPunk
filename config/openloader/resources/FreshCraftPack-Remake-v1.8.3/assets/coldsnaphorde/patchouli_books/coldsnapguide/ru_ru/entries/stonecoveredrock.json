@@ -1,0 +1,12 @@
+{
+  "name": "Покрытый снегом булыжник",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:rockysnowball",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:rockysnowball",
+      "text": "Булыжник, покрытый вокруг снегом. Наносит незначительный урон целям."
+    }
+  ]
+}

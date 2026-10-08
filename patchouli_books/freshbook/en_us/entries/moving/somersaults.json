@@ -1,0 +1,28 @@
+{
+    "name": "Endurance",
+    "icon": "minecraft:feather",
+    "category": "patchouli:movement_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can explore the world and dodge attacks quickly and easily with the help of rollovers by tapping $(9)$(k:elenaidodge2.dodge)$(). Above the hunger indicator is the endurance indicator. By rolling over, the indicator is gradually being spent,"
+        },
+        {
+            "type": "text",
+            "text": "but after stopping rolling, it will begin to replenish."
+        },
+        {
+            "type": "image",
+            "text": "The weight of your armor directly affects the scale",
+            "border": true,
+            "title": "Endurance",
+            "images": [
+                "patchouli:Screenshot_45.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "endurance.$(br2)The heavier the armor, the less you can roll. But by enchanting the armor to «Lightweight», you will be able to make more rolls."
+        }
+    ]
+}

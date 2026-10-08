@@ -1,0 +1,6 @@
+{
+  "name": "Приручаемые животные",
+  "description": "Это все те существа, которых вы можете приручить.",
+  "parent": "recrafted_creatures:entities",
+  "icon": "recrafted_creatures:red_panda_spawn_egg"
+}

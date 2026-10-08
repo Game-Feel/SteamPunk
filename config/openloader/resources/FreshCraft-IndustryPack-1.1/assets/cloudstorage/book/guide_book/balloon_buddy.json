@@ -1,0 +1,45 @@
+{
+  "parent": "root.json",
+  "text": "balloon_buddy.txt",
+  "title": "Воздушные друзья",
+  "entity_buttons": [
+  ],
+  "linked_page_buttons": [
+  ],
+  "images": [
+  ],
+  "item_renders": [
+    {
+      "item" : "cloudstorage:balloon_buddy",
+      "x": 25,
+      "y": 12,
+      "page" : 0,
+      "scale": 2.75
+    }
+  ],
+  "recipes": [
+    {
+      "recipe": "cloudstorage:balloon_buddy",
+      "shapeless": false,
+      "x": 210,
+      "y": 100,
+      "page": 0,
+      "scale": 1.2
+    },
+    {
+      "recipe": "cloudstorage:cloud_blower",
+      "shapeless": false,
+      "x": 20,
+      "y": 60,
+      "page": 3,
+      "scale": 1.2
+    }
+  ],
+  "tabula_renders": [
+
+  ],
+  "entity_renders": [
+
+  ]
+}
+

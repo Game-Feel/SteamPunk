@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "festive_delight:item/icing_snow_cookie_eating_0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quarkdelight:item/miso_with_bamboo_sprouts_eating_2"
+  }
+}

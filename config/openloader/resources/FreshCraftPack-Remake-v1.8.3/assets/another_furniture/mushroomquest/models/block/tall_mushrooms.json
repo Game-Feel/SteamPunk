@@ -1,0 +1,9 @@
+{
+  "parent": "mushroomquest:custom/bigmushrooms",
+  "textures": {
+    "all": "mushroomquest:block/bigmushroomsredone",
+    "particle": "mushroomquest:block/bigmushroomsredone",
+    "0": "mushroomquest:block/bigmushroomsredone"
+  },
+  "render_type": "cutout"
+}

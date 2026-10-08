@@ -1,0 +1,13 @@
+{
+  "name": "Замёрший снежный шар",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:frozen_snowglobe",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:frozen_snowglobe",
+      "text": "Призывает Орду 3-го уровня. Смотрите $(l:hordetier3)3 уровень Орды$() для подробной информации."
+    }
+  ]
+}

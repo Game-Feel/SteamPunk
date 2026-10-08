@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "festive_delight:item/gingerbread_man_base_eating_0"
+  }
+}

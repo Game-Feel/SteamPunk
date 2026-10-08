@@ -1,0 +1,17 @@
+{
+  "name": "Снежная корова",
+  "category": "coldsnaphorde:coldsnapmobs",
+  "icon": "minecraft:powder_snow_bucket",
+  "advancement": "coldsnaphorde:snow_farmer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Снежная корова изначально была грибной коровой, которую игроки привезли в места с холодным климатом в качестве еды. После того, как их слишком долго оставляли на холоде, грибы у них замёрзли. Теперь они медленно превращают молоко в рыхлый снег."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:frostycow",
+      "name": "Снежная корова"
+    }
+  ]
+}

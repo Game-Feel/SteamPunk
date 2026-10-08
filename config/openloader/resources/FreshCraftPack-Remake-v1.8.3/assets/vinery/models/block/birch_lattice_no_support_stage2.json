@@ -1,0 +1,144 @@
+{
+	"credit": "Made by Satisfy",
+	"parent": "block/block",
+	"textures": {
+		"3": "vinery:block/lattice/lattice_support_a_birch",
+		"4": "vinery:block/lattice/lattice_leaves_stage0",
+		"5": "vinery:block/grapevine_overlay_stage0",
+		"6": "vinery:block/lattice/4",
+		"particle": "vinery:block/lattice/lattice_support_b_birch"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 15],
+			"to": [16, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 11]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#6"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#6"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#6"}
+			}
+		},
+		{
+			"name": "support_right_left",
+			"from": [0, 0, 14],
+			"to": [2, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-14, 0, 0]},
+			"faces": {
+				"north": {"uv": [6, 0, 8, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 4, 16], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [4, 0, 6, 16], "texture": "#3"},
+				"up": {"uv": [8, 0, 10, 2], "texture": "#3"},
+				"down": {"uv": [8, 0, 10, 2], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "support_pile_left",
+			"from": [14, 0, 14],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [6, 0, 8, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 4, 16], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [4, 0, 6, 16], "texture": "#3"},
+				"up": {"uv": [8, 0, 10, 2], "texture": "#3"},
+				"down": {"uv": [8, 0, 10, 2], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [2, 5, 13],
+			"to": [14, 11, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 6], "texture": "#4"},
+				"east": {"uv": [0, 4, 2, 10], "texture": "#4"},
+				"south": {"uv": [0, 10, 12, 16], "texture": "#4"},
+				"west": {"uv": [9, 0, 11, 6], "texture": "#4"},
+				"up": {"uv": [2, 0, 14, 2], "texture": "#4"},
+				"down": {"uv": [2, 0, 14, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [2, 11, 12],
+			"to": [14, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 5], "texture": "#4"},
+				"east": {"uv": [12, 3, 16, 8], "texture": "#4"},
+				"south": {"uv": [0, 11, 12, 16], "texture": "#4"},
+				"west": {"uv": [12, 0, 16, 5], "texture": "#4"},
+				"up": {"uv": [0, 4, 12, 8], "texture": "#4"},
+				"down": {"uv": [0, 8, 12, 12], "texture": "#4"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [2, 0, 12],
+			"to": [14, 5, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 5], "texture": "#4"},
+				"east": {"uv": [12, 3, 16, 8], "texture": "#4"},
+				"south": {"uv": [0, 11, 12, 16], "texture": "#4"},
+				"west": {"uv": [12, 0, 16, 5], "texture": "#4"},
+				"up": {"uv": [0, 4, 12, 8], "texture": "#4"},
+				"down": {"uv": [0, 8, 12, 12], "texture": "#4"}
+			}
+		},
+		{
+			"name": "grape Bottom",
+			"from": [0, 0, 13],
+			"to": [16, 4, 13],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 6, 13]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 12], "texture": "#5"},
+				"south": {"uv": [16, 8, 0, 12], "texture": "#5"}
+			}
+		},
+		{
+			"name": "grape top",
+			"from": [0, 10, 12],
+			"to": [16, 15, 12],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 14, 13]},
+			"faces": {
+				"north": {"uv": [0, 2, 16, 7], "texture": "#5"},
+				"south": {"uv": [0, 2, 16, 7], "texture": "#5"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "lattice",
+					"origin": [-14, 4, 13],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "support right",
+					"origin": [-6, 7, 7],
+					"color": 0,
+					"children": [1]
+				},
+				{
+					"name": "support left",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [2]
+				}
+			]
+		},
+		3,
+		4,
+		5,
+		6,
+		7
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Радужный гель",
+  "icon": "recrafted_creatures:rainbow_gel",
+  "category": "recrafted_creatures:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Когда хамелеон съедает чешуйницу, мелкую слизь, магма куба или пещерного паука, он выплёвывает этот блок. Радужный гель - хороший декоративный блок, который постоянно меняет цвет."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "recrafted_creatures:rainbow_gel"
+    }
+  ]
+}

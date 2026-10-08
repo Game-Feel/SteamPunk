@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "valkyrienskies:block/test_sphere",
+		"particle": "valkyrienskies:block/test_sphere"
+	},
+	"elements": [
+		{
+			"from": [3, 3, 3],
+			"to": [13, 13, 13],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "el sphero",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

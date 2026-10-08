@@ -1,0 +1,7 @@
+{
+  "parent": "bclib:block/bar_stool",
+  "textures": {
+    "texture": "betterend:block/helix_tree_stripped_log_side",
+    "cloth": "betterend:block/bar_stool/helix_bar_stool"
+  }
+}

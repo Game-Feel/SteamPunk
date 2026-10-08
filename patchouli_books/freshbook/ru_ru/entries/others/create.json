@@ -1,0 +1,14 @@
+{
+    "name": "Create",
+    "icon": "create:goggles",
+    "category": "patchouli:other_category",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Не создаваемые блоки",
+            "text": "Create тут ограничен. Перечисленные блоки и предметы нельзя создать, но некоторые можно найти в данжах.",
+            "item": "create:schematicannon,create:mechanical_drill,create:mechanical_saw,create:mechanical_harvester,create:mechanical_plough,create:mechanical_roller,create:netherite_backtank,create:netherite_diving_helmet,create:netherite_diving_boots"
+        }
+    ]
+}

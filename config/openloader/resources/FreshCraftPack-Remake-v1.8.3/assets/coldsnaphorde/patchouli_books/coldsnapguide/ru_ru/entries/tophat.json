@@ -1,0 +1,13 @@
+{
+  "name": "Цилиндр",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:tophat",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:tophat",
+      "text": "Шляпа, похожая на те, что носят члены Орды. Вплетённый ледяной стержень заставит членов Орды игнорировать вас, когда они не участвуют в событии Орды."
+    }
+  ]
+}

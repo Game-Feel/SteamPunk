@@ -1,0 +1,13 @@
+{
+  "name": "Шар исцеления",
+  "category": "coldsnaphorde:coldsnaptier2",
+  "icon": "coldsnaphorde:healing_ball",
+  "advancement": "coldsnaphorde:diced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:healing_ball",
+      "text": "Начинается всё с $(l:lesserhealingball)Шара слабого исцеления$(), вызывающего умеренную древнюю целительную магию."
+    }
+  ]
+}

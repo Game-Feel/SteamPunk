@@ -1,0 +1,7 @@
+{
+  "parent": "bclib:block/bar_stool",
+  "textures": {
+    "texture": "betterend:block/pythadendron_stripped_log_side",
+    "cloth": "betterend:block/bar_stool/pentatedron_bar_stool"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "frosted_friends:item/snowman_head_classic"
+  }
+}

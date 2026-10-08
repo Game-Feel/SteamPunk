@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yucutan_delight:item/stuffed_pepper_eating_2"
+  }
+}

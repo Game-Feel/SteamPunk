@@ -1,0 +1,53 @@
+{
+  "name": "Снеговик-уничтожитель",
+  "category": "coldsnaphorde:coldsnapmobs",
+  "icon": "coldsnaphorde:zapper_spawn_egg",
+  "advancement": "coldsnaphorde:coldsnapzapper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Уничтожитель был создан для того, чтобы присматривать за заряженной фермой криперов. Изучив молнию и громоотводы, он смог найти быстрый, дешёвый и эффективный способ вызывать молнию по команде. Их первым испытанием было то, что игрок, который их создал, прикрепил к спине небольшое устройство и убежал. Результат был потрясающим."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:coldsnapzapper",
+      "name": "Снеговик-уничтожитель"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-уничтожитель из Незера",
+      "text": "Снеговик-уничтожитель, растаявший от жары в Незере. Никто не знает, как и почему Орда снеговиков решила, что отправиться в Незер было бы хорошей идеей, но те, кто это сделал, оставляют за собой шлейф слякоти, когда двигаются.",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ncoldsnapzapper",
+      "name": "Снеговик-уничтожитель из Незера",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-уничтожитель из Энда",
+      "text": "Снеговик-уничтожитель, мутировавший из-за безлюдных окрестностей Энда. Имеет шанс телепортировать вас или самого себя при атаке или при получении урона",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ecoldsnapzapper",
+      "name": "Снеговик-уничтожитель из Энда",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-уничтожитель из Чумы",
+      "text": "Снеговик-уничтожитель, наполненный мутными водами болота. Может передавать паразитов и болезни или вообще вызывать у вас плохое самочувствие",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:pcoldsnapzapper",
+      "name": "Снеговик-уничтожитель из Чумы",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    }
+  ]
+}

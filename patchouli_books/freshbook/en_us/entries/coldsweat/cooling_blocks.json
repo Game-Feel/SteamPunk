@@ -1,0 +1,12 @@
+{
+    "name": "Cooling",
+    "icon": "minecraft:packed_ice",
+    "category": "patchouli:coldsweat_category",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "As with $(l:patchouli:coldsweat/heating_blocks)Heating materials$(), cooling materials are needed to cool you at high temperatures. For example: $(br)$(li)Ice$()$(li)Packed Ice$()$(li)Cold Water$()$(li)Fire of Souls$()"
+        }
+    ]
+}

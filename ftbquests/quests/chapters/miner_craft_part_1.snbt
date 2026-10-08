@@ -1,0 +1,1434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miner_craft_part_1"
+	group: "41BD389B96B19D27"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "729A49481399E27A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Вход в шахтёрскую ветку: камень, первые находки, Tetra-инструменты и подготовка к древним руинам."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F3AAA3F7638772A"
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "462CBF37F65BCFD3"
+				type: "advancement"
+			}]
+			title: "Шахтёрское ремесло"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3AAA3F7638772A"]
+			description: ["Найди Rock Salt во время добычи камня."]
+			hide_dependency_lines: false
+			icon: "spelunkery:rock_salt"
+			id: "2470CFFB8188EB53"
+			rewards: [
+				{
+					count: 16
+					id: "743C37BD0843F097"
+					item: "minecraft:torch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "72CA2E05BBA32A01"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/rock_salt"
+				criterion: ""
+				id: "26B37FAEFD9AC8B9"
+				type: "advancement"
+			}]
+			title: "Каменная соль"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2470CFFB8188EB53"]
+			description: ["Добудь Lump of Coal."]
+			hide_dependency_lines: false
+			icon: "spelunkery:coal_lump"
+			id: "3676CDC41319C154"
+			rewards: [
+				{
+					count: 16
+					id: "1D8AE4B1714A12CF"
+					item: "minecraft:torch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5920498A129AF971"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/coal_lump"
+				criterion: ""
+				id: "745231D1CA264A74"
+				type: "advancement"
+			}]
+			title: "Комок угля"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3676CDC41319C154"]
+			description: ["Сделай Wooden Rails для ранней шахтёрской логистики."]
+			hide_dependency_lines: false
+			icon: "spelunkery:wooden_rail"
+			id: "6F3C13B71B684674"
+			rewards: [
+				{
+					count: 8
+					id: "679E5C24F360D712"
+					item: "minecraft:rail"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4353C1E724C01F61"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/wooden_rail"
+				criterion: ""
+				id: "695250AA8DFB915B"
+				type: "advancement"
+			}]
+			title: "Деревянные рельсы"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2470CFFB8188EB53"]
+			description: ["Добудь любой Rough Gemstone из руды самоцветов."]
+			hide_dependency_lines: false
+			icon: "spelunkery:rough_lazurite"
+			id: "248916558608D8D0"
+			rewards: [
+				{
+					count: 4
+					id: "61D27661782C954E"
+					item: "minecraft:lapis_lazuli"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "01E08484F4989F46"
+					team_reward: true
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/rough_gem"
+				criterion: ""
+				id: "6FF81F611683C80B"
+				type: "advancement"
+			}]
+			title: "Грубый самоцвет"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["248916558608D8D0"]
+			description: ["Отшлифуй грубый самоцвет на Grindstone."]
+			hide_dependency_lines: false
+			icon: "minecraft:grindstone"
+			id: "182EFA0DC217FC99"
+			rewards: [
+				{
+					count: 2
+					id: "3D9D6AD91C8951CD"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "332BBC79E177F0CB"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/grindstone"
+				criterion: ""
+				id: "2DAE9093F580D779"
+				type: "advancement"
+			}]
+			title: "Первая шлифовка"
+			x: 6.0d
+			y: -1.4d
+		}
+		{
+			dependencies: ["182EFA0DC217FC99"]
+			description: ["Добудь Rough Diamond из алмазной руды."]
+			hide_dependency_lines: false
+			icon: "spelunkery:rough_diamond"
+			id: "1CFB14E230672F33"
+			rewards: [
+				{
+					count: 24
+					id: "1E3800F6B20DAC1A"
+					item: "minecraft:torch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6E8B5AC8A9E80317"
+					team_reward: true
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/rough_diamond"
+				criterion: ""
+				id: "0653CCE60F91524C"
+				type: "advancement"
+			}]
+			title: "Алмаз в породе"
+			x: 8.0d
+			y: -1.4d
+		}
+		{
+			dependencies: ["1CFB14E230672F33"]
+			description: ["Сделай Diamond Grindstone."]
+			hide_dependency_lines: false
+			icon: "spelunkery:diamond_grindstone"
+			id: "7A92B0E5512F08E6"
+			rewards: [
+				{
+					count: 8
+					id: "723E7605DE2C1164"
+					item: "minecraft:lapis_lazuli"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7B4C4DE12C3DF69B"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/diamond_grindstone"
+				criterion: ""
+				id: "7BD0E3F047B24A25"
+				type: "advancement"
+			}]
+			title: "Алмазный точильный круг"
+			x: 10.0d
+			y: -1.4d
+		}
+		{
+			dependencies: ["3676CDC41319C154"]
+			description: ["Собери все типы Raw Nugget."]
+			hide_dependency_lines: false
+			icon: "spelunkery:raw_iron_nugget"
+			id: "42CB810B910A86B0"
+			rewards: [
+				{
+					count: 2
+					id: "590AC97590F840FF"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6A9B764D426D6D58"
+					team_reward: true
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/raw_nuggets"
+				criterion: ""
+				id: "4D8AEC276415D2F3"
+				type: "advancement"
+			}]
+			title: "Сырые крупицы"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42CB810B910A86B0"]
+			description: ["Собери по одному образцу каждой руды."]
+			hide_dependency_lines: false
+			icon: "spelunkery:granite_lapis_ore"
+			id: "02E688E4E248672A"
+			rewards: [
+				{
+					id: "7D9F113492524688"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7EADB51A89C2A537"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				advancement: "spelunkery:spelunkery/every_ore"
+				criterion: ""
+				id: "195D30FD96B288E2"
+				type: "advancement"
+			}]
+			title: "Коллекционер руд"
+			x: 8.049999999999999d
+			y: -3.4499999999999997d
+		}
+		{
+			dependencies: ["248916558608D8D0"]
+			description: ["Добудь Nephrite Chunk."]
+			hide_dependency_lines: false
+			icon: "spelunkery:nephrite_chunk"
+			id: "2B9DE7E8A434B22E"
+			rewards: [
+				{
+					count: 2
+					id: "607DCDF4A734254F"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "603CA3755A013635"
+					team_reward: true
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/nephrite_chunk"
+				criterion: ""
+				id: "345B96EA309A6630"
+				type: "advancement"
+			}]
+			title: "Нефритовая жила"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B9DE7E8A434B22E"]
+			description: ["Сделай Carved Nephrite."]
+			hide_dependency_lines: false
+			icon: "spelunkery:carved_nephrite"
+			id: "5FCAF48C37D921EF"
+			rewards: [
+				{
+					count: 3
+					id: "3B5955CC89027BC4"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7DA7291C82A3DB25"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/carved_nephrite"
+				criterion: ""
+				id: "5289342CD5EE3037"
+				type: "advancement"
+			}]
+			title: "Резной нефрит"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A92B0E5512F08E6"]
+			description: ["Найди и добудь Raw Magnetite."]
+			hide_dependency_lines: false
+			icon: "spelunkery:raw_magnetite"
+			id: "48FCF184C913C2CF"
+			rewards: [
+				{
+					count: 2
+					id: "706D33BE33A69A8F"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4AAEBF588252C494"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/magnetite"
+				criterion: ""
+				id: "0C0B97120EB81B21"
+				type: "advancement"
+			}]
+			title: "Магнетит"
+			x: 12.0d
+			y: -1.4d
+		}
+		{
+			dependencies: ["48FCF184C913C2CF"]
+			description: ["Сделай Item Magnet."]
+			hide_dependency_lines: false
+			icon: "spelunkery:item_magnet"
+			id: "286E3871595230D1"
+			rewards: [
+				{
+					count: 3
+					id: "2B8E9D180B9B18FA"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "300EC39A7E48B512"
+					team_reward: true
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/item_magnet"
+				criterion: ""
+				id: "5F86BF832381E704"
+				type: "advancement"
+			}]
+			title: "Магнит предметов"
+			x: 14.0d
+			y: -1.4d
+		}
+		{
+			dependencies: ["48FCF184C913C2CF"]
+			description: ["Создай Magnetic Compass."]
+			hide_dependency_lines: false
+			icon: "spelunkery:magnetic_compass"
+			id: "4A1D8676BD813123"
+			rewards: [
+				{
+					count: 3
+					id: "58263A538A40A8E1"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1D82ACF5F8C3F158"
+					team_reward: true
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "spelunkery:spelunkery/magnetic_compass"
+				criterion: ""
+				id: "4A268C34DA6CD2BB"
+				type: "advancement"
+			}]
+			title: "Магнитный компас"
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A1D8676BD813123"]
+			description: ["Следуй по Magnetic Compass до северного края мира."]
+			hide_dependency_lines: false
+			icon: "spelunkery:magnetic_compass"
+			id: "033706FFBBFDB7E9"
+			rewards: [
+				{
+					count: 8
+					id: "0D78BF8E54ECDAC8"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2B1BFC2FEF0D6CCD"
+					team_reward: true
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				advancement: "spelunkery:spelunkery/true_north"
+				criterion: ""
+				id: "46BFCB1194AF72E3"
+				type: "advancement"
+			}]
+			title: "Истинный север"
+			x: 16.099999999999998d
+			y: -3.4499999999999997d
+		}
+		{
+			dependencies: ["1F3AAA3F7638772A"]
+			description: ["Сделай и используй Depth Gauge."]
+			hide_dependency_lines: false
+			icon: "spelunkery:depth_gauge"
+			id: "79E71E1AD908EEA9"
+			rewards: [
+				{
+					count: 16
+					id: "1500B28368AAF5BE"
+					item: "minecraft:torch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "10A4BFD2595867E6"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/depth_gauge"
+				criterion: ""
+				id: "00C6B7257540C7C2"
+				type: "advancement"
+			}]
+			title: "Глубиномер"
+			x: 2.0d
+			y: -0.7d
+		}
+		{
+			dependencies: ["79E71E1AD908EEA9"]
+			description: ["Скрафти Glowstick для шахт и пещер."]
+			hide_dependency_lines: false
+			icon: "spelunkery:glowstick"
+			id: "60F659C3E7BCB83F"
+			rewards: [
+				{
+					count: 4
+					id: "26BEECDA69DEE60E"
+					item: "minecraft:glowstone_dust"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "370D507C54200CB9"
+					team_reward: true
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/glowstick"
+				criterion: ""
+				id: "418C7967B5F2234D"
+				type: "advancement"
+			}]
+			title: "Светящаяся палочка"
+			x: 4.0d
+			y: -0.7d
+		}
+		{
+			dependencies: ["7A92B0E5512F08E6"]
+			description: ["Создай Obsidian Hammer and Chisel."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "spelunkery:obsidian_hammer_and_chisel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "173AFB5B01AE0DD3"
+			rewards: [
+				{
+					count: 2
+					id: "0D33CD30EB06206C"
+					item: "minecraft:obsidian"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4362DBC88834E329"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				advancement: "spelunkery:spelunkery/obsidian_chisel"
+				criterion: ""
+				id: "15AC7A92CE0EFDA5"
+				type: "advancement"
+			}]
+			title: "Обсидиановое долото"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F3AAA3F7638772A"]
+			description: ["Сделай деревянный молот из двух палок и двух досок."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "story/more_upgrades"
+				}
+			}
+			id: "24AFAA1320EAB523"
+			rewards: [
+				{
+					count: 8
+					id: "2BA26D6FA6749F5C"
+					item: "minecraft:stick"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "60D1A7AFBB56B1F9"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:story/more_upgrades"
+				criterion: ""
+				id: "298C46D495BD1757"
+				type: "advancement"
+			}]
+			title: "Основы Tetra"
+			x: 2.0d
+			y: 0.4d
+		}
+		{
+			dependencies: ["24AFAA1320EAB523"]
+			description: ["Открой базовую ветку Tetra."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "upgrades/root"
+				}
+			}
+			id: "15735DA359B583EC"
+			tasks: [{
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+				id: "00A1D459C91C0CC1"
+				type: "advancement"
+			}]
+			title: "Маллет и первые модули"
+			x: 4.0d
+			y: 0.4d
+		}
+		{
+			dependencies: ["15735DA359B583EC"]
+			description: ["Улучши Crafting Table, ударив по нему маллетом."]
+			hide_dependency_lines: false
+			icon: "tetra:basic_workbench"
+			id: "70FD30603BA7E909"
+			rewards: [
+				{
+					count: 6
+					id: "5955BC4199FB0864"
+					item: "minecraft:iron_nugget"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "16BAEC13B9EF73B4"
+					team_reward: true
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "7F0D0445A0F5342C"
+				type: "advancement"
+			}]
+			title: "Станок Tetra"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70FD30603BA7E909"]
+			description: ["Поставь Rack рядом с workbench для инструментов."]
+			hide_dependency_lines: false
+			icon: "tetra:rack"
+			id: "1926766108EB3D86"
+			rewards: [
+				{
+					count: 16
+					id: "4B5ECFF02E2B97A0"
+					item: "minecraft:oak_planks"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2A96BEF16193069B"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/rack"
+				criterion: ""
+				id: "76E0219DF035F8F5"
+				type: "advancement"
+			}]
+			title: "Полка у верстака"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70FD30603BA7E909"]
+			description: ["Поставь Holosphere в мире."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:holo"
+				tag: {
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "frame/ancient"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner_material": "scanner/default"
+					id: "upgrades/place_holosphere"
+				}
+			}
+			id: "787F2C0B50DC8D13"
+			rewards: [
+				{
+					count: 4
+					id: "5395F5B0B98490A9"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "15C07B4867940615"
+					team_reward: true
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/place_holosphere"
+				criterion: ""
+				id: "740C7170CC18D571"
+				type: "advancement"
+			}]
+			title: "Голограф на месте"
+			x: 9.0d
+			y: 0.9d
+		}
+		{
+			dependencies: ["15735DA359B583EC"]
+			description: ["Скрафти базовый Toolbelt."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_toolbelt"
+				tag: {
+					id: "upgrades/toolbelt"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/belt_material": "belt/rope"
+				}
+			}
+			id: "1D14454002141882"
+			rewards: [
+				{
+					count: 8
+					id: "11F801282D3A7676"
+					item: "minecraft:string"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "64761CDAC8214329"
+					team_reward: true
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/toolbelt"
+				criterion: ""
+				id: "1ED0DB8B849493CC"
+				type: "advancement"
+			}]
+			title: "Простой пояс инструментов"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D14454002141882"]
+			description: ["Полностью улучши Toolbelt."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_toolbelt"
+				tag: {
+					id: "upgrades/toolbelt_upgraded"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/belt_material": "belt/inlaid"
+				}
+			}
+			id: "37D936F2777346DB"
+			rewards: [
+				{
+					count: 4
+					id: "36301D854BB0222A"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0CC4823C1AC1F21F"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/toolbelt_upgraded"
+				criterion: ""
+				id: "00CD2CADE1D4823A"
+				type: "advancement"
+			}]
+			title: "Усиленный пояс"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70FD30603BA7E909"]
+			description: ["Улучши ванильный инструмент на Tetra Workbench."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_pickaxe_left_material": "basic_pickaxe/flint"
+					"double/basic_pickaxe_right_material": "basic_pickaxe/flint"
+					"double/handle": "double/basic_handle"
+					"double/handle:basic_handle/wrap_leather": 1
+					"double/head_left": "double/basic_pickaxe_left"
+					"double/head_right": "double/basic_pickaxe_right"
+					id: "upgrades/tool_upgrade"
+				}
+			}
+			id: "229411F89359B412"
+			rewards: [
+				{
+					count: 2
+					id: "3D0BF047E911989C"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "670DF6D93F639DE7"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+				id: "31530168ADA5B9D8"
+				type: "advancement"
+			}]
+			title: "Первый модульный инструмент"
+			x: 9.0d
+			y: 3.1d
+		}
+		{
+			dependencies: ["3A5F83444220121E"]
+			description: ["Освой double-headed tools: pickaxes, axes, hammers."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_pickaxe_left_material": "basic_pickaxe/iron"
+					"double/basic_pickaxe_right_material": "basic_pickaxe/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_pickaxe_left"
+					"double/head_right": "double/basic_pickaxe_right"
+					id: "upgrades/double_headed"
+				}
+			}
+			id: "47F4759A2FA299BF"
+			rewards: [
+				{
+					count: 2
+					id: "2E62642B499A57DD"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "381BD3E3F1321456"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/double_headed"
+				criterion: ""
+				id: "2E41DB09A29BFB6E"
+				type: "advancement"
+			}]
+			title: "Двухголовый инструмент"
+			x: 13.0d
+			y: 3.1d
+		}
+		{
+			dependencies: ["229411F89359B412"]
+			description: ["Почини модульный предмет на workbench."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "upgrades/repairs"
+				}
+			}
+			id: "3A5F83444220121E"
+			rewards: [
+				{
+					count: 8
+					id: "29AC2CF6A55F91DE"
+					item: "minecraft:iron_nugget"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2B397CFB36AE0D95"
+					team_reward: true
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/repairs"
+				criterion: ""
+				id: "4271D367DF9FB728"
+				type: "advancement"
+			}]
+			title: "Ремонт модульных предметов"
+			x: 11.0d
+			y: 3.1d
+		}
+		{
+			dependencies: ["70FD30603BA7E909"]
+			description: ["Сделай double-sided stone hammer."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/diorite"
+					"double/basic_hammer_right_material": "basic_hammer/diorite"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "upgrades/hammer_2"
+				}
+			}
+			id: "5EB264C1964BA4C7"
+			rewards: [
+				{
+					count: 32
+					id: "1B2CC0D0A7C5673E"
+					item: "minecraft:cobblestone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6767B50EDF9B1E5A"
+					team_reward: true
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				id: "031928653CA8A3C5"
+				type: "advancement"
+			}]
+			title: "Молот II - камень"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EB264C1964BA4C7"]
+			description: ["Сделай double-sided iron hammer."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "upgrades/hammer_3"
+				}
+			}
+			id: "0A8098F756F8B155"
+			rewards: [
+				{
+					count: 4
+					id: "3F6BC55EF5347813"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1120AE89F9381CDD"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "2D150B42419C2FA4"
+				type: "advancement"
+			}]
+			title: "Молот III - железо"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A8098F756F8B155"]
+			description: ["Сделай double-sided blackstone hammer."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "upgrades/hammer_4"
+				}
+			}
+			id: "681C27DFDEA604C7"
+			rewards: [
+				{
+					count: 2
+					id: "3CFD14554092DCE2"
+					item: "minecraft:gold_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6B48E35E8A4B8A71"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "4D3C05562DFD2CD7"
+				type: "advancement"
+			}]
+			title: "Молот IV - чёрный камень"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["681C27DFDEA604C7"]
+			description: ["Сделай double-sided obsidian hammer через forge hammer."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					"double/basic_hammer_right_material": "basic_hammer/obsidian"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "upgrades/hammer_5"
+				}
+			}
+			id: "49F049D8945FC287"
+			rewards: [
+				{
+					count: 6
+					id: "4944775707C37377"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4451122218A699CA"
+					team_reward: true
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				id: "5AD52859A25EF85B"
+				type: "advancement"
+			}]
+			title: "Молот V - обсидиан"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70FD30603BA7E909"]
+			description: ["Улучши ванильный меч на Tetra Workbench."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "upgrades/sword_upgrade"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/short_blade"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/short_blade_material": "short_blade/iron"
+				}
+			}
+			id: "37CFFA6CA4D23B53"
+			rewards: [
+				{
+					count: 2
+					id: "7927F6A5E34A6D12"
+					item: "minecraft:iron_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "52AC2238E751FE74"
+					team_reward: true
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+				id: "7E132D5E529A2A4D"
+				type: "advancement"
+			}]
+			title: "Первый модульный клинок"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["37CFFA6CA4D23B53"]
+			description: ["Увеличь integrity меча через hilt или binding."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "upgrades/sword_integrity"
+					"sword/basic_blade_material": "basic_blade/gold"
+					"sword/basic_hilt_material": "basic_hilt/iron"
+					"sword/binding_material": "sword_binding/leather"
+					"sword/blade": "sword/basic_blade"
+					"sword/blade:blade/tempered": 1
+					"sword/counterweight_material": "counterweight/iron"
+					"sword/guard": "sword/binding"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/pommel": "sword/counterweight"
+				}
+			}
+			id: "1A92406D367A9210"
+			rewards: [
+				{
+					count: 6
+					id: "75F62A0A70874178"
+					item: "minecraft:lapis_lazuli"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "30CD2F019A4B0E2E"
+					team_reward: true
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/sword_integrity"
+				criterion: ""
+				id: "2BAC3FB91E80D79E"
+				type: "advancement"
+			}]
+			title: "Прочная сборка"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37CFFA6CA4D23B53"]
+			description: ["Используй меч, пока его можно будет hone, затем заточи его на workbench."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "upgrades/sword_hone"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/machete"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/machete_material": "machete/diorite"
+				}
+			}
+			id: "1FD234B8CAA175D1"
+			rewards: [
+				{
+					count: 3
+					id: "157D26E6B8E5A9DF"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5F52663F8574E2C0"
+					team_reward: true
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_hone"
+				criterion: ""
+				id: "161F567A5D0AA32C"
+				type: "advancement"
+			}]
+			title: "Первая заточка"
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FD234B8CAA175D1"]
+			description: ["Доведи speed или damage части меча до уровня 5."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "upgrades/sword_hone_peak"
+					"sword/basic_hilt_material": "basic_hilt/blaze_rod"
+					"sword/blade": "sword/heavy_blade"
+					"sword/decorative_pommel_material": "decorative_pommel/obsidian"
+					"sword/heavy_blade_material": "heavy_blade/obsidian"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/pommel": "sword/decorative_pommel"
+				}
+			}
+			id: "73D7D1113DB4B98B"
+			rewards: [
+				{
+					count: 4
+					id: "2399097CCD176FB2"
+					item: "minecraft:emerald"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2BE4AE620AC3A1ED"
+					team_reward: true
+					type: "xp"
+					xp: 750
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_hone_peak"
+				criterion: ""
+				id: "0D60968664FE3C5C"
+				type: "advancement"
+			}]
+			title: "Пиковая заточка"
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FD234B8CAA175D1"]
+			description: ["Поставь improvement на модуль меча и усили его через honing."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "upgrades/sword_improvement_hone"
+					"sword/basic_blade_material": "basic_blade/iron"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/basic_blade"
+					"sword/blade:blade/hooked": 1
+					"sword/blade:blade/serrated": 1
+					"sword/hilt": "sword/basic_hilt"
+				}
+			}
+			id: "56F5D6AD40A19168"
+			rewards: [
+				{
+					count: 4
+					id: "31C15120767CB9A4"
+					item: "minecraft:experience_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2635E82E0AC2C09F"
+					team_reward: true
+					type: "xp"
+					xp: 600
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_improvement_hone"
+				criterion: ""
+				id: "42203FD45C9066C4"
+				type: "advancement"
+			}]
+			title: "Заточенное улучшение"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["229411F89359B412"]
+			description: ["Зачаруй модульный предмет через enchanting table или книгу на workbench."]
+			hide_dependency_lines: false
+			icon: "minecraft:enchanted_book"
+			id: "10D2FB520D92FAFC"
+			rewards: [
+				{
+					count: 12
+					id: "497D6A7B750C98F1"
+					item: "minecraft:lapis_lazuli"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "014B5EEAC0B36814"
+					team_reward: true
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "tetra:upgrades/enchant_item"
+				criterion: ""
+				id: "66E9563BC537EC51"
+				type: "advancement"
+			}]
+			title: "Магия на модуле"
+			x: 11.0d
+			y: 4.5d
+		}
+	]
+	title: "Шахтёрское ремесло - камень и первые модули"
+}

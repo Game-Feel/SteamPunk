@@ -1,0 +1,13 @@
+{
+  "name": "Замораживающий шар",
+  "category": "coldsnaphorde:coldsnaptier1",
+  "icon": "coldsnaphorde:freezeball",
+  "advancement": "coldsnaphorde:sliced_snowmen",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:freezeball",
+      "text": "Снежок, усиленный силой ледяного осколка, делает его ещё более холодным. Возможность замедлять врагов в разных местах и замораживать лёд или лаву."
+    }
+  ]
+}

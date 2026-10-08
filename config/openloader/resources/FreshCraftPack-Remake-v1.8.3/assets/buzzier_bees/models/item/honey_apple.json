@@ -1,0 +1,29 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "buzzier_bees:item/honey_apple"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.35
+      },
+      "model": "buzzier_bees:item/bb_honey_apple_eating_0"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.7
+      },
+      "model": "buzzier_bees:item/bb_honey_apple_eating_1"
+    },
+    {
+      "predicate": {
+        "eatinganimation:eating": 1.0,
+        "eatinganimation:eat": 0.9
+      },
+      "model": "buzzier_bees:item/bb_honey_apple_eating_2"
+    }
+  ]
+}

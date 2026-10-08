@@ -1,0 +1,53 @@
+{
+  "name": "Снеговик-маньяк",
+  "category": "coldsnaphorde:coldsnapmobs",
+  "icon": "coldsnaphorde:stabber_spawn_egg",
+  "advancement": "coldsnaphorde:coldsnapstabber",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Маньяк был построен рядом с фермой животных игрока. После нескольких дней наблюдения за тем, как игроки уничтожают врагов своим оружием, Маньяк украл одного из них для себя и с тех пор свирепствует."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:coldsnapstabber",
+      "name": "Снеговик-маньяк"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-маньяк из Незера",
+      "text": "Снеговик-маньяк, растаявший от жары в Незере. Никто не знает, как и почему Орда снеговиков решила, что отправиться в Незер было бы хорошей идеей, но те, кто это сделал, оставляют за собой шлейф слякоти, когда двигаются.",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ncoldsnapstabber",
+      "name": "Снеговик-маньяк из Незера",
+      "advancement": "coldsnaphorde:coldsnapnether"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-маньяк из Энда",
+      "text": "Снеговик-маньяк, мутировавший из-за безлюдных окрестностей Энда. Имеет шанс телепортировать вас или самого себя при атаке или при получении урона",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:ecoldsnapstabber",
+      "name": "Снеговик-маньяк из Энда",
+      "advancement": "coldsnaphorde:coldsnapend"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Снеговик-маньяк из Чумы",
+      "text": "Снеговик-маньяк, наполненный мутными водами болота. Может передавать паразитов и болезни или вообще вызывать у вас плохое самочувствие",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "coldsnaphorde:pcoldsnapstabber",
+      "name": "Снеговик-маньяк из Чумы",
+      "advancement": "coldsnaphorde:coldsnapplague"
+    }
+  ]
+}

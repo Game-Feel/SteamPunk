@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "frosted_friends:item/ice_pickaxe"
+  }
+}

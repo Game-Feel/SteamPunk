@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "festive_delight:item/longevity_noodle_eating_1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Большая ледяная стена",
+  "category": "coldsnaphorde:coldsnaptier3",
+  "icon": "coldsnaphorde:reinforced_glacier_wall_charm",
+  "advancement": "coldsnaphorde:horde_breaker",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "coldsnaphorde:reinforced_glacier_wall_charm",
+      "text": "Модифицированная $(l:glacierwallcharm)Средняя ледяная стена$(). Дополненный ледяной эссенцией и ледяными корками, он значительно повышает устойчивость владельца к ударам."
+    }
+  ]
+}

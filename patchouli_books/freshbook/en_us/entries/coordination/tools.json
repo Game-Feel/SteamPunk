@@ -1,0 +1,37 @@
+{
+    "name": "Tools",
+    "icon": "spelunkery:depth_gauge",
+    "category": "patchouli:coordination_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It tells you about the tools that allow you to navigate the terrain. You will have at your disposal: atlas, regular maps, compass, recovery compass, depth gauge and globe. You are already familiar with the usual maps and compasses, it is written about the atlas in a separate $(l:patchouli:coordination/atlas)section$()."
+        },
+        {
+            "type": "text",
+            "text": "Despite the fact that an ordinary compass only shows the point of your appearance, it is also needed by other objects on the workbench and you will have to go down to the very bottom to create it. It is necessary to extract magnetite, and it, in turn, falls out of the Deepslate Iron Ore, with some chance."
+        },
+        {
+            "type": "crafting",
+            "text": "Now this compass has become much better. It's easier to create and it doesn't drop out when you die!$(br)The return compass shows your last point of death.",
+            "title": "Recovery Compass",
+            "recipe": "minecraft:recovery_compass"
+        },
+        {
+            "type": "crafting",
+            "title": "Depth Gauge",
+            "text": "When you go down into the mine, you can find out how deep you are right now. A depth gauge will help you with this. Find out the current depth at $(9)RMB$().",
+            "recipe": "spelunkery:depth_gauge"
+        },
+        {
+            "type": "spotlight",
+            "text": "It can only be found in a variety of dungeons, in chests or standing on a table in some cabinet. It shows two important coordinates by which you can determine your location.",
+            "title": "Globe",
+            "item": "supplementaries:globe"
+        },
+        {
+            "type": "text",
+            "text": "If you are a fan of brown shades, you can color the globe by combining it with antique ink."
+        }
+    ]
+}

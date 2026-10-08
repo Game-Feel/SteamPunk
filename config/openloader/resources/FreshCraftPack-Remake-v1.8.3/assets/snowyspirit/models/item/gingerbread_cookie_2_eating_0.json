@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "snowyspirit:item/gingerbread_cookie_2_eating_0"
+  }
+}

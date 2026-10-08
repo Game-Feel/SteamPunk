@@ -1,0 +1,59 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mineshaft",
+    "minecraft:mineshaft_mesa",
+    {
+      "id": "bettermineshafts:mineshaft_acacia",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_desert",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_dripstone",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_ice",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_jungle",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_lush",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_mesa",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_mushroom",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_oak",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_overgrown",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_red_desert",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_spruce",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_spruce_snowy",
+      "required": false
+    }
+  ]
+}
