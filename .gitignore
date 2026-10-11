@@ -53,3 +53,14 @@ usernamecache.json
 # 6) данные по отдельным мирам и серверам (там бывают IP), у каждого свои
 /config/inventoryprofilesnext/*/
 !/config/inventoryprofilesnext/integrationHints/
+
+# 7) графика и выбор шейдера у каждого свои: новые игроки получают настройки модов по умолчанию
+/config/sodium-options.json
+/config/embeddium-options.json
+/config/embeddium++.toml
+/config/rubidium-options.json
+/config/betterfpsdist.json
+/config/DistantHorizons.toml
+/config/bobby.toml
+/config/iris.properties
+/config/oculus.properties
