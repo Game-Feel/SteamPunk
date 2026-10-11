@@ -38,6 +38,8 @@ if not exist ".git\" (
 rem Репозиторий переезжал: старые папки переключаем на текущий адрес.
 "%GIT%" remote set-url origin "%REPO%" || goto fail
 "%GIT%" config core.quotepath false
+rem Длинные пути библиотек загрузчика не помещаются в лимит Windows в 260 символов.
+"%GIT%" config core.longpaths true
 
 echo Скачиваю свежую версию. При первом запуске откроется вход в GitHub.
 "%GIT%" fetch -q origin %BRANCH% || goto netfail
