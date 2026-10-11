@@ -64,3 +64,14 @@ usernamecache.json
 /config/bobby.toml
 /config/iris.properties
 /config/oculus.properties
+
+# 8) данные игрока и служебные файлы, которые игра пишет сама во время игры
+/fancymenu_data/last_world.fmdata
+/config/fancymenu/user_variables.db
+/config/voicechat/username-cache.json
+/config/sounds/chat.json
+/config/fml.toml
+/kubejs/fenix_dump/
+/kubejs/exported/
+/kubejs/fenix_night_spawn_status.json
+*.backup[0-9]
