@@ -1,6 +1,6 @@
 # Сборка SteamPunk
 
-Minecraft 1.20.1, Forge. Моды, их настройки, ресурспаки, шейдеры и сам загрузчик для TLauncher (папки versions и libraries).
+Minecraft 1.20.1, Forge. Моды, их настройки, ресурспаки, шейдеры и сам загрузчик для Legacy Launcher (папки versions и libraries).
 
 Репозиторий приватный. Скачивать могут участники Game-Feel, отправлять изменения только владелец сборки (PhoenixBodrov).
 
@@ -11,7 +11,7 @@ Minecraft 1.20.1, Forge. Моды, их настройки, ресурспаки
 3. Скачай сборку командой (вход в GitHub попросят один раз):
    `git clone https://github.com/Game-Feel/SteamPunk.git "C:\games\SteamPunk"`
    Или попроси своего Claude: «склонируй https://github.com/Game-Feel/SteamPunk.git в C:\games\SteamPunk».
-4. В TLauncher укажи **папку игры** `C:\games\SteamPunk` и выбери версию загрузчика из этой папки.
+4. В Legacy Launcher укажи **папку игры** `C:\games\SteamPunk` и выбери версию загрузчика из этой папки.
 
 ## Обновление (один клик)
 
