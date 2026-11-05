@@ -84,17 +84,35 @@ function Get-FileRule([string]$Path) {
     return $null
 }
 
-function Invoke-Git([string[]]$Arguments, [string]$Directory, [switch]$Quiet) {
+function Invoke-Git([string[]]$Arguments, [string]$Directory, [switch]$Quiet, [switch]$Live) {
     $gitArgs = @('-c', 'core.longpaths=true', '-c', 'core.quotepath=false', '-c', 'core.autocrlf=false')
+    $anonymous = $Repository -eq 'https://github.com/Game-Feel/SteamPunk.git' -and -not $Publish -and $env:STEAMPUNK_ACTION -ne 'publish'
+    if ($anonymous) {
+        $gitArgs += @('-c', 'credential.helper=', '-c', 'credential.interactive=never', '-c', 'http.extraHeader=',
+            '-c', 'http.lowSpeedLimit=1024', '-c', 'http.lowSpeedTime=120')
+    }
     if ($Directory) { $gitArgs += @('-C', $Directory) }
     $gitArgs += $Arguments
     # Windows PowerShell turns native stderr into terminating errors under Stop.
     $saved = $ErrorActionPreference
+    $oldPrompt = $env:GIT_TERMINAL_PROMPT
+    $oldInteractive = $env:GCM_INTERACTIVE
     $ErrorActionPreference = 'Continue'
-    try { $output = @(& $script:Git @gitArgs 2>&1); $code = $LASTEXITCODE }
-    finally { $ErrorActionPreference = $saved }
+    try {
+        if ($anonymous) { $env:GIT_TERMINAL_PROMPT='0'; $env:GCM_INTERACTIVE='Never' }
+        if ($Live) {
+            & $script:Git @gitArgs 2>&1 | ForEach-Object { Write-Host $_.ToString() }
+            $output = @()
+        } else { $output = @(& $script:Git @gitArgs 2>&1) }
+        $code = $LASTEXITCODE
+    } finally {
+        $ErrorActionPreference = $saved
+        $env:GIT_TERMINAL_PROMPT = $oldPrompt
+        $env:GCM_INTERACTIVE = $oldInteractive
+    }
     if ($code -ne 0) {
         # Do not echo remote URLs or credential manager diagnostic output.
+        if ($anonymous) { throw "Не удалось скачать данные сборки. Код Git: $code. Аккаунт не нужен. Проверь соединение с GitHub и запусти кнопку снова." }
         throw "Git не смог выполнить операцию $($Arguments[0]). Код $code. Проверь интернет и доступ к сборке в GitHub."
     }
     if (-not $Quiet) { return @($output | ForEach-Object { $_.ToString() }) }
@@ -133,7 +151,11 @@ function Find-Git([string]$Tools) {
 function Get-RepositoryFiles([string]$Cache, [string]$Commit) {
     $entries = New-Object 'System.Collections.Generic.List[object]'
     $seen = @{}
-    foreach ($line in (Invoke-Git @('ls-tree', '-r', $Commit) $Cache)) {
+    $lines = @(Invoke-Git @('ls-tree', '-r', $Commit) $Cache)
+    $checked = 0
+    foreach ($line in $lines) {
+        $checked++
+        if ($checked % 250 -eq 0) { Write-Progress -Activity 'Проверяю состав сборки' -Status "$checked из $($lines.Count)" -PercentComplete ([int](100*$checked/$lines.Count)) }
         if ($line -notmatch '^([0-9]+) blob ([a-f0-9]{40,64})\t(.+)$') { continue }
         $mode = $Matches[1]; $oid = $Matches[2]; $source = $Matches[3]
         $rule = Get-FileRule $source
@@ -146,6 +168,7 @@ function Get-RepositoryFiles([string]$Cache, [string]$Commit) {
         $seen[$target] = $true
         $entries.Add([pscustomobject]@{ path=$target; source=$source; oid=$oid; kind=$rule })
     }
+    Write-Progress -Activity 'Проверяю состав сборки' -Completed
     return $entries.ToArray()
 }
 
@@ -204,11 +227,15 @@ function Restore-Transaction([string]$Destination, [string]$Control) {
 }
 
 function Apply-Update([string]$Destination, [string]$Cache, [string]$Control, $Files, $Previous, [string]$Commit, [string]$Repo) {
+    Write-Host 'Подготавливаю установку. Проверяю файлы и сохраняю резерв.'
     $plan = @(New-UpdatePlan $Destination $Files $Previous)
     $transaction = 'backups/' + [guid]::NewGuid().ToString('N')
     $records = New-Object 'System.Collections.Generic.List[object]'
     # Stage and verify every changed file before touching the installation.
+    $processed = 0
     foreach ($step in $plan) {
+        $processed++
+        if ($processed % 100 -eq 0) { Write-Progress -Activity 'Подготавливаю файлы' -Status "$processed из $($plan.Count)" -PercentComplete ([int](100*$processed/$plan.Count)) }
         $relative = $step.entry.path
         $target = Resolve-PackPath $Destination $relative
         if ((Test-Path -LiteralPath $target) -and -not (Test-Path -LiteralPath $target -PathType Leaf)) { throw "Вместо файла найдена папка: $relative" }
@@ -230,6 +257,7 @@ function Apply-Update([string]$Destination, [string]$Cache, [string]$Control, $F
         }
         $records.Add([pscustomobject]@{ path=$relative; backup=$backupRelative; existed=[bool]$existed })
     }
+    Write-Progress -Activity 'Подготавливаю файлы' -Completed
     $journalPath = Join-Path $Control 'transaction.json'
     $statePath = Join-Path $Control 'installed.json'
     $stateBackup = $transaction + '/installed.json'
@@ -240,7 +268,10 @@ function Apply-Update([string]$Destination, [string]$Cache, [string]$Control, $F
     $journal = [pscustomobject]@{ state='pending'; hadState=[bool]$hadState; stateBackup=$stateBackup; records=@($records.ToArray()) }
     Save-Json $journal $journalPath
     try {
+        $processed = 0
         foreach ($step in $plan) {
+            $processed++
+            if ($processed % 100 -eq 0) { Write-Progress -Activity 'Устанавливаю сборку' -Status "$processed из $($plan.Count)" -PercentComplete ([int](100*$processed/$plan.Count)) }
             $target = Resolve-PackPath $Destination $step.entry.path
             if ($step.action -eq 'retire') {
                 # Old mod versions leave mods, but remain recoverable in backups.
@@ -252,6 +283,7 @@ function Apply-Update([string]$Destination, [string]$Cache, [string]$Control, $F
                 [IO.File]::Copy((Resolve-PackPath $Cache $step.entry.source), $target, $true)
             }
         }
+        Write-Progress -Activity 'Устанавливаю сборку' -Completed
         # Keep removed seed paths as tombstones, so an update cannot reset them later.
         $next = @{}; foreach ($file in $Files) { $next[$file.path]=$file }
         if ($Previous) { foreach ($file in @($Previous.files)) { if ($file.kind -eq 'seed' -and -not $next.ContainsKey($file.path)) { $next[$file.path]=$file } } }
@@ -436,36 +468,48 @@ function Main {
         }
         $cache = Join-Path $control 'repository'
         $oldSmudge = $env:GIT_LFS_SKIP_SMUDGE
+        $oldLfsProgress = $env:GIT_LFS_FORCE_PROGRESS
         try {
             $env:GIT_LFS_SKIP_SMUDGE='1'
+            $env:GIT_LFS_FORCE_PROGRESS='1'
             if (-not (Test-Path -LiteralPath (Join-Path $cache '.git'))) {
-                Write-Host 'Скачиваю сборку. GitHub может попросить войти в аккаунт.'
-                $cloneArgs = @('clone', '--depth=1', '--no-checkout', '--branch', 'main')
+                if ($Repository -eq 'https://github.com/Game-Feel/SteamPunk.git') {
+                    Write-Host 'Скачиваю публичную SteamPunk. Аккаунт GitHub не требуется.'
+                } else { Write-Host 'Скачиваю приватную сборку. GitHub может попросить войти в аккаунт.' }
+                Write-Host 'Первая загрузка большая. Ниже отображается прогресс Git.'
+                Write-Host 'До завершения загрузки папка игры может выглядеть пустой. Затем файлы распакуются.'
+                $cloneArgs = @('clone', '--progress', '--depth=1', '--no-checkout', '--branch', 'main')
                 if (Test-Path -LiteralPath (Join-Path $destination '.git')) { $cloneArgs += @('--reference-if-able', $destination, '--dissociate') }
                 $cloneArgs += @('--', $Repository, $cache)
-                Invoke-Git $cloneArgs '' -Quiet
-                Invoke-Git @('lfs', 'install', '--local') $cache -Quiet
+                Invoke-Git $cloneArgs '' -Quiet -Live
             } else {
                 Write-Host 'Проверяю версию сборки.'
-                Invoke-Git @('fetch', '--depth=1', 'origin', 'main') $cache -Quiet
+                # An interrupted first clone may not have finished configuring its remote.
+                Invoke-Git @('config', 'remote.origin.url', $Repository) $cache -Quiet
+                Invoke-Git @('config', 'remote.origin.fetch', '+refs/heads/main:refs/remotes/origin/main') $cache -Quiet
+                Invoke-Git @('fetch', '--progress', '--depth=1', 'origin', 'main') $cache -Quiet -Live
             }
+            Invoke-Git @('lfs', 'install', '--local') $cache -Quiet
             $commit = (Invoke-Git @('rev-parse', 'origin/main') $cache | Select-Object -First 1).Trim()
             if ($previous -and $previous.commit -eq $commit -and $hasGame) {
                 Write-Host 'Установлена актуальная версия. Файлы игры и настройки не изменены.'
                 if (-not $NoLaunch) { Start-PackLauncher $destination $PackName $control }
                 return
             }
+            Write-Host 'Проверяю состав сборки.'
             $files = @(Get-RepositoryFiles $cache $commit)
             if (-not @($files | Where-Object { $_.path -match '^mods/.+\.jar$' }).Count -or
                 -not @($files | Where-Object { $_.path -match '^versions/.+\.json$' }).Count) { throw 'В репозитории не найдена полная сборка.' }
             if (-not @($files | Where-Object { $_.source -eq '.playerdefaults/options.txt' }).Count) {
                 throw 'Версия сборки на GitHub ещё не подготовлена для этого установщика. Начальные настройки отсутствуют.'
             }
-            Invoke-Git @('checkout', '--force', '--detach', $commit) $cache -Quiet
-            Invoke-Git @('lfs', 'pull', 'origin') $cache -Quiet
+            Write-Host 'Распаковываю файлы сборки.'
+            Invoke-Git @('checkout', '--progress', '--force', '--detach', $commit) $cache -Quiet -Live
+            Write-Host 'Скачиваю большие файлы модов.'
+            Invoke-Git @('lfs', 'pull', 'origin') $cache -Quiet -Live
             $count = Apply-Update $destination $cache $control $files $previous $commit $Repository
             Write-Host "Готово. Обработано файлов: $count. Твои настройки сохранены."
-        } finally { $env:GIT_LFS_SKIP_SMUDGE = $oldSmudge }
+        } finally { $env:GIT_LFS_SKIP_SMUDGE = $oldSmudge; $env:GIT_LFS_FORCE_PROGRESS=$oldLfsProgress }
         if (-not $NoLaunch) { Start-PackLauncher $destination $PackName $control }
     } finally { $lock.Dispose() }
 }
