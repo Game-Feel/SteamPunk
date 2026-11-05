@@ -280,6 +280,32 @@ function Assert-GameClosed([string]$Destination) {
     if ($running.Count) { throw 'Сначала закрой Minecraft этой сборки и запусти кнопку снова.' }
 }
 
+function Test-LoaderProfileEquivalent([string]$Before, [string]$After) {
+    try {
+        $old = $Before | ConvertFrom-Json
+        $new = $After | ConvertFrom-Json
+        # Legacy Launcher rewrites this timestamp after launching the game.
+        $old.PSObject.Properties.Remove('time')
+        $new.PSObject.Properties.Remove('time')
+        return (ConvertTo-Json $old -Depth 100 -Compress) -ceq (ConvertTo-Json $new -Depth 100 -Compress)
+    } catch { return $false }
+}
+
+function Get-PendingManagedChanges([string]$Destination) {
+    $paths = @(Invoke-Git @('diff', '--name-only', 'HEAD') $Destination) + @(Invoke-Git @('ls-files', '--others', '--exclude-standard') $Destination)
+    foreach ($path in $paths) {
+        if ((Get-FileRule $path) -ne 'managed') { continue }
+        if ($path -match '^versions/[^/]+/[^/]+\.json$') {
+            try {
+                $before = (Invoke-Git @('show', ('HEAD:' + $path)) $Destination) -join "`n"
+                $after = [IO.File]::ReadAllText((Resolve-PackPath $Destination $path))
+                if (Test-LoaderProfileEquivalent $before $after) { continue }
+            } catch { }
+        }
+        $path
+    }
+}
+
 function Start-PackLauncher([string]$Destination, [string]$Name, [string]$Control) {
     $launcherFolder = Join-Path $Control 'launcher'
     [IO.Directory]::CreateDirectory($launcherFolder) | Out-Null
@@ -404,8 +430,7 @@ function Main {
         if (Test-Path -LiteralPath (Join-Path $destination '.git')) {
             $ahead = (Invoke-Git @('rev-list', '--count', 'origin/main..HEAD') $destination | Select-Object -First 1).Trim()
             if ($ahead -ne '0') { throw 'В авторской копии есть неотправленные коммиты. Сначала запусти Отправить.cmd.' }
-            $localChanges = @(Invoke-Git @('diff', '--name-only', 'HEAD') $destination) + @(Invoke-Git @('ls-files', '--others', '--exclude-standard') $destination)
-            if (@($localChanges | Where-Object { (Get-FileRule $_) -eq 'managed' }).Count) {
+            if (@(Get-PendingManagedChanges $destination).Count) {
                 throw 'В авторской копии есть изменения файлов сборки. Сначала отправь их через Отправить.cmd. Настройки игрока обновлению не мешают.'
             }
         }
