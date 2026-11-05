@@ -75,3 +75,8 @@ usernamecache.json
 /kubejs/exported/
 /kubejs/fenix_night_spawn_status.json
 *.backup[0-9]
+
+# Initial player preferences, applied only to missing new settings.
+!/.playerdefaults/
+!/.playerdefaults/**
+!/INSTALLATION.md
