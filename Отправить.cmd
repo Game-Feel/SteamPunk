@@ -41,17 +41,21 @@ function Resolve-PackPath([string]$Base, [string]$Relative) {
         }
     }
     $baseFull = [IO.Path]::GetFullPath($Base).TrimEnd('\')
-    $full = [IO.Path]::GetFullPath((Join-Path $baseFull ($Relative.Replace('/', '\'))))
+    $full = [IO.Path]::GetFullPath([IO.Path]::Combine($baseFull, $Relative.Replace('/', '\')))
     if (-not $full.StartsWith($baseFull + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Путь выходит за папку сборки.' }
     $cursor = $baseFull
-    foreach ($part in $Relative.Split('/')) {
-        if ((Test-Path -LiteralPath $cursor) -and ((Get-Item -LiteralPath $cursor -Force).Attributes -band [IO.FileAttributes]::ReparsePoint)) {
-            throw "Ссылки на другие папки не поддерживаются: $cursor"
+    foreach ($part in (@('') + $Relative.Split('/'))) {
+        if ($part) { $cursor = [IO.Path]::Combine($cursor, $part) }
+        $probe = $cursor
+        if ($probe.Length -ge 240 -and -not $probe.StartsWith('\\?\')) { $probe='\\?\' + $probe }
+        try { $attributes = [IO.File]::GetAttributes($probe) }
+        catch {
+            $cause=$_.Exception
+            while ($cause.InnerException) { $cause=$cause.InnerException }
+            if ($cause -is [IO.FileNotFoundException] -or $cause -is [IO.DirectoryNotFoundException]) { break }
+            throw
         }
-        $cursor = Join-Path $cursor $part
-    }
-    if ((Test-Path -LiteralPath $full) -and ((Get-Item -LiteralPath $full -Force).Attributes -band [IO.FileAttributes]::ReparsePoint)) {
-        throw "Ссылки на другие папки не поддерживаются: $full"
+        if ($attributes -band [IO.FileAttributes]::ReparsePoint) { throw "Ссылки на другие папки не поддерживаются: $cursor" }
     }
     if ($full.Length -ge 240 -and -not $full.StartsWith('\\?\')) { return '\\?\' + $full }
     return $full
